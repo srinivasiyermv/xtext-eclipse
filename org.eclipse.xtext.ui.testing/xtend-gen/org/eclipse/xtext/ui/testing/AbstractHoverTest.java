@@ -26,7 +26,7 @@ import org.eclipse.xtext.ui.testing.AbstractEditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.xbase.lib.Exceptions;
 import org.eclipse.xtext.xbase.lib.Extension;
-import org.junit.Assert;
+import org.junit.jupiter.api.Assertions;
 
 /**
  * @author miklossy - Initial contribution and API
@@ -136,8 +136,9 @@ public abstract class AbstractHoverTest extends AbstractEditorTest {
   }
   
   protected void hoverPopupHasContent(final BrowserInformationControlInput info, final String expectedHoverContent) {
-    Assert.assertNotNull("No hover found!", info);
+    Assertions.assertNotNull(info, "No hover found!");
     final String actualHoverContent = info.getHtml();
+    boolean _contains = actualHoverContent.contains(expectedHoverContent);
     StringConcatenation _builder = new StringConcatenation();
     _builder.append("Could not find the text \'");
     _builder.append(expectedHoverContent);
@@ -146,6 +147,6 @@ public abstract class AbstractHoverTest extends AbstractEditorTest {
     _builder.append("\t");
     _builder.append(actualHoverContent, "\t");
     _builder.newLineIfNotEmpty();
-    Assert.assertTrue(_builder.toString(), actualHoverContent.contains(expectedHoverContent));
+    Assertions.assertTrue(_contains, _builder.toString());
   }
 }

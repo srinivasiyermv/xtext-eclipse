@@ -23,6 +23,7 @@ import org.eclipse.xtext.ui.refactoring.ui.SyncUtil
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil
 
 import static extension org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil.addNature
+import static org.junit.jupiter.api.Assertions.*
 
 /**
  * @author miklossy - Initial contribution and API
@@ -110,11 +111,11 @@ abstract class AbstractHoverTest extends AbstractEditorTest {
 	}
 
 	protected def void hoverPopupHasContent(BrowserInformationControlInput info, String expectedHoverContent) {
-		assertNotNull("No hover found!", info)
+		assertNotNull(info, "No hover found!")
 		val actualHoverContent = info.html
-		assertTrue('''
+		assertTrue(actualHoverContent.contains(expectedHoverContent), '''
 			Could not find the text '«expectedHoverContent»' in the hover popup:
 				«actualHoverContent»
-		''', actualHoverContent.contains(expectedHoverContent))
+		''')
 	}
 }

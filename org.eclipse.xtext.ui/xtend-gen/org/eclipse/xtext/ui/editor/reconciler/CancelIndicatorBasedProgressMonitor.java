@@ -36,31 +36,31 @@ public class CancelIndicatorBasedProgressMonitor implements IProgressMonitor {
     return this.cancelIndicator.isCanceled();
   }
   
-  public void beginTask(final String name, final int totalWork) {
-    this.doDelegate.beginTask(name, totalWork);
+  public void beginTask(final String arg0, final int arg1) {
+    this.doDelegate.beginTask(arg0, arg1);
   }
   
   public void done() {
     this.doDelegate.done();
   }
   
-  public void internalWorked(final double work) {
-    this.doDelegate.internalWorked(work);
+  public void internalWorked(final double arg0) {
+    this.doDelegate.internalWorked(arg0);
   }
   
-  public void setCanceled(final boolean value) {
-    this.doDelegate.setCanceled(value);
+  public void setCanceled(final boolean arg0) {
+    this.doDelegate.setCanceled(arg0);
   }
   
-  public void setTaskName(final String name) {
-    this.doDelegate.setTaskName(name);
+  public void setTaskName(final String arg0) {
+    this.doDelegate.setTaskName(arg0);
   }
   
-  public void subTask(final String name) {
-    this.doDelegate.subTask(name);
+  public void subTask(final String arg0) {
+    this.doDelegate.subTask(arg0);
   }
   
-  public void worked(final int work) {
-    this.doDelegate.worked(work);
+  public void worked(final int arg0) {
+    this.doDelegate.worked(arg0);
   }
 }

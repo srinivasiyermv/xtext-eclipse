@@ -36,7 +36,7 @@ public class PureXbaseUiModule extends AbstractPureXbaseUiModule {
     return PureXbaseUiModule.NoFolding.class;
   }
   
-  public PureXbaseUiModule(final AbstractUIPlugin plugin) {
-    super(plugin);
+  public PureXbaseUiModule(final AbstractUIPlugin arg0) {
+    super(arg0);
   }
 }

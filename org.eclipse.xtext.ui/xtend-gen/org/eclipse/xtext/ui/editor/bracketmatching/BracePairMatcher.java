@@ -57,19 +57,19 @@ public class BracePairMatcher implements ICharacterPairMatcher {
     return _xblockexpression;
   }
   
-  public void clear() {
-    this.characterPairMatcher.clear();
-  }
-  
   public void dispose() {
     this.characterPairMatcher.dispose();
   }
   
-  public int getAnchor() {
-    return this.characterPairMatcher.getAnchor();
+  public void clear() {
+    this.characterPairMatcher.clear();
   }
   
-  public IRegion match(final IDocument document, final int offset) {
-    return this.characterPairMatcher.match(document, offset);
+  public IRegion match(final IDocument arg0, final int arg1) {
+    return this.characterPairMatcher.match(arg0, arg1);
+  }
+  
+  public int getAnchor() {
+    return this.characterPairMatcher.getAnchor();
   }
 }
