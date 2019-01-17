@@ -20,7 +20,7 @@ import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.folding.DefaultFoldingRegionProvider;
 import org.eclipse.xtext.ui.editor.folding.FoldedPosition;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.tests.folding.Element;
 import org.junit.jupiter.api.Test;
 
@@ -29,7 +29,7 @@ import com.google.common.collect.Iterables;
 /**
  * @author Sven Efftinge - Initial contribution and API
  */
-public class DefaultFoldingRegionProviderTest extends AbstractEditorTest {
+public class DefaultFoldingRegionProviderTest extends AbstractJU5EditorTest {
 
 	@Override
 	protected String getEditorId() {

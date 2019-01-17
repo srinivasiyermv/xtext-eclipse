@@ -26,7 +26,7 @@ import org.eclipse.xtext.ui.XtextProjectHelper;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.refactoring.ILinkedPositionGroupCalculator;
 import org.eclipse.xtext.ui.refactoring.ui.IRenameElementContext;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
 import org.eclipse.xtext.ui.tests.refactoring.refactoring.Element;
 import org.eclipse.xtext.util.ITextRegion;
@@ -39,7 +39,7 @@ import com.google.inject.Injector;
 /**
  * @author Holger Schill - Initial contribution and API
  */
-public class LinkedModelCalculatorIntegrationTest extends AbstractEditorTest {
+public class LinkedModelCalculatorIntegrationTest extends AbstractJU5EditorTest {
 	private static final String TEST_PROJECT = "refactore.linkedtest";
 	private static final String pathToFile1 = TEST_PROJECT + "/file1.refactoringtestlanguage";
 	private static final String pathToFile2 = TEST_PROJECT + "/file2.refactoringtestlanguage";

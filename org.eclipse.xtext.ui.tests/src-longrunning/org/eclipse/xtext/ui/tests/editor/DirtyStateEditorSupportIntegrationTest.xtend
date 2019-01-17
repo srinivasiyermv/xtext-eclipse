@@ -21,7 +21,7 @@ import org.eclipse.xtext.resource.IResourceServiceProvider
 import org.eclipse.xtext.ui.editor.XtextEditor
 import org.eclipse.xtext.ui.editor.XtextSourceViewer
 import org.eclipse.xtext.ui.refactoring.ui.SyncUtil
-import org.eclipse.xtext.ui.testing.AbstractEditorTest
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test
 
@@ -31,7 +31,7 @@ import static org.junit.jupiter.api.Assertions.*;
 /**
  * @author Jan Koehnlein - Initial contribution and API
  */
-class DirtyStateEditorSupportIntegrationTest extends AbstractEditorTest {
+class DirtyStateEditorSupportIntegrationTest extends AbstractJU5EditorTest {
 	
 	@Inject extension SyncUtil syncUtil
 	

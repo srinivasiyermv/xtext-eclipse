@@ -16,7 +16,7 @@ import org.eclipse.emf.common.util.URI;
 import org.eclipse.swt.widgets.Display;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.findrefs.OpenDocumentTracker;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
 import org.eclipse.xtext.util.StringInputStream;
@@ -25,7 +25,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @author Jan Koehnlein - Initial contribution and API
  */
-public class OpenDocumentTrackerTests extends AbstractEditorTest {
+public class OpenDocumentTrackerTests extends AbstractJU5EditorTest {
 
 	private OpenDocumentTracker tracker;
 	private IFile file;

@@ -17,7 +17,7 @@ import org.eclipse.swt.widgets.Display;
 import org.eclipse.xtext.resource.XtextResource;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.findrefs.EditorResourceAccess;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
 import org.eclipse.xtext.util.StringInputStream;
@@ -27,7 +27,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @author Jan Koehnlein - Initial contribution and API
  */
-public class EditorResourceAccessTest extends AbstractEditorTest {
+public class EditorResourceAccessTest extends AbstractJU5EditorTest {
 
 	private IFile file;
 	private URI uri;

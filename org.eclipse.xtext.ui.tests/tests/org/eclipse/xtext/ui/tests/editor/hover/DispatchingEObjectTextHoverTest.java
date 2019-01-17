@@ -21,7 +21,7 @@ import org.eclipse.ui.IWorkbenchPart;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.hover.DispatchingEObjectTextHover;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
 import org.junit.jupiter.api.Test;
@@ -29,7 +29,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @author Christoph Kulla - Initial contribution and API
  */
-public class DispatchingEObjectTextHoverTest extends AbstractEditorTest {
+public class DispatchingEObjectTextHoverTest extends AbstractJU5EditorTest {
 	
 	protected XtextEditor editor;
 	

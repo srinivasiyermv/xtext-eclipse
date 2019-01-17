@@ -30,7 +30,7 @@ import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.occurrences.IOccurrenceComputer;
 import org.eclipse.xtext.ui.editor.occurrences.MarkOccurrenceActionContributor;
 import org.eclipse.xtext.ui.editor.preferences.IPreferenceStoreAccess;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.testing.util.JavaProjectSetupUtil;
 import org.eclipse.xtext.ui.tests.editor.outline.DisplaySafeSyncer;
@@ -44,7 +44,7 @@ import com.google.inject.Inject;
 /**
  * @author Jan Koehnlein - Initial contribution and API
  */
-public class MarkOccurrencesTest extends AbstractEditorTest {
+public class MarkOccurrencesTest extends AbstractJU5EditorTest {
 
 	private static final int TIMEOUT = 10000;
 

@@ -52,6 +52,7 @@ import org.eclipse.xtext.xbase.lib.Functions.Function1;
 import org.eclipse.xtext.xbase.lib.IterableExtensions;
 import org.eclipse.xtext.xbase.lib.Pure;
 import org.eclipse.xtext.xbase.lib.util.ToStringBuilder;
+import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 
 /**
@@ -262,8 +263,8 @@ public abstract class AbstractQuickfixTest extends AbstractEditorTest {
       {
         final IssueResolution actualIssueResolution = actualIssueResolutions.get((i).intValue());
         final AbstractQuickfixTest.Quickfix expectedIssueResolution = expected[(i).intValue()];
-        Assertions.assertEquals(expectedIssueResolution.label, actualIssueResolution.getLabel());
-        Assertions.assertEquals(expectedIssueResolution.description, actualIssueResolution.getDescription());
+        Assert.assertEquals(expectedIssueResolution.label, actualIssueResolution.getLabel());
+        Assert.assertEquals(expectedIssueResolution.description, actualIssueResolution.getDescription());
         this.assertIssueResolutionResult(expectedIssueResolution.result, actualIssueResolution, originalText);
       }
     }
@@ -298,7 +299,7 @@ public abstract class AbstractQuickfixTest extends AbstractEditorTest {
     int _relevance = actualIssueResolution.getRelevance();
     new IssueResolution(_label, _description, _image, modificationContext, _modification, _relevance).apply();
     final String actualResult = document.get();
-    Assertions.assertEquals(expectedResult, actualResult);
+    Assert.assertEquals(expectedResult, actualResult);
   }
   
   /**

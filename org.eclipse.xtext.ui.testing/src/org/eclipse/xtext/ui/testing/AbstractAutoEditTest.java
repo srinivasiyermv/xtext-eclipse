@@ -23,8 +23,6 @@ import org.eclipse.swt.widgets.Event;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 
 import com.google.common.collect.Lists;
 
@@ -38,14 +36,14 @@ public abstract class AbstractAutoEditTest extends AbstractEditorTest {
 	private List<IFile> files = Lists.newArrayList();
 
 	@Override
-	@Before @BeforeEach
+	@Before
 	public void setUp() throws Exception {
 		super.setUp();
 		closeWelcomePage();
 	}
 	
 	@Override
-	@After @AfterEach
+	@After
 	public void tearDown() throws Exception {
 		files.clear();
 		closeEditors();
@@ -73,7 +71,7 @@ public abstract class AbstractAutoEditTest extends AbstractEditorTest {
 		int cursor = string.indexOf('|');
 		assertEquals(string.replace("|", ""), editor.getDocument().get());
 		ITextSelection selection = (ITextSelection) editor.getSelectionProvider().getSelection();
-		assertEquals(cursor, selection.getOffset(),"unexpected cursor position:");
+		assertEquals("unexpected cursor position:",cursor, selection.getOffset());
 	}
 
 	protected void selectText(XtextEditor editor,int relativeToCurrentOffset,int length) throws Exception {

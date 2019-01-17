@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2008, 2018 itemis AG (http://www.itemis.eu) and others.
+ * Copyright (c) 2019 itemis AG (http://www.itemis.eu) and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -8,6 +8,7 @@
  *******************************************************************************/
 package org.eclipse.xtext.ui.testing;
 
+import static org.junit.jupiter.api.Assertions.*;
 import java.io.File;
 import java.lang.reflect.Field;
 
@@ -26,12 +27,11 @@ import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.utils.EditorUtils;
 
 /**
- * @author Peter Friese - Initial contribution and API
- * @author Arne Deutsch - Added support for external files
  * 
- * @since 2.12
+ * @since 2.17
+ * @see AbstractEditorTest
  */
-public abstract class AbstractEditorTest extends AbstractWorkbenchTest {
+public abstract class AbstractJU5EditorTest extends AbstractJU5WorkbenchTest {
 
 	static final long STEP_DELAY = 0;
 

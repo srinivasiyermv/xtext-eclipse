@@ -17,14 +17,14 @@ import org.eclipse.ui.PlatformUI;
 import org.eclipse.xtext.resource.XtextResource;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.util.concurrent.IUnitOfWork;
 import org.junit.jupiter.api.Test;
 
 /**
  * @author Jan Koehnlein - Initial contribution and API
  */
-public class EncodingTest extends AbstractEditorTest {
+public class EncodingTest extends AbstractJU5EditorTest {
 
 	@Override
 	protected String getEditorId() {

@@ -35,7 +35,7 @@ import org.eclipse.xtext.ui.editor.XtextSourceViewer;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
 import org.eclipse.xtext.ui.editor.quickfix.MarkerResolutionGenerator;
 import org.eclipse.xtext.ui.editor.quickfix.WorkbenchMarkerResolutionAdapter;
-import org.eclipse.xtext.ui.testing.AbstractWorkbenchTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5WorkbenchTest;
 import org.eclipse.xtext.ui.testing.util.AnnotatedTextToString;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.testing.util.JavaProjectSetupUtil;
@@ -55,7 +55,7 @@ import com.google.inject.Injector;
 /**
  * @author Jan Koehnlein - Initial contribution and API
  */
-public abstract class AbstractQuickfixTest extends AbstractWorkbenchTest {
+public abstract class AbstractQuickfixTest extends AbstractJU5WorkbenchTest {
 
 	private static boolean WAS_AUTOBUILD;
 

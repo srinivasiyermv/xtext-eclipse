@@ -26,7 +26,7 @@ import org.eclipse.xtext.xbase.lib.Exceptions;
 import org.eclipse.xtext.xbase.lib.Extension;
 import org.eclipse.xtext.xbase.lib.ObjectExtensions;
 import org.eclipse.xtext.xbase.lib.Procedures.Procedure1;
-import org.junit.jupiter.api.Assertions;
+import org.junit.Assert;
 
 /**
  * @since 2.14
@@ -107,7 +107,7 @@ public abstract class AbstractEditorDoubleClickTextSelectionTest extends Abstrac
         _builder.append(_c);
         _builder.append("\' special symbol indicating the current cursor position!");
         _builder.newLineIfNotEmpty();
-        Assertions.<Object>fail(_builder.toString());
+        Assert.fail(_builder.toString());
       }
       _xblockexpression = cursorPosition;
     }
@@ -135,7 +135,7 @@ public abstract class AbstractEditorDoubleClickTextSelectionTest extends Abstrac
   protected void assertSelectedText(final AbstractTextEditor textEditor, final CharSequence expectedSelectedText) {
     ISelection _selection = textEditor.getSelectionProvider().getSelection();
     final String actualSelectedText = ((ITextSelection) _selection).getText();
-    Assertions.assertEquals(expectedSelectedText, actualSelectedText);
+    Assert.assertEquals(expectedSelectedText, actualSelectedText);
   }
   
   @Override

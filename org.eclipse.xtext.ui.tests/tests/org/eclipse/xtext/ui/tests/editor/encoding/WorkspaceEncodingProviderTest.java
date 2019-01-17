@@ -26,7 +26,7 @@ import org.eclipse.xtext.resource.XtextResource;
 import org.eclipse.xtext.resource.XtextResourceSet;
 import org.eclipse.xtext.testlanguages.ui.internal.TestlanguagesActivator;
 import org.eclipse.xtext.ui.editor.WorkspaceEncodingProvider;
-import org.eclipse.xtext.ui.testing.AbstractWorkbenchTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5WorkbenchTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -35,7 +35,7 @@ import com.google.inject.Injector;
 /**
  * @author Karsten Thoms - Initial contribution and API
  */
-public class WorkspaceEncodingProviderTest extends AbstractWorkbenchTest {
+public class WorkspaceEncodingProviderTest extends AbstractJU5WorkbenchTest {
 	@Inject
 	private IEncodingProvider encodingProvider;
 	@Inject

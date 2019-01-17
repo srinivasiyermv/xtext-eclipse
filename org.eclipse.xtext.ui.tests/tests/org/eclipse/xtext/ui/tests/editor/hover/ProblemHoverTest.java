@@ -33,7 +33,7 @@ import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.hover.ProblemAnnotationHover;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
 import org.eclipse.xtext.ui.editor.validation.MarkerCreator;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
 import org.eclipse.xtext.util.concurrent.IUnitOfWork;
@@ -45,7 +45,7 @@ import org.junit.jupiter.api.Test;
  * @author Christoph Kulla - Initial contribution and API
  * @author Holger Schill
  */
-public class ProblemHoverTest extends AbstractEditorTest {
+public class ProblemHoverTest extends AbstractJU5EditorTest {
 
 	private static final String CUSTOM_MARKER_ID = "org.eclipse.xtext.ui.tests.customMarker";
 

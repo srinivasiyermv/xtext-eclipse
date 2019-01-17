@@ -19,13 +19,13 @@ import org.eclipse.ui.handlers.IHandlerService;
 import org.eclipse.xtext.ui.MarkerTypes;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.validation.ValidationJob;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.junit.jupiter.api.Test;
 
 /**
  * @author Michael Clay - Initial contribution and API
  */
-public class ValidateActionHandlerTest extends AbstractEditorTest {
+public class ValidateActionHandlerTest extends AbstractJU5EditorTest {
 
 	@Override
 	protected String getEditorId() {

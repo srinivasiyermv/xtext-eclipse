@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2008, 2017 itemis AG (http://www.itemis.eu) and others.
+ * Copyright (c) 2019 itemis AG (http://www.itemis.eu) and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -15,20 +15,18 @@ import org.eclipse.ui.IWorkbench;
 import org.eclipse.ui.IWorkbenchPage;
 import org.eclipse.ui.IWorkbenchWindow;
 import org.eclipse.ui.PlatformUI;
-import org.junit.After;
-import org.junit.Assert;
-import org.junit.Before;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
 
 /**
  * Abstract base class for test classes that need access to the workbench.
  * 
- * @author Peter Friese - Initial contribution and API
- * 
- * @since 2.12
+ * @since 2.17
+ * @see AbstractWorkbenchTest
  */
-public abstract class AbstractWorkbenchTest extends Assert {
+public abstract class AbstractJU5WorkbenchTest {
 
-	@Before
+	@BeforeEach
 	public void setUp() throws Exception {
 		closeWelcomePage();
 		closeEditors();
@@ -36,7 +34,7 @@ public abstract class AbstractWorkbenchTest extends Assert {
 		waitForBuild();
 	}
 	
-	@After
+	@AfterEach
 	public void tearDown() throws Exception {
 		closeEditors();
 		cleanWorkspace();

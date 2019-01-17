@@ -8,7 +8,6 @@
 package org.eclipse.xtext.ui.testing;
 
 import static org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil.*;
-import static org.junit.jupiter.api.Assertions.*;
 
 import java.util.List;
 
@@ -19,8 +18,6 @@ import org.eclipse.ui.texteditor.ITextEditorActionDefinitionIds;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.junit.After;
 import org.junit.Before;
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
 
 import com.google.common.collect.Lists;
 
@@ -36,14 +33,14 @@ public abstract class AbstractCursorHandlingTest extends AbstractEditorTest {
 	protected abstract String getFileExtension();
 	
 	@Override
-	@Before @BeforeEach
+	@Before
 	public void setUp() throws Exception {
 		super.setUp();
 		closeWelcomePage();
 	}
 	
 	@Override
-	@After @AfterEach
+	@After
 	public void tearDown() throws Exception {
 		files.clear();
 		closeEditors();
@@ -65,7 +62,7 @@ public abstract class AbstractCursorHandlingTest extends AbstractEditorTest {
 		int cursor = string.indexOf('|');
 		assertEquals(string.replace("|", ""), editor.getDocument().get());
 		ITextSelection selection = (ITextSelection) editor.getSelectionProvider().getSelection();
-		assertEquals(cursor, selection.getOffset(),"unexpected cursor position:");
+		assertEquals("unexpected cursor position:",cursor, selection.getOffset());
 	}
 	
 	protected void navigateLeft(XtextEditor editor) {

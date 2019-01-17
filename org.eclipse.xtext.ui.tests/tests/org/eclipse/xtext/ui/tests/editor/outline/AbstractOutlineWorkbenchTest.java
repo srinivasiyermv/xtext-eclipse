@@ -29,13 +29,13 @@ import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
 import org.eclipse.xtext.ui.editor.outline.IOutlineNode;
 import org.eclipse.xtext.ui.editor.outline.impl.IOutlineNodeComparer;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 
 /**
  * @author Jan Koehnlein - Initial contribution and API
  */
-public abstract class AbstractOutlineWorkbenchTest extends AbstractEditorTest {
+public abstract class AbstractOutlineWorkbenchTest extends AbstractJU5EditorTest {
 
 	protected static final int ERROR_TIMEOUT = 10000;
 	protected static final int EXPECTED_TIMEOUT = 500;

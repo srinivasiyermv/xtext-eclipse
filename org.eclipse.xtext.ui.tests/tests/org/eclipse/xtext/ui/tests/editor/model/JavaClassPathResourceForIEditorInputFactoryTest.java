@@ -29,7 +29,7 @@ import org.eclipse.jdt.internal.core.JavaProject;
 import org.eclipse.jdt.internal.core.NonJavaResource;
 import org.eclipse.xtext.ui.editor.XtextReadonlyEditorInput;
 import org.eclipse.xtext.ui.editor.model.IResourceForEditorInputFactory;
-import org.eclipse.xtext.ui.testing.AbstractWorkbenchTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5WorkbenchTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.testing.util.JavaProjectSetupUtil.TextFile;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
@@ -42,7 +42,7 @@ import com.google.inject.Injector;
 /**
  * @author Sebastian Zarnekow - Initial contribution and API
  */
-public class JavaClassPathResourceForIEditorInputFactoryTest extends AbstractWorkbenchTest {
+public class JavaClassPathResourceForIEditorInputFactoryTest extends AbstractJU5WorkbenchTest {
 
 	private IResourceForEditorInputFactory factory;
 

@@ -22,7 +22,7 @@ import org.eclipse.xtext.resource.XtextResource;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
 import org.eclipse.xtext.ui.editor.model.XtextDocument;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
 import org.eclipse.xtext.util.concurrent.IUnitOfWork;
 import org.junit.jupiter.api.Test;
@@ -33,7 +33,7 @@ import org.junit.jupiter.api.Test;
  * @author Dennis Hübner - Initial contribution and API
  * @author Peter Friese
  */
-public class SimpleEditorTest extends AbstractEditorTest {
+public class SimpleEditorTest extends AbstractJU5EditorTest {
 
 	@Override
 	public void setUp() throws Exception {

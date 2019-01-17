@@ -26,7 +26,7 @@ import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.hover.AbstractProblemHover;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
 import org.eclipse.xtext.ui.editor.validation.MarkerCreator;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
 import org.eclipse.xtext.util.concurrent.IUnitOfWork;
@@ -37,7 +37,7 @@ import org.junit.jupiter.api.Test;
 /**
  * @author Christoph Kulla - Initial contribution and API
  */
-public class AbstractProblemHoverTest extends AbstractEditorTest {
+public class AbstractProblemHoverTest extends AbstractJU5EditorTest {
 	
 	protected IFile file;
 

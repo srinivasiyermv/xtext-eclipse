@@ -27,7 +27,7 @@ import org.eclipse.xtext.resource.IResourceServiceProvider;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.XtextSourceViewer;
 import org.eclipse.xtext.ui.refactoring.ui.SyncUtil;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.xbase.lib.CollectionLiterals;
 import org.eclipse.xtext.xbase.lib.Conversions;
@@ -44,7 +44,7 @@ import org.junit.jupiter.api.Test;
  * @author Jan Koehnlein - Initial contribution and API
  */
 @SuppressWarnings("all")
-public class DirtyStateEditorSupportIntegrationTest extends AbstractEditorTest {
+public class DirtyStateEditorSupportIntegrationTest extends AbstractJU5EditorTest {
   @Inject
   @Extension
   private SyncUtil syncUtil;

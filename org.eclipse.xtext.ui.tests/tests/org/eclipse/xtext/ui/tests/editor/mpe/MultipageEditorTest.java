@@ -16,13 +16,13 @@ import org.eclipse.core.resources.IFile;
 import org.eclipse.ui.PlatformUI;
 import org.eclipse.ui.commands.ICommandService;
 import org.eclipse.xtext.ui.editor.XtextEditor;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.junit.jupiter.api.Test;
 
 /**
  * @author Peter Friese
  */
-public class MultipageEditorTest extends AbstractEditorTest {
+public class MultipageEditorTest extends AbstractJU5EditorTest {
 
 	@Override
 	public void tearDown() throws Exception {

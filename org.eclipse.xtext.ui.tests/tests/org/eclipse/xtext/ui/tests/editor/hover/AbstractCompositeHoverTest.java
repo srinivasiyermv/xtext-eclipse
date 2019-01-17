@@ -23,7 +23,7 @@ import org.eclipse.ui.IWorkbenchPart;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.hover.AbstractCompositeHover;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.junit.jupiter.api.Test;
 
@@ -32,7 +32,7 @@ import com.google.common.collect.Lists;
 /**
  * @author Christoph Kulla - Initial contribution and API
  */
-public class AbstractCompositeHoverTest extends AbstractEditorTest {
+public class AbstractCompositeHoverTest extends AbstractJU5EditorTest {
 	
 	protected XtextEditor editor;
 	protected IXtextDocument document;

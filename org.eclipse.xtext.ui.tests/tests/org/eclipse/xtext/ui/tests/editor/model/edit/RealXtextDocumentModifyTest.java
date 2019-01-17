@@ -26,14 +26,15 @@ import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.editor.model.IXtextDocument;
 import org.eclipse.xtext.ui.editor.model.IXtextModelListener;
 import org.eclipse.xtext.ui.editor.reconciler.XtextReconciler;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.util.concurrent.IUnitOfWork;
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 /**
  * @author koehnlein - Initial contribution and API
  */
-public class RealXtextDocumentModifyTest extends AbstractEditorTest {
+public class RealXtextDocumentModifyTest extends AbstractJU5EditorTest {
 	
 	@Override
 	protected String getEditorId() {

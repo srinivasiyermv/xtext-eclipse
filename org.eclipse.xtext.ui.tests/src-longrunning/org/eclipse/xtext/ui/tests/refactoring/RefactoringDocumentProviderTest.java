@@ -27,7 +27,7 @@ import org.eclipse.xtext.ui.refactoring.impl.DefaultRefactoringDocumentProvider.
 import org.eclipse.xtext.ui.refactoring.impl.EditorDocumentChange;
 import org.eclipse.xtext.ui.refactoring.impl.IRefactoringDocument;
 import org.eclipse.xtext.ui.refactoring.impl.StatusWrapper;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.testing.util.JavaProjectSetupUtil;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
@@ -39,7 +39,7 @@ import com.google.inject.Injector;
 /**
  * @author Jan Koehnlein - Initial contribution and API
  */
-public class RefactoringDocumentProviderTest extends AbstractEditorTest {
+public class RefactoringDocumentProviderTest extends AbstractJU5EditorTest {
 
 	private static final String TEST_FILE_NAME = "File.refactoringtestlanguage";
 	private static final String TEST_PROJECT = "refactoring.test";

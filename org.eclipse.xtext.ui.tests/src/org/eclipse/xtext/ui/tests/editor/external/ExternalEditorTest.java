@@ -22,7 +22,7 @@ import org.eclipse.jface.text.hyperlink.IHyperlink;
 import org.eclipse.jface.text.hyperlink.IHyperlinkDetector;
 import org.eclipse.xtext.resource.IResourceServiceProvider;
 import org.eclipse.xtext.ui.editor.XtextEditor;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.junit.jupiter.api.Test;
 
 import com.google.inject.Inject;
@@ -34,7 +34,7 @@ import com.google.inject.Injector;
  * @author Arne Deutsch - Initial contribution and API
  * @since 2.15
  */
-public class ExternalEditorTest extends AbstractEditorTest {
+public class ExternalEditorTest extends AbstractJU5EditorTest {
 
 	@Inject
 	private IHyperlinkDetector detector;

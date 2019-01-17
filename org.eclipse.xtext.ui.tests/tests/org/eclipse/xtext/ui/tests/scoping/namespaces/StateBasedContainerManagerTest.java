@@ -21,12 +21,12 @@ import org.eclipse.xtext.resource.IResourceDescriptions;
 import org.eclipse.xtext.resource.containers.IAllContainersState;
 import org.eclipse.xtext.resource.containers.ProjectDescriptionBasedContainerManager;
 import org.eclipse.xtext.resource.containers.StateBasedContainerManager;
+import org.eclipse.xtext.testing.util.URIBasedTestResourceDescription;
 import org.eclipse.xtext.ui.containers.WorkspaceProjectsState;
 import org.eclipse.xtext.ui.containers.WorkspaceProjectsStateHelper;
 import org.eclipse.xtext.ui.resource.Storage2UriMapperImpl;
 import org.eclipse.xtext.ui.resource.UriValidator;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
-import org.eclipse.xtext.ui.testing.util.URIBasedTestResourceDescription;
 import org.junit.jupiter.api.Test;
 
 import com.google.common.collect.Iterables;

@@ -37,7 +37,7 @@ import org.eclipse.xtext.ui.XtextProjectHelper;
 import org.eclipse.xtext.ui.editor.XtextEditor;
 import org.eclipse.xtext.ui.refactoring.impl.RenameElementProcessor;
 import org.eclipse.xtext.ui.refactoring.ui.IRenameElementContext;
-import org.eclipse.xtext.ui.testing.AbstractEditorTest;
+import org.eclipse.xtext.ui.testing.AbstractJU5EditorTest;
 import org.eclipse.xtext.ui.testing.util.IResourcesSetupUtil;
 import org.eclipse.xtext.ui.tests.internal.TestsActivator;
 import org.eclipse.xtext.ui.tests.refactoring.refactoring.RefactoringPackage;
@@ -54,7 +54,7 @@ import com.google.inject.Provider;
 /**
  * @author Jan Koehnlein - Initial contribution and API
  */
-public class RenameRefactoringIntegrationTest extends AbstractEditorTest {
+public class RenameRefactoringIntegrationTest extends AbstractJU5EditorTest {
 
 	@Inject
 	private Provider<RenameElementProcessor> processorProvider;
