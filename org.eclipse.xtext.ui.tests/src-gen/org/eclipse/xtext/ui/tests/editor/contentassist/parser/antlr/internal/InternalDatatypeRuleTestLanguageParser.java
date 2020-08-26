@@ -123,12 +123,9 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
         EObject this_Types_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalDatatypeRuleTestLanguage.g:77:2: (this_Types_0= ruleTypes )
-            // InternalDatatypeRuleTestLanguage.g:78:2: this_Types_0= ruleTypes
+            // InternalDatatypeRuleTestLanguage.g:72:1: (this_Types_0= ruleTypes )
+            // InternalDatatypeRuleTestLanguage.g:73:2: this_Types_0= ruleTypes
             {
 
             		newCompositeNode(grammarAccess.getModelAccess().getTypesParserRuleCall());
@@ -145,9 +142,6 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -162,7 +156,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "entryRuleTypes"
-    // InternalDatatypeRuleTestLanguage.g:89:1: entryRuleTypes returns [EObject current=null] : iv_ruleTypes= ruleTypes EOF ;
+    // InternalDatatypeRuleTestLanguage.g:84:1: entryRuleTypes returns [EObject current=null] : iv_ruleTypes= ruleTypes EOF ;
     public final EObject entryRuleTypes() throws RecognitionException {
         EObject current = null;
 
@@ -170,8 +164,8 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
         try {
-            // InternalDatatypeRuleTestLanguage.g:89:46: (iv_ruleTypes= ruleTypes EOF )
-            // InternalDatatypeRuleTestLanguage.g:90:2: iv_ruleTypes= ruleTypes EOF
+            // InternalDatatypeRuleTestLanguage.g:84:46: (iv_ruleTypes= ruleTypes EOF )
+            // InternalDatatypeRuleTestLanguage.g:85:2: iv_ruleTypes= ruleTypes EOF
             {
              newCompositeNode(grammarAccess.getTypesRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -198,7 +192,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "ruleTypes"
-    // InternalDatatypeRuleTestLanguage.g:96:1: ruleTypes returns [EObject current=null] : ( () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )* ) ;
+    // InternalDatatypeRuleTestLanguage.g:91:1: ruleTypes returns [EObject current=null] : ( () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )* ) ;
     public final EObject ruleTypes() throws RecognitionException {
         EObject current = null;
 
@@ -206,18 +200,15 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
         EObject lv_types_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalDatatypeRuleTestLanguage.g:102:2: ( ( () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )* ) )
-            // InternalDatatypeRuleTestLanguage.g:103:2: ( () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )* )
+            // InternalDatatypeRuleTestLanguage.g:92:1: ( ( () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )* ) )
+            // InternalDatatypeRuleTestLanguage.g:93:2: ( () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )* )
             {
-            // InternalDatatypeRuleTestLanguage.g:103:2: ( () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )* )
-            // InternalDatatypeRuleTestLanguage.g:104:3: () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )*
+            // InternalDatatypeRuleTestLanguage.g:93:2: ( () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )* )
+            // InternalDatatypeRuleTestLanguage.g:94:3: () otherlv_1= 'Types' ( (lv_types_2_0= ruleType ) )*
             {
-            // InternalDatatypeRuleTestLanguage.g:104:3: ()
-            // InternalDatatypeRuleTestLanguage.g:105:4: 
+            // InternalDatatypeRuleTestLanguage.g:94:3: ()
+            // InternalDatatypeRuleTestLanguage.g:95:4: 
             {
 
             				current = forceCreateModelElement(
@@ -231,7 +222,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
             			newLeafNode(otherlv_1, grammarAccess.getTypesAccess().getTypesKeyword_1());
             		
-            // InternalDatatypeRuleTestLanguage.g:115:3: ( (lv_types_2_0= ruleType ) )*
+            // InternalDatatypeRuleTestLanguage.g:105:3: ( (lv_types_2_0= ruleType ) )*
             loop1:
             do {
                 int alt1=2;
@@ -244,10 +235,10 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
                 switch (alt1) {
             	case 1 :
-            	    // InternalDatatypeRuleTestLanguage.g:116:4: (lv_types_2_0= ruleType )
+            	    // InternalDatatypeRuleTestLanguage.g:106:4: (lv_types_2_0= ruleType )
             	    {
-            	    // InternalDatatypeRuleTestLanguage.g:116:4: (lv_types_2_0= ruleType )
-            	    // InternalDatatypeRuleTestLanguage.g:117:5: lv_types_2_0= ruleType
+            	    // InternalDatatypeRuleTestLanguage.g:106:4: (lv_types_2_0= ruleType )
+            	    // InternalDatatypeRuleTestLanguage.g:107:5: lv_types_2_0= ruleType
             	    {
 
             	    					newCompositeNode(grammarAccess.getTypesAccess().getTypesTypeParserRuleCall_2_0());
@@ -286,9 +277,6 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -303,7 +291,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "entryRuleType"
-    // InternalDatatypeRuleTestLanguage.g:138:1: entryRuleType returns [EObject current=null] : iv_ruleType= ruleType EOF ;
+    // InternalDatatypeRuleTestLanguage.g:128:1: entryRuleType returns [EObject current=null] : iv_ruleType= ruleType EOF ;
     public final EObject entryRuleType() throws RecognitionException {
         EObject current = null;
 
@@ -311,8 +299,8 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
         try {
-            // InternalDatatypeRuleTestLanguage.g:138:45: (iv_ruleType= ruleType EOF )
-            // InternalDatatypeRuleTestLanguage.g:139:2: iv_ruleType= ruleType EOF
+            // InternalDatatypeRuleTestLanguage.g:128:45: (iv_ruleType= ruleType EOF )
+            // InternalDatatypeRuleTestLanguage.g:129:2: iv_ruleType= ruleType EOF
             {
              newCompositeNode(grammarAccess.getTypeRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -339,7 +327,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "ruleType"
-    // InternalDatatypeRuleTestLanguage.g:145:1: ruleType returns [EObject current=null] : (this_SimpleType_0= ruleSimpleType | this_CompositeType_1= ruleCompositeType ) ;
+    // InternalDatatypeRuleTestLanguage.g:135:1: ruleType returns [EObject current=null] : (this_SimpleType_0= ruleSimpleType | this_CompositeType_1= ruleCompositeType ) ;
     public final EObject ruleType() throws RecognitionException {
         EObject current = null;
 
@@ -348,14 +336,11 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
         EObject this_CompositeType_1 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalDatatypeRuleTestLanguage.g:151:2: ( (this_SimpleType_0= ruleSimpleType | this_CompositeType_1= ruleCompositeType ) )
-            // InternalDatatypeRuleTestLanguage.g:152:2: (this_SimpleType_0= ruleSimpleType | this_CompositeType_1= ruleCompositeType )
+            // InternalDatatypeRuleTestLanguage.g:136:1: ( (this_SimpleType_0= ruleSimpleType | this_CompositeType_1= ruleCompositeType ) )
+            // InternalDatatypeRuleTestLanguage.g:137:2: (this_SimpleType_0= ruleSimpleType | this_CompositeType_1= ruleCompositeType )
             {
-            // InternalDatatypeRuleTestLanguage.g:152:2: (this_SimpleType_0= ruleSimpleType | this_CompositeType_1= ruleCompositeType )
+            // InternalDatatypeRuleTestLanguage.g:137:2: (this_SimpleType_0= ruleSimpleType | this_CompositeType_1= ruleCompositeType )
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -373,7 +358,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
             }
             switch (alt2) {
                 case 1 :
-                    // InternalDatatypeRuleTestLanguage.g:153:3: this_SimpleType_0= ruleSimpleType
+                    // InternalDatatypeRuleTestLanguage.g:138:3: this_SimpleType_0= ruleSimpleType
                     {
 
                     			newCompositeNode(grammarAccess.getTypeAccess().getSimpleTypeParserRuleCall_0());
@@ -391,7 +376,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
                     }
                     break;
                 case 2 :
-                    // InternalDatatypeRuleTestLanguage.g:162:3: this_CompositeType_1= ruleCompositeType
+                    // InternalDatatypeRuleTestLanguage.g:147:3: this_CompositeType_1= ruleCompositeType
                     {
 
                     			newCompositeNode(grammarAccess.getTypeAccess().getCompositeTypeParserRuleCall_1());
@@ -414,9 +399,6 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -431,7 +413,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "entryRuleSimpleType"
-    // InternalDatatypeRuleTestLanguage.g:174:1: entryRuleSimpleType returns [EObject current=null] : iv_ruleSimpleType= ruleSimpleType EOF ;
+    // InternalDatatypeRuleTestLanguage.g:159:1: entryRuleSimpleType returns [EObject current=null] : iv_ruleSimpleType= ruleSimpleType EOF ;
     public final EObject entryRuleSimpleType() throws RecognitionException {
         EObject current = null;
 
@@ -439,8 +421,8 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
         try {
-            // InternalDatatypeRuleTestLanguage.g:174:51: (iv_ruleSimpleType= ruleSimpleType EOF )
-            // InternalDatatypeRuleTestLanguage.g:175:2: iv_ruleSimpleType= ruleSimpleType EOF
+            // InternalDatatypeRuleTestLanguage.g:159:51: (iv_ruleSimpleType= ruleSimpleType EOF )
+            // InternalDatatypeRuleTestLanguage.g:160:2: iv_ruleSimpleType= ruleSimpleType EOF
             {
              newCompositeNode(grammarAccess.getSimpleTypeRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -467,7 +449,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "ruleSimpleType"
-    // InternalDatatypeRuleTestLanguage.g:181:1: ruleSimpleType returns [EObject current=null] : (otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';' ) ;
+    // InternalDatatypeRuleTestLanguage.g:166:1: ruleSimpleType returns [EObject current=null] : (otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';' ) ;
     public final EObject ruleSimpleType() throws RecognitionException {
         EObject current = null;
 
@@ -475,25 +457,22 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
         Token lv_name_1_0=null;
         Token otherlv_2=null;
 
-
-        	enterRule();
-
         try {
-            // InternalDatatypeRuleTestLanguage.g:187:2: ( (otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';' ) )
-            // InternalDatatypeRuleTestLanguage.g:188:2: (otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';' )
+            // InternalDatatypeRuleTestLanguage.g:167:1: ( (otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';' ) )
+            // InternalDatatypeRuleTestLanguage.g:168:2: (otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';' )
             {
-            // InternalDatatypeRuleTestLanguage.g:188:2: (otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';' )
-            // InternalDatatypeRuleTestLanguage.g:189:3: otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';'
+            // InternalDatatypeRuleTestLanguage.g:168:2: (otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';' )
+            // InternalDatatypeRuleTestLanguage.g:169:3: otherlv_0= 'Type' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= ';'
             {
             otherlv_0=(Token)match(input,12,FollowSets000.FOLLOW_4); 
 
             			newLeafNode(otherlv_0, grammarAccess.getSimpleTypeAccess().getTypeKeyword_0());
             		
-            // InternalDatatypeRuleTestLanguage.g:193:3: ( (lv_name_1_0= RULE_ID ) )
-            // InternalDatatypeRuleTestLanguage.g:194:4: (lv_name_1_0= RULE_ID )
+            // InternalDatatypeRuleTestLanguage.g:173:3: ( (lv_name_1_0= RULE_ID ) )
+            // InternalDatatypeRuleTestLanguage.g:174:4: (lv_name_1_0= RULE_ID )
             {
-            // InternalDatatypeRuleTestLanguage.g:194:4: (lv_name_1_0= RULE_ID )
-            // InternalDatatypeRuleTestLanguage.g:195:5: lv_name_1_0= RULE_ID
+            // InternalDatatypeRuleTestLanguage.g:174:4: (lv_name_1_0= RULE_ID )
+            // InternalDatatypeRuleTestLanguage.g:175:5: lv_name_1_0= RULE_ID
             {
             lv_name_1_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_5); 
 
@@ -525,9 +504,6 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -542,7 +518,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "entryRuleCompositeType"
-    // InternalDatatypeRuleTestLanguage.g:219:1: entryRuleCompositeType returns [EObject current=null] : iv_ruleCompositeType= ruleCompositeType EOF ;
+    // InternalDatatypeRuleTestLanguage.g:199:1: entryRuleCompositeType returns [EObject current=null] : iv_ruleCompositeType= ruleCompositeType EOF ;
     public final EObject entryRuleCompositeType() throws RecognitionException {
         EObject current = null;
 
@@ -550,8 +526,8 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
         try {
-            // InternalDatatypeRuleTestLanguage.g:219:54: (iv_ruleCompositeType= ruleCompositeType EOF )
-            // InternalDatatypeRuleTestLanguage.g:220:2: iv_ruleCompositeType= ruleCompositeType EOF
+            // InternalDatatypeRuleTestLanguage.g:199:54: (iv_ruleCompositeType= ruleCompositeType EOF )
+            // InternalDatatypeRuleTestLanguage.g:200:2: iv_ruleCompositeType= ruleCompositeType EOF
             {
              newCompositeNode(grammarAccess.getCompositeTypeRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -578,7 +554,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "ruleCompositeType"
-    // InternalDatatypeRuleTestLanguage.g:226:1: ruleCompositeType returns [EObject current=null] : (otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';' ) ;
+    // InternalDatatypeRuleTestLanguage.g:206:1: ruleCompositeType returns [EObject current=null] : (otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';' ) ;
     public final EObject ruleCompositeType() throws RecognitionException {
         EObject current = null;
 
@@ -589,25 +565,22 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
         EObject lv_baseType_3_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalDatatypeRuleTestLanguage.g:232:2: ( (otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';' ) )
-            // InternalDatatypeRuleTestLanguage.g:233:2: (otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';' )
+            // InternalDatatypeRuleTestLanguage.g:207:1: ( (otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';' ) )
+            // InternalDatatypeRuleTestLanguage.g:208:2: (otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';' )
             {
-            // InternalDatatypeRuleTestLanguage.g:233:2: (otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';' )
-            // InternalDatatypeRuleTestLanguage.g:234:3: otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';'
+            // InternalDatatypeRuleTestLanguage.g:208:2: (otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';' )
+            // InternalDatatypeRuleTestLanguage.g:209:3: otherlv_0= 'Composite' ( (lv_name_1_0= RULE_ID ) ) otherlv_2= 'base' ( (lv_baseType_3_0= ruleCompositeTypeEntry ) ) otherlv_4= ';'
             {
             otherlv_0=(Token)match(input,14,FollowSets000.FOLLOW_4); 
 
             			newLeafNode(otherlv_0, grammarAccess.getCompositeTypeAccess().getCompositeKeyword_0());
             		
-            // InternalDatatypeRuleTestLanguage.g:238:3: ( (lv_name_1_0= RULE_ID ) )
-            // InternalDatatypeRuleTestLanguage.g:239:4: (lv_name_1_0= RULE_ID )
+            // InternalDatatypeRuleTestLanguage.g:213:3: ( (lv_name_1_0= RULE_ID ) )
+            // InternalDatatypeRuleTestLanguage.g:214:4: (lv_name_1_0= RULE_ID )
             {
-            // InternalDatatypeRuleTestLanguage.g:239:4: (lv_name_1_0= RULE_ID )
-            // InternalDatatypeRuleTestLanguage.g:240:5: lv_name_1_0= RULE_ID
+            // InternalDatatypeRuleTestLanguage.g:214:4: (lv_name_1_0= RULE_ID )
+            // InternalDatatypeRuleTestLanguage.g:215:5: lv_name_1_0= RULE_ID
             {
             lv_name_1_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_6); 
 
@@ -633,11 +606,11 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
             			newLeafNode(otherlv_2, grammarAccess.getCompositeTypeAccess().getBaseKeyword_2());
             		
-            // InternalDatatypeRuleTestLanguage.g:260:3: ( (lv_baseType_3_0= ruleCompositeTypeEntry ) )
-            // InternalDatatypeRuleTestLanguage.g:261:4: (lv_baseType_3_0= ruleCompositeTypeEntry )
+            // InternalDatatypeRuleTestLanguage.g:235:3: ( (lv_baseType_3_0= ruleCompositeTypeEntry ) )
+            // InternalDatatypeRuleTestLanguage.g:236:4: (lv_baseType_3_0= ruleCompositeTypeEntry )
             {
-            // InternalDatatypeRuleTestLanguage.g:261:4: (lv_baseType_3_0= ruleCompositeTypeEntry )
-            // InternalDatatypeRuleTestLanguage.g:262:5: lv_baseType_3_0= ruleCompositeTypeEntry
+            // InternalDatatypeRuleTestLanguage.g:236:4: (lv_baseType_3_0= ruleCompositeTypeEntry )
+            // InternalDatatypeRuleTestLanguage.g:237:5: lv_baseType_3_0= ruleCompositeTypeEntry
             {
 
             					newCompositeNode(grammarAccess.getCompositeTypeAccess().getBaseTypeCompositeTypeEntryParserRuleCall_3_0());
@@ -674,9 +647,6 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -691,7 +661,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "entryRuleCompositeTypeEntry"
-    // InternalDatatypeRuleTestLanguage.g:287:1: entryRuleCompositeTypeEntry returns [EObject current=null] : iv_ruleCompositeTypeEntry= ruleCompositeTypeEntry EOF ;
+    // InternalDatatypeRuleTestLanguage.g:262:1: entryRuleCompositeTypeEntry returns [EObject current=null] : iv_ruleCompositeTypeEntry= ruleCompositeTypeEntry EOF ;
     public final EObject entryRuleCompositeTypeEntry() throws RecognitionException {
         EObject current = null;
 
@@ -699,8 +669,8 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
         try {
-            // InternalDatatypeRuleTestLanguage.g:287:59: (iv_ruleCompositeTypeEntry= ruleCompositeTypeEntry EOF )
-            // InternalDatatypeRuleTestLanguage.g:288:2: iv_ruleCompositeTypeEntry= ruleCompositeTypeEntry EOF
+            // InternalDatatypeRuleTestLanguage.g:262:59: (iv_ruleCompositeTypeEntry= ruleCompositeTypeEntry EOF )
+            // InternalDatatypeRuleTestLanguage.g:263:2: iv_ruleCompositeTypeEntry= ruleCompositeTypeEntry EOF
             {
              newCompositeNode(grammarAccess.getCompositeTypeEntryRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -727,22 +697,19 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "ruleCompositeTypeEntry"
-    // InternalDatatypeRuleTestLanguage.g:294:1: ruleCompositeTypeEntry returns [EObject current=null] : ( ( ruleTypeId ) ) ;
+    // InternalDatatypeRuleTestLanguage.g:269:1: ruleCompositeTypeEntry returns [EObject current=null] : ( ( ruleTypeId ) ) ;
     public final EObject ruleCompositeTypeEntry() throws RecognitionException {
         EObject current = null;
 
-
-        	enterRule();
-
         try {
-            // InternalDatatypeRuleTestLanguage.g:300:2: ( ( ( ruleTypeId ) ) )
-            // InternalDatatypeRuleTestLanguage.g:301:2: ( ( ruleTypeId ) )
+            // InternalDatatypeRuleTestLanguage.g:270:1: ( ( ( ruleTypeId ) ) )
+            // InternalDatatypeRuleTestLanguage.g:271:2: ( ( ruleTypeId ) )
             {
-            // InternalDatatypeRuleTestLanguage.g:301:2: ( ( ruleTypeId ) )
-            // InternalDatatypeRuleTestLanguage.g:302:3: ( ruleTypeId )
+            // InternalDatatypeRuleTestLanguage.g:271:2: ( ( ruleTypeId ) )
+            // InternalDatatypeRuleTestLanguage.g:272:3: ( ruleTypeId )
             {
-            // InternalDatatypeRuleTestLanguage.g:302:3: ( ruleTypeId )
-            // InternalDatatypeRuleTestLanguage.g:303:4: ruleTypeId
+            // InternalDatatypeRuleTestLanguage.g:272:3: ( ruleTypeId )
+            // InternalDatatypeRuleTestLanguage.g:273:4: ruleTypeId
             {
 
             				if (current==null) {
@@ -769,9 +736,6 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -786,7 +750,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "entryRuleTypeId"
-    // InternalDatatypeRuleTestLanguage.g:320:1: entryRuleTypeId returns [String current=null] : iv_ruleTypeId= ruleTypeId EOF ;
+    // InternalDatatypeRuleTestLanguage.g:290:1: entryRuleTypeId returns [String current=null] : iv_ruleTypeId= ruleTypeId EOF ;
     public final String entryRuleTypeId() throws RecognitionException {
         String current = null;
 
@@ -794,8 +758,8 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
         try {
-            // InternalDatatypeRuleTestLanguage.g:320:46: (iv_ruleTypeId= ruleTypeId EOF )
-            // InternalDatatypeRuleTestLanguage.g:321:2: iv_ruleTypeId= ruleTypeId EOF
+            // InternalDatatypeRuleTestLanguage.g:290:46: (iv_ruleTypeId= ruleTypeId EOF )
+            // InternalDatatypeRuleTestLanguage.g:291:2: iv_ruleTypeId= ruleTypeId EOF
             {
              newCompositeNode(grammarAccess.getTypeIdRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -822,7 +786,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
     // $ANTLR start "ruleTypeId"
-    // InternalDatatypeRuleTestLanguage.g:327:1: ruleTypeId returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )? ) ;
+    // InternalDatatypeRuleTestLanguage.g:297:1: ruleTypeId returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )? ) ;
     public final AntlrDatatypeRuleToken ruleTypeId() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
@@ -833,15 +797,12 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
         AntlrDatatypeRuleToken this_TypeId_4 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalDatatypeRuleTestLanguage.g:333:2: ( (this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )? ) )
-            // InternalDatatypeRuleTestLanguage.g:334:2: (this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )? )
+            // InternalDatatypeRuleTestLanguage.g:298:1: ( (this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )? ) )
+            // InternalDatatypeRuleTestLanguage.g:299:2: (this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )? )
             {
-            // InternalDatatypeRuleTestLanguage.g:334:2: (this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )? )
-            // InternalDatatypeRuleTestLanguage.g:335:3: this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )?
+            // InternalDatatypeRuleTestLanguage.g:299:2: (this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )? )
+            // InternalDatatypeRuleTestLanguage.g:300:3: this_ID_0= RULE_ID (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )?
             {
             this_ID_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_7); 
 
@@ -850,7 +811,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
             			newLeafNode(this_ID_0, grammarAccess.getTypeIdAccess().getIDTerminalRuleCall_0());
             		
-            // InternalDatatypeRuleTestLanguage.g:342:3: (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )?
+            // InternalDatatypeRuleTestLanguage.g:307:3: (kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>' )?
             int alt4=2;
             int LA4_0 = input.LA(1);
 
@@ -859,7 +820,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
             }
             switch (alt4) {
                 case 1 :
-                    // InternalDatatypeRuleTestLanguage.g:343:4: kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>'
+                    // InternalDatatypeRuleTestLanguage.g:308:4: kw= '<' this_TypeId_2= ruleTypeId (kw= ',' this_TypeId_4= ruleTypeId )* kw= '>'
                     {
                     kw=(Token)match(input,16,FollowSets000.FOLLOW_4); 
 
@@ -880,7 +841,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
                     				afterParserOrEnumRuleCall();
                     			
-                    // InternalDatatypeRuleTestLanguage.g:358:4: (kw= ',' this_TypeId_4= ruleTypeId )*
+                    // InternalDatatypeRuleTestLanguage.g:323:4: (kw= ',' this_TypeId_4= ruleTypeId )*
                     loop3:
                     do {
                         int alt3=2;
@@ -893,7 +854,7 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
                         switch (alt3) {
                     	case 1 :
-                    	    // InternalDatatypeRuleTestLanguage.g:359:5: kw= ',' this_TypeId_4= ruleTypeId
+                    	    // InternalDatatypeRuleTestLanguage.g:324:5: kw= ',' this_TypeId_4= ruleTypeId
                     	    {
                     	    kw=(Token)match(input,17,FollowSets000.FOLLOW_4); 
 
@@ -939,9 +900,6 @@ public class InternalDatatypeRuleTestLanguageParser extends AbstractInternalAntl
 
 
             }
-
-
-            	leaveRule();
 
         }
 

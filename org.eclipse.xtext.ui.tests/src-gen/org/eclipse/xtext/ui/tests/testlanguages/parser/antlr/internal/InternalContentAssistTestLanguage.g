@@ -69,12 +69,7 @@ entryRuleStart returns [EObject current=null]:
 
 // Rule Start
 ruleStart returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='abstract rules'
 		{
@@ -115,12 +110,7 @@ entryRuleAbstractRule returns [EObject current=null]:
 
 // Rule AbstractRule
 ruleAbstractRule returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAbstractRuleAccess().getFirstAbstractRuleChildParserRuleCall_0());
@@ -151,12 +141,7 @@ entryRuleFirstAbstractRuleChild returns [EObject current=null]:
 
 // Rule FirstAbstractRuleChild
 ruleFirstAbstractRuleChild returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -219,12 +204,7 @@ entryRuleSecondAbstractRuleChild returns [EObject current=null]:
 
 // Rule SecondAbstractRuleChild
 ruleSecondAbstractRuleChild returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -287,12 +267,7 @@ entryRuleAbstractRuleCall returns [EObject current=null]:
 
 // Rule AbstractRuleCall
 ruleAbstractRuleCall returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{

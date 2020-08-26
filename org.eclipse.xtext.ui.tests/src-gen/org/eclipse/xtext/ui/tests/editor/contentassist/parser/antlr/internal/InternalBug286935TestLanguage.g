@@ -70,12 +70,7 @@ entryRuleState returns [EObject current=null]:
 
 // Rule State
 ruleState returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -268,12 +263,7 @@ ruleState returns [EObject current=null]
 
 // Rule StateType
 ruleStateType returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='NORMAL'

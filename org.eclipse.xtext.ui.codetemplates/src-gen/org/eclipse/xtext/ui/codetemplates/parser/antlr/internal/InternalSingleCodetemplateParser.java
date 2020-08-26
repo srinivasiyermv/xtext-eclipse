@@ -126,15 +126,12 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         EObject lv_templates_3_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalSingleCodetemplateParser.g:70:2: ( (otherlv_0= Templates otherlv_1= For ( ( ruleFQN ) ) ( (lv_templates_3_0= ruleCodetemplate ) ) ) )
-            // InternalSingleCodetemplateParser.g:71:2: (otherlv_0= Templates otherlv_1= For ( ( ruleFQN ) ) ( (lv_templates_3_0= ruleCodetemplate ) ) )
+            // InternalSingleCodetemplateParser.g:65:1: ( (otherlv_0= Templates otherlv_1= For ( ( ruleFQN ) ) ( (lv_templates_3_0= ruleCodetemplate ) ) ) )
+            // InternalSingleCodetemplateParser.g:66:2: (otherlv_0= Templates otherlv_1= For ( ( ruleFQN ) ) ( (lv_templates_3_0= ruleCodetemplate ) ) )
             {
-            // InternalSingleCodetemplateParser.g:71:2: (otherlv_0= Templates otherlv_1= For ( ( ruleFQN ) ) ( (lv_templates_3_0= ruleCodetemplate ) ) )
-            // InternalSingleCodetemplateParser.g:72:3: otherlv_0= Templates otherlv_1= For ( ( ruleFQN ) ) ( (lv_templates_3_0= ruleCodetemplate ) )
+            // InternalSingleCodetemplateParser.g:66:2: (otherlv_0= Templates otherlv_1= For ( ( ruleFQN ) ) ( (lv_templates_3_0= ruleCodetemplate ) ) )
+            // InternalSingleCodetemplateParser.g:67:3: otherlv_0= Templates otherlv_1= For ( ( ruleFQN ) ) ( (lv_templates_3_0= ruleCodetemplate ) )
             {
             otherlv_0=(Token)match(input,Templates,FOLLOW_3); 
 
@@ -144,11 +141,11 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             			newLeafNode(otherlv_1, grammarAccess.getCodetemplatesAccess().getForKeyword_1());
             		
-            // InternalSingleCodetemplateParser.g:80:3: ( ( ruleFQN ) )
-            // InternalSingleCodetemplateParser.g:81:4: ( ruleFQN )
+            // InternalSingleCodetemplateParser.g:75:3: ( ( ruleFQN ) )
+            // InternalSingleCodetemplateParser.g:76:4: ( ruleFQN )
             {
-            // InternalSingleCodetemplateParser.g:81:4: ( ruleFQN )
-            // InternalSingleCodetemplateParser.g:82:5: ruleFQN
+            // InternalSingleCodetemplateParser.g:76:4: ( ruleFQN )
+            // InternalSingleCodetemplateParser.g:77:5: ruleFQN
             {
 
             					if (current==null) {
@@ -172,11 +169,11 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-            // InternalSingleCodetemplateParser.g:96:3: ( (lv_templates_3_0= ruleCodetemplate ) )
-            // InternalSingleCodetemplateParser.g:97:4: (lv_templates_3_0= ruleCodetemplate )
+            // InternalSingleCodetemplateParser.g:91:3: ( (lv_templates_3_0= ruleCodetemplate ) )
+            // InternalSingleCodetemplateParser.g:92:4: (lv_templates_3_0= ruleCodetemplate )
             {
-            // InternalSingleCodetemplateParser.g:97:4: (lv_templates_3_0= ruleCodetemplate )
-            // InternalSingleCodetemplateParser.g:98:5: lv_templates_3_0= ruleCodetemplate
+            // InternalSingleCodetemplateParser.g:92:4: (lv_templates_3_0= ruleCodetemplate )
+            // InternalSingleCodetemplateParser.g:93:5: lv_templates_3_0= ruleCodetemplate
             {
 
             					newCompositeNode(grammarAccess.getCodetemplatesAccess().getTemplatesCodetemplateParserRuleCall_3_0());
@@ -209,9 +206,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -226,7 +220,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleCodetemplate"
-    // InternalSingleCodetemplateParser.g:119:1: entryRuleCodetemplate returns [EObject current=null] : iv_ruleCodetemplate= ruleCodetemplate EOF ;
+    // InternalSingleCodetemplateParser.g:114:1: entryRuleCodetemplate returns [EObject current=null] : iv_ruleCodetemplate= ruleCodetemplate EOF ;
     public final EObject entryRuleCodetemplate() throws RecognitionException {
         EObject current = null;
 
@@ -234,8 +228,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
         try {
-            // InternalSingleCodetemplateParser.g:119:53: (iv_ruleCodetemplate= ruleCodetemplate EOF )
-            // InternalSingleCodetemplateParser.g:120:2: iv_ruleCodetemplate= ruleCodetemplate EOF
+            // InternalSingleCodetemplateParser.g:114:53: (iv_ruleCodetemplate= ruleCodetemplate EOF )
+            // InternalSingleCodetemplateParser.g:115:2: iv_ruleCodetemplate= ruleCodetemplate EOF
             {
              newCompositeNode(grammarAccess.getCodetemplateRule()); 
             pushFollow(FOLLOW_1);
@@ -262,7 +256,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleCodetemplate"
-    // InternalSingleCodetemplateParser.g:126:1: ruleCodetemplate returns [EObject current=null] : ( ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) ) ) ;
+    // InternalSingleCodetemplateParser.g:121:1: ruleCodetemplate returns [EObject current=null] : ( ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) ) ) ;
     public final EObject ruleCodetemplate() throws RecognitionException {
         EObject current = null;
 
@@ -272,21 +266,18 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         EObject lv_body_4_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalSingleCodetemplateParser.g:132:2: ( ( ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) ) ) )
-            // InternalSingleCodetemplateParser.g:133:2: ( ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) ) )
+            // InternalSingleCodetemplateParser.g:122:1: ( ( ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) ) ) )
+            // InternalSingleCodetemplateParser.g:123:2: ( ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) ) )
             {
-            // InternalSingleCodetemplateParser.g:133:2: ( ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) ) )
-            // InternalSingleCodetemplateParser.g:134:3: ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) )
+            // InternalSingleCodetemplateParser.g:123:2: ( ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) ) )
+            // InternalSingleCodetemplateParser.g:124:3: ( (lv_name_0_0= RULE_STRING ) ) otherlv_1= For ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) ) ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) )
             {
-            // InternalSingleCodetemplateParser.g:134:3: ( (lv_name_0_0= RULE_STRING ) )
-            // InternalSingleCodetemplateParser.g:135:4: (lv_name_0_0= RULE_STRING )
+            // InternalSingleCodetemplateParser.g:124:3: ( (lv_name_0_0= RULE_STRING ) )
+            // InternalSingleCodetemplateParser.g:125:4: (lv_name_0_0= RULE_STRING )
             {
-            // InternalSingleCodetemplateParser.g:135:4: (lv_name_0_0= RULE_STRING )
-            // InternalSingleCodetemplateParser.g:136:5: lv_name_0_0= RULE_STRING
+            // InternalSingleCodetemplateParser.g:125:4: (lv_name_0_0= RULE_STRING )
+            // InternalSingleCodetemplateParser.g:126:5: lv_name_0_0= RULE_STRING
             {
             lv_name_0_0=(Token)match(input,RULE_STRING,FOLLOW_3); 
 
@@ -312,7 +303,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             			newLeafNode(otherlv_1, grammarAccess.getCodetemplateAccess().getForKeyword_1());
             		
-            // InternalSingleCodetemplateParser.g:156:3: ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) )
+            // InternalSingleCodetemplateParser.g:146:3: ( ( ( ruleValidID ) ) | ( (lv_keywordContext_3_0= RULE_STRING ) ) )
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -330,13 +321,13 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             }
             switch (alt1) {
                 case 1 :
-                    // InternalSingleCodetemplateParser.g:157:4: ( ( ruleValidID ) )
+                    // InternalSingleCodetemplateParser.g:147:4: ( ( ruleValidID ) )
                     {
-                    // InternalSingleCodetemplateParser.g:157:4: ( ( ruleValidID ) )
-                    // InternalSingleCodetemplateParser.g:158:5: ( ruleValidID )
+                    // InternalSingleCodetemplateParser.g:147:4: ( ( ruleValidID ) )
+                    // InternalSingleCodetemplateParser.g:148:5: ( ruleValidID )
                     {
-                    // InternalSingleCodetemplateParser.g:158:5: ( ruleValidID )
-                    // InternalSingleCodetemplateParser.g:159:6: ruleValidID
+                    // InternalSingleCodetemplateParser.g:148:5: ( ruleValidID )
+                    // InternalSingleCodetemplateParser.g:149:6: ruleValidID
                     {
 
                     						if (current==null) {
@@ -364,13 +355,13 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                     }
                     break;
                 case 2 :
-                    // InternalSingleCodetemplateParser.g:174:4: ( (lv_keywordContext_3_0= RULE_STRING ) )
+                    // InternalSingleCodetemplateParser.g:164:4: ( (lv_keywordContext_3_0= RULE_STRING ) )
                     {
-                    // InternalSingleCodetemplateParser.g:174:4: ( (lv_keywordContext_3_0= RULE_STRING ) )
-                    // InternalSingleCodetemplateParser.g:175:5: (lv_keywordContext_3_0= RULE_STRING )
+                    // InternalSingleCodetemplateParser.g:164:4: ( (lv_keywordContext_3_0= RULE_STRING ) )
+                    // InternalSingleCodetemplateParser.g:165:5: (lv_keywordContext_3_0= RULE_STRING )
                     {
-                    // InternalSingleCodetemplateParser.g:175:5: (lv_keywordContext_3_0= RULE_STRING )
-                    // InternalSingleCodetemplateParser.g:176:6: lv_keywordContext_3_0= RULE_STRING
+                    // InternalSingleCodetemplateParser.g:165:5: (lv_keywordContext_3_0= RULE_STRING )
+                    // InternalSingleCodetemplateParser.g:166:6: lv_keywordContext_3_0= RULE_STRING
                     {
                     lv_keywordContext_3_0=(Token)match(input,RULE_STRING,FOLLOW_7); 
 
@@ -398,11 +389,11 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-            // InternalSingleCodetemplateParser.g:193:3: ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) )
-            // InternalSingleCodetemplateParser.g:194:4: (lv_body_4_0= ruleTemplateBodyWithQuotes )
+            // InternalSingleCodetemplateParser.g:183:3: ( (lv_body_4_0= ruleTemplateBodyWithQuotes ) )
+            // InternalSingleCodetemplateParser.g:184:4: (lv_body_4_0= ruleTemplateBodyWithQuotes )
             {
-            // InternalSingleCodetemplateParser.g:194:4: (lv_body_4_0= ruleTemplateBodyWithQuotes )
-            // InternalSingleCodetemplateParser.g:195:5: lv_body_4_0= ruleTemplateBodyWithQuotes
+            // InternalSingleCodetemplateParser.g:184:4: (lv_body_4_0= ruleTemplateBodyWithQuotes )
+            // InternalSingleCodetemplateParser.g:185:5: lv_body_4_0= ruleTemplateBodyWithQuotes
             {
 
             					newCompositeNode(grammarAccess.getCodetemplateAccess().getBodyTemplateBodyWithQuotesParserRuleCall_3_0());
@@ -435,9 +426,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -452,7 +440,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleTemplateBodyWithQuotes"
-    // InternalSingleCodetemplateParser.g:216:1: entryRuleTemplateBodyWithQuotes returns [EObject current=null] : iv_ruleTemplateBodyWithQuotes= ruleTemplateBodyWithQuotes EOF ;
+    // InternalSingleCodetemplateParser.g:206:1: entryRuleTemplateBodyWithQuotes returns [EObject current=null] : iv_ruleTemplateBodyWithQuotes= ruleTemplateBodyWithQuotes EOF ;
     public final EObject entryRuleTemplateBodyWithQuotes() throws RecognitionException {
         EObject current = null;
 
@@ -463,8 +451,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:218:2: (iv_ruleTemplateBodyWithQuotes= ruleTemplateBodyWithQuotes EOF )
-            // InternalSingleCodetemplateParser.g:219:2: iv_ruleTemplateBodyWithQuotes= ruleTemplateBodyWithQuotes EOF
+            // InternalSingleCodetemplateParser.g:208:2: (iv_ruleTemplateBodyWithQuotes= ruleTemplateBodyWithQuotes EOF )
+            // InternalSingleCodetemplateParser.g:209:2: iv_ruleTemplateBodyWithQuotes= ruleTemplateBodyWithQuotes EOF
             {
              newCompositeNode(grammarAccess.getTemplateBodyWithQuotesRule()); 
             pushFollow(FOLLOW_1);
@@ -494,7 +482,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleTemplateBodyWithQuotes"
-    // InternalSingleCodetemplateParser.g:228:1: ruleTemplateBodyWithQuotes returns [EObject current=null] : (otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody ) ;
+    // InternalSingleCodetemplateParser.g:218:1: ruleTemplateBodyWithQuotes returns [EObject current=null] : (otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody ) ;
     public final EObject ruleTemplateBodyWithQuotes() throws RecognitionException {
         EObject current = null;
 
@@ -503,15 +491,14 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
 
-        	enterRule();
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:235:2: ( (otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody ) )
-            // InternalSingleCodetemplateParser.g:236:2: (otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody )
+            // InternalSingleCodetemplateParser.g:222:1: ( (otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody ) )
+            // InternalSingleCodetemplateParser.g:223:2: (otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody )
             {
-            // InternalSingleCodetemplateParser.g:236:2: (otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody )
-            // InternalSingleCodetemplateParser.g:237:3: otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody
+            // InternalSingleCodetemplateParser.g:223:2: (otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody )
+            // InternalSingleCodetemplateParser.g:224:3: otherlv_0= GreaterThanSignGreaterThanSign this_TemplateBody_1= ruleTemplateBody
             {
             otherlv_0=(Token)match(input,GreaterThanSignGreaterThanSign,FOLLOW_8); 
 
@@ -535,9 +522,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -555,7 +539,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleLiteralValue"
-    // InternalSingleCodetemplateParser.g:256:1: entryRuleLiteralValue returns [String current=null] : iv_ruleLiteralValue= ruleLiteralValue EOF ;
+    // InternalSingleCodetemplateParser.g:243:1: entryRuleLiteralValue returns [String current=null] : iv_ruleLiteralValue= ruleLiteralValue EOF ;
     public final String entryRuleLiteralValue() throws RecognitionException {
         String current = null;
 
@@ -566,8 +550,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:258:2: (iv_ruleLiteralValue= ruleLiteralValue EOF )
-            // InternalSingleCodetemplateParser.g:259:2: iv_ruleLiteralValue= ruleLiteralValue EOF
+            // InternalSingleCodetemplateParser.g:245:2: (iv_ruleLiteralValue= ruleLiteralValue EOF )
+            // InternalSingleCodetemplateParser.g:246:2: iv_ruleLiteralValue= ruleLiteralValue EOF
             {
              newCompositeNode(grammarAccess.getLiteralValueRule()); 
             pushFollow(FOLLOW_1);
@@ -597,7 +581,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleLiteralValue"
-    // InternalSingleCodetemplateParser.g:268:1: ruleLiteralValue returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_WS_0= RULE_WS | this_ANY_OTHER_1= RULE_ANY_OTHER | this_ID_2= RULE_ID )+ ;
+    // InternalSingleCodetemplateParser.g:255:1: ruleLiteralValue returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_WS_0= RULE_WS | this_ANY_OTHER_1= RULE_ANY_OTHER | this_ID_2= RULE_ID )+ ;
     public final AntlrDatatypeRuleToken ruleLiteralValue() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
@@ -606,14 +590,13 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         Token this_ID_2=null;
 
 
-        	enterRule();
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:275:2: ( (this_WS_0= RULE_WS | this_ANY_OTHER_1= RULE_ANY_OTHER | this_ID_2= RULE_ID )+ )
-            // InternalSingleCodetemplateParser.g:276:2: (this_WS_0= RULE_WS | this_ANY_OTHER_1= RULE_ANY_OTHER | this_ID_2= RULE_ID )+
+            // InternalSingleCodetemplateParser.g:259:1: ( (this_WS_0= RULE_WS | this_ANY_OTHER_1= RULE_ANY_OTHER | this_ID_2= RULE_ID )+ )
+            // InternalSingleCodetemplateParser.g:260:2: (this_WS_0= RULE_WS | this_ANY_OTHER_1= RULE_ANY_OTHER | this_ID_2= RULE_ID )+
             {
-            // InternalSingleCodetemplateParser.g:276:2: (this_WS_0= RULE_WS | this_ANY_OTHER_1= RULE_ANY_OTHER | this_ID_2= RULE_ID )+
+            // InternalSingleCodetemplateParser.g:260:2: (this_WS_0= RULE_WS | this_ANY_OTHER_1= RULE_ANY_OTHER | this_ID_2= RULE_ID )+
             int cnt2=0;
             loop2:
             do {
@@ -639,7 +622,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                 switch (alt2) {
             	case 1 :
-            	    // InternalSingleCodetemplateParser.g:277:3: this_WS_0= RULE_WS
+            	    // InternalSingleCodetemplateParser.g:261:3: this_WS_0= RULE_WS
             	    {
             	    this_WS_0=(Token)match(input,RULE_WS,FOLLOW_9); 
 
@@ -652,7 +635,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             	    }
             	    break;
             	case 2 :
-            	    // InternalSingleCodetemplateParser.g:285:3: this_ANY_OTHER_1= RULE_ANY_OTHER
+            	    // InternalSingleCodetemplateParser.g:269:3: this_ANY_OTHER_1= RULE_ANY_OTHER
             	    {
             	    this_ANY_OTHER_1=(Token)match(input,RULE_ANY_OTHER,FOLLOW_9); 
 
@@ -665,7 +648,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             	    }
             	    break;
             	case 3 :
-            	    // InternalSingleCodetemplateParser.g:293:3: this_ID_2= RULE_ID
+            	    // InternalSingleCodetemplateParser.g:277:3: this_ID_2= RULE_ID
             	    {
             	    this_ID_2=(Token)match(input,RULE_ID,FOLLOW_9); 
 
@@ -690,9 +673,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -710,7 +690,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleTemplateBody"
-    // InternalSingleCodetemplateParser.g:307:1: entryRuleTemplateBody returns [EObject current=null] : iv_ruleTemplateBody= ruleTemplateBody EOF ;
+    // InternalSingleCodetemplateParser.g:291:1: entryRuleTemplateBody returns [EObject current=null] : iv_ruleTemplateBody= ruleTemplateBody EOF ;
     public final EObject entryRuleTemplateBody() throws RecognitionException {
         EObject current = null;
 
@@ -721,8 +701,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:309:2: (iv_ruleTemplateBody= ruleTemplateBody EOF )
-            // InternalSingleCodetemplateParser.g:310:2: iv_ruleTemplateBody= ruleTemplateBody EOF
+            // InternalSingleCodetemplateParser.g:293:2: (iv_ruleTemplateBody= ruleTemplateBody EOF )
+            // InternalSingleCodetemplateParser.g:294:2: iv_ruleTemplateBody= ruleTemplateBody EOF
             {
              newCompositeNode(grammarAccess.getTemplateBodyRule()); 
             pushFollow(FOLLOW_1);
@@ -752,7 +732,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleTemplateBody"
-    // InternalSingleCodetemplateParser.g:319:1: ruleTemplateBody returns [EObject current=null] : ( () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )* ) ;
+    // InternalSingleCodetemplateParser.g:303:1: ruleTemplateBody returns [EObject current=null] : ( () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )* ) ;
     public final EObject ruleTemplateBody() throws RecognitionException {
         EObject current = null;
 
@@ -764,18 +744,17 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
 
-        	enterRule();
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:326:2: ( ( () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )* ) )
-            // InternalSingleCodetemplateParser.g:327:2: ( () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )* )
+            // InternalSingleCodetemplateParser.g:307:1: ( ( () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )* ) )
+            // InternalSingleCodetemplateParser.g:308:2: ( () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )* )
             {
-            // InternalSingleCodetemplateParser.g:327:2: ( () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )* )
-            // InternalSingleCodetemplateParser.g:328:3: () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )*
+            // InternalSingleCodetemplateParser.g:308:2: ( () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )* )
+            // InternalSingleCodetemplateParser.g:309:3: () ( (lv_parts_1_0= ruleLiteral ) )? ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )*
             {
-            // InternalSingleCodetemplateParser.g:328:3: ()
-            // InternalSingleCodetemplateParser.g:329:4: 
+            // InternalSingleCodetemplateParser.g:309:3: ()
+            // InternalSingleCodetemplateParser.g:310:4: 
             {
 
             				current = forceCreateModelElement(
@@ -785,7 +764,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-            // InternalSingleCodetemplateParser.g:335:3: ( (lv_parts_1_0= ruleLiteral ) )?
+            // InternalSingleCodetemplateParser.g:316:3: ( (lv_parts_1_0= ruleLiteral ) )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -794,10 +773,10 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             }
             switch (alt3) {
                 case 1 :
-                    // InternalSingleCodetemplateParser.g:336:4: (lv_parts_1_0= ruleLiteral )
+                    // InternalSingleCodetemplateParser.g:317:4: (lv_parts_1_0= ruleLiteral )
                     {
-                    // InternalSingleCodetemplateParser.g:336:4: (lv_parts_1_0= ruleLiteral )
-                    // InternalSingleCodetemplateParser.g:337:5: lv_parts_1_0= ruleLiteral
+                    // InternalSingleCodetemplateParser.g:317:4: (lv_parts_1_0= ruleLiteral )
+                    // InternalSingleCodetemplateParser.g:318:5: lv_parts_1_0= ruleLiteral
                     {
 
                     					newCompositeNode(grammarAccess.getTemplateBodyAccess().getPartsLiteralParserRuleCall_1_0());
@@ -827,7 +806,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-            // InternalSingleCodetemplateParser.g:354:3: ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )*
+            // InternalSingleCodetemplateParser.g:335:3: ( ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )? )*
             loop5:
             do {
                 int alt5=2;
@@ -840,13 +819,13 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                 switch (alt5) {
             	case 1 :
-            	    // InternalSingleCodetemplateParser.g:355:4: ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )?
+            	    // InternalSingleCodetemplateParser.g:336:4: ( (lv_parts_2_0= ruleVariableOrDollar ) ) ( (lv_parts_3_0= ruleLiteral ) )?
             	    {
-            	    // InternalSingleCodetemplateParser.g:355:4: ( (lv_parts_2_0= ruleVariableOrDollar ) )
-            	    // InternalSingleCodetemplateParser.g:356:5: (lv_parts_2_0= ruleVariableOrDollar )
+            	    // InternalSingleCodetemplateParser.g:336:4: ( (lv_parts_2_0= ruleVariableOrDollar ) )
+            	    // InternalSingleCodetemplateParser.g:337:5: (lv_parts_2_0= ruleVariableOrDollar )
             	    {
-            	    // InternalSingleCodetemplateParser.g:356:5: (lv_parts_2_0= ruleVariableOrDollar )
-            	    // InternalSingleCodetemplateParser.g:357:6: lv_parts_2_0= ruleVariableOrDollar
+            	    // InternalSingleCodetemplateParser.g:337:5: (lv_parts_2_0= ruleVariableOrDollar )
+            	    // InternalSingleCodetemplateParser.g:338:6: lv_parts_2_0= ruleVariableOrDollar
             	    {
 
             	    						newCompositeNode(grammarAccess.getTemplateBodyAccess().getPartsVariableOrDollarParserRuleCall_2_0_0());
@@ -873,7 +852,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             	    }
 
-            	    // InternalSingleCodetemplateParser.g:374:4: ( (lv_parts_3_0= ruleLiteral ) )?
+            	    // InternalSingleCodetemplateParser.g:355:4: ( (lv_parts_3_0= ruleLiteral ) )?
             	    int alt4=2;
             	    int LA4_0 = input.LA(1);
 
@@ -882,10 +861,10 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             	    }
             	    switch (alt4) {
             	        case 1 :
-            	            // InternalSingleCodetemplateParser.g:375:5: (lv_parts_3_0= ruleLiteral )
+            	            // InternalSingleCodetemplateParser.g:356:5: (lv_parts_3_0= ruleLiteral )
             	            {
-            	            // InternalSingleCodetemplateParser.g:375:5: (lv_parts_3_0= ruleLiteral )
-            	            // InternalSingleCodetemplateParser.g:376:6: lv_parts_3_0= ruleLiteral
+            	            // InternalSingleCodetemplateParser.g:356:5: (lv_parts_3_0= ruleLiteral )
+            	            // InternalSingleCodetemplateParser.g:357:6: lv_parts_3_0= ruleLiteral
             	            {
 
             	            						newCompositeNode(grammarAccess.getTemplateBodyAccess().getPartsLiteralParserRuleCall_2_1_0());
@@ -930,9 +909,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -950,7 +926,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleVariableOrDollar"
-    // InternalSingleCodetemplateParser.g:401:1: entryRuleVariableOrDollar returns [EObject current=null] : iv_ruleVariableOrDollar= ruleVariableOrDollar EOF ;
+    // InternalSingleCodetemplateParser.g:382:1: entryRuleVariableOrDollar returns [EObject current=null] : iv_ruleVariableOrDollar= ruleVariableOrDollar EOF ;
     public final EObject entryRuleVariableOrDollar() throws RecognitionException {
         EObject current = null;
 
@@ -961,8 +937,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:403:2: (iv_ruleVariableOrDollar= ruleVariableOrDollar EOF )
-            // InternalSingleCodetemplateParser.g:404:2: iv_ruleVariableOrDollar= ruleVariableOrDollar EOF
+            // InternalSingleCodetemplateParser.g:384:2: (iv_ruleVariableOrDollar= ruleVariableOrDollar EOF )
+            // InternalSingleCodetemplateParser.g:385:2: iv_ruleVariableOrDollar= ruleVariableOrDollar EOF
             {
              newCompositeNode(grammarAccess.getVariableOrDollarRule()); 
             pushFollow(FOLLOW_1);
@@ -992,7 +968,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleVariableOrDollar"
-    // InternalSingleCodetemplateParser.g:413:1: ruleVariableOrDollar returns [EObject current=null] : (this_Variable_0= ruleVariable | this_Dollar_1= ruleDollar ) ;
+    // InternalSingleCodetemplateParser.g:394:1: ruleVariableOrDollar returns [EObject current=null] : (this_Variable_0= ruleVariable | this_Dollar_1= ruleDollar ) ;
     public final EObject ruleVariableOrDollar() throws RecognitionException {
         EObject current = null;
 
@@ -1002,14 +978,13 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
 
-        	enterRule();
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:420:2: ( (this_Variable_0= ruleVariable | this_Dollar_1= ruleDollar ) )
-            // InternalSingleCodetemplateParser.g:421:2: (this_Variable_0= ruleVariable | this_Dollar_1= ruleDollar )
+            // InternalSingleCodetemplateParser.g:398:1: ( (this_Variable_0= ruleVariable | this_Dollar_1= ruleDollar ) )
+            // InternalSingleCodetemplateParser.g:399:2: (this_Variable_0= ruleVariable | this_Dollar_1= ruleDollar )
             {
-            // InternalSingleCodetemplateParser.g:421:2: (this_Variable_0= ruleVariable | this_Dollar_1= ruleDollar )
+            // InternalSingleCodetemplateParser.g:399:2: (this_Variable_0= ruleVariable | this_Dollar_1= ruleDollar )
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -1027,7 +1002,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             }
             switch (alt6) {
                 case 1 :
-                    // InternalSingleCodetemplateParser.g:422:3: this_Variable_0= ruleVariable
+                    // InternalSingleCodetemplateParser.g:400:3: this_Variable_0= ruleVariable
                     {
 
                     			newCompositeNode(grammarAccess.getVariableOrDollarAccess().getVariableParserRuleCall_0());
@@ -1045,7 +1020,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                     }
                     break;
                 case 2 :
-                    // InternalSingleCodetemplateParser.g:431:3: this_Dollar_1= ruleDollar
+                    // InternalSingleCodetemplateParser.g:409:3: this_Dollar_1= ruleDollar
                     {
 
                     			newCompositeNode(grammarAccess.getVariableOrDollarAccess().getDollarParserRuleCall_1());
@@ -1068,9 +1043,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -1088,7 +1060,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleVariable"
-    // InternalSingleCodetemplateParser.g:446:1: entryRuleVariable returns [EObject current=null] : iv_ruleVariable= ruleVariable EOF ;
+    // InternalSingleCodetemplateParser.g:424:1: entryRuleVariable returns [EObject current=null] : iv_ruleVariable= ruleVariable EOF ;
     public final EObject entryRuleVariable() throws RecognitionException {
         EObject current = null;
 
@@ -1099,8 +1071,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:448:2: (iv_ruleVariable= ruleVariable EOF )
-            // InternalSingleCodetemplateParser.g:449:2: iv_ruleVariable= ruleVariable EOF
+            // InternalSingleCodetemplateParser.g:426:2: (iv_ruleVariable= ruleVariable EOF )
+            // InternalSingleCodetemplateParser.g:427:2: iv_ruleVariable= ruleVariable EOF
             {
              newCompositeNode(grammarAccess.getVariableRule()); 
             pushFollow(FOLLOW_1);
@@ -1130,7 +1102,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleVariable"
-    // InternalSingleCodetemplateParser.g:458:1: ruleVariable returns [EObject current=null] : (otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket ) ;
+    // InternalSingleCodetemplateParser.g:436:1: ruleVariable returns [EObject current=null] : (otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket ) ;
     public final EObject ruleVariable() throws RecognitionException {
         EObject current = null;
 
@@ -1163,21 +1135,20 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
 
-        	enterRule();
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:465:2: ( (otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket ) )
-            // InternalSingleCodetemplateParser.g:466:2: (otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket )
+            // InternalSingleCodetemplateParser.g:440:1: ( (otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket ) )
+            // InternalSingleCodetemplateParser.g:441:2: (otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket )
             {
-            // InternalSingleCodetemplateParser.g:466:2: (otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket )
-            // InternalSingleCodetemplateParser.g:467:3: otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket
+            // InternalSingleCodetemplateParser.g:441:2: (otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket )
+            // InternalSingleCodetemplateParser.g:442:3: otherlv_0= DollarSignLeftCurlyBracket (this_WS_1= RULE_WS )* ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) ) (this_WS_18= RULE_WS )* otherlv_19= RightCurlyBracket
             {
             otherlv_0=(Token)match(input,DollarSignLeftCurlyBracket,FOLLOW_12); 
 
             			newLeafNode(otherlv_0, grammarAccess.getVariableAccess().getDollarSignLeftCurlyBracketKeyword_0());
             		
-            // InternalSingleCodetemplateParser.g:471:3: (this_WS_1= RULE_WS )*
+            // InternalSingleCodetemplateParser.g:446:3: (this_WS_1= RULE_WS )*
             loop7:
             do {
                 int alt7=2;
@@ -1190,7 +1161,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                 switch (alt7) {
             	case 1 :
-            	    // InternalSingleCodetemplateParser.g:472:4: this_WS_1= RULE_WS
+            	    // InternalSingleCodetemplateParser.g:447:4: this_WS_1= RULE_WS
             	    {
             	    this_WS_1=(Token)match(input,RULE_WS,FOLLOW_12); 
 
@@ -1205,18 +1176,18 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                 }
             } while (true);
 
-            // InternalSingleCodetemplateParser.g:477:3: ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) )
+            // InternalSingleCodetemplateParser.g:452:3: ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) )
             int alt21=2;
             alt21 = dfa21.predict(input);
             switch (alt21) {
                 case 1 :
-                    // InternalSingleCodetemplateParser.g:478:4: ( (lv_name_2_0= ruleValidID ) )
+                    // InternalSingleCodetemplateParser.g:453:4: ( (lv_name_2_0= ruleValidID ) )
                     {
-                    // InternalSingleCodetemplateParser.g:478:4: ( (lv_name_2_0= ruleValidID ) )
-                    // InternalSingleCodetemplateParser.g:479:5: (lv_name_2_0= ruleValidID )
+                    // InternalSingleCodetemplateParser.g:453:4: ( (lv_name_2_0= ruleValidID ) )
+                    // InternalSingleCodetemplateParser.g:454:5: (lv_name_2_0= ruleValidID )
                     {
-                    // InternalSingleCodetemplateParser.g:479:5: (lv_name_2_0= ruleValidID )
-                    // InternalSingleCodetemplateParser.g:480:6: lv_name_2_0= ruleValidID
+                    // InternalSingleCodetemplateParser.g:454:5: (lv_name_2_0= ruleValidID )
+                    // InternalSingleCodetemplateParser.g:455:6: lv_name_2_0= ruleValidID
                     {
 
                     						newCompositeNode(grammarAccess.getVariableAccess().getNameValidIDParserRuleCall_2_0_0());
@@ -1247,12 +1218,12 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                     }
                     break;
                 case 2 :
-                    // InternalSingleCodetemplateParser.g:498:4: ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? )
+                    // InternalSingleCodetemplateParser.g:473:4: ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? )
                     {
-                    // InternalSingleCodetemplateParser.g:498:4: ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? )
-                    // InternalSingleCodetemplateParser.g:499:5: ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )?
+                    // InternalSingleCodetemplateParser.g:473:4: ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? )
+                    // InternalSingleCodetemplateParser.g:474:5: ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )?
                     {
-                    // InternalSingleCodetemplateParser.g:499:5: ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )?
+                    // InternalSingleCodetemplateParser.g:474:5: ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )?
                     int alt9=2;
                     int LA9_0 = input.LA(1);
 
@@ -1261,13 +1232,13 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                     }
                     switch (alt9) {
                         case 1 :
-                            // InternalSingleCodetemplateParser.g:500:6: ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )*
+                            // InternalSingleCodetemplateParser.g:475:6: ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )*
                             {
-                            // InternalSingleCodetemplateParser.g:500:6: ( (lv_name_3_0= ruleValidID ) )
-                            // InternalSingleCodetemplateParser.g:501:7: (lv_name_3_0= ruleValidID )
+                            // InternalSingleCodetemplateParser.g:475:6: ( (lv_name_3_0= ruleValidID ) )
+                            // InternalSingleCodetemplateParser.g:476:7: (lv_name_3_0= ruleValidID )
                             {
-                            // InternalSingleCodetemplateParser.g:501:7: (lv_name_3_0= ruleValidID )
-                            // InternalSingleCodetemplateParser.g:502:8: lv_name_3_0= ruleValidID
+                            // InternalSingleCodetemplateParser.g:476:7: (lv_name_3_0= ruleValidID )
+                            // InternalSingleCodetemplateParser.g:477:8: lv_name_3_0= ruleValidID
                             {
 
                             								newCompositeNode(grammarAccess.getVariableAccess().getNameValidIDParserRuleCall_2_1_0_0_0());
@@ -1294,7 +1265,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                             }
 
-                            // InternalSingleCodetemplateParser.g:519:6: (this_WS_4= RULE_WS )*
+                            // InternalSingleCodetemplateParser.g:494:6: (this_WS_4= RULE_WS )*
                             loop8:
                             do {
                                 int alt8=2;
@@ -1307,7 +1278,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                                 switch (alt8) {
                             	case 1 :
-                            	    // InternalSingleCodetemplateParser.g:520:7: this_WS_4= RULE_WS
+                            	    // InternalSingleCodetemplateParser.g:495:7: this_WS_4= RULE_WS
                             	    {
                             	    this_WS_4=(Token)match(input,RULE_WS,FOLLOW_14); 
 
@@ -1332,7 +1303,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                     					newLeafNode(otherlv_5, grammarAccess.getVariableAccess().getColonKeyword_2_1_1());
                     				
-                    // InternalSingleCodetemplateParser.g:530:5: (this_WS_6= RULE_WS )*
+                    // InternalSingleCodetemplateParser.g:505:5: (this_WS_6= RULE_WS )*
                     loop10:
                     do {
                         int alt10=2;
@@ -1345,7 +1316,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                         switch (alt10) {
                     	case 1 :
-                    	    // InternalSingleCodetemplateParser.g:531:6: this_WS_6= RULE_WS
+                    	    // InternalSingleCodetemplateParser.g:506:6: this_WS_6= RULE_WS
                     	    {
                     	    this_WS_6=(Token)match(input,RULE_WS,FOLLOW_15); 
 
@@ -1360,11 +1331,11 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                         }
                     } while (true);
 
-                    // InternalSingleCodetemplateParser.g:536:5: ( (lv_type_7_0= ruleValidID ) )
-                    // InternalSingleCodetemplateParser.g:537:6: (lv_type_7_0= ruleValidID )
+                    // InternalSingleCodetemplateParser.g:511:5: ( (lv_type_7_0= ruleValidID ) )
+                    // InternalSingleCodetemplateParser.g:512:6: (lv_type_7_0= ruleValidID )
                     {
-                    // InternalSingleCodetemplateParser.g:537:6: (lv_type_7_0= ruleValidID )
-                    // InternalSingleCodetemplateParser.g:538:7: lv_type_7_0= ruleValidID
+                    // InternalSingleCodetemplateParser.g:512:6: (lv_type_7_0= ruleValidID )
+                    // InternalSingleCodetemplateParser.g:513:7: lv_type_7_0= ruleValidID
                     {
 
                     							newCompositeNode(grammarAccess.getVariableAccess().getTypeValidIDParserRuleCall_2_1_3_0());
@@ -1391,14 +1362,14 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                     }
 
-                    // InternalSingleCodetemplateParser.g:555:5: ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )?
+                    // InternalSingleCodetemplateParser.g:530:5: ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )?
                     int alt20=2;
                     alt20 = dfa20.predict(input);
                     switch (alt20) {
                         case 1 :
-                            // InternalSingleCodetemplateParser.g:556:6: (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis
+                            // InternalSingleCodetemplateParser.g:531:6: (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis
                             {
-                            // InternalSingleCodetemplateParser.g:556:6: (this_WS_8= RULE_WS )*
+                            // InternalSingleCodetemplateParser.g:531:6: (this_WS_8= RULE_WS )*
                             loop11:
                             do {
                                 int alt11=2;
@@ -1411,7 +1382,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                                 switch (alt11) {
                             	case 1 :
-                            	    // InternalSingleCodetemplateParser.g:557:7: this_WS_8= RULE_WS
+                            	    // InternalSingleCodetemplateParser.g:532:7: this_WS_8= RULE_WS
                             	    {
                             	    this_WS_8=(Token)match(input,RULE_WS,FOLLOW_17); 
 
@@ -1426,11 +1397,11 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                                 }
                             } while (true);
 
-                            // InternalSingleCodetemplateParser.g:562:6: ( (lv_expectingParameters_9_0= LeftParenthesis ) )
-                            // InternalSingleCodetemplateParser.g:563:7: (lv_expectingParameters_9_0= LeftParenthesis )
+                            // InternalSingleCodetemplateParser.g:537:6: ( (lv_expectingParameters_9_0= LeftParenthesis ) )
+                            // InternalSingleCodetemplateParser.g:538:7: (lv_expectingParameters_9_0= LeftParenthesis )
                             {
-                            // InternalSingleCodetemplateParser.g:563:7: (lv_expectingParameters_9_0= LeftParenthesis )
-                            // InternalSingleCodetemplateParser.g:564:8: lv_expectingParameters_9_0= LeftParenthesis
+                            // InternalSingleCodetemplateParser.g:538:7: (lv_expectingParameters_9_0= LeftParenthesis )
+                            // InternalSingleCodetemplateParser.g:539:8: lv_expectingParameters_9_0= LeftParenthesis
                             {
                             lv_expectingParameters_9_0=(Token)match(input,LeftParenthesis,FOLLOW_18); 
 
@@ -1448,7 +1419,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                             }
 
-                            // InternalSingleCodetemplateParser.g:576:6: (this_WS_10= RULE_WS )*
+                            // InternalSingleCodetemplateParser.g:551:6: (this_WS_10= RULE_WS )*
                             loop12:
                             do {
                                 int alt12=2;
@@ -1461,7 +1432,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                                 switch (alt12) {
                             	case 1 :
-                            	    // InternalSingleCodetemplateParser.g:577:7: this_WS_10= RULE_WS
+                            	    // InternalSingleCodetemplateParser.g:552:7: this_WS_10= RULE_WS
                             	    {
                             	    this_WS_10=(Token)match(input,RULE_WS,FOLLOW_18); 
 
@@ -1476,7 +1447,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                                 }
                             } while (true);
 
-                            // InternalSingleCodetemplateParser.g:582:6: ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )?
+                            // InternalSingleCodetemplateParser.g:557:6: ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )?
                             int alt19=2;
                             int LA19_0 = input.LA(1);
 
@@ -1485,15 +1456,15 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                             }
                             switch (alt19) {
                                 case 1 :
-                                    // InternalSingleCodetemplateParser.g:583:7: ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )*
+                                    // InternalSingleCodetemplateParser.g:558:7: ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )*
                                     {
-                                    // InternalSingleCodetemplateParser.g:583:7: ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) )
-                                    // InternalSingleCodetemplateParser.g:584:8: ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) )
+                                    // InternalSingleCodetemplateParser.g:558:7: ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) )
+                                    // InternalSingleCodetemplateParser.g:559:8: ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) )
                                     {
-                                    // InternalSingleCodetemplateParser.g:584:8: ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) )
-                                    // InternalSingleCodetemplateParser.g:585:9: (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN )
+                                    // InternalSingleCodetemplateParser.g:559:8: ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) )
+                                    // InternalSingleCodetemplateParser.g:560:9: (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN )
                                     {
-                                    // InternalSingleCodetemplateParser.g:585:9: (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN )
+                                    // InternalSingleCodetemplateParser.g:560:9: (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN )
                                     int alt13=2;
                                     int LA13_0 = input.LA(1);
 
@@ -1511,7 +1482,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                                     }
                                     switch (alt13) {
                                         case 1 :
-                                            // InternalSingleCodetemplateParser.g:586:10: lv_parameters_11_1= RULE_STRING
+                                            // InternalSingleCodetemplateParser.g:561:10: lv_parameters_11_1= RULE_STRING
                                             {
                                             lv_parameters_11_1=(Token)match(input,RULE_STRING,FOLLOW_19); 
 
@@ -1531,7 +1502,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                                             }
                                             break;
                                         case 2 :
-                                            // InternalSingleCodetemplateParser.g:601:10: lv_parameters_11_2= ruleFQN
+                                            // InternalSingleCodetemplateParser.g:576:10: lv_parameters_11_2= ruleFQN
                                             {
 
                                             										newCompositeNode(grammarAccess.getVariableAccess().getParametersFQNParserRuleCall_2_1_4_3_0_0_1());
@@ -1564,16 +1535,16 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                                     }
 
-                                    // InternalSingleCodetemplateParser.g:619:7: ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )*
+                                    // InternalSingleCodetemplateParser.g:594:7: ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )*
                                     loop17:
                                     do {
                                         int alt17=2;
                                         alt17 = dfa17.predict(input);
                                         switch (alt17) {
                                     	case 1 :
-                                    	    // InternalSingleCodetemplateParser.g:620:8: (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) )
+                                    	    // InternalSingleCodetemplateParser.g:595:8: (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) )
                                     	    {
-                                    	    // InternalSingleCodetemplateParser.g:620:8: (this_WS_12= RULE_WS )*
+                                    	    // InternalSingleCodetemplateParser.g:595:8: (this_WS_12= RULE_WS )*
                                     	    loop14:
                                     	    do {
                                     	        int alt14=2;
@@ -1586,7 +1557,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                                     	        switch (alt14) {
                                     	    	case 1 :
-                                    	    	    // InternalSingleCodetemplateParser.g:621:9: this_WS_12= RULE_WS
+                                    	    	    // InternalSingleCodetemplateParser.g:596:9: this_WS_12= RULE_WS
                                     	    	    {
                                     	    	    this_WS_12=(Token)match(input,RULE_WS,FOLLOW_20); 
 
@@ -1605,7 +1576,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                                     	    								newLeafNode(otherlv_13, grammarAccess.getVariableAccess().getCommaKeyword_2_1_4_3_1_1());
                                     	    							
-                                    	    // InternalSingleCodetemplateParser.g:630:8: (this_WS_14= RULE_WS )*
+                                    	    // InternalSingleCodetemplateParser.g:605:8: (this_WS_14= RULE_WS )*
                                     	    loop15:
                                     	    do {
                                     	        int alt15=2;
@@ -1618,7 +1589,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                                     	        switch (alt15) {
                                     	    	case 1 :
-                                    	    	    // InternalSingleCodetemplateParser.g:631:9: this_WS_14= RULE_WS
+                                    	    	    // InternalSingleCodetemplateParser.g:606:9: this_WS_14= RULE_WS
                                     	    	    {
                                     	    	    this_WS_14=(Token)match(input,RULE_WS,FOLLOW_21); 
 
@@ -1633,13 +1604,13 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                                     	        }
                                     	    } while (true);
 
-                                    	    // InternalSingleCodetemplateParser.g:636:8: ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) )
-                                    	    // InternalSingleCodetemplateParser.g:637:9: ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) )
+                                    	    // InternalSingleCodetemplateParser.g:611:8: ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) )
+                                    	    // InternalSingleCodetemplateParser.g:612:9: ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) )
                                     	    {
-                                    	    // InternalSingleCodetemplateParser.g:637:9: ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) )
-                                    	    // InternalSingleCodetemplateParser.g:638:10: (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN )
+                                    	    // InternalSingleCodetemplateParser.g:612:9: ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) )
+                                    	    // InternalSingleCodetemplateParser.g:613:10: (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN )
                                     	    {
-                                    	    // InternalSingleCodetemplateParser.g:638:10: (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN )
+                                    	    // InternalSingleCodetemplateParser.g:613:10: (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN )
                                     	    int alt16=2;
                                     	    int LA16_0 = input.LA(1);
 
@@ -1657,7 +1628,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                                     	    }
                                     	    switch (alt16) {
                                     	        case 1 :
-                                    	            // InternalSingleCodetemplateParser.g:639:11: lv_parameters_15_1= RULE_STRING
+                                    	            // InternalSingleCodetemplateParser.g:614:11: lv_parameters_15_1= RULE_STRING
                                     	            {
                                     	            lv_parameters_15_1=(Token)match(input,RULE_STRING,FOLLOW_19); 
 
@@ -1677,7 +1648,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                                     	            }
                                     	            break;
                                     	        case 2 :
-                                    	            // InternalSingleCodetemplateParser.g:654:11: lv_parameters_15_2= ruleFQN
+                                    	            // InternalSingleCodetemplateParser.g:629:11: lv_parameters_15_2= ruleFQN
                                     	            {
 
                                     	            											newCompositeNode(grammarAccess.getVariableAccess().getParametersFQNParserRuleCall_2_1_4_3_1_3_0_1());
@@ -1719,7 +1690,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                                         }
                                     } while (true);
 
-                                    // InternalSingleCodetemplateParser.g:673:7: (this_WS_16= RULE_WS )*
+                                    // InternalSingleCodetemplateParser.g:648:7: (this_WS_16= RULE_WS )*
                                     loop18:
                                     do {
                                         int alt18=2;
@@ -1732,7 +1703,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                                         switch (alt18) {
                                     	case 1 :
-                                    	    // InternalSingleCodetemplateParser.g:674:8: this_WS_16= RULE_WS
+                                    	    // InternalSingleCodetemplateParser.g:649:8: this_WS_16= RULE_WS
                                     	    {
                                     	    this_WS_16=(Token)match(input,RULE_WS,FOLLOW_22); 
 
@@ -1772,7 +1743,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-            // InternalSingleCodetemplateParser.g:687:3: (this_WS_18= RULE_WS )*
+            // InternalSingleCodetemplateParser.g:662:3: (this_WS_18= RULE_WS )*
             loop22:
             do {
                 int alt22=2;
@@ -1785,7 +1756,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                 switch (alt22) {
             	case 1 :
-            	    // InternalSingleCodetemplateParser.g:688:4: this_WS_18= RULE_WS
+            	    // InternalSingleCodetemplateParser.g:663:4: this_WS_18= RULE_WS
             	    {
             	    this_WS_18=(Token)match(input,RULE_WS,FOLLOW_13); 
 
@@ -1810,9 +1781,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -1830,7 +1798,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleValidID"
-    // InternalSingleCodetemplateParser.g:704:1: entryRuleValidID returns [String current=null] : iv_ruleValidID= ruleValidID EOF ;
+    // InternalSingleCodetemplateParser.g:679:1: entryRuleValidID returns [String current=null] : iv_ruleValidID= ruleValidID EOF ;
     public final String entryRuleValidID() throws RecognitionException {
         String current = null;
 
@@ -1841,8 +1809,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:706:2: (iv_ruleValidID= ruleValidID EOF )
-            // InternalSingleCodetemplateParser.g:707:2: iv_ruleValidID= ruleValidID EOF
+            // InternalSingleCodetemplateParser.g:681:2: (iv_ruleValidID= ruleValidID EOF )
+            // InternalSingleCodetemplateParser.g:682:2: iv_ruleValidID= ruleValidID EOF
             {
              newCompositeNode(grammarAccess.getValidIDRule()); 
             pushFollow(FOLLOW_1);
@@ -1872,7 +1840,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleValidID"
-    // InternalSingleCodetemplateParser.g:716:1: ruleValidID returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ID_0= RULE_ID | kw= For | kw= Templates ) ;
+    // InternalSingleCodetemplateParser.g:691:1: ruleValidID returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ID_0= RULE_ID | kw= For | kw= Templates ) ;
     public final AntlrDatatypeRuleToken ruleValidID() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
@@ -1880,14 +1848,13 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         Token kw=null;
 
 
-        	enterRule();
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:723:2: ( (this_ID_0= RULE_ID | kw= For | kw= Templates ) )
-            // InternalSingleCodetemplateParser.g:724:2: (this_ID_0= RULE_ID | kw= For | kw= Templates )
+            // InternalSingleCodetemplateParser.g:695:1: ( (this_ID_0= RULE_ID | kw= For | kw= Templates ) )
+            // InternalSingleCodetemplateParser.g:696:2: (this_ID_0= RULE_ID | kw= For | kw= Templates )
             {
-            // InternalSingleCodetemplateParser.g:724:2: (this_ID_0= RULE_ID | kw= For | kw= Templates )
+            // InternalSingleCodetemplateParser.g:696:2: (this_ID_0= RULE_ID | kw= For | kw= Templates )
             int alt23=3;
             switch ( input.LA(1) ) {
             case RULE_ID:
@@ -1914,7 +1881,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             switch (alt23) {
                 case 1 :
-                    // InternalSingleCodetemplateParser.g:725:3: this_ID_0= RULE_ID
+                    // InternalSingleCodetemplateParser.g:697:3: this_ID_0= RULE_ID
                     {
                     this_ID_0=(Token)match(input,RULE_ID,FOLLOW_2); 
 
@@ -1927,7 +1894,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                     }
                     break;
                 case 2 :
-                    // InternalSingleCodetemplateParser.g:733:3: kw= For
+                    // InternalSingleCodetemplateParser.g:705:3: kw= For
                     {
                     kw=(Token)match(input,For,FOLLOW_2); 
 
@@ -1938,7 +1905,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                     }
                     break;
                 case 3 :
-                    // InternalSingleCodetemplateParser.g:739:3: kw= Templates
+                    // InternalSingleCodetemplateParser.g:711:3: kw= Templates
                     {
                     kw=(Token)match(input,Templates,FOLLOW_2); 
 
@@ -1953,9 +1920,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
             }
-
-
-            	leaveRule();
 
         }
 
@@ -1974,7 +1938,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleFQN"
-    // InternalSingleCodetemplateParser.g:751:1: entryRuleFQN returns [String current=null] : iv_ruleFQN= ruleFQN EOF ;
+    // InternalSingleCodetemplateParser.g:723:1: entryRuleFQN returns [String current=null] : iv_ruleFQN= ruleFQN EOF ;
     public final String entryRuleFQN() throws RecognitionException {
         String current = null;
 
@@ -1985,8 +1949,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:753:2: (iv_ruleFQN= ruleFQN EOF )
-            // InternalSingleCodetemplateParser.g:754:2: iv_ruleFQN= ruleFQN EOF
+            // InternalSingleCodetemplateParser.g:725:2: (iv_ruleFQN= ruleFQN EOF )
+            // InternalSingleCodetemplateParser.g:726:2: iv_ruleFQN= ruleFQN EOF
             {
              newCompositeNode(grammarAccess.getFQNRule()); 
             pushFollow(FOLLOW_1);
@@ -2016,7 +1980,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleFQN"
-    // InternalSingleCodetemplateParser.g:763:1: ruleFQN returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )* ) ;
+    // InternalSingleCodetemplateParser.g:735:1: ruleFQN returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )* ) ;
     public final AntlrDatatypeRuleToken ruleFQN() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
@@ -2027,15 +1991,14 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
 
-        	enterRule();
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:770:2: ( (this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )* ) )
-            // InternalSingleCodetemplateParser.g:771:2: (this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )* )
+            // InternalSingleCodetemplateParser.g:739:1: ( (this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )* ) )
+            // InternalSingleCodetemplateParser.g:740:2: (this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )* )
             {
-            // InternalSingleCodetemplateParser.g:771:2: (this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )* )
-            // InternalSingleCodetemplateParser.g:772:3: this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )*
+            // InternalSingleCodetemplateParser.g:740:2: (this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )* )
+            // InternalSingleCodetemplateParser.g:741:3: this_ValidID_0= ruleValidID (kw= FullStop this_ValidID_2= ruleValidID )*
             {
 
             			newCompositeNode(grammarAccess.getFQNAccess().getValidIDParserRuleCall_0());
@@ -2051,7 +2014,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             			afterParserOrEnumRuleCall();
             		
-            // InternalSingleCodetemplateParser.g:782:3: (kw= FullStop this_ValidID_2= ruleValidID )*
+            // InternalSingleCodetemplateParser.g:751:3: (kw= FullStop this_ValidID_2= ruleValidID )*
             loop24:
             do {
                 int alt24=2;
@@ -2064,7 +2027,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
                 switch (alt24) {
             	case 1 :
-            	    // InternalSingleCodetemplateParser.g:783:4: kw= FullStop this_ValidID_2= ruleValidID
+            	    // InternalSingleCodetemplateParser.g:752:4: kw= FullStop this_ValidID_2= ruleValidID
             	    {
             	    kw=(Token)match(input,FullStop,FOLLOW_4); 
 
@@ -2100,9 +2063,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -2120,7 +2080,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleLiteral"
-    // InternalSingleCodetemplateParser.g:806:1: entryRuleLiteral returns [EObject current=null] : iv_ruleLiteral= ruleLiteral EOF ;
+    // InternalSingleCodetemplateParser.g:775:1: entryRuleLiteral returns [EObject current=null] : iv_ruleLiteral= ruleLiteral EOF ;
     public final EObject entryRuleLiteral() throws RecognitionException {
         EObject current = null;
 
@@ -2131,8 +2091,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:808:2: (iv_ruleLiteral= ruleLiteral EOF )
-            // InternalSingleCodetemplateParser.g:809:2: iv_ruleLiteral= ruleLiteral EOF
+            // InternalSingleCodetemplateParser.g:777:2: (iv_ruleLiteral= ruleLiteral EOF )
+            // InternalSingleCodetemplateParser.g:778:2: iv_ruleLiteral= ruleLiteral EOF
             {
              newCompositeNode(grammarAccess.getLiteralRule()); 
             pushFollow(FOLLOW_1);
@@ -2162,7 +2122,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleLiteral"
-    // InternalSingleCodetemplateParser.g:818:1: ruleLiteral returns [EObject current=null] : ( (lv_value_0_0= ruleLiteralValue ) ) ;
+    // InternalSingleCodetemplateParser.g:787:1: ruleLiteral returns [EObject current=null] : ( (lv_value_0_0= ruleLiteralValue ) ) ;
     public final EObject ruleLiteral() throws RecognitionException {
         EObject current = null;
 
@@ -2170,18 +2130,17 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
 
-        	enterRule();
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:825:2: ( ( (lv_value_0_0= ruleLiteralValue ) ) )
-            // InternalSingleCodetemplateParser.g:826:2: ( (lv_value_0_0= ruleLiteralValue ) )
+            // InternalSingleCodetemplateParser.g:791:1: ( ( (lv_value_0_0= ruleLiteralValue ) ) )
+            // InternalSingleCodetemplateParser.g:792:2: ( (lv_value_0_0= ruleLiteralValue ) )
             {
-            // InternalSingleCodetemplateParser.g:826:2: ( (lv_value_0_0= ruleLiteralValue ) )
-            // InternalSingleCodetemplateParser.g:827:3: (lv_value_0_0= ruleLiteralValue )
+            // InternalSingleCodetemplateParser.g:792:2: ( (lv_value_0_0= ruleLiteralValue ) )
+            // InternalSingleCodetemplateParser.g:793:3: (lv_value_0_0= ruleLiteralValue )
             {
-            // InternalSingleCodetemplateParser.g:827:3: (lv_value_0_0= ruleLiteralValue )
-            // InternalSingleCodetemplateParser.g:828:4: lv_value_0_0= ruleLiteralValue
+            // InternalSingleCodetemplateParser.g:793:3: (lv_value_0_0= ruleLiteralValue )
+            // InternalSingleCodetemplateParser.g:794:4: lv_value_0_0= ruleLiteralValue
             {
 
             				newCompositeNode(grammarAccess.getLiteralAccess().getValueLiteralValueParserRuleCall_0());
@@ -2211,9 +2170,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -2231,7 +2187,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "entryRuleDollar"
-    // InternalSingleCodetemplateParser.g:851:1: entryRuleDollar returns [EObject current=null] : iv_ruleDollar= ruleDollar EOF ;
+    // InternalSingleCodetemplateParser.g:817:1: entryRuleDollar returns [EObject current=null] : iv_ruleDollar= ruleDollar EOF ;
     public final EObject entryRuleDollar() throws RecognitionException {
         EObject current = null;
 
@@ -2242,8 +2198,8 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:853:2: (iv_ruleDollar= ruleDollar EOF )
-            // InternalSingleCodetemplateParser.g:854:2: iv_ruleDollar= ruleDollar EOF
+            // InternalSingleCodetemplateParser.g:819:2: (iv_ruleDollar= ruleDollar EOF )
+            // InternalSingleCodetemplateParser.g:820:2: iv_ruleDollar= ruleDollar EOF
             {
              newCompositeNode(grammarAccess.getDollarRule()); 
             pushFollow(FOLLOW_1);
@@ -2273,7 +2229,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
     // $ANTLR start "ruleDollar"
-    // InternalSingleCodetemplateParser.g:863:1: ruleDollar returns [EObject current=null] : ( () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign ) ) ;
+    // InternalSingleCodetemplateParser.g:829:1: ruleDollar returns [EObject current=null] : ( () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign ) ) ;
     public final EObject ruleDollar() throws RecognitionException {
         EObject current = null;
 
@@ -2281,18 +2237,17 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
         Token otherlv_2=null;
 
 
-        	enterRule();
         	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 
         try {
-            // InternalSingleCodetemplateParser.g:870:2: ( ( () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign ) ) )
-            // InternalSingleCodetemplateParser.g:871:2: ( () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign ) )
+            // InternalSingleCodetemplateParser.g:833:1: ( ( () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign ) ) )
+            // InternalSingleCodetemplateParser.g:834:2: ( () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign ) )
             {
-            // InternalSingleCodetemplateParser.g:871:2: ( () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign ) )
-            // InternalSingleCodetemplateParser.g:872:3: () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign )
+            // InternalSingleCodetemplateParser.g:834:2: ( () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign ) )
+            // InternalSingleCodetemplateParser.g:835:3: () ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign )
             {
-            // InternalSingleCodetemplateParser.g:872:3: ()
-            // InternalSingleCodetemplateParser.g:873:4: 
+            // InternalSingleCodetemplateParser.g:835:3: ()
+            // InternalSingleCodetemplateParser.g:836:4: 
             {
 
             				current = forceCreateModelElement(
@@ -2302,7 +2257,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
             }
 
-            // InternalSingleCodetemplateParser.g:879:3: ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign )
+            // InternalSingleCodetemplateParser.g:842:3: ( ( (lv_escaped_1_0= DollarSignDollarSign ) ) | otherlv_2= DollarSign )
             int alt25=2;
             int LA25_0 = input.LA(1);
 
@@ -2320,13 +2275,13 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             }
             switch (alt25) {
                 case 1 :
-                    // InternalSingleCodetemplateParser.g:880:4: ( (lv_escaped_1_0= DollarSignDollarSign ) )
+                    // InternalSingleCodetemplateParser.g:843:4: ( (lv_escaped_1_0= DollarSignDollarSign ) )
                     {
-                    // InternalSingleCodetemplateParser.g:880:4: ( (lv_escaped_1_0= DollarSignDollarSign ) )
-                    // InternalSingleCodetemplateParser.g:881:5: (lv_escaped_1_0= DollarSignDollarSign )
+                    // InternalSingleCodetemplateParser.g:843:4: ( (lv_escaped_1_0= DollarSignDollarSign ) )
+                    // InternalSingleCodetemplateParser.g:844:5: (lv_escaped_1_0= DollarSignDollarSign )
                     {
-                    // InternalSingleCodetemplateParser.g:881:5: (lv_escaped_1_0= DollarSignDollarSign )
-                    // InternalSingleCodetemplateParser.g:882:6: lv_escaped_1_0= DollarSignDollarSign
+                    // InternalSingleCodetemplateParser.g:844:5: (lv_escaped_1_0= DollarSignDollarSign )
+                    // InternalSingleCodetemplateParser.g:845:6: lv_escaped_1_0= DollarSignDollarSign
                     {
                     lv_escaped_1_0=(Token)match(input,DollarSignDollarSign,FOLLOW_2); 
 
@@ -2348,7 +2303,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
                     }
                     break;
                 case 2 :
-                    // InternalSingleCodetemplateParser.g:895:4: otherlv_2= DollarSign
+                    // InternalSingleCodetemplateParser.g:858:4: otherlv_2= DollarSign
                     {
                     otherlv_2=(Token)match(input,DollarSign,FOLLOW_2); 
 
@@ -2365,9 +2320,6 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
 
 
             }
-
-
-            	leaveRule();
 
         }
 
@@ -2426,7 +2378,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             this.transition = dfa_6;
         }
         public String getDescription() {
-            return "477:3: ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) )";
+            return "452:3: ( ( (lv_name_2_0= ruleValidID ) ) | ( ( ( (lv_name_3_0= ruleValidID ) ) (this_WS_4= RULE_WS )* )? otherlv_5= Colon (this_WS_6= RULE_WS )* ( (lv_type_7_0= ruleValidID ) ) ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )? ) )";
         }
     }
     static final String dfa_7s = "\4\uffff";
@@ -2462,7 +2414,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             this.transition = dfa_12;
         }
         public String getDescription() {
-            return "555:5: ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )?";
+            return "530:5: ( (this_WS_8= RULE_WS )* ( (lv_expectingParameters_9_0= LeftParenthesis ) ) (this_WS_10= RULE_WS )* ( ( ( (lv_parameters_11_1= RULE_STRING | lv_parameters_11_2= ruleFQN ) ) ) ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )* (this_WS_16= RULE_WS )* )? otherlv_17= RightParenthesis )?";
         }
     }
     static final String dfa_13s = "\2\13\2\uffff";
@@ -2491,7 +2443,7 @@ public class InternalSingleCodetemplateParser extends AbstractInternalAntlrParse
             this.transition = dfa_15;
         }
         public String getDescription() {
-            return "()* loopback of 619:7: ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )*";
+            return "()* loopback of 594:7: ( (this_WS_12= RULE_WS )* otherlv_13= Comma (this_WS_14= RULE_WS )* ( ( (lv_parameters_15_1= RULE_STRING | lv_parameters_15_2= ruleFQN ) ) ) )*";
         }
     }
  

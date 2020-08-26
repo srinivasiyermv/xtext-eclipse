@@ -69,12 +69,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	{
 		newCompositeNode(grammarAccess.getModelAccess().getTypesParserRuleCall());
 	}
@@ -94,12 +89,7 @@ entryRuleTypes returns [EObject current=null]:
 
 // Rule Types
 ruleTypes returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -143,12 +133,7 @@ entryRuleType returns [EObject current=null]:
 
 // Rule Type
 ruleType returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getTypeAccess().getSimpleTypeParserRuleCall_0());
@@ -179,12 +164,7 @@ entryRuleSimpleType returns [EObject current=null]:
 
 // Rule SimpleType
 ruleSimpleType returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='Type'
 		{
@@ -224,12 +204,7 @@ entryRuleCompositeType returns [EObject current=null]:
 
 // Rule CompositeType
 ruleCompositeType returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='Composite'
 		{
@@ -292,12 +267,7 @@ entryRuleCompositeTypeEntry returns [EObject current=null]:
 
 // Rule CompositeTypeEntry
 ruleCompositeTypeEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -325,12 +295,7 @@ entryRuleTypeId returns [String current=null]:
 
 // Rule TypeId
 ruleTypeId returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_ID_0=RULE_ID
 		{

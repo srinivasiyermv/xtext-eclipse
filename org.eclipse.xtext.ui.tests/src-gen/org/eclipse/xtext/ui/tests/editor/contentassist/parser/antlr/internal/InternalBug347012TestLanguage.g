@@ -69,12 +69,7 @@ entryRuleMyProgram returns [EObject current=null]:
 
 // Rule MyProgram
 ruleMyProgram returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -126,12 +121,7 @@ entryRuleIdentifier returns [EObject current=null]:
 
 // Rule Identifier
 ruleIdentifier returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			lv_name_0_0=RULE_ID
@@ -161,12 +151,7 @@ entryRuleFQN returns [String current=null]:
 
 // Rule FQN
 ruleFQN returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_ID_0=RULE_ID
 		{
@@ -219,12 +204,7 @@ entryRuleVirtualSemi returns [String current=null]:
 
 // Rule VirtualSemi
 ruleVirtualSemi returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		kw=';'
 		{
@@ -251,12 +231,7 @@ entryRuleLiteral returns [EObject current=null]:
 
 // Rule Literal
 ruleLiteral returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -337,12 +312,7 @@ entryRuleMyPrimary returns [EObject current=null]:
 
 // Rule MyPrimary
 ruleMyPrimary returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getMyPrimaryAccess().getLiteralParserRuleCall_0());
@@ -373,12 +343,7 @@ entryRuleMyPackage returns [EObject current=null]:
 
 // Rule MyPackage
 ruleMyPackage returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='package'
 		{
@@ -468,12 +433,7 @@ entryRuleMyClass returns [EObject current=null]:
 
 // Rule MyClass
 ruleMyClass returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			otherlv_0='public'
@@ -568,12 +528,7 @@ entryRuleMyAttribute returns [EObject current=null]:
 
 // Rule MyAttribute
 ruleMyAttribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -616,12 +571,7 @@ entryRuleMyAttributes returns [EObject current=null]:
 
 // Rule MyAttributes
 ruleMyAttributes returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -661,12 +611,7 @@ entryRuleMyField returns [EObject current=null]:
 
 // Rule MyField
 ruleMyField returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -772,12 +717,7 @@ entryRuleMyBinding returns [EObject current=null]:
 
 // Rule MyBinding
 ruleMyBinding returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(

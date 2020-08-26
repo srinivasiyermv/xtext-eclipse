@@ -69,12 +69,7 @@ entryRuleFile returns [EObject current=null]:
 
 // Rule File
 ruleFile returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -105,12 +100,7 @@ entryRuleExpression returns [EObject current=null]:
 
 // Rule Expression
 ruleExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getExpressionAccess().getSExpressionParserRuleCall_0());
@@ -160,12 +150,7 @@ entryRuleSExpression returns [EObject current=null]:
 
 // Rule SExpression
 ruleSExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -247,12 +232,7 @@ entryRuleAtom returns [EObject current=null]:
 
 // Rule Atom
 ruleAtom returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -283,12 +263,7 @@ entryRuleVALUE returns [String current=null]:
 
 // Rule VALUE
 ruleVALUE returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_ID_0=RULE_ID
 		{

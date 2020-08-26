@@ -69,12 +69,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			otherlv_0='1'
@@ -243,12 +238,7 @@ entryRuleSimpleModel returns [EObject current=null]:
 
 // Rule SimpleModel
 ruleSimpleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -439,12 +429,7 @@ entryRuleMandatoryModel returns [EObject current=null]:
 
 // Rule MandatoryModel
 ruleMandatoryModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -636,12 +621,7 @@ entryRuleLoopedModel returns [EObject current=null]:
 
 // Rule LoopedModel
 ruleLoopedModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -832,12 +812,7 @@ entryRuleGroupLoopedModel returns [EObject current=null]:
 
 // Rule GroupLoopedModel
 ruleGroupLoopedModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1029,12 +1004,7 @@ entryRuleLoopedAlternativeModel returns [EObject current=null]:
 
 // Rule LoopedAlternativeModel
 ruleLoopedAlternativeModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1193,12 +1163,7 @@ entryRuleBug304681Model returns [EObject current=null]:
 
 // Rule Bug304681Model
 ruleBug304681Model returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1409,12 +1374,7 @@ entryRuleBug304681Feature returns [EObject current=null]:
 
 // Rule Bug304681Feature
 ruleBug304681Feature returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getBug304681FeatureAccess().getBug304681AttributeParserRuleCall_0());
@@ -1445,12 +1405,7 @@ entryRuleBug304681Attribute returns [EObject current=null]:
 
 // Rule Bug304681Attribute
 ruleBug304681Attribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='attr'
 		{
@@ -1490,12 +1445,7 @@ entryRuleBug304681Reference returns [EObject current=null]:
 
 // Rule Bug304681Reference
 ruleBug304681Reference returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='ref'
 		{

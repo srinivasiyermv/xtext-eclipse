@@ -70,12 +70,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -106,12 +101,7 @@ entryRuleClass returns [EObject current=null]:
 
 // Rule Class
 ruleClass returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -366,12 +356,7 @@ entryRuleAttribute returns [EObject current=null]:
 
 // Rule Attribute
 ruleAttribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -426,12 +411,7 @@ entryRuleOperation returns [EObject current=null]:
 
 // Rule Operation
 ruleOperation returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -479,12 +459,7 @@ ruleOperation returns [EObject current=null]
 
 // Rule Visibility
 ruleVisibility returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='PRIVATE'

@@ -70,12 +70,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			otherlv_0='alternative'
@@ -140,12 +135,7 @@ entryRuleAlternative returns [EObject current=null]:
 
 // Rule Alternative
 ruleAlternative returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='package'
 		{
@@ -205,12 +195,7 @@ entryRuleFQN returns [String current=null]:
 
 // Rule FQN
 ruleFQN returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_ID_0=RULE_ID
 		{
@@ -245,12 +230,7 @@ entryRuleRecursiveClassDeclaration returns [EObject current=null]:
 
 // Rule RecursiveClassDeclaration
 ruleRecursiveClassDeclaration returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -332,12 +312,7 @@ entryRuleAlternativeClassModifiers returns [EObject current=null]:
 
 // Rule AlternativeClassModifiers
 ruleAlternativeClassModifiers returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -424,12 +399,7 @@ entryRuleUnordered returns [EObject current=null]:
 
 // Rule Unordered
 ruleUnordered returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='package'
 		{
@@ -489,12 +459,7 @@ entryRuleSimpleClassDeclaration returns [EObject current=null]:
 
 // Rule SimpleClassDeclaration
 ruleSimpleClassDeclaration returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -576,12 +541,7 @@ entryRuleClassMember returns [EObject current=null]:
 
 // Rule ClassMember
 ruleClassMember returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -640,12 +600,7 @@ entryRuleUnorderedModifiers returns [EObject current=null]:
 
 // Rule UnorderedModifiers
 ruleUnorderedModifiers returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -770,12 +725,7 @@ ruleUnorderedModifiers returns [EObject current=null]
 
 // Rule Visibility
 ruleVisibility returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='public'

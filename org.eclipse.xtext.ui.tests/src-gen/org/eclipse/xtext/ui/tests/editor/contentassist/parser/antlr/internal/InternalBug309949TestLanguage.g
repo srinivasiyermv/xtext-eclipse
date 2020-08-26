@@ -69,12 +69,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -752,12 +747,7 @@ entryRuleError_1 returns [EObject current=null]:
 
 // Rule Error_1
 ruleError_1 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -812,12 +802,7 @@ entryRuleOperation_1 returns [EObject current=null]:
 
 // Rule Operation_1
 ruleOperation_1 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -872,12 +857,7 @@ entryRuleError_2 returns [EObject current=null]:
 
 // Rule Error_2
 ruleError_2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -932,12 +912,7 @@ entryRuleOperation_2 returns [EObject current=null]:
 
 // Rule Operation_2
 ruleOperation_2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -992,12 +967,7 @@ entryRuleError_3 returns [EObject current=null]:
 
 // Rule Error_3
 ruleError_3 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1052,12 +1022,7 @@ entryRuleOperation_3 returns [EObject current=null]:
 
 // Rule Operation_3
 ruleOperation_3 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1112,12 +1077,7 @@ entryRuleError_4 returns [EObject current=null]:
 
 // Rule Error_4
 ruleError_4 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1172,12 +1132,7 @@ entryRuleOperation_4 returns [EObject current=null]:
 
 // Rule Operation_4
 ruleOperation_4 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1232,12 +1187,7 @@ entryRuleError_5 returns [EObject current=null]:
 
 // Rule Error_5
 ruleError_5 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='error'
 		{
@@ -1273,12 +1223,7 @@ entryRuleOperation_5 returns [EObject current=null]:
 
 // Rule Operation_5
 ruleOperation_5 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='operation'
 		{
@@ -1314,12 +1259,7 @@ entryRuleAnnotation returns [EObject current=null]:
 
 // Rule Annotation
 ruleAnnotation returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='@uuid'
 		{

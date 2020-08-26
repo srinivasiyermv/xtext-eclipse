@@ -69,12 +69,7 @@ entryRuleMain returns [EObject current=null]:
 
 // Rule Main
 ruleMain returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -105,12 +100,7 @@ entryRuleAbstractReference returns [EObject current=null]:
 
 // Rule AbstractReference
 ruleAbstractReference returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAbstractReferenceAccess().getReferenceParserRuleCall_0());
@@ -141,12 +131,7 @@ entryRuleReference returns [EObject current=null]:
 
 // Rule Reference
 ruleReference returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='ref'
 		{
@@ -180,12 +165,7 @@ entryRuleReference2 returns [EObject current=null]:
 
 // Rule Reference2
 ruleReference2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getReference2Access().getNamedParserRuleCall_0());
@@ -227,12 +207,7 @@ entryRuleNamed returns [EObject current=null]:
 
 // Rule Named
 ruleNamed returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			lv_name_0_0=RULE_ID
@@ -262,12 +237,7 @@ entryRuleFQN returns [String current=null]:
 
 // Rule FQN
 ruleFQN returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_ID_0=RULE_ID
 		{

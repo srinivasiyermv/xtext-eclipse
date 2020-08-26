@@ -119,14 +119,11 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
         EObject lv_elements_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalOutlineTestLanguage.g:77:2: ( ( (lv_elements_0_0= ruleElement ) )* )
-            // InternalOutlineTestLanguage.g:78:2: ( (lv_elements_0_0= ruleElement ) )*
+            // InternalOutlineTestLanguage.g:72:1: ( ( (lv_elements_0_0= ruleElement ) )* )
+            // InternalOutlineTestLanguage.g:73:2: ( (lv_elements_0_0= ruleElement ) )*
             {
-            // InternalOutlineTestLanguage.g:78:2: ( (lv_elements_0_0= ruleElement ) )*
+            // InternalOutlineTestLanguage.g:73:2: ( (lv_elements_0_0= ruleElement ) )*
             loop1:
             do {
                 int alt1=2;
@@ -139,10 +136,10 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
                 switch (alt1) {
             	case 1 :
-            	    // InternalOutlineTestLanguage.g:79:3: (lv_elements_0_0= ruleElement )
+            	    // InternalOutlineTestLanguage.g:74:3: (lv_elements_0_0= ruleElement )
             	    {
-            	    // InternalOutlineTestLanguage.g:79:3: (lv_elements_0_0= ruleElement )
-            	    // InternalOutlineTestLanguage.g:80:4: lv_elements_0_0= ruleElement
+            	    // InternalOutlineTestLanguage.g:74:3: (lv_elements_0_0= ruleElement )
+            	    // InternalOutlineTestLanguage.g:75:4: lv_elements_0_0= ruleElement
             	    {
 
             	    				newCompositeNode(grammarAccess.getModelAccess().getElementsElementParserRuleCall_0());
@@ -178,9 +175,6 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -195,7 +189,7 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "entryRuleElement"
-    // InternalOutlineTestLanguage.g:100:1: entryRuleElement returns [EObject current=null] : iv_ruleElement= ruleElement EOF ;
+    // InternalOutlineTestLanguage.g:95:1: entryRuleElement returns [EObject current=null] : iv_ruleElement= ruleElement EOF ;
     public final EObject entryRuleElement() throws RecognitionException {
         EObject current = null;
 
@@ -203,8 +197,8 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
 
         try {
-            // InternalOutlineTestLanguage.g:100:48: (iv_ruleElement= ruleElement EOF )
-            // InternalOutlineTestLanguage.g:101:2: iv_ruleElement= ruleElement EOF
+            // InternalOutlineTestLanguage.g:95:48: (iv_ruleElement= ruleElement EOF )
+            // InternalOutlineTestLanguage.g:96:2: iv_ruleElement= ruleElement EOF
             {
              newCompositeNode(grammarAccess.getElementRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -231,7 +225,7 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
 
     // $ANTLR start "ruleElement"
-    // InternalOutlineTestLanguage.g:107:1: ruleElement returns [EObject current=null] : ( ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}' ) ;
+    // InternalOutlineTestLanguage.g:102:1: ruleElement returns [EObject current=null] : ( ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}' ) ;
     public final EObject ruleElement() throws RecognitionException {
         EObject current = null;
 
@@ -244,21 +238,18 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
         EObject lv_children_5_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalOutlineTestLanguage.g:113:2: ( ( ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}' ) )
-            // InternalOutlineTestLanguage.g:114:2: ( ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}' )
+            // InternalOutlineTestLanguage.g:103:1: ( ( ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}' ) )
+            // InternalOutlineTestLanguage.g:104:2: ( ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}' )
             {
-            // InternalOutlineTestLanguage.g:114:2: ( ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}' )
-            // InternalOutlineTestLanguage.g:115:3: ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}'
+            // InternalOutlineTestLanguage.g:104:2: ( ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}' )
+            // InternalOutlineTestLanguage.g:105:3: ( (lv_name_0_0= RULE_ID ) ) (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )? otherlv_4= '{' ( (lv_children_5_0= ruleElement ) )* otherlv_6= '}'
             {
-            // InternalOutlineTestLanguage.g:115:3: ( (lv_name_0_0= RULE_ID ) )
-            // InternalOutlineTestLanguage.g:116:4: (lv_name_0_0= RULE_ID )
+            // InternalOutlineTestLanguage.g:105:3: ( (lv_name_0_0= RULE_ID ) )
+            // InternalOutlineTestLanguage.g:106:4: (lv_name_0_0= RULE_ID )
             {
-            // InternalOutlineTestLanguage.g:116:4: (lv_name_0_0= RULE_ID )
-            // InternalOutlineTestLanguage.g:117:5: lv_name_0_0= RULE_ID
+            // InternalOutlineTestLanguage.g:106:4: (lv_name_0_0= RULE_ID )
+            // InternalOutlineTestLanguage.g:107:5: lv_name_0_0= RULE_ID
             {
             lv_name_0_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_4); 
 
@@ -280,7 +271,7 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
             }
 
-            // InternalOutlineTestLanguage.g:133:3: (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )?
+            // InternalOutlineTestLanguage.g:123:3: (otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')' )?
             int alt3=2;
             int LA3_0 = input.LA(1);
 
@@ -289,13 +280,13 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
             }
             switch (alt3) {
                 case 1 :
-                    // InternalOutlineTestLanguage.g:134:4: otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')'
+                    // InternalOutlineTestLanguage.g:124:4: otherlv_1= '(' ( (otherlv_2= RULE_ID ) )* otherlv_3= ')'
                     {
                     otherlv_1=(Token)match(input,11,FollowSets000.FOLLOW_5); 
 
                     				newLeafNode(otherlv_1, grammarAccess.getElementAccess().getLeftParenthesisKeyword_1_0());
                     			
-                    // InternalOutlineTestLanguage.g:138:4: ( (otherlv_2= RULE_ID ) )*
+                    // InternalOutlineTestLanguage.g:128:4: ( (otherlv_2= RULE_ID ) )*
                     loop2:
                     do {
                         int alt2=2;
@@ -308,10 +299,10 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
                         switch (alt2) {
                     	case 1 :
-                    	    // InternalOutlineTestLanguage.g:139:5: (otherlv_2= RULE_ID )
+                    	    // InternalOutlineTestLanguage.g:129:5: (otherlv_2= RULE_ID )
                     	    {
-                    	    // InternalOutlineTestLanguage.g:139:5: (otherlv_2= RULE_ID )
-                    	    // InternalOutlineTestLanguage.g:140:6: otherlv_2= RULE_ID
+                    	    // InternalOutlineTestLanguage.g:129:5: (otherlv_2= RULE_ID )
+                    	    // InternalOutlineTestLanguage.g:130:6: otherlv_2= RULE_ID
                     	    {
 
                     	    						if (current==null) {
@@ -348,7 +339,7 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
             			newLeafNode(otherlv_4, grammarAccess.getElementAccess().getLeftCurlyBracketKeyword_2());
             		
-            // InternalOutlineTestLanguage.g:160:3: ( (lv_children_5_0= ruleElement ) )*
+            // InternalOutlineTestLanguage.g:150:3: ( (lv_children_5_0= ruleElement ) )*
             loop4:
             do {
                 int alt4=2;
@@ -361,10 +352,10 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
                 switch (alt4) {
             	case 1 :
-            	    // InternalOutlineTestLanguage.g:161:4: (lv_children_5_0= ruleElement )
+            	    // InternalOutlineTestLanguage.g:151:4: (lv_children_5_0= ruleElement )
             	    {
-            	    // InternalOutlineTestLanguage.g:161:4: (lv_children_5_0= ruleElement )
-            	    // InternalOutlineTestLanguage.g:162:5: lv_children_5_0= ruleElement
+            	    // InternalOutlineTestLanguage.g:151:4: (lv_children_5_0= ruleElement )
+            	    // InternalOutlineTestLanguage.g:152:5: lv_children_5_0= ruleElement
             	    {
 
             	    					newCompositeNode(grammarAccess.getElementAccess().getChildrenElementParserRuleCall_3_0());
@@ -406,9 +397,6 @@ public class InternalOutlineTestLanguageParser extends AbstractInternalAntlrPars
 
 
             }
-
-
-            	leaveRule();
 
         }
 

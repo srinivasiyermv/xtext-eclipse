@@ -69,12 +69,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -292,12 +287,7 @@ entryRuleAttribute returns [EObject current=null]:
 
 // Rule Attribute
 ruleAttribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			lv_value_0_0=RULE_ID
@@ -327,12 +317,7 @@ entryRulePair returns [EObject current=null]:
 
 // Rule Pair
 rulePair returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(

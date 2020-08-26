@@ -69,12 +69,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -139,12 +134,7 @@ entryRuleWorks returns [EObject current=null]:
 
 // Rule Works
 ruleWorks returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='works'
 		{
@@ -270,12 +260,7 @@ entryRuleBroken returns [EObject current=null]:
 
 // Rule Broken
 ruleBroken returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='broken'
 		{
@@ -364,12 +349,7 @@ entryRuleThird returns [EObject current=null]:
 
 // Rule Third
 ruleThird returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			if ($current==null) {
@@ -417,12 +397,7 @@ ruleThird returns [EObject current=null]
 
 // Rule STREAM
 ruleSTREAM[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	otherlv_0='stream'
 	{
 		newLeafNode(otherlv_0, grammarAccess.getSTREAMAccess().getStreamKeyword());
@@ -432,12 +407,7 @@ ruleSTREAM[EObject in_current]  returns [EObject current=in_current]
 
 // Rule DEFINE
 ruleDEFINE[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	otherlv_0='define'
 	{
 		newLeafNode(otherlv_0, grammarAccess.getDEFINEAccess().getDefineKeyword());
@@ -447,12 +417,7 @@ ruleDEFINE[EObject in_current]  returns [EObject current=in_current]
 
 // Rule Fragment
 ruleFragment[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(

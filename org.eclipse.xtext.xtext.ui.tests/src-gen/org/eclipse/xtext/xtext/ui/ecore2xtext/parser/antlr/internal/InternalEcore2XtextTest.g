@@ -69,12 +69,7 @@ entryRuleRoot returns [EObject current=null]:
 
 // Rule Root
 ruleRoot returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -209,12 +204,7 @@ entryRuleAbstract returns [EObject current=null]:
 
 // Rule Abstract
 ruleAbstract returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAbstractAccess().getConcrete0_ImplParserRuleCall_0());
@@ -254,12 +244,7 @@ entryRuleConcrete0 returns [EObject current=null]:
 
 // Rule Concrete0
 ruleConcrete0 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getConcrete0Access().getConcrete0_ImplParserRuleCall_0());
@@ -290,12 +275,7 @@ entryRuleINT0 returns [String current=null]:
 
 // Rule INT0
 ruleINT0 returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	kw='INT'
 	{
 		$current.merge(kw);
@@ -312,12 +292,7 @@ entryRuleConcrete0_Impl returns [EObject current=null]:
 
 // Rule Concrete0_Impl
 ruleConcrete0_Impl returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -361,12 +336,7 @@ entryRuleEString returns [String current=null]:
 
 // Rule EString
 ruleEString returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_STRING_0=RULE_STRING
 		{
@@ -395,12 +365,7 @@ entryRuleConcrete1_Impl returns [EObject current=null]:
 
 // Rule Concrete1_Impl
 ruleConcrete1_Impl returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -444,12 +409,7 @@ entryRuleDiamondInheritance returns [EObject current=null]:
 
 // Rule DiamondInheritance
 ruleDiamondInheritance returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{

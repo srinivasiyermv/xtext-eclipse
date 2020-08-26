@@ -74,12 +74,7 @@ entryRuleModule returns [EObject current=null]:
 
 // Rule Module
 ruleModule returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='module'
 		{
@@ -153,12 +148,7 @@ entryRuleImport returns [EObject current=null]:
 
 // Rule Import
 ruleImport returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='import'
 		{
@@ -189,12 +179,7 @@ entryRuleStatement returns [EObject current=null]:
 
 // Rule Statement
 ruleStatement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getStatementAccess().getDefinitionParserRuleCall_0());
@@ -225,12 +210,7 @@ entryRuleDefinition returns [EObject current=null]:
 
 // Rule Definition
 ruleDefinition returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='def'
 		{
@@ -347,12 +327,7 @@ entryRuleDeclaredParameter returns [EObject current=null]:
 
 // Rule DeclaredParameter
 ruleDeclaredParameter returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			lv_name_0_0=RULE_ID
@@ -382,12 +357,7 @@ entryRuleEvaluation returns [EObject current=null]:
 
 // Rule Evaluation
 ruleEvaluation returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -424,12 +394,7 @@ entryRuleExpression returns [EObject current=null]:
 
 // Rule Expression
 ruleExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	{
 		newCompositeNode(grammarAccess.getExpressionAccess().getAdditionParserRuleCall());
 	}
@@ -449,12 +414,7 @@ entryRuleAddition returns [EObject current=null]:
 
 // Rule Addition
 ruleAddition returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAdditionAccess().getMultiplicationParserRuleCall_0());
@@ -526,12 +486,7 @@ entryRuleMultiplication returns [EObject current=null]:
 
 // Rule Multiplication
 ruleMultiplication returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getMultiplicationAccess().getPrimaryExpressionParserRuleCall_0());
@@ -603,12 +558,7 @@ entryRulePrimaryExpression returns [EObject current=null]:
 
 // Rule PrimaryExpression
 rulePrimaryExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			otherlv_0='('

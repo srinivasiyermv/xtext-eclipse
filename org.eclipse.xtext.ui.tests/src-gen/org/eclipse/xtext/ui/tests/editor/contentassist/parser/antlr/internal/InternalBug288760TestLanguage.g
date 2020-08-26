@@ -69,12 +69,7 @@ entryRuleWorkflowElement returns [EObject current=null]:
 
 // Rule WorkflowElement
 ruleWorkflowElement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -212,12 +207,7 @@ entryRuleAttribute returns [EObject current=null]:
 
 // Rule Attribute
 ruleAttribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(

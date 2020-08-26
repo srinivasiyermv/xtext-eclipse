@@ -69,12 +69,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -105,12 +100,7 @@ entryRuleTConstant returns [EObject current=null]:
 
 // Rule TConstant
 ruleTConstant returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getTConstantAccess().getTStringConstantParserRuleCall_0());
@@ -150,12 +140,7 @@ entryRuleTStringConstant returns [EObject current=null]:
 
 // Rule TStringConstant
 ruleTStringConstant returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -214,12 +199,7 @@ entryRuleTIntegerConstant returns [EObject current=null]:
 
 // Rule TIntegerConstant
 ruleTIntegerConstant returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -278,12 +258,7 @@ entryRuleTBooleanConstant returns [EObject current=null]:
 
 // Rule TBooleanConstant
 ruleTBooleanConstant returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -342,12 +317,7 @@ entryRuleTAnnotation returns [EObject current=null]:
 
 // Rule TAnnotation
 ruleTAnnotation returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='@desc'
 		{

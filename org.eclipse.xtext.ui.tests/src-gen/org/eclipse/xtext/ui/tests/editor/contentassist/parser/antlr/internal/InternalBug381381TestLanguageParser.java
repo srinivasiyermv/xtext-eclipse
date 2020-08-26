@@ -124,18 +124,15 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
         EObject lv_stmt_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBug381381TestLanguage.g:77:2: ( ( (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt ) ) )
-            // InternalBug381381TestLanguage.g:78:2: ( (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt ) )
+            // InternalBug381381TestLanguage.g:72:1: ( ( (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt ) ) )
+            // InternalBug381381TestLanguage.g:73:2: ( (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt ) )
             {
-            // InternalBug381381TestLanguage.g:78:2: ( (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt ) )
-            // InternalBug381381TestLanguage.g:79:3: (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt )
+            // InternalBug381381TestLanguage.g:73:2: ( (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt ) )
+            // InternalBug381381TestLanguage.g:74:3: (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt )
             {
-            // InternalBug381381TestLanguage.g:79:3: (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt )
-            // InternalBug381381TestLanguage.g:80:4: lv_stmt_0_0= ruleCopyFieldNameToVariableStmt
+            // InternalBug381381TestLanguage.g:74:3: (lv_stmt_0_0= ruleCopyFieldNameToVariableStmt )
+            // InternalBug381381TestLanguage.g:75:4: lv_stmt_0_0= ruleCopyFieldNameToVariableStmt
             {
 
             				newCompositeNode(grammarAccess.getModelAccess().getStmtCopyFieldNameToVariableStmtParserRuleCall_0());
@@ -165,9 +162,6 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -182,7 +176,7 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
 
 
     // $ANTLR start "entryRuleCopyFieldNameToVariableStmt"
-    // InternalBug381381TestLanguage.g:100:1: entryRuleCopyFieldNameToVariableStmt returns [EObject current=null] : iv_ruleCopyFieldNameToVariableStmt= ruleCopyFieldNameToVariableStmt EOF ;
+    // InternalBug381381TestLanguage.g:95:1: entryRuleCopyFieldNameToVariableStmt returns [EObject current=null] : iv_ruleCopyFieldNameToVariableStmt= ruleCopyFieldNameToVariableStmt EOF ;
     public final EObject entryRuleCopyFieldNameToVariableStmt() throws RecognitionException {
         EObject current = null;
 
@@ -190,8 +184,8 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
 
 
         try {
-            // InternalBug381381TestLanguage.g:100:68: (iv_ruleCopyFieldNameToVariableStmt= ruleCopyFieldNameToVariableStmt EOF )
-            // InternalBug381381TestLanguage.g:101:2: iv_ruleCopyFieldNameToVariableStmt= ruleCopyFieldNameToVariableStmt EOF
+            // InternalBug381381TestLanguage.g:95:68: (iv_ruleCopyFieldNameToVariableStmt= ruleCopyFieldNameToVariableStmt EOF )
+            // InternalBug381381TestLanguage.g:96:2: iv_ruleCopyFieldNameToVariableStmt= ruleCopyFieldNameToVariableStmt EOF
             {
              newCompositeNode(grammarAccess.getCopyFieldNameToVariableStmtRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -218,7 +212,7 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
 
 
     // $ANTLR start "ruleCopyFieldNameToVariableStmt"
-    // InternalBug381381TestLanguage.g:107:1: ruleCopyFieldNameToVariableStmt returns [EObject current=null] : (otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) ) ) ;
+    // InternalBug381381TestLanguage.g:102:1: ruleCopyFieldNameToVariableStmt returns [EObject current=null] : (otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) ) ) ;
     public final EObject ruleCopyFieldNameToVariableStmt() throws RecognitionException {
         EObject current = null;
 
@@ -240,33 +234,30 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
         Token otherlv_16=null;
         Token otherlv_17=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBug381381TestLanguage.g:113:2: ( (otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) ) ) )
-            // InternalBug381381TestLanguage.g:114:2: (otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) ) )
+            // InternalBug381381TestLanguage.g:103:1: ( (otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) ) ) )
+            // InternalBug381381TestLanguage.g:104:2: (otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) ) )
             {
-            // InternalBug381381TestLanguage.g:114:2: (otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) ) )
-            // InternalBug381381TestLanguage.g:115:3: otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) )
+            // InternalBug381381TestLanguage.g:104:2: (otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) ) )
+            // InternalBug381381TestLanguage.g:105:3: otherlv_0= 'FIELD-NAME-TO-VARIABLE' ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) )
             {
             otherlv_0=(Token)match(input,11,FollowSets000.FOLLOW_3); 
 
             			newLeafNode(otherlv_0, grammarAccess.getCopyFieldNameToVariableStmtAccess().getFIELDNAMETOVARIABLEKeyword_0());
             		
-            // InternalBug381381TestLanguage.g:119:3: ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) )
-            // InternalBug381381TestLanguage.g:120:4: ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) )
+            // InternalBug381381TestLanguage.g:109:3: ( ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) ) )
+            // InternalBug381381TestLanguage.g:110:4: ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) )
             {
-            // InternalBug381381TestLanguage.g:120:4: ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) )
-            // InternalBug381381TestLanguage.g:121:5: ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?)
+            // InternalBug381381TestLanguage.g:110:4: ( ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?) )
+            // InternalBug381381TestLanguage.g:111:5: ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?)
             {
              
             				  getUnorderedGroupHelper().enter(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1());
             				
-            // InternalBug381381TestLanguage.g:124:5: ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?)
-            // InternalBug381381TestLanguage.g:125:6: ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?
+            // InternalBug381381TestLanguage.g:114:5: ( ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?)
+            // InternalBug381381TestLanguage.g:115:6: ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+ {...}?
             {
-            // InternalBug381381TestLanguage.g:125:6: ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+
+            // InternalBug381381TestLanguage.g:115:6: ( ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) ) | ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) ) | ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) ) )+
             int cnt1=0;
             loop1:
             do {
@@ -292,28 +283,28 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
 
                 switch (alt1) {
             	case 1 :
-            	    // InternalBug381381TestLanguage.g:126:4: ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) )
+            	    // InternalBug381381TestLanguage.g:116:4: ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) )
             	    {
-            	    // InternalBug381381TestLanguage.g:126:4: ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) )
-            	    // InternalBug381381TestLanguage.g:127:5: {...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) )
+            	    // InternalBug381381TestLanguage.g:116:4: ({...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) ) )
+            	    // InternalBug381381TestLanguage.g:117:5: {...}? => ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) )
             	    {
             	    if ( ! getUnorderedGroupHelper().canSelect(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1(), 0) ) {
             	        throw new FailedPredicateException(input, "ruleCopyFieldNameToVariableStmt", "getUnorderedGroupHelper().canSelect(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1(), 0)");
             	    }
-            	    // InternalBug381381TestLanguage.g:127:124: ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) )
-            	    // InternalBug381381TestLanguage.g:128:6: ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) )
+            	    // InternalBug381381TestLanguage.g:117:124: ( ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) ) )
+            	    // InternalBug381381TestLanguage.g:118:6: ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) )
             	    {
 
             	    						getUnorderedGroupHelper().select(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1(), 0);
             	    					
-            	    // InternalBug381381TestLanguage.g:131:9: ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) )
-            	    // InternalBug381381TestLanguage.g:131:10: {...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' )
+            	    // InternalBug381381TestLanguage.g:121:9: ({...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' ) )
+            	    // InternalBug381381TestLanguage.g:121:10: {...}? => (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' )
             	    {
             	    if ( !((true)) ) {
             	        throw new FailedPredicateException(input, "ruleCopyFieldNameToVariableStmt", "true");
             	    }
-            	    // InternalBug381381TestLanguage.g:131:19: (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' )
-            	    // InternalBug381381TestLanguage.g:131:20: otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')'
+            	    // InternalBug381381TestLanguage.g:121:19: (otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')' )
+            	    // InternalBug381381TestLanguage.g:121:20: otherlv_2= ',' otherlv_3= 'SCREEN' otherlv_4= '=' otherlv_5= '(' ( (lv_line_6_0= RULE_INT ) ) otherlv_7= ',' ( (lv_column_8_0= RULE_INT ) ) otherlv_9= ')'
             	    {
             	    otherlv_2=(Token)match(input,12,FollowSets000.FOLLOW_4); 
 
@@ -331,11 +322,11 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
 
             	    									newLeafNode(otherlv_5, grammarAccess.getCopyFieldNameToVariableStmtAccess().getLeftParenthesisKeyword_1_0_3());
             	    								
-            	    // InternalBug381381TestLanguage.g:147:9: ( (lv_line_6_0= RULE_INT ) )
-            	    // InternalBug381381TestLanguage.g:148:10: (lv_line_6_0= RULE_INT )
+            	    // InternalBug381381TestLanguage.g:137:9: ( (lv_line_6_0= RULE_INT ) )
+            	    // InternalBug381381TestLanguage.g:138:10: (lv_line_6_0= RULE_INT )
             	    {
-            	    // InternalBug381381TestLanguage.g:148:10: (lv_line_6_0= RULE_INT )
-            	    // InternalBug381381TestLanguage.g:149:11: lv_line_6_0= RULE_INT
+            	    // InternalBug381381TestLanguage.g:138:10: (lv_line_6_0= RULE_INT )
+            	    // InternalBug381381TestLanguage.g:139:11: lv_line_6_0= RULE_INT
             	    {
             	    lv_line_6_0=(Token)match(input,RULE_INT,FollowSets000.FOLLOW_3); 
 
@@ -361,11 +352,11 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
 
             	    									newLeafNode(otherlv_7, grammarAccess.getCopyFieldNameToVariableStmtAccess().getCommaKeyword_1_0_5());
             	    								
-            	    // InternalBug381381TestLanguage.g:169:9: ( (lv_column_8_0= RULE_INT ) )
-            	    // InternalBug381381TestLanguage.g:170:10: (lv_column_8_0= RULE_INT )
+            	    // InternalBug381381TestLanguage.g:159:9: ( (lv_column_8_0= RULE_INT ) )
+            	    // InternalBug381381TestLanguage.g:160:10: (lv_column_8_0= RULE_INT )
             	    {
-            	    // InternalBug381381TestLanguage.g:170:10: (lv_column_8_0= RULE_INT )
-            	    // InternalBug381381TestLanguage.g:171:11: lv_column_8_0= RULE_INT
+            	    // InternalBug381381TestLanguage.g:160:10: (lv_column_8_0= RULE_INT )
+            	    // InternalBug381381TestLanguage.g:161:11: lv_column_8_0= RULE_INT
             	    {
             	    lv_column_8_0=(Token)match(input,RULE_INT,FollowSets000.FOLLOW_8); 
 
@@ -410,28 +401,28 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
             	    }
             	    break;
             	case 2 :
-            	    // InternalBug381381TestLanguage.g:197:4: ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) )
+            	    // InternalBug381381TestLanguage.g:187:4: ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) )
             	    {
-            	    // InternalBug381381TestLanguage.g:197:4: ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) )
-            	    // InternalBug381381TestLanguage.g:198:5: {...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) )
+            	    // InternalBug381381TestLanguage.g:187:4: ({...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) ) )
+            	    // InternalBug381381TestLanguage.g:188:5: {...}? => ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) )
             	    {
             	    if ( ! getUnorderedGroupHelper().canSelect(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1(), 1) ) {
             	        throw new FailedPredicateException(input, "ruleCopyFieldNameToVariableStmt", "getUnorderedGroupHelper().canSelect(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1(), 1)");
             	    }
-            	    // InternalBug381381TestLanguage.g:198:124: ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) )
-            	    // InternalBug381381TestLanguage.g:199:6: ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) )
+            	    // InternalBug381381TestLanguage.g:188:124: ( ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) ) )
+            	    // InternalBug381381TestLanguage.g:189:6: ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) )
             	    {
 
             	    						getUnorderedGroupHelper().select(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1(), 1);
             	    					
-            	    // InternalBug381381TestLanguage.g:202:9: ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) )
-            	    // InternalBug381381TestLanguage.g:202:10: {...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) )
+            	    // InternalBug381381TestLanguage.g:192:9: ({...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) ) )
+            	    // InternalBug381381TestLanguage.g:192:10: {...}? => (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) )
             	    {
             	    if ( !((true)) ) {
             	        throw new FailedPredicateException(input, "ruleCopyFieldNameToVariableStmt", "true");
             	    }
-            	    // InternalBug381381TestLanguage.g:202:19: (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) )
-            	    // InternalBug381381TestLanguage.g:202:20: otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) )
+            	    // InternalBug381381TestLanguage.g:192:19: (otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) ) )
+            	    // InternalBug381381TestLanguage.g:192:20: otherlv_10= ',' otherlv_11= 'VAR' otherlv_12= '=' ( (lv_name_13_0= RULE_ID ) )
             	    {
             	    otherlv_10=(Token)match(input,12,FollowSets000.FOLLOW_10); 
 
@@ -445,11 +436,11 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
 
             	    									newLeafNode(otherlv_12, grammarAccess.getCopyFieldNameToVariableStmtAccess().getEqualsSignKeyword_1_1_2());
             	    								
-            	    // InternalBug381381TestLanguage.g:214:9: ( (lv_name_13_0= RULE_ID ) )
-            	    // InternalBug381381TestLanguage.g:215:10: (lv_name_13_0= RULE_ID )
+            	    // InternalBug381381TestLanguage.g:204:9: ( (lv_name_13_0= RULE_ID ) )
+            	    // InternalBug381381TestLanguage.g:205:10: (lv_name_13_0= RULE_ID )
             	    {
-            	    // InternalBug381381TestLanguage.g:215:10: (lv_name_13_0= RULE_ID )
-            	    // InternalBug381381TestLanguage.g:216:11: lv_name_13_0= RULE_ID
+            	    // InternalBug381381TestLanguage.g:205:10: (lv_name_13_0= RULE_ID )
+            	    // InternalBug381381TestLanguage.g:206:11: lv_name_13_0= RULE_ID
             	    {
             	    lv_name_13_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_9); 
 
@@ -490,28 +481,28 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
             	    }
             	    break;
             	case 3 :
-            	    // InternalBug381381TestLanguage.g:238:4: ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) )
+            	    // InternalBug381381TestLanguage.g:228:4: ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) )
             	    {
-            	    // InternalBug381381TestLanguage.g:238:4: ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) )
-            	    // InternalBug381381TestLanguage.g:239:5: {...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) )
+            	    // InternalBug381381TestLanguage.g:228:4: ({...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) ) )
+            	    // InternalBug381381TestLanguage.g:229:5: {...}? => ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) )
             	    {
             	    if ( ! getUnorderedGroupHelper().canSelect(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1(), 2) ) {
             	        throw new FailedPredicateException(input, "ruleCopyFieldNameToVariableStmt", "getUnorderedGroupHelper().canSelect(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1(), 2)");
             	    }
-            	    // InternalBug381381TestLanguage.g:239:124: ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) )
-            	    // InternalBug381381TestLanguage.g:240:6: ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) )
+            	    // InternalBug381381TestLanguage.g:229:124: ( ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) ) )
+            	    // InternalBug381381TestLanguage.g:230:6: ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) )
             	    {
 
             	    						getUnorderedGroupHelper().select(grammarAccess.getCopyFieldNameToVariableStmtAccess().getUnorderedGroup_1(), 2);
             	    					
-            	    // InternalBug381381TestLanguage.g:243:9: ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) )
-            	    // InternalBug381381TestLanguage.g:243:10: {...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' )
+            	    // InternalBug381381TestLanguage.g:233:9: ({...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' ) )
+            	    // InternalBug381381TestLanguage.g:233:10: {...}? => (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' )
             	    {
             	    if ( !((true)) ) {
             	        throw new FailedPredicateException(input, "ruleCopyFieldNameToVariableStmt", "true");
             	    }
-            	    // InternalBug381381TestLanguage.g:243:19: (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' )
-            	    // InternalBug381381TestLanguage.g:243:20: otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE'
+            	    // InternalBug381381TestLanguage.g:233:19: (otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE' )
+            	    // InternalBug381381TestLanguage.g:233:20: otherlv_14= ',' otherlv_15= 'TYPE' otherlv_16= '=' otherlv_17= 'REPLACE'
             	    {
             	    otherlv_14=(Token)match(input,12,FollowSets000.FOLLOW_12); 
 
@@ -577,9 +568,6 @@ public class InternalBug381381TestLanguageParser extends AbstractInternalAntlrPa
 
 
             }
-
-
-            	leaveRule();
 
         }
 

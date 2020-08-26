@@ -75,12 +75,7 @@ entryRuleProgram returns [EObject current=null]:
 
 // Rule Program
 ruleProgram returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -137,12 +132,7 @@ entryRuleProgramDirective returns [EObject current=null]:
 
 // Rule ProgramDirective
 ruleProgramDirective returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -179,12 +169,7 @@ entryRuleFunctionDefinition returns [EObject current=null]:
 
 // Rule FunctionDefinition
 ruleFunctionDefinition returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -295,12 +280,7 @@ entryRuleAttribute returns [EObject current=null]:
 
 // Rule Attribute
 ruleAttribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -384,12 +364,7 @@ entryRuleParameters returns [EObject current=null]:
 
 // Rule Parameters
 ruleParameters returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -489,12 +464,7 @@ entryRuleBlock returns [EObject current=null]:
 
 // Rule Block
 ruleBlock returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -559,12 +529,7 @@ entryRuleStatement returns [EObject current=null]:
 
 // Rule Statement
 ruleStatement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -632,12 +597,7 @@ entryRulePostfixExpression returns [EObject current=null]:
 
 // Rule PostfixExpression
 rulePostfixExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -761,12 +721,7 @@ entryRuleListExpression returns [EObject current=null]:
 
 // Rule ListExpression
 ruleListExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -836,12 +791,7 @@ entryRulePropertyOperator returns [EObject current=null]:
 
 // Rule PropertyOperator
 rulePropertyOperator returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			otherlv_0='.'
@@ -927,12 +877,7 @@ entryRulePrimaryExpression returns [EObject current=null]:
 
 // Rule PrimaryExpression
 rulePrimaryExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(

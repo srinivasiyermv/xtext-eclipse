@@ -69,12 +69,7 @@ entryRuleRootStatement returns [EObject current=null]:
 
 // Rule RootStatement
 ruleRootStatement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -144,12 +139,7 @@ ruleRootStatement returns [EObject current=null]
 
 // Rule RootStatement
 norm1_RootStatement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -225,12 +215,7 @@ entryRuleFunctionDeclaration returns [EObject current=null]:
 
 // Rule FunctionDeclaration
 ruleFunctionDeclaration returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -276,12 +261,7 @@ ruleFunctionDeclaration returns [EObject current=null]
 
 // Rule FunctionDeclaration
 norm1_FunctionDeclaration returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -327,12 +307,7 @@ norm1_FunctionDeclaration returns [EObject current=null]
 
 // Rule FunctionImpl
 ruleFunctionImpl[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='function'
 		{
@@ -409,12 +384,7 @@ ruleFunctionImpl[EObject in_current]  returns [EObject current=in_current]
 
 // Rule FunctionImpl
 norm3_FunctionImpl[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='function'
 		{
@@ -491,12 +461,7 @@ norm3_FunctionImpl[EObject in_current]  returns [EObject current=in_current]
 
 // Rule FunctionHeader
 ruleFunctionHeader[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -531,12 +496,7 @@ ruleFunctionHeader[EObject in_current]  returns [EObject current=in_current]
 
 // Rule FunctionHeader
 norm1_FunctionHeader[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -571,12 +531,7 @@ norm1_FunctionHeader[EObject in_current]  returns [EObject current=in_current]
 
 // Rule FunctionHeader
 norm2_FunctionHeader[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -611,12 +566,7 @@ norm2_FunctionHeader[EObject in_current]  returns [EObject current=in_current]
 
 // Rule FunctionHeader
 norm3_FunctionHeader[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -651,12 +601,7 @@ norm3_FunctionHeader[EObject in_current]  returns [EObject current=in_current]
 
 // Rule FunctionBody
 ruleFunctionBody[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		((
 			(
@@ -687,12 +632,7 @@ ruleFunctionBody[EObject in_current]  returns [EObject current=in_current]
 
 // Rule FunctionBody
 norm1_FunctionBody[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		((
 			(
@@ -723,12 +663,7 @@ norm1_FunctionBody[EObject in_current]  returns [EObject current=in_current]
 
 // Rule FunctionBody
 norm2_FunctionBody[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		((
 			(
@@ -759,12 +694,7 @@ norm2_FunctionBody[EObject in_current]  returns [EObject current=in_current]
 
 // Rule FunctionBody
 norm3_FunctionBody[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		((
 			(
@@ -801,12 +731,7 @@ entryRuleBlock returns [EObject current=null]:
 
 // Rule Block
 ruleBlock returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -858,12 +783,7 @@ ruleBlock returns [EObject current=null]
 
 // Rule Block
 norm1_Block returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -921,12 +841,7 @@ entryRuleStatement returns [EObject current=null]:
 
 // Rule Statement
 ruleStatement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -959,12 +874,7 @@ ruleStatement returns [EObject current=null]
 
 // Rule Statement
 norm1_Statement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -1003,12 +913,7 @@ entryRuleExpressionStatement returns [EObject current=null]:
 
 // Rule ExpressionStatement
 ruleExpressionStatement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1039,12 +944,7 @@ ruleExpressionStatement returns [EObject current=null]
 
 // Rule ExpressionStatement
 norm1_ExpressionStatement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1081,12 +981,7 @@ entryRuleLabelledStatement returns [EObject current=null]:
 
 // Rule LabelledStatement
 ruleLabelledStatement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -1149,12 +1044,7 @@ ruleLabelledStatement returns [EObject current=null]
 
 // Rule LabelledStatement
 norm1_LabelledStatement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			((
@@ -1223,12 +1113,7 @@ entryRulePrimaryExpression returns [EObject current=null]:
 
 // Rule PrimaryExpression
 rulePrimaryExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	{
 		newCompositeNode(grammarAccess.getPrimaryExpressionAccess().getIdentifierRefParserRuleCall());
 	}
@@ -1242,12 +1127,7 @@ rulePrimaryExpression returns [EObject current=null]
 
 // Rule PrimaryExpression
 norm1_PrimaryExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	{
 		newCompositeNode(grammarAccess.getPrimaryExpressionAccess().getIdentifierRefParserRuleCall());
 	}
@@ -1267,12 +1147,7 @@ entryRuleIdentifierRef returns [EObject current=null]:
 
 // Rule IdentifierRef
 ruleIdentifierRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1297,12 +1172,7 @@ ruleIdentifierRef returns [EObject current=null]
 
 // Rule IdentifierRef
 norm1_IdentifierRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1333,12 +1203,7 @@ entryRuleMemberExpression returns [EObject current=null]:
 
 // Rule MemberExpression
 ruleMemberExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getMemberExpressionAccess().getPrimaryExpressionParserRuleCall_0());
@@ -1397,12 +1262,7 @@ ruleMemberExpression returns [EObject current=null]
 
 // Rule MemberExpression
 norm1_MemberExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getMemberExpressionAccess().getPrimaryExpressionParserRuleCall_0());
@@ -1461,12 +1321,7 @@ norm1_MemberExpression returns [EObject current=null]
 
 // Rule IndexedAccessExpressionTail
 ruleIndexedAccessExpressionTail[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='['
 		{
@@ -1501,12 +1356,7 @@ ruleIndexedAccessExpressionTail[EObject in_current]  returns [EObject current=in
 
 // Rule IndexedAccessExpressionTail
 norm1_IndexedAccessExpressionTail[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='['
 		{
@@ -1541,12 +1391,7 @@ norm1_IndexedAccessExpressionTail[EObject in_current]  returns [EObject current=
 
 // Rule ParameterizedPropertyAccessExpressionTail
 ruleParameterizedPropertyAccessExpressionTail[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='.'
 		{
@@ -1577,12 +1422,7 @@ ruleParameterizedPropertyAccessExpressionTail[EObject in_current]  returns [EObj
 
 // Rule ParameterizedPropertyAccessExpressionTail
 norm1_ParameterizedPropertyAccessExpressionTail[EObject in_current]  returns [EObject current=in_current]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='.'
 		{
@@ -1619,12 +1459,7 @@ entryRuleShiftExpression returns [EObject current=null]:
 
 // Rule ShiftExpression
 ruleShiftExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getShiftExpressionAccess().getMemberExpressionParserRuleCall_0());
@@ -1716,12 +1551,7 @@ ruleShiftExpression returns [EObject current=null]
 
 // Rule ShiftExpression
 norm1_ShiftExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getShiftExpressionAccess().getMemberExpressionParserRuleCall_0());
@@ -1819,12 +1649,7 @@ entryRuleRelationalExpression returns [EObject current=null]:
 
 // Rule RelationalExpression
 ruleRelationalExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getRelationalExpressionAccess().getShiftExpressionParserRuleCall_0());
@@ -1905,12 +1730,7 @@ ruleRelationalExpression returns [EObject current=null]
 
 // Rule RelationalExpression
 norm1_RelationalExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getRelationalExpressionAccess().getShiftExpressionParserRuleCall_0());
@@ -1991,12 +1811,7 @@ norm1_RelationalExpression returns [EObject current=null]
 
 // Rule RelationalExpression
 norm2_RelationalExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getRelationalExpressionAccess().getShiftExpressionParserRuleCall_0());
@@ -2073,12 +1888,7 @@ norm2_RelationalExpression returns [EObject current=null]
 
 // Rule RelationalExpression
 norm3_RelationalExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getRelationalExpressionAccess().getShiftExpressionParserRuleCall_0());
@@ -2161,12 +1971,7 @@ entryRuleRelationalOperator returns [String current=null]:
 
 // Rule RelationalOperator
 ruleRelationalOperator returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		kw='<'
 		{
@@ -2203,12 +2008,7 @@ ruleRelationalOperator returns [AntlrDatatypeRuleToken current=new AntlrDatatype
 
 // Rule RelationalOperator
 norm1_RelationalOperator returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		kw='<'
 		{
@@ -2257,12 +2057,7 @@ entryRuleAssignmentExpression returns [EObject current=null]:
 
 // Rule AssignmentExpression
 ruleAssignmentExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAssignmentExpressionAccess().getRelationalExpressionParserRuleCall_1_0());
@@ -2334,12 +2129,7 @@ ruleAssignmentExpression returns [EObject current=null]
 
 // Rule AssignmentExpression
 norm1_AssignmentExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAssignmentExpressionAccess().getRelationalExpressionParserRuleCall_1_0());
@@ -2411,12 +2201,7 @@ norm1_AssignmentExpression returns [EObject current=null]
 
 // Rule AssignmentExpression
 norm2_AssignmentExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAssignmentExpressionAccess().getYieldExpressionParserRuleCall_0_0());
@@ -2499,12 +2284,7 @@ norm2_AssignmentExpression returns [EObject current=null]
 
 // Rule AssignmentExpression
 norm3_AssignmentExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAssignmentExpressionAccess().getYieldExpressionParserRuleCall_0_0());
@@ -2593,12 +2373,7 @@ entryRuleYieldExpression returns [EObject current=null]:
 
 // Rule YieldExpression
 ruleYieldExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -2655,12 +2430,7 @@ ruleYieldExpression returns [EObject current=null]
 
 // Rule YieldExpression
 norm1_YieldExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -2717,12 +2487,7 @@ norm1_YieldExpression returns [EObject current=null]
 
 // Rule Expression
 norm1_Expression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getExpressionAccess().getAssignmentExpressionParserRuleCall_0());
@@ -2795,12 +2560,7 @@ norm1_Expression returns [EObject current=null]
 
 // Rule Expression
 norm3_Expression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getExpressionAccess().getAssignmentExpressionParserRuleCall_0());
@@ -2879,12 +2639,7 @@ entryRuleIdentifier returns [String current=null]:
 
 // Rule Identifier
 ruleIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_ID_0=RULE_ID
 		{
@@ -2905,12 +2660,7 @@ ruleIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToke
 
 // Rule Identifier
 norm1_Identifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	this_ID_0=RULE_ID
 	{
 		$current.merge(this_ID_0);

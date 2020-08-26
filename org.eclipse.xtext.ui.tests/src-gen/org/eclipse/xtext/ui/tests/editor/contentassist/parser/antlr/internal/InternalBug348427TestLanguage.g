@@ -70,12 +70,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -328,12 +323,7 @@ entryRuleScenario1_1 returns [EObject current=null]:
 
 // Rule Scenario1_1
 ruleScenario1_1 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='1.1'
 		{
@@ -416,12 +406,7 @@ entryRuleScenario1_2 returns [EObject current=null]:
 
 // Rule Scenario1_2
 ruleScenario1_2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='1.2'
 		{
@@ -504,12 +489,7 @@ entryRuleScenario1_3 returns [EObject current=null]:
 
 // Rule Scenario1_3
 ruleScenario1_3 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -599,12 +579,7 @@ entryRuleScenario1_4 returns [EObject current=null]:
 
 // Rule Scenario1_4
 ruleScenario1_4 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -694,12 +669,7 @@ entryRuleChild1_1 returns [EObject current=null]:
 
 // Rule Child1_1
 ruleChild1_1 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -782,12 +752,7 @@ entryRuleChild1_2 returns [EObject current=null]:
 
 // Rule Child1_2
 ruleChild1_2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -870,12 +835,7 @@ entryRuleChild1_3 returns [EObject current=null]:
 
 // Rule Child1_3
 ruleChild1_3 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -958,12 +918,7 @@ entryRuleScenario2_1 returns [EObject current=null]:
 
 // Rule Scenario2_1
 ruleScenario2_1 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='2.1'
 		{
@@ -1046,12 +1001,7 @@ entryRuleScenario2_2 returns [EObject current=null]:
 
 // Rule Scenario2_2
 ruleScenario2_2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='2.2'
 		{
@@ -1134,12 +1084,7 @@ entryRuleScenario2_3 returns [EObject current=null]:
 
 // Rule Scenario2_3
 ruleScenario2_3 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='2.3'
 		{
@@ -1222,12 +1167,7 @@ entryRuleScenario2_4 returns [EObject current=null]:
 
 // Rule Scenario2_4
 ruleScenario2_4 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='2.4'
 		{
@@ -1310,12 +1250,7 @@ entryRuleScenario2_5 returns [EObject current=null]:
 
 // Rule Scenario2_5
 ruleScenario2_5 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1405,12 +1340,7 @@ entryRuleScenario2_6 returns [EObject current=null]:
 
 // Rule Scenario2_6
 ruleScenario2_6 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1500,12 +1430,7 @@ entryRuleScenario2_7 returns [EObject current=null]:
 
 // Rule Scenario2_7
 ruleScenario2_7 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1595,12 +1520,7 @@ entryRuleScenario2_8 returns [EObject current=null]:
 
 // Rule Scenario2_8
 ruleScenario2_8 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1690,12 +1610,7 @@ entryRuleChild2_1 returns [EObject current=null]:
 
 // Rule Child2_1
 ruleChild2_1 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1786,12 +1701,7 @@ entryRuleChild2_2 returns [EObject current=null]:
 
 // Rule Child2_2
 ruleChild2_2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1882,12 +1792,7 @@ entryRuleChild2_3 returns [EObject current=null]:
 
 // Rule Child2_3
 ruleChild2_3 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1978,12 +1883,7 @@ entryRuleChild2_4 returns [EObject current=null]:
 
 // Rule Child2_4
 ruleChild2_4 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -2078,12 +1978,7 @@ entryRuleChild2_5 returns [EObject current=null]:
 
 // Rule Child2_5
 ruleChild2_5 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -2178,12 +2073,7 @@ entryRuleChild2_6 returns [EObject current=null]:
 
 // Rule Child2_6
 ruleChild2_6 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -2271,12 +2161,7 @@ ruleChild2_6 returns [EObject current=null]
 
 // Rule EnumType
 ruleEnumType returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='a'

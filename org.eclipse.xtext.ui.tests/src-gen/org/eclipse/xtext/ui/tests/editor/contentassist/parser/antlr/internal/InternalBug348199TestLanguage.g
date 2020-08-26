@@ -69,12 +69,7 @@ entryRuleTimeperiod returns [EObject current=null]:
 
 // Rule Timeperiod
 ruleTimeperiod returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1484,12 +1479,7 @@ entryRuleTimeDef1 returns [EObject current=null]:
 
 // Rule TimeDef1
 ruleTimeDef1 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='july'
 		{
@@ -1525,12 +1515,7 @@ entryRuleTimeDef2 returns [EObject current=null]:
 
 // Rule TimeDef2
 ruleTimeDef2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='august'
 		{
@@ -1566,12 +1551,7 @@ entryRuleTimeDef3 returns [EObject current=null]:
 
 // Rule TimeDef3
 ruleTimeDef3 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='september'
 		{

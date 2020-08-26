@@ -149,10 +149,10 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
         try {
             int _type = RULE_ID;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalEnumRulesUiTestLanguage.g:221:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
-            // InternalEnumRulesUiTestLanguage.g:221:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalEnumRulesUiTestLanguage.g:206:9: ( ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )* )
+            // InternalEnumRulesUiTestLanguage.g:206:11: ( '^' )? ( 'a' .. 'z' | 'A' .. 'Z' | '_' ) ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             {
-            // InternalEnumRulesUiTestLanguage.g:221:11: ( '^' )?
+            // InternalEnumRulesUiTestLanguage.g:206:11: ( '^' )?
             int alt1=2;
             int LA1_0 = input.LA(1);
 
@@ -161,7 +161,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
             }
             switch (alt1) {
                 case 1 :
-                    // InternalEnumRulesUiTestLanguage.g:221:11: '^'
+                    // InternalEnumRulesUiTestLanguage.g:206:11: '^'
                     {
                     match('^'); 
 
@@ -179,7 +179,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
                 recover(mse);
                 throw mse;}
 
-            // InternalEnumRulesUiTestLanguage.g:221:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
+            // InternalEnumRulesUiTestLanguage.g:206:40: ( 'a' .. 'z' | 'A' .. 'Z' | '_' | '0' .. '9' )*
             loop2:
             do {
                 int alt2=2;
@@ -228,10 +228,10 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
         try {
             int _type = RULE_INT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalEnumRulesUiTestLanguage.g:223:10: ( ( '0' .. '9' )+ )
-            // InternalEnumRulesUiTestLanguage.g:223:12: ( '0' .. '9' )+
+            // InternalEnumRulesUiTestLanguage.g:208:10: ( ( '0' .. '9' )+ )
+            // InternalEnumRulesUiTestLanguage.g:208:12: ( '0' .. '9' )+
             {
-            // InternalEnumRulesUiTestLanguage.g:223:12: ( '0' .. '9' )+
+            // InternalEnumRulesUiTestLanguage.g:208:12: ( '0' .. '9' )+
             int cnt3=0;
             loop3:
             do {
@@ -245,7 +245,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
 
                 switch (alt3) {
             	case 1 :
-            	    // InternalEnumRulesUiTestLanguage.g:223:13: '0' .. '9'
+            	    // InternalEnumRulesUiTestLanguage.g:208:13: '0' .. '9'
             	    {
             	    matchRange('0','9'); 
 
@@ -277,10 +277,10 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
         try {
             int _type = RULE_STRING;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalEnumRulesUiTestLanguage.g:225:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
-            // InternalEnumRulesUiTestLanguage.g:225:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalEnumRulesUiTestLanguage.g:210:13: ( ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' ) )
+            // InternalEnumRulesUiTestLanguage.g:210:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             {
-            // InternalEnumRulesUiTestLanguage.g:225:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
+            // InternalEnumRulesUiTestLanguage.g:210:15: ( '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"' | '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\'' )
             int alt6=2;
             int LA6_0 = input.LA(1);
 
@@ -298,10 +298,10 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
             }
             switch (alt6) {
                 case 1 :
-                    // InternalEnumRulesUiTestLanguage.g:225:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
+                    // InternalEnumRulesUiTestLanguage.g:210:16: '\"' ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )* '\"'
                     {
                     match('\"'); 
-                    // InternalEnumRulesUiTestLanguage.g:225:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
+                    // InternalEnumRulesUiTestLanguage.g:210:20: ( '\\\\' . | ~ ( ( '\\\\' | '\"' ) ) )*
                     loop4:
                     do {
                         int alt4=3;
@@ -317,7 +317,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
 
                         switch (alt4) {
                     	case 1 :
-                    	    // InternalEnumRulesUiTestLanguage.g:225:21: '\\\\' .
+                    	    // InternalEnumRulesUiTestLanguage.g:210:21: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -325,7 +325,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalEnumRulesUiTestLanguage.g:225:28: ~ ( ( '\\\\' | '\"' ) )
+                    	    // InternalEnumRulesUiTestLanguage.g:210:28: ~ ( ( '\\\\' | '\"' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='!')||(input.LA(1)>='#' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -350,10 +350,10 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
                     }
                     break;
                 case 2 :
-                    // InternalEnumRulesUiTestLanguage.g:225:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
+                    // InternalEnumRulesUiTestLanguage.g:210:48: '\\'' ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )* '\\''
                     {
                     match('\''); 
-                    // InternalEnumRulesUiTestLanguage.g:225:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
+                    // InternalEnumRulesUiTestLanguage.g:210:53: ( '\\\\' . | ~ ( ( '\\\\' | '\\'' ) ) )*
                     loop5:
                     do {
                         int alt5=3;
@@ -369,7 +369,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
 
                         switch (alt5) {
                     	case 1 :
-                    	    // InternalEnumRulesUiTestLanguage.g:225:54: '\\\\' .
+                    	    // InternalEnumRulesUiTestLanguage.g:210:54: '\\\\' .
                     	    {
                     	    match('\\'); 
                     	    matchAny(); 
@@ -377,7 +377,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
                     	    }
                     	    break;
                     	case 2 :
-                    	    // InternalEnumRulesUiTestLanguage.g:225:61: ~ ( ( '\\\\' | '\\'' ) )
+                    	    // InternalEnumRulesUiTestLanguage.g:210:61: ~ ( ( '\\\\' | '\\'' ) )
                     	    {
                     	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='&')||(input.LA(1)>='(' && input.LA(1)<='[')||(input.LA(1)>=']' && input.LA(1)<='\uFFFF') ) {
                     	        input.consume();
@@ -420,12 +420,12 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
         try {
             int _type = RULE_ML_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalEnumRulesUiTestLanguage.g:227:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
-            // InternalEnumRulesUiTestLanguage.g:227:19: '/*' ( options {greedy=false; } : . )* '*/'
+            // InternalEnumRulesUiTestLanguage.g:212:17: ( '/*' ( options {greedy=false; } : . )* '*/' )
+            // InternalEnumRulesUiTestLanguage.g:212:19: '/*' ( options {greedy=false; } : . )* '*/'
             {
             match("/*"); 
 
-            // InternalEnumRulesUiTestLanguage.g:227:24: ( options {greedy=false; } : . )*
+            // InternalEnumRulesUiTestLanguage.g:212:24: ( options {greedy=false; } : . )*
             loop7:
             do {
                 int alt7=2;
@@ -450,7 +450,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
 
                 switch (alt7) {
             	case 1 :
-            	    // InternalEnumRulesUiTestLanguage.g:227:52: .
+            	    // InternalEnumRulesUiTestLanguage.g:212:52: .
             	    {
             	    matchAny(); 
 
@@ -480,12 +480,12 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
         try {
             int _type = RULE_SL_COMMENT;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalEnumRulesUiTestLanguage.g:229:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
-            // InternalEnumRulesUiTestLanguage.g:229:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
+            // InternalEnumRulesUiTestLanguage.g:214:17: ( '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )? )
+            // InternalEnumRulesUiTestLanguage.g:214:19: '//' (~ ( ( '\\n' | '\\r' ) ) )* ( ( '\\r' )? '\\n' )?
             {
             match("//"); 
 
-            // InternalEnumRulesUiTestLanguage.g:229:24: (~ ( ( '\\n' | '\\r' ) ) )*
+            // InternalEnumRulesUiTestLanguage.g:214:24: (~ ( ( '\\n' | '\\r' ) ) )*
             loop8:
             do {
                 int alt8=2;
@@ -498,7 +498,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
 
                 switch (alt8) {
             	case 1 :
-            	    // InternalEnumRulesUiTestLanguage.g:229:24: ~ ( ( '\\n' | '\\r' ) )
+            	    // InternalEnumRulesUiTestLanguage.g:214:24: ~ ( ( '\\n' | '\\r' ) )
             	    {
             	    if ( (input.LA(1)>='\u0000' && input.LA(1)<='\t')||(input.LA(1)>='\u000B' && input.LA(1)<='\f')||(input.LA(1)>='\u000E' && input.LA(1)<='\uFFFF') ) {
             	        input.consume();
@@ -518,7 +518,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
                 }
             } while (true);
 
-            // InternalEnumRulesUiTestLanguage.g:229:40: ( ( '\\r' )? '\\n' )?
+            // InternalEnumRulesUiTestLanguage.g:214:40: ( ( '\\r' )? '\\n' )?
             int alt10=2;
             int LA10_0 = input.LA(1);
 
@@ -527,9 +527,9 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
             }
             switch (alt10) {
                 case 1 :
-                    // InternalEnumRulesUiTestLanguage.g:229:41: ( '\\r' )? '\\n'
+                    // InternalEnumRulesUiTestLanguage.g:214:41: ( '\\r' )? '\\n'
                     {
-                    // InternalEnumRulesUiTestLanguage.g:229:41: ( '\\r' )?
+                    // InternalEnumRulesUiTestLanguage.g:214:41: ( '\\r' )?
                     int alt9=2;
                     int LA9_0 = input.LA(1);
 
@@ -538,7 +538,7 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
                     }
                     switch (alt9) {
                         case 1 :
-                            // InternalEnumRulesUiTestLanguage.g:229:41: '\\r'
+                            // InternalEnumRulesUiTestLanguage.g:214:41: '\\r'
                             {
                             match('\r'); 
 
@@ -570,10 +570,10 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
         try {
             int _type = RULE_WS;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalEnumRulesUiTestLanguage.g:231:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
-            // InternalEnumRulesUiTestLanguage.g:231:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalEnumRulesUiTestLanguage.g:216:9: ( ( ' ' | '\\t' | '\\r' | '\\n' )+ )
+            // InternalEnumRulesUiTestLanguage.g:216:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             {
-            // InternalEnumRulesUiTestLanguage.g:231:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
+            // InternalEnumRulesUiTestLanguage.g:216:11: ( ' ' | '\\t' | '\\r' | '\\n' )+
             int cnt11=0;
             loop11:
             do {
@@ -627,8 +627,8 @@ public class InternalEnumRulesUiTestLanguageLexer extends Lexer {
         try {
             int _type = RULE_ANY_OTHER;
             int _channel = DEFAULT_TOKEN_CHANNEL;
-            // InternalEnumRulesUiTestLanguage.g:233:16: ( . )
-            // InternalEnumRulesUiTestLanguage.g:233:18: .
+            // InternalEnumRulesUiTestLanguage.g:218:16: ( . )
+            // InternalEnumRulesUiTestLanguage.g:218:18: .
             {
             matchAny(); 
 

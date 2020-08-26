@@ -198,14 +198,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_contexts_1_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:83:2: ( ( ( (lv_packages_0_0= rulePackageDeclaration ) ) | ( (lv_contexts_1_0= ruleContextDecl ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:84:2: ( ( (lv_packages_0_0= rulePackageDeclaration ) ) | ( (lv_contexts_1_0= ruleContextDecl ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:78:1: ( ( ( (lv_packages_0_0= rulePackageDeclaration ) ) | ( (lv_contexts_1_0= ruleContextDecl ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:79:2: ( ( (lv_packages_0_0= rulePackageDeclaration ) ) | ( (lv_contexts_1_0= ruleContextDecl ) ) )*
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:84:2: ( ( (lv_packages_0_0= rulePackageDeclaration ) ) | ( (lv_contexts_1_0= ruleContextDecl ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:79:2: ( ( (lv_packages_0_0= rulePackageDeclaration ) ) | ( (lv_contexts_1_0= ruleContextDecl ) ) )*
             loop1:
             do {
                 int alt1=3;
@@ -221,13 +218,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt1) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:85:3: ( (lv_packages_0_0= rulePackageDeclaration ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:80:3: ( (lv_packages_0_0= rulePackageDeclaration ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:85:3: ( (lv_packages_0_0= rulePackageDeclaration ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:86:4: (lv_packages_0_0= rulePackageDeclaration )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:80:3: ( (lv_packages_0_0= rulePackageDeclaration ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:81:4: (lv_packages_0_0= rulePackageDeclaration )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:86:4: (lv_packages_0_0= rulePackageDeclaration )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:87:5: lv_packages_0_0= rulePackageDeclaration
+            	    // InternalBacktrackingContentAssistTestLanguage.g:81:4: (lv_packages_0_0= rulePackageDeclaration )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:82:5: lv_packages_0_0= rulePackageDeclaration
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -262,13 +259,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    break;
             	case 2 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:105:3: ( (lv_contexts_1_0= ruleContextDecl ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:100:3: ( (lv_contexts_1_0= ruleContextDecl ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:105:3: ( (lv_contexts_1_0= ruleContextDecl ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:106:4: (lv_contexts_1_0= ruleContextDecl )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:100:3: ( (lv_contexts_1_0= ruleContextDecl ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:101:4: (lv_contexts_1_0= ruleContextDecl )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:106:4: (lv_contexts_1_0= ruleContextDecl )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:107:5: lv_contexts_1_0= ruleContextDecl
+            	    // InternalBacktrackingContentAssistTestLanguage.g:101:4: (lv_contexts_1_0= ruleContextDecl )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:102:5: lv_contexts_1_0= ruleContextDecl
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -311,11 +308,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -330,7 +322,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleBody"
-    // InternalBacktrackingContentAssistTestLanguage.g:128:1: entryRuleBody returns [EObject current=null] : iv_ruleBody= ruleBody EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:123:1: entryRuleBody returns [EObject current=null] : iv_ruleBody= ruleBody EOF ;
     public final EObject entryRuleBody() throws RecognitionException {
         EObject current = null;
 
@@ -338,8 +330,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:128:45: (iv_ruleBody= ruleBody EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:129:2: iv_ruleBody= ruleBody EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:123:45: (iv_ruleBody= ruleBody EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:124:2: iv_ruleBody= ruleBody EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getBodyRule()); 
@@ -370,7 +362,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleBody"
-    // InternalBacktrackingContentAssistTestLanguage.g:135:1: ruleBody returns [EObject current=null] : (otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:130:1: ruleBody returns [EObject current=null] : (otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) ;
     public final EObject ruleBody() throws RecognitionException {
         EObject current = null;
 
@@ -381,15 +373,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_expression_3_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:141:2: ( (otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:142:2: (otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:131:1: ( (otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:132:2: (otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:142:2: (otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:143:3: otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:132:2: (otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:133:3: otherlv_0= 'body' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) )
             {
             otherlv_0=(Token)match(input,11,FollowSets000.FOLLOW_4); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -397,7 +386,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getBodyAccess().getBodyKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:147:3: ( (lv_constraintName_1_0= ruleIdentifier ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:137:3: ( (lv_constraintName_1_0= ruleIdentifier ) )?
             int alt2=2;
             int LA2_0 = input.LA(1);
 
@@ -406,10 +395,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt2) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:148:4: (lv_constraintName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:138:4: (lv_constraintName_1_0= ruleIdentifier )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:148:4: (lv_constraintName_1_0= ruleIdentifier )
-                    // InternalBacktrackingContentAssistTestLanguage.g:149:5: lv_constraintName_1_0= ruleIdentifier
+                    // InternalBacktrackingContentAssistTestLanguage.g:138:4: (lv_constraintName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:139:5: lv_constraintName_1_0= ruleIdentifier
                     {
                     if ( state.backtracking==0 ) {
 
@@ -449,11 +438,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_2, grammarAccess.getBodyAccess().getColonKeyword_2());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:170:3: ( (lv_expression_3_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:171:4: (lv_expression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:160:3: ( (lv_expression_3_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:161:4: (lv_expression_3_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:171:4: (lv_expression_3_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:172:5: lv_expression_3_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:161:4: (lv_expression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:162:5: lv_expression_3_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -490,11 +479,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -509,7 +493,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleClassifierContextDecl"
-    // InternalBacktrackingContentAssistTestLanguage.g:193:1: entryRuleClassifierContextDecl returns [EObject current=null] : iv_ruleClassifierContextDecl= ruleClassifierContextDecl EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:183:1: entryRuleClassifierContextDecl returns [EObject current=null] : iv_ruleClassifierContextDecl= ruleClassifierContextDecl EOF ;
     public final EObject entryRuleClassifierContextDecl() throws RecognitionException {
         EObject current = null;
 
@@ -517,8 +501,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:193:62: (iv_ruleClassifierContextDecl= ruleClassifierContextDecl EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:194:2: iv_ruleClassifierContextDecl= ruleClassifierContextDecl EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:183:62: (iv_ruleClassifierContextDecl= ruleClassifierContextDecl EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:184:2: iv_ruleClassifierContextDecl= ruleClassifierContextDecl EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getClassifierContextDeclRule()); 
@@ -549,7 +533,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleClassifierContextDecl"
-    // InternalBacktrackingContentAssistTestLanguage.g:200:1: ruleClassifierContextDecl returns [EObject current=null] : (otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:190:1: ruleClassifierContextDecl returns [EObject current=null] : (otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )* ) ;
     public final EObject ruleClassifierContextDecl() throws RecognitionException {
         EObject current = null;
 
@@ -564,15 +548,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_definitions_5_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:206:2: ( (otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:207:2: (otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:191:1: ( (otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:192:2: (otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:207:2: (otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:208:3: otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:192:2: (otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:193:3: otherlv_0= 'context' ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )? ( (lv_classifier_3_0= ruleClassifierRef ) ) ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )*
             {
             otherlv_0=(Token)match(input,13,FollowSets000.FOLLOW_7); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -580,7 +561,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getClassifierContextDeclAccess().getContextKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:212:3: ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:197:3: ( ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':' )?
             int alt3=2;
             switch ( input.LA(1) ) {
                 case RULE_ID:
@@ -614,13 +595,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt3) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:213:4: ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':'
+                    // InternalBacktrackingContentAssistTestLanguage.g:198:4: ( (lv_selfName_1_0= ruleIdentifier ) ) otherlv_2= ':'
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:213:4: ( (lv_selfName_1_0= ruleIdentifier ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:214:5: (lv_selfName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:198:4: ( (lv_selfName_1_0= ruleIdentifier ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:199:5: (lv_selfName_1_0= ruleIdentifier )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:214:5: (lv_selfName_1_0= ruleIdentifier )
-                    // InternalBacktrackingContentAssistTestLanguage.g:215:6: lv_selfName_1_0= ruleIdentifier
+                    // InternalBacktrackingContentAssistTestLanguage.g:199:5: (lv_selfName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:200:6: lv_selfName_1_0= ruleIdentifier
                     {
                     if ( state.backtracking==0 ) {
 
@@ -663,11 +644,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:237:3: ( (lv_classifier_3_0= ruleClassifierRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:238:4: (lv_classifier_3_0= ruleClassifierRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:222:3: ( (lv_classifier_3_0= ruleClassifierRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:223:4: (lv_classifier_3_0= ruleClassifierRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:238:4: (lv_classifier_3_0= ruleClassifierRef )
-            // InternalBacktrackingContentAssistTestLanguage.g:239:5: lv_classifier_3_0= ruleClassifierRef
+            // InternalBacktrackingContentAssistTestLanguage.g:223:4: (lv_classifier_3_0= ruleClassifierRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:224:5: lv_classifier_3_0= ruleClassifierRef
             {
             if ( state.backtracking==0 ) {
 
@@ -698,7 +679,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:256:3: ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:241:3: ( ( (lv_invariants_4_0= ruleInvariant ) ) | ( (lv_definitions_5_0= ruleDefinition ) ) )*
             loop4:
             do {
                 int alt4=3;
@@ -714,13 +695,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt4) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:257:4: ( (lv_invariants_4_0= ruleInvariant ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:242:4: ( (lv_invariants_4_0= ruleInvariant ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:257:4: ( (lv_invariants_4_0= ruleInvariant ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:258:5: (lv_invariants_4_0= ruleInvariant )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:242:4: ( (lv_invariants_4_0= ruleInvariant ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:243:5: (lv_invariants_4_0= ruleInvariant )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:258:5: (lv_invariants_4_0= ruleInvariant )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:259:6: lv_invariants_4_0= ruleInvariant
+            	    // InternalBacktrackingContentAssistTestLanguage.g:243:5: (lv_invariants_4_0= ruleInvariant )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:244:6: lv_invariants_4_0= ruleInvariant
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -755,13 +736,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    break;
             	case 2 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:277:4: ( (lv_definitions_5_0= ruleDefinition ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:262:4: ( (lv_definitions_5_0= ruleDefinition ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:277:4: ( (lv_definitions_5_0= ruleDefinition ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:278:5: (lv_definitions_5_0= ruleDefinition )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:262:4: ( (lv_definitions_5_0= ruleDefinition ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:263:5: (lv_definitions_5_0= ruleDefinition )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:278:5: (lv_definitions_5_0= ruleDefinition )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:279:6: lv_definitions_5_0= ruleDefinition
+            	    // InternalBacktrackingContentAssistTestLanguage.g:263:5: (lv_definitions_5_0= ruleDefinition )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:264:6: lv_definitions_5_0= ruleDefinition
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -807,11 +788,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -826,7 +802,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleClassifierRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:301:1: entryRuleClassifierRef returns [EObject current=null] : iv_ruleClassifierRef= ruleClassifierRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:286:1: entryRuleClassifierRef returns [EObject current=null] : iv_ruleClassifierRef= ruleClassifierRef EOF ;
     public final EObject entryRuleClassifierRef() throws RecognitionException {
         EObject current = null;
 
@@ -834,8 +810,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:301:54: (iv_ruleClassifierRef= ruleClassifierRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:302:2: iv_ruleClassifierRef= ruleClassifierRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:286:54: (iv_ruleClassifierRef= ruleClassifierRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:287:2: iv_ruleClassifierRef= ruleClassifierRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getClassifierRefRule()); 
@@ -866,7 +842,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleClassifierRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:308:1: ruleClassifierRef returns [EObject current=null] : (this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef | this_SimpleClassifierRef_1= ruleSimpleClassifierRef ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:293:1: ruleClassifierRef returns [EObject current=null] : (this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef | this_SimpleClassifierRef_1= ruleSimpleClassifierRef ) ;
     public final EObject ruleClassifierRef() throws RecognitionException {
         EObject current = null;
 
@@ -875,14 +851,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_SimpleClassifierRef_1 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:314:2: ( (this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef | this_SimpleClassifierRef_1= ruleSimpleClassifierRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:315:2: (this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef | this_SimpleClassifierRef_1= ruleSimpleClassifierRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:294:1: ( (this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef | this_SimpleClassifierRef_1= ruleSimpleClassifierRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:295:2: (this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef | this_SimpleClassifierRef_1= ruleSimpleClassifierRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:315:2: (this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef | this_SimpleClassifierRef_1= ruleSimpleClassifierRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:295:2: (this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef | this_SimpleClassifierRef_1= ruleSimpleClassifierRef )
             int alt5=2;
             switch ( input.LA(1) ) {
             case RULE_ID:
@@ -952,7 +925,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt5) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:316:3: this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef
+                    // InternalBacktrackingContentAssistTestLanguage.g:296:3: this_QualifiedClassifierRef_0= ruleQualifiedClassifierRef
                     {
                     if ( state.backtracking==0 ) {
 
@@ -979,7 +952,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:328:3: this_SimpleClassifierRef_1= ruleSimpleClassifierRef
+                    // InternalBacktrackingContentAssistTestLanguage.g:308:3: this_SimpleClassifierRef_1= ruleSimpleClassifierRef
                     {
                     if ( state.backtracking==0 ) {
 
@@ -1011,11 +984,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -1030,7 +998,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleContextDecl"
-    // InternalBacktrackingContentAssistTestLanguage.g:343:1: entryRuleContextDecl returns [EObject current=null] : iv_ruleContextDecl= ruleContextDecl EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:323:1: entryRuleContextDecl returns [EObject current=null] : iv_ruleContextDecl= ruleContextDecl EOF ;
     public final EObject entryRuleContextDecl() throws RecognitionException {
         EObject current = null;
 
@@ -1038,8 +1006,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:343:52: (iv_ruleContextDecl= ruleContextDecl EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:344:2: iv_ruleContextDecl= ruleContextDecl EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:323:52: (iv_ruleContextDecl= ruleContextDecl EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:324:2: iv_ruleContextDecl= ruleContextDecl EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getContextDeclRule()); 
@@ -1070,7 +1038,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleContextDecl"
-    // InternalBacktrackingContentAssistTestLanguage.g:350:1: ruleContextDecl returns [EObject current=null] : (this_PropertyContextDecl_0= rulePropertyContextDecl | this_ClassifierContextDecl_1= ruleClassifierContextDecl | this_OperationContextDecl_2= ruleOperationContextDecl ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:330:1: ruleContextDecl returns [EObject current=null] : (this_PropertyContextDecl_0= rulePropertyContextDecl | this_ClassifierContextDecl_1= ruleClassifierContextDecl | this_OperationContextDecl_2= ruleOperationContextDecl ) ;
     public final EObject ruleContextDecl() throws RecognitionException {
         EObject current = null;
 
@@ -1081,14 +1049,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_OperationContextDecl_2 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:356:2: ( (this_PropertyContextDecl_0= rulePropertyContextDecl | this_ClassifierContextDecl_1= ruleClassifierContextDecl | this_OperationContextDecl_2= ruleOperationContextDecl ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:357:2: (this_PropertyContextDecl_0= rulePropertyContextDecl | this_ClassifierContextDecl_1= ruleClassifierContextDecl | this_OperationContextDecl_2= ruleOperationContextDecl )
+            // InternalBacktrackingContentAssistTestLanguage.g:331:1: ( (this_PropertyContextDecl_0= rulePropertyContextDecl | this_ClassifierContextDecl_1= ruleClassifierContextDecl | this_OperationContextDecl_2= ruleOperationContextDecl ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:332:2: (this_PropertyContextDecl_0= rulePropertyContextDecl | this_ClassifierContextDecl_1= ruleClassifierContextDecl | this_OperationContextDecl_2= ruleOperationContextDecl )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:357:2: (this_PropertyContextDecl_0= rulePropertyContextDecl | this_ClassifierContextDecl_1= ruleClassifierContextDecl | this_OperationContextDecl_2= ruleOperationContextDecl )
+            // InternalBacktrackingContentAssistTestLanguage.g:332:2: (this_PropertyContextDecl_0= rulePropertyContextDecl | this_ClassifierContextDecl_1= ruleClassifierContextDecl | this_OperationContextDecl_2= ruleOperationContextDecl )
             int alt6=3;
             int LA6_0 = input.LA(1);
 
@@ -1121,7 +1086,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt6) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:358:3: this_PropertyContextDecl_0= rulePropertyContextDecl
+                    // InternalBacktrackingContentAssistTestLanguage.g:333:3: this_PropertyContextDecl_0= rulePropertyContextDecl
                     {
                     if ( state.backtracking==0 ) {
 
@@ -1148,7 +1113,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:370:3: this_ClassifierContextDecl_1= ruleClassifierContextDecl
+                    // InternalBacktrackingContentAssistTestLanguage.g:345:3: this_ClassifierContextDecl_1= ruleClassifierContextDecl
                     {
                     if ( state.backtracking==0 ) {
 
@@ -1175,7 +1140,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 3 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:382:3: this_OperationContextDecl_2= ruleOperationContextDecl
+                    // InternalBacktrackingContentAssistTestLanguage.g:357:3: this_OperationContextDecl_2= ruleOperationContextDecl
                     {
                     if ( state.backtracking==0 ) {
 
@@ -1207,11 +1172,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -1226,7 +1186,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleDefinition"
-    // InternalBacktrackingContentAssistTestLanguage.g:397:1: entryRuleDefinition returns [EObject current=null] : iv_ruleDefinition= ruleDefinition EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:372:1: entryRuleDefinition returns [EObject current=null] : iv_ruleDefinition= ruleDefinition EOF ;
     public final EObject entryRuleDefinition() throws RecognitionException {
         EObject current = null;
 
@@ -1234,8 +1194,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:397:51: (iv_ruleDefinition= ruleDefinition EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:398:2: iv_ruleDefinition= ruleDefinition EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:372:51: (iv_ruleDefinition= ruleDefinition EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:373:2: iv_ruleDefinition= ruleDefinition EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getDefinitionRule()); 
@@ -1266,7 +1226,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleDefinition"
-    // InternalBacktrackingContentAssistTestLanguage.g:404:1: ruleDefinition returns [EObject current=null] : ( ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:379:1: ruleDefinition returns [EObject current=null] : ( ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) ) ) ;
     public final EObject ruleDefinition() throws RecognitionException {
         EObject current = null;
 
@@ -1291,17 +1251,14 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_expression_13_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:410:2: ( ( ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:411:2: ( ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:380:1: ( ( ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:381:2: ( ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:411:2: ( ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:412:3: ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:381:2: ( ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:382:3: ( (lv_static_0_0= 'static' ) )? otherlv_1= 'def' ( (lv_constraintName_2_0= ruleIdentifier ) )? otherlv_3= ':' ( (lv_constrainedName_4_0= ruleIdentifier ) ) (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )? otherlv_10= ':' ( (lv_type_11_0= ruleTypeExp ) )? otherlv_12= '=' ( (lv_expression_13_0= ruleExpression ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:412:3: ( (lv_static_0_0= 'static' ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:382:3: ( (lv_static_0_0= 'static' ) )?
             int alt7=2;
             int LA7_0 = input.LA(1);
 
@@ -1310,10 +1267,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt7) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:413:4: (lv_static_0_0= 'static' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:383:4: (lv_static_0_0= 'static' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:413:4: (lv_static_0_0= 'static' )
-                    // InternalBacktrackingContentAssistTestLanguage.g:414:5: lv_static_0_0= 'static'
+                    // InternalBacktrackingContentAssistTestLanguage.g:383:4: (lv_static_0_0= 'static' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:384:5: lv_static_0_0= 'static'
                     {
                     lv_static_0_0=(Token)match(input,14,FollowSets000.FOLLOW_9); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -1344,7 +1301,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getDefinitionAccess().getDefKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:430:3: ( (lv_constraintName_2_0= ruleIdentifier ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:400:3: ( (lv_constraintName_2_0= ruleIdentifier ) )?
             int alt8=2;
             int LA8_0 = input.LA(1);
 
@@ -1353,10 +1310,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt8) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:431:4: (lv_constraintName_2_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:401:4: (lv_constraintName_2_0= ruleIdentifier )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:431:4: (lv_constraintName_2_0= ruleIdentifier )
-                    // InternalBacktrackingContentAssistTestLanguage.g:432:5: lv_constraintName_2_0= ruleIdentifier
+                    // InternalBacktrackingContentAssistTestLanguage.g:401:4: (lv_constraintName_2_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:402:5: lv_constraintName_2_0= ruleIdentifier
                     {
                     if ( state.backtracking==0 ) {
 
@@ -1396,11 +1353,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_3, grammarAccess.getDefinitionAccess().getColonKeyword_3());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:453:3: ( (lv_constrainedName_4_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:454:4: (lv_constrainedName_4_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:423:3: ( (lv_constrainedName_4_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:424:4: (lv_constrainedName_4_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:454:4: (lv_constrainedName_4_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:455:5: lv_constrainedName_4_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:424:4: (lv_constrainedName_4_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:425:5: lv_constrainedName_4_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -1431,7 +1388,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:472:3: (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:442:3: (otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')' )?
             int alt11=2;
             int LA11_0 = input.LA(1);
 
@@ -1440,7 +1397,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt11) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:473:4: otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')'
+                    // InternalBacktrackingContentAssistTestLanguage.g:443:4: otherlv_5= '(' ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )? otherlv_9= ')'
                     {
                     otherlv_5=(Token)match(input,16,FollowSets000.FOLLOW_11); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -1448,7 +1405,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_5, grammarAccess.getDefinitionAccess().getLeftParenthesisKeyword_5_0());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:477:4: ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:447:4: ( ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )* )?
                     int alt10=2;
                     int LA10_0 = input.LA(1);
 
@@ -1457,13 +1414,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt10) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:478:5: ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )*
+                            // InternalBacktrackingContentAssistTestLanguage.g:448:5: ( (lv_parameters_6_0= ruleParameter ) ) (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )*
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:478:5: ( (lv_parameters_6_0= ruleParameter ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:479:6: (lv_parameters_6_0= ruleParameter )
+                            // InternalBacktrackingContentAssistTestLanguage.g:448:5: ( (lv_parameters_6_0= ruleParameter ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:449:6: (lv_parameters_6_0= ruleParameter )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:479:6: (lv_parameters_6_0= ruleParameter )
-                            // InternalBacktrackingContentAssistTestLanguage.g:480:7: lv_parameters_6_0= ruleParameter
+                            // InternalBacktrackingContentAssistTestLanguage.g:449:6: (lv_parameters_6_0= ruleParameter )
+                            // InternalBacktrackingContentAssistTestLanguage.g:450:7: lv_parameters_6_0= ruleParameter
                             {
                             if ( state.backtracking==0 ) {
 
@@ -1494,7 +1451,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                             }
 
-                            // InternalBacktrackingContentAssistTestLanguage.g:497:5: (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )*
+                            // InternalBacktrackingContentAssistTestLanguage.g:467:5: (otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) ) )*
                             loop9:
                             do {
                                 int alt9=2;
@@ -1507,7 +1464,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                                 switch (alt9) {
                             	case 1 :
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:498:6: otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:468:6: otherlv_7= ',' ( (lv_parameters_8_0= ruleParameter ) )
                             	    {
                             	    otherlv_7=(Token)match(input,17,FollowSets000.FOLLOW_13); if (state.failed) return current;
                             	    if ( state.backtracking==0 ) {
@@ -1515,11 +1472,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             	      						newLeafNode(otherlv_7, grammarAccess.getDefinitionAccess().getCommaKeyword_5_1_1_0());
                             	      					
                             	    }
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:502:6: ( (lv_parameters_8_0= ruleParameter ) )
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:503:7: (lv_parameters_8_0= ruleParameter )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:472:6: ( (lv_parameters_8_0= ruleParameter ) )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:473:7: (lv_parameters_8_0= ruleParameter )
                             	    {
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:503:7: (lv_parameters_8_0= ruleParameter )
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:504:8: lv_parameters_8_0= ruleParameter
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:473:7: (lv_parameters_8_0= ruleParameter )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:474:8: lv_parameters_8_0= ruleParameter
                             	    {
                             	    if ( state.backtracking==0 ) {
 
@@ -1583,7 +1540,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_10, grammarAccess.getDefinitionAccess().getColonKeyword_6());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:532:3: ( (lv_type_11_0= ruleTypeExp ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:502:3: ( (lv_type_11_0= ruleTypeExp ) )?
             int alt12=2;
             int LA12_0 = input.LA(1);
 
@@ -1592,10 +1549,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt12) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:533:4: (lv_type_11_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:503:4: (lv_type_11_0= ruleTypeExp )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:533:4: (lv_type_11_0= ruleTypeExp )
-                    // InternalBacktrackingContentAssistTestLanguage.g:534:5: lv_type_11_0= ruleTypeExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:503:4: (lv_type_11_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:504:5: lv_type_11_0= ruleTypeExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -1635,11 +1592,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_12, grammarAccess.getDefinitionAccess().getEqualsSignKeyword_8());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:555:3: ( (lv_expression_13_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:556:4: (lv_expression_13_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:525:3: ( (lv_expression_13_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:526:4: (lv_expression_13_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:556:4: (lv_expression_13_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:557:5: lv_expression_13_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:526:4: (lv_expression_13_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:527:5: lv_expression_13_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -1676,11 +1633,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -1695,7 +1647,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleDer"
-    // InternalBacktrackingContentAssistTestLanguage.g:578:1: entryRuleDer returns [EObject current=null] : iv_ruleDer= ruleDer EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:548:1: entryRuleDer returns [EObject current=null] : iv_ruleDer= ruleDer EOF ;
     public final EObject entryRuleDer() throws RecognitionException {
         EObject current = null;
 
@@ -1703,8 +1655,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:578:44: (iv_ruleDer= ruleDer EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:579:2: iv_ruleDer= ruleDer EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:548:44: (iv_ruleDer= ruleDer EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:549:2: iv_ruleDer= ruleDer EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getDerRule()); 
@@ -1735,7 +1687,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleDer"
-    // InternalBacktrackingContentAssistTestLanguage.g:585:1: ruleDer returns [EObject current=null] : (otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:555:1: ruleDer returns [EObject current=null] : (otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) ) ;
     public final EObject ruleDer() throws RecognitionException {
         EObject current = null;
 
@@ -1744,15 +1696,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_expression_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:591:2: ( (otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:592:2: (otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:556:1: ( (otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:557:2: (otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:592:2: (otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:593:3: otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:557:2: (otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:558:3: otherlv_0= 'derive' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) )
             {
             otherlv_0=(Token)match(input,20,FollowSets000.FOLLOW_5); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -1766,11 +1715,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getDerAccess().getColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:601:3: ( (lv_expression_2_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:602:4: (lv_expression_2_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:566:3: ( (lv_expression_2_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:567:4: (lv_expression_2_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:602:4: (lv_expression_2_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:603:5: lv_expression_2_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:567:4: (lv_expression_2_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:568:5: lv_expression_2_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -1807,11 +1756,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -1826,7 +1770,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleInit"
-    // InternalBacktrackingContentAssistTestLanguage.g:624:1: entryRuleInit returns [EObject current=null] : iv_ruleInit= ruleInit EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:589:1: entryRuleInit returns [EObject current=null] : iv_ruleInit= ruleInit EOF ;
     public final EObject entryRuleInit() throws RecognitionException {
         EObject current = null;
 
@@ -1834,8 +1778,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:624:45: (iv_ruleInit= ruleInit EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:625:2: iv_ruleInit= ruleInit EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:589:45: (iv_ruleInit= ruleInit EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:590:2: iv_ruleInit= ruleInit EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getInitRule()); 
@@ -1866,7 +1810,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleInit"
-    // InternalBacktrackingContentAssistTestLanguage.g:631:1: ruleInit returns [EObject current=null] : (otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:596:1: ruleInit returns [EObject current=null] : (otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) ) ;
     public final EObject ruleInit() throws RecognitionException {
         EObject current = null;
 
@@ -1875,15 +1819,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_expression_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:637:2: ( (otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:638:2: (otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:597:1: ( (otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:598:2: (otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:638:2: (otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:639:3: otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:598:2: (otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:599:3: otherlv_0= 'init' otherlv_1= ':' ( (lv_expression_2_0= ruleExpression ) )
             {
             otherlv_0=(Token)match(input,21,FollowSets000.FOLLOW_5); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -1897,11 +1838,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getInitAccess().getColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:647:3: ( (lv_expression_2_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:648:4: (lv_expression_2_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:607:3: ( (lv_expression_2_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:608:4: (lv_expression_2_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:648:4: (lv_expression_2_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:649:5: lv_expression_2_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:608:4: (lv_expression_2_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:609:5: lv_expression_2_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -1938,11 +1879,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -1957,7 +1893,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleInvariant"
-    // InternalBacktrackingContentAssistTestLanguage.g:670:1: entryRuleInvariant returns [EObject current=null] : iv_ruleInvariant= ruleInvariant EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:630:1: entryRuleInvariant returns [EObject current=null] : iv_ruleInvariant= ruleInvariant EOF ;
     public final EObject entryRuleInvariant() throws RecognitionException {
         EObject current = null;
 
@@ -1965,8 +1901,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:670:50: (iv_ruleInvariant= ruleInvariant EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:671:2: iv_ruleInvariant= ruleInvariant EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:630:50: (iv_ruleInvariant= ruleInvariant EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:631:2: iv_ruleInvariant= ruleInvariant EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getInvariantRule()); 
@@ -1997,7 +1933,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleInvariant"
-    // InternalBacktrackingContentAssistTestLanguage.g:677:1: ruleInvariant returns [EObject current=null] : (otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:637:1: ruleInvariant returns [EObject current=null] : (otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) ;
     public final EObject ruleInvariant() throws RecognitionException {
         EObject current = null;
 
@@ -2008,15 +1944,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_expression_3_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:683:2: ( (otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:684:2: (otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:638:1: ( (otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:639:2: (otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:684:2: (otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:685:3: otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:639:2: (otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:640:3: otherlv_0= 'inv' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) )
             {
             otherlv_0=(Token)match(input,22,FollowSets000.FOLLOW_4); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -2024,7 +1957,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getInvariantAccess().getInvKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:689:3: ( (lv_constraintName_1_0= ruleIdentifier ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:644:3: ( (lv_constraintName_1_0= ruleIdentifier ) )?
             int alt13=2;
             int LA13_0 = input.LA(1);
 
@@ -2033,10 +1966,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt13) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:690:4: (lv_constraintName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:645:4: (lv_constraintName_1_0= ruleIdentifier )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:690:4: (lv_constraintName_1_0= ruleIdentifier )
-                    // InternalBacktrackingContentAssistTestLanguage.g:691:5: lv_constraintName_1_0= ruleIdentifier
+                    // InternalBacktrackingContentAssistTestLanguage.g:645:4: (lv_constraintName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:646:5: lv_constraintName_1_0= ruleIdentifier
                     {
                     if ( state.backtracking==0 ) {
 
@@ -2076,11 +2009,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_2, grammarAccess.getInvariantAccess().getColonKeyword_2());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:712:3: ( (lv_expression_3_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:713:4: (lv_expression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:667:3: ( (lv_expression_3_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:668:4: (lv_expression_3_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:713:4: (lv_expression_3_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:714:5: lv_expression_3_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:668:4: (lv_expression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:669:5: lv_expression_3_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -2117,11 +2050,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -2136,7 +2064,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleOperationContextDecl"
-    // InternalBacktrackingContentAssistTestLanguage.g:735:1: entryRuleOperationContextDecl returns [EObject current=null] : iv_ruleOperationContextDecl= ruleOperationContextDecl EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:690:1: entryRuleOperationContextDecl returns [EObject current=null] : iv_ruleOperationContextDecl= ruleOperationContextDecl EOF ;
     public final EObject entryRuleOperationContextDecl() throws RecognitionException {
         EObject current = null;
 
@@ -2144,8 +2072,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:735:61: (iv_ruleOperationContextDecl= ruleOperationContextDecl EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:736:2: iv_ruleOperationContextDecl= ruleOperationContextDecl EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:690:61: (iv_ruleOperationContextDecl= ruleOperationContextDecl EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:691:2: iv_ruleOperationContextDecl= ruleOperationContextDecl EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getOperationContextDeclRule()); 
@@ -2176,7 +2104,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleOperationContextDecl"
-    // InternalBacktrackingContentAssistTestLanguage.g:742:1: ruleOperationContextDecl returns [EObject current=null] : (otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:697:1: ruleOperationContextDecl returns [EObject current=null] : (otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )* ) ;
     public final EObject ruleOperationContextDecl() throws RecognitionException {
         EObject current = null;
 
@@ -2200,15 +2128,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_bodies_11_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:748:2: ( (otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:749:2: (otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:698:1: ( (otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:699:2: (otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:749:2: (otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:750:3: otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:699:2: (otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:700:3: otherlv_0= 'context' ( (lv_operation_1_0= ruleOperationRef ) ) otherlv_2= '(' ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )? otherlv_6= ')' otherlv_7= ':' ( (lv_type_8_0= ruleTypeExp ) )? ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )*
             {
             otherlv_0=(Token)match(input,13,FollowSets000.FOLLOW_7); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -2216,11 +2141,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getOperationContextDeclAccess().getContextKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:754:3: ( (lv_operation_1_0= ruleOperationRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:755:4: (lv_operation_1_0= ruleOperationRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:704:3: ( (lv_operation_1_0= ruleOperationRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:705:4: (lv_operation_1_0= ruleOperationRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:755:4: (lv_operation_1_0= ruleOperationRef )
-            // InternalBacktrackingContentAssistTestLanguage.g:756:5: lv_operation_1_0= ruleOperationRef
+            // InternalBacktrackingContentAssistTestLanguage.g:705:4: (lv_operation_1_0= ruleOperationRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:706:5: lv_operation_1_0= ruleOperationRef
             {
             if ( state.backtracking==0 ) {
 
@@ -2257,7 +2182,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_2, grammarAccess.getOperationContextDeclAccess().getLeftParenthesisKeyword_2());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:777:3: ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )?
+            // InternalBacktrackingContentAssistTestLanguage.g:727:3: ( ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )* )?
             int alt15=2;
             int LA15_0 = input.LA(1);
 
@@ -2266,13 +2191,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt15) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:778:4: ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )*
+                    // InternalBacktrackingContentAssistTestLanguage.g:728:4: ( (lv_parameters_3_0= ruleParameter ) ) (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )*
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:778:4: ( (lv_parameters_3_0= ruleParameter ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:779:5: (lv_parameters_3_0= ruleParameter )
+                    // InternalBacktrackingContentAssistTestLanguage.g:728:4: ( (lv_parameters_3_0= ruleParameter ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:729:5: (lv_parameters_3_0= ruleParameter )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:779:5: (lv_parameters_3_0= ruleParameter )
-                    // InternalBacktrackingContentAssistTestLanguage.g:780:6: lv_parameters_3_0= ruleParameter
+                    // InternalBacktrackingContentAssistTestLanguage.g:729:5: (lv_parameters_3_0= ruleParameter )
+                    // InternalBacktrackingContentAssistTestLanguage.g:730:6: lv_parameters_3_0= ruleParameter
                     {
                     if ( state.backtracking==0 ) {
 
@@ -2303,7 +2228,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:797:4: (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )*
+                    // InternalBacktrackingContentAssistTestLanguage.g:747:4: (otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) ) )*
                     loop14:
                     do {
                         int alt14=2;
@@ -2316,7 +2241,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                         switch (alt14) {
                     	case 1 :
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:798:5: otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:748:5: otherlv_4= ',' ( (lv_parameters_5_0= ruleParameter ) )
                     	    {
                     	    otherlv_4=(Token)match(input,17,FollowSets000.FOLLOW_13); if (state.failed) return current;
                     	    if ( state.backtracking==0 ) {
@@ -2324,11 +2249,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     	      					newLeafNode(otherlv_4, grammarAccess.getOperationContextDeclAccess().getCommaKeyword_3_1_0());
                     	      				
                     	    }
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:802:5: ( (lv_parameters_5_0= ruleParameter ) )
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:803:6: (lv_parameters_5_0= ruleParameter )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:752:5: ( (lv_parameters_5_0= ruleParameter ) )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:753:6: (lv_parameters_5_0= ruleParameter )
                     	    {
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:803:6: (lv_parameters_5_0= ruleParameter )
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:804:7: lv_parameters_5_0= ruleParameter
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:753:6: (lv_parameters_5_0= ruleParameter )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:754:7: lv_parameters_5_0= ruleParameter
                     	    {
                     	    if ( state.backtracking==0 ) {
 
@@ -2386,7 +2311,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_7, grammarAccess.getOperationContextDeclAccess().getColonKeyword_5());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:831:3: ( (lv_type_8_0= ruleTypeExp ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:781:3: ( (lv_type_8_0= ruleTypeExp ) )?
             int alt16=2;
             int LA16_0 = input.LA(1);
 
@@ -2395,10 +2320,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt16) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:832:4: (lv_type_8_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:782:4: (lv_type_8_0= ruleTypeExp )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:832:4: (lv_type_8_0= ruleTypeExp )
-                    // InternalBacktrackingContentAssistTestLanguage.g:833:5: lv_type_8_0= ruleTypeExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:782:4: (lv_type_8_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:783:5: lv_type_8_0= ruleTypeExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -2432,7 +2357,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:850:3: ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:800:3: ( ( (lv_pres_9_0= rulePre ) ) | ( (lv_posts_10_0= rulePost ) ) | ( (lv_bodies_11_0= ruleBody ) ) )*
             loop17:
             do {
                 int alt17=4;
@@ -2457,13 +2382,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt17) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:851:4: ( (lv_pres_9_0= rulePre ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:801:4: ( (lv_pres_9_0= rulePre ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:851:4: ( (lv_pres_9_0= rulePre ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:852:5: (lv_pres_9_0= rulePre )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:801:4: ( (lv_pres_9_0= rulePre ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:802:5: (lv_pres_9_0= rulePre )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:852:5: (lv_pres_9_0= rulePre )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:853:6: lv_pres_9_0= rulePre
+            	    // InternalBacktrackingContentAssistTestLanguage.g:802:5: (lv_pres_9_0= rulePre )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:803:6: lv_pres_9_0= rulePre
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -2498,13 +2423,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    break;
             	case 2 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:871:4: ( (lv_posts_10_0= rulePost ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:821:4: ( (lv_posts_10_0= rulePost ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:871:4: ( (lv_posts_10_0= rulePost ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:872:5: (lv_posts_10_0= rulePost )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:821:4: ( (lv_posts_10_0= rulePost ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:822:5: (lv_posts_10_0= rulePost )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:872:5: (lv_posts_10_0= rulePost )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:873:6: lv_posts_10_0= rulePost
+            	    // InternalBacktrackingContentAssistTestLanguage.g:822:5: (lv_posts_10_0= rulePost )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:823:6: lv_posts_10_0= rulePost
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -2539,13 +2464,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    break;
             	case 3 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:891:4: ( (lv_bodies_11_0= ruleBody ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:841:4: ( (lv_bodies_11_0= ruleBody ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:891:4: ( (lv_bodies_11_0= ruleBody ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:892:5: (lv_bodies_11_0= ruleBody )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:841:4: ( (lv_bodies_11_0= ruleBody ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:842:5: (lv_bodies_11_0= ruleBody )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:892:5: (lv_bodies_11_0= ruleBody )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:893:6: lv_bodies_11_0= ruleBody
+            	    // InternalBacktrackingContentAssistTestLanguage.g:842:5: (lv_bodies_11_0= ruleBody )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:843:6: lv_bodies_11_0= ruleBody
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -2591,11 +2516,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -2610,7 +2530,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleOperationRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:915:1: entryRuleOperationRef returns [EObject current=null] : iv_ruleOperationRef= ruleOperationRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:865:1: entryRuleOperationRef returns [EObject current=null] : iv_ruleOperationRef= ruleOperationRef EOF ;
     public final EObject entryRuleOperationRef() throws RecognitionException {
         EObject current = null;
 
@@ -2618,8 +2538,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:915:53: (iv_ruleOperationRef= ruleOperationRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:916:2: iv_ruleOperationRef= ruleOperationRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:865:53: (iv_ruleOperationRef= ruleOperationRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:866:2: iv_ruleOperationRef= ruleOperationRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getOperationRefRule()); 
@@ -2650,7 +2570,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleOperationRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:922:1: ruleOperationRef returns [EObject current=null] : (this_QualifiedOperationRef_0= ruleQualifiedOperationRef | this_SimpleOperationRef_1= ruleSimpleOperationRef ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:872:1: ruleOperationRef returns [EObject current=null] : (this_QualifiedOperationRef_0= ruleQualifiedOperationRef | this_SimpleOperationRef_1= ruleSimpleOperationRef ) ;
     public final EObject ruleOperationRef() throws RecognitionException {
         EObject current = null;
 
@@ -2659,14 +2579,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_SimpleOperationRef_1 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:928:2: ( (this_QualifiedOperationRef_0= ruleQualifiedOperationRef | this_SimpleOperationRef_1= ruleSimpleOperationRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:929:2: (this_QualifiedOperationRef_0= ruleQualifiedOperationRef | this_SimpleOperationRef_1= ruleSimpleOperationRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:873:1: ( (this_QualifiedOperationRef_0= ruleQualifiedOperationRef | this_SimpleOperationRef_1= ruleSimpleOperationRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:874:2: (this_QualifiedOperationRef_0= ruleQualifiedOperationRef | this_SimpleOperationRef_1= ruleSimpleOperationRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:929:2: (this_QualifiedOperationRef_0= ruleQualifiedOperationRef | this_SimpleOperationRef_1= ruleSimpleOperationRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:874:2: (this_QualifiedOperationRef_0= ruleQualifiedOperationRef | this_SimpleOperationRef_1= ruleSimpleOperationRef )
             int alt18=2;
             switch ( input.LA(1) ) {
             case RULE_ID:
@@ -2736,7 +2653,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt18) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:930:3: this_QualifiedOperationRef_0= ruleQualifiedOperationRef
+                    // InternalBacktrackingContentAssistTestLanguage.g:875:3: this_QualifiedOperationRef_0= ruleQualifiedOperationRef
                     {
                     if ( state.backtracking==0 ) {
 
@@ -2763,7 +2680,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:942:3: this_SimpleOperationRef_1= ruleSimpleOperationRef
+                    // InternalBacktrackingContentAssistTestLanguage.g:887:3: this_SimpleOperationRef_1= ruleSimpleOperationRef
                     {
                     if ( state.backtracking==0 ) {
 
@@ -2795,11 +2712,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -2814,7 +2726,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePackageDeclaration"
-    // InternalBacktrackingContentAssistTestLanguage.g:957:1: entryRulePackageDeclaration returns [EObject current=null] : iv_rulePackageDeclaration= rulePackageDeclaration EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:902:1: entryRulePackageDeclaration returns [EObject current=null] : iv_rulePackageDeclaration= rulePackageDeclaration EOF ;
     public final EObject entryRulePackageDeclaration() throws RecognitionException {
         EObject current = null;
 
@@ -2822,8 +2734,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:957:59: (iv_rulePackageDeclaration= rulePackageDeclaration EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:958:2: iv_rulePackageDeclaration= rulePackageDeclaration EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:902:59: (iv_rulePackageDeclaration= rulePackageDeclaration EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:903:2: iv_rulePackageDeclaration= rulePackageDeclaration EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPackageDeclarationRule()); 
@@ -2854,7 +2766,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePackageDeclaration"
-    // InternalBacktrackingContentAssistTestLanguage.g:964:1: rulePackageDeclaration returns [EObject current=null] : (otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:909:1: rulePackageDeclaration returns [EObject current=null] : (otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage' ) ;
     public final EObject rulePackageDeclaration() throws RecognitionException {
         EObject current = null;
 
@@ -2865,15 +2777,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_contexts_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:970:2: ( (otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:971:2: (otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage' )
+            // InternalBacktrackingContentAssistTestLanguage.g:910:1: ( (otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:911:2: (otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:971:2: (otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage' )
-            // InternalBacktrackingContentAssistTestLanguage.g:972:3: otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage'
+            // InternalBacktrackingContentAssistTestLanguage.g:911:2: (otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage' )
+            // InternalBacktrackingContentAssistTestLanguage.g:912:3: otherlv_0= 'package' ( (lv_package_1_0= rulePackageRef ) ) ( (lv_contexts_2_0= ruleContextDecl ) )* otherlv_3= 'endpackage'
             {
             otherlv_0=(Token)match(input,23,FollowSets000.FOLLOW_7); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -2881,11 +2790,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getPackageDeclarationAccess().getPackageKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:976:3: ( (lv_package_1_0= rulePackageRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:977:4: (lv_package_1_0= rulePackageRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:916:3: ( (lv_package_1_0= rulePackageRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:917:4: (lv_package_1_0= rulePackageRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:977:4: (lv_package_1_0= rulePackageRef )
-            // InternalBacktrackingContentAssistTestLanguage.g:978:5: lv_package_1_0= rulePackageRef
+            // InternalBacktrackingContentAssistTestLanguage.g:917:4: (lv_package_1_0= rulePackageRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:918:5: lv_package_1_0= rulePackageRef
             {
             if ( state.backtracking==0 ) {
 
@@ -2916,7 +2825,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:995:3: ( (lv_contexts_2_0= ruleContextDecl ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:935:3: ( (lv_contexts_2_0= ruleContextDecl ) )*
             loop19:
             do {
                 int alt19=2;
@@ -2929,10 +2838,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt19) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:996:4: (lv_contexts_2_0= ruleContextDecl )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:936:4: (lv_contexts_2_0= ruleContextDecl )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:996:4: (lv_contexts_2_0= ruleContextDecl )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:997:5: lv_contexts_2_0= ruleContextDecl
+            	    // InternalBacktrackingContentAssistTestLanguage.g:936:4: (lv_contexts_2_0= ruleContextDecl )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:937:5: lv_contexts_2_0= ruleContextDecl
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -2981,11 +2890,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -3000,7 +2904,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePackageRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1022:1: entryRulePackageRef returns [EObject current=null] : iv_rulePackageRef= rulePackageRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:962:1: entryRulePackageRef returns [EObject current=null] : iv_rulePackageRef= rulePackageRef EOF ;
     public final EObject entryRulePackageRef() throws RecognitionException {
         EObject current = null;
 
@@ -3008,8 +2912,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1022:51: (iv_rulePackageRef= rulePackageRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1023:2: iv_rulePackageRef= rulePackageRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:962:51: (iv_rulePackageRef= rulePackageRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:963:2: iv_rulePackageRef= rulePackageRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPackageRefRule()); 
@@ -3040,7 +2944,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePackageRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1029:1: rulePackageRef returns [EObject current=null] : (this_QualifiedPackageRef_0= ruleQualifiedPackageRef | this_SimplePackageRef_1= ruleSimplePackageRef ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:969:1: rulePackageRef returns [EObject current=null] : (this_QualifiedPackageRef_0= ruleQualifiedPackageRef | this_SimplePackageRef_1= ruleSimplePackageRef ) ;
     public final EObject rulePackageRef() throws RecognitionException {
         EObject current = null;
 
@@ -3049,14 +2953,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_SimplePackageRef_1 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1035:2: ( (this_QualifiedPackageRef_0= ruleQualifiedPackageRef | this_SimplePackageRef_1= ruleSimplePackageRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1036:2: (this_QualifiedPackageRef_0= ruleQualifiedPackageRef | this_SimplePackageRef_1= ruleSimplePackageRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:970:1: ( (this_QualifiedPackageRef_0= ruleQualifiedPackageRef | this_SimplePackageRef_1= ruleSimplePackageRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:971:2: (this_QualifiedPackageRef_0= ruleQualifiedPackageRef | this_SimplePackageRef_1= ruleSimplePackageRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1036:2: (this_QualifiedPackageRef_0= ruleQualifiedPackageRef | this_SimplePackageRef_1= ruleSimplePackageRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:971:2: (this_QualifiedPackageRef_0= ruleQualifiedPackageRef | this_SimplePackageRef_1= ruleSimplePackageRef )
             int alt20=2;
             switch ( input.LA(1) ) {
             case RULE_ID:
@@ -3126,7 +3027,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt20) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1037:3: this_QualifiedPackageRef_0= ruleQualifiedPackageRef
+                    // InternalBacktrackingContentAssistTestLanguage.g:972:3: this_QualifiedPackageRef_0= ruleQualifiedPackageRef
                     {
                     if ( state.backtracking==0 ) {
 
@@ -3153,7 +3054,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1049:3: this_SimplePackageRef_1= ruleSimplePackageRef
+                    // InternalBacktrackingContentAssistTestLanguage.g:984:3: this_SimplePackageRef_1= ruleSimplePackageRef
                     {
                     if ( state.backtracking==0 ) {
 
@@ -3185,11 +3086,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -3204,7 +3100,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleParameter"
-    // InternalBacktrackingContentAssistTestLanguage.g:1064:1: entryRuleParameter returns [EObject current=null] : iv_ruleParameter= ruleParameter EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:999:1: entryRuleParameter returns [EObject current=null] : iv_ruleParameter= ruleParameter EOF ;
     public final EObject entryRuleParameter() throws RecognitionException {
         EObject current = null;
 
@@ -3212,8 +3108,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1064:50: (iv_ruleParameter= ruleParameter EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1065:2: iv_ruleParameter= ruleParameter EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:999:50: (iv_ruleParameter= ruleParameter EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1000:2: iv_ruleParameter= ruleParameter EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getParameterRule()); 
@@ -3244,7 +3140,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleParameter"
-    // InternalBacktrackingContentAssistTestLanguage.g:1071:1: ruleParameter returns [EObject current=null] : ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1006:1: ruleParameter returns [EObject current=null] : ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) ) ) ;
     public final EObject ruleParameter() throws RecognitionException {
         EObject current = null;
 
@@ -3254,17 +3150,14 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_type_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1077:2: ( ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1078:2: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1007:1: ( ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1008:2: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1078:2: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1079:3: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1008:2: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1009:3: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )? ( (lv_type_2_0= ruleTypeExp ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1079:3: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:1009:3: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' )?
             int alt21=2;
             switch ( input.LA(1) ) {
                 case RULE_ID:
@@ -3298,13 +3191,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt21) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1080:4: ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':'
+                    // InternalBacktrackingContentAssistTestLanguage.g:1010:4: ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':'
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1080:4: ( (lv_name_0_0= ruleIdentifier ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1081:5: (lv_name_0_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1010:4: ( (lv_name_0_0= ruleIdentifier ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1011:5: (lv_name_0_0= ruleIdentifier )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1081:5: (lv_name_0_0= ruleIdentifier )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1082:6: lv_name_0_0= ruleIdentifier
+                    // InternalBacktrackingContentAssistTestLanguage.g:1011:5: (lv_name_0_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1012:6: lv_name_0_0= ruleIdentifier
                     {
                     if ( state.backtracking==0 ) {
 
@@ -3347,11 +3240,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:1104:3: ( (lv_type_2_0= ruleTypeExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1105:4: (lv_type_2_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:1034:3: ( (lv_type_2_0= ruleTypeExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1035:4: (lv_type_2_0= ruleTypeExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1105:4: (lv_type_2_0= ruleTypeExp )
-            // InternalBacktrackingContentAssistTestLanguage.g:1106:5: lv_type_2_0= ruleTypeExp
+            // InternalBacktrackingContentAssistTestLanguage.g:1035:4: (lv_type_2_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:1036:5: lv_type_2_0= ruleTypeExp
             {
             if ( state.backtracking==0 ) {
 
@@ -3388,11 +3281,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -3407,7 +3295,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePost"
-    // InternalBacktrackingContentAssistTestLanguage.g:1127:1: entryRulePost returns [EObject current=null] : iv_rulePost= rulePost EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1057:1: entryRulePost returns [EObject current=null] : iv_rulePost= rulePost EOF ;
     public final EObject entryRulePost() throws RecognitionException {
         EObject current = null;
 
@@ -3415,8 +3303,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1127:45: (iv_rulePost= rulePost EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1128:2: iv_rulePost= rulePost EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1057:45: (iv_rulePost= rulePost EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1058:2: iv_rulePost= rulePost EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPostRule()); 
@@ -3447,7 +3335,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePost"
-    // InternalBacktrackingContentAssistTestLanguage.g:1134:1: rulePost returns [EObject current=null] : (otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1064:1: rulePost returns [EObject current=null] : (otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) ;
     public final EObject rulePost() throws RecognitionException {
         EObject current = null;
 
@@ -3458,15 +3346,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_expression_3_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1140:2: ( (otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1141:2: (otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1065:1: ( (otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1066:2: (otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1141:2: (otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1142:3: otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1066:2: (otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1067:3: otherlv_0= 'post' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) )
             {
             otherlv_0=(Token)match(input,25,FollowSets000.FOLLOW_4); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -3474,7 +3359,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getPostAccess().getPostKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1146:3: ( (lv_constraintName_1_0= ruleIdentifier ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:1071:3: ( (lv_constraintName_1_0= ruleIdentifier ) )?
             int alt22=2;
             int LA22_0 = input.LA(1);
 
@@ -3483,10 +3368,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt22) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1147:4: (lv_constraintName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1072:4: (lv_constraintName_1_0= ruleIdentifier )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1147:4: (lv_constraintName_1_0= ruleIdentifier )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1148:5: lv_constraintName_1_0= ruleIdentifier
+                    // InternalBacktrackingContentAssistTestLanguage.g:1072:4: (lv_constraintName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1073:5: lv_constraintName_1_0= ruleIdentifier
                     {
                     if ( state.backtracking==0 ) {
 
@@ -3526,11 +3411,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_2, grammarAccess.getPostAccess().getColonKeyword_2());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1169:3: ( (lv_expression_3_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1170:4: (lv_expression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:1094:3: ( (lv_expression_3_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1095:4: (lv_expression_3_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1170:4: (lv_expression_3_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:1171:5: lv_expression_3_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:1095:4: (lv_expression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:1096:5: lv_expression_3_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -3567,11 +3452,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -3586,7 +3466,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePre"
-    // InternalBacktrackingContentAssistTestLanguage.g:1192:1: entryRulePre returns [EObject current=null] : iv_rulePre= rulePre EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1117:1: entryRulePre returns [EObject current=null] : iv_rulePre= rulePre EOF ;
     public final EObject entryRulePre() throws RecognitionException {
         EObject current = null;
 
@@ -3594,8 +3474,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1192:44: (iv_rulePre= rulePre EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1193:2: iv_rulePre= rulePre EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1117:44: (iv_rulePre= rulePre EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1118:2: iv_rulePre= rulePre EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPreRule()); 
@@ -3626,7 +3506,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePre"
-    // InternalBacktrackingContentAssistTestLanguage.g:1199:1: rulePre returns [EObject current=null] : (otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1124:1: rulePre returns [EObject current=null] : (otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) ;
     public final EObject rulePre() throws RecognitionException {
         EObject current = null;
 
@@ -3637,15 +3517,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_expression_3_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1205:2: ( (otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1206:2: (otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1125:1: ( (otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1126:2: (otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1206:2: (otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1207:3: otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1126:2: (otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1127:3: otherlv_0= 'pre' ( (lv_constraintName_1_0= ruleIdentifier ) )? otherlv_2= ':' ( (lv_expression_3_0= ruleExpression ) )
             {
             otherlv_0=(Token)match(input,26,FollowSets000.FOLLOW_4); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -3653,7 +3530,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getPreAccess().getPreKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1211:3: ( (lv_constraintName_1_0= ruleIdentifier ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:1131:3: ( (lv_constraintName_1_0= ruleIdentifier ) )?
             int alt23=2;
             int LA23_0 = input.LA(1);
 
@@ -3662,10 +3539,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt23) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1212:4: (lv_constraintName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1132:4: (lv_constraintName_1_0= ruleIdentifier )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1212:4: (lv_constraintName_1_0= ruleIdentifier )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1213:5: lv_constraintName_1_0= ruleIdentifier
+                    // InternalBacktrackingContentAssistTestLanguage.g:1132:4: (lv_constraintName_1_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1133:5: lv_constraintName_1_0= ruleIdentifier
                     {
                     if ( state.backtracking==0 ) {
 
@@ -3705,11 +3582,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_2, grammarAccess.getPreAccess().getColonKeyword_2());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1234:3: ( (lv_expression_3_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1235:4: (lv_expression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:1154:3: ( (lv_expression_3_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1155:4: (lv_expression_3_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1235:4: (lv_expression_3_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:1236:5: lv_expression_3_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:1155:4: (lv_expression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:1156:5: lv_expression_3_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -3746,11 +3623,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -3765,7 +3637,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePropertyContextDecl"
-    // InternalBacktrackingContentAssistTestLanguage.g:1257:1: entryRulePropertyContextDecl returns [EObject current=null] : iv_rulePropertyContextDecl= rulePropertyContextDecl EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1177:1: entryRulePropertyContextDecl returns [EObject current=null] : iv_rulePropertyContextDecl= rulePropertyContextDecl EOF ;
     public final EObject entryRulePropertyContextDecl() throws RecognitionException {
         EObject current = null;
 
@@ -3773,8 +3645,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1257:60: (iv_rulePropertyContextDecl= rulePropertyContextDecl EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1258:2: iv_rulePropertyContextDecl= rulePropertyContextDecl EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1177:60: (iv_rulePropertyContextDecl= rulePropertyContextDecl EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1178:2: iv_rulePropertyContextDecl= rulePropertyContextDecl EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPropertyContextDeclRule()); 
@@ -3805,7 +3677,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePropertyContextDecl"
-    // InternalBacktrackingContentAssistTestLanguage.g:1264:1: rulePropertyContextDecl returns [EObject current=null] : (otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1184:1: rulePropertyContextDecl returns [EObject current=null] : (otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) ) ) ;
     public final EObject rulePropertyContextDecl() throws RecognitionException {
         EObject current = null;
 
@@ -3824,15 +3696,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_init_7_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1270:2: ( (otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1271:2: (otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1185:1: ( (otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1186:2: (otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1271:2: (otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1272:3: otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1186:2: (otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1187:3: otherlv_0= 'context' ( (lv_property_1_0= rulePropertyRef ) ) otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) )
             {
             otherlv_0=(Token)match(input,13,FollowSets000.FOLLOW_7); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -3840,11 +3709,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getPropertyContextDeclAccess().getContextKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1276:3: ( (lv_property_1_0= rulePropertyRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1277:4: (lv_property_1_0= rulePropertyRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1191:3: ( (lv_property_1_0= rulePropertyRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1192:4: (lv_property_1_0= rulePropertyRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1277:4: (lv_property_1_0= rulePropertyRef )
-            // InternalBacktrackingContentAssistTestLanguage.g:1278:5: lv_property_1_0= rulePropertyRef
+            // InternalBacktrackingContentAssistTestLanguage.g:1192:4: (lv_property_1_0= rulePropertyRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1193:5: lv_property_1_0= rulePropertyRef
             {
             if ( state.backtracking==0 ) {
 
@@ -3881,11 +3750,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_2, grammarAccess.getPropertyContextDeclAccess().getColonKeyword_2());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1299:3: ( (lv_type_3_0= ruleTypeExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1300:4: (lv_type_3_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:1214:3: ( (lv_type_3_0= ruleTypeExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1215:4: (lv_type_3_0= ruleTypeExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1300:4: (lv_type_3_0= ruleTypeExp )
-            // InternalBacktrackingContentAssistTestLanguage.g:1301:5: lv_type_3_0= ruleTypeExp
+            // InternalBacktrackingContentAssistTestLanguage.g:1215:4: (lv_type_3_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:1216:5: lv_type_3_0= ruleTypeExp
             {
             if ( state.backtracking==0 ) {
 
@@ -3916,7 +3785,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:1318:3: ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1233:3: ( ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )? | ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? ) )
             int alt27=2;
             int LA27_0 = input.LA(1);
 
@@ -3935,9 +3804,9 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt27) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1319:4: ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:1234:4: ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )?
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1319:4: ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:1234:4: ( ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )? )?
                     int alt25=2;
                     int LA25_0 = input.LA(1);
 
@@ -3946,13 +3815,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt25) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:1320:5: ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )?
+                            // InternalBacktrackingContentAssistTestLanguage.g:1235:5: ( (lv_init_4_0= ruleInit ) ) ( (lv_der_5_0= ruleDer ) )?
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:1320:5: ( (lv_init_4_0= ruleInit ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:1321:6: (lv_init_4_0= ruleInit )
+                            // InternalBacktrackingContentAssistTestLanguage.g:1235:5: ( (lv_init_4_0= ruleInit ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:1236:6: (lv_init_4_0= ruleInit )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:1321:6: (lv_init_4_0= ruleInit )
-                            // InternalBacktrackingContentAssistTestLanguage.g:1322:7: lv_init_4_0= ruleInit
+                            // InternalBacktrackingContentAssistTestLanguage.g:1236:6: (lv_init_4_0= ruleInit )
+                            // InternalBacktrackingContentAssistTestLanguage.g:1237:7: lv_init_4_0= ruleInit
                             {
                             if ( state.backtracking==0 ) {
 
@@ -3983,7 +3852,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                             }
 
-                            // InternalBacktrackingContentAssistTestLanguage.g:1339:5: ( (lv_der_5_0= ruleDer ) )?
+                            // InternalBacktrackingContentAssistTestLanguage.g:1254:5: ( (lv_der_5_0= ruleDer ) )?
                             int alt24=2;
                             int LA24_0 = input.LA(1);
 
@@ -3992,10 +3861,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             }
                             switch (alt24) {
                                 case 1 :
-                                    // InternalBacktrackingContentAssistTestLanguage.g:1340:6: (lv_der_5_0= ruleDer )
+                                    // InternalBacktrackingContentAssistTestLanguage.g:1255:6: (lv_der_5_0= ruleDer )
                                     {
-                                    // InternalBacktrackingContentAssistTestLanguage.g:1340:6: (lv_der_5_0= ruleDer )
-                                    // InternalBacktrackingContentAssistTestLanguage.g:1341:7: lv_der_5_0= ruleDer
+                                    // InternalBacktrackingContentAssistTestLanguage.g:1255:6: (lv_der_5_0= ruleDer )
+                                    // InternalBacktrackingContentAssistTestLanguage.g:1256:7: lv_der_5_0= ruleDer
                                     {
                                     if ( state.backtracking==0 ) {
 
@@ -4039,16 +3908,16 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1360:4: ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1275:4: ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1360:4: ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1361:5: ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:1275:4: ( ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )? )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1276:5: ( (lv_der_6_0= ruleDer ) ) ( (lv_init_7_0= ruleInit ) )?
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1361:5: ( (lv_der_6_0= ruleDer ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1362:6: (lv_der_6_0= ruleDer )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1276:5: ( (lv_der_6_0= ruleDer ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1277:6: (lv_der_6_0= ruleDer )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1362:6: (lv_der_6_0= ruleDer )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1363:7: lv_der_6_0= ruleDer
+                    // InternalBacktrackingContentAssistTestLanguage.g:1277:6: (lv_der_6_0= ruleDer )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1278:7: lv_der_6_0= ruleDer
                     {
                     if ( state.backtracking==0 ) {
 
@@ -4079,7 +3948,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:1380:5: ( (lv_init_7_0= ruleInit ) )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:1295:5: ( (lv_init_7_0= ruleInit ) )?
                     int alt26=2;
                     int LA26_0 = input.LA(1);
 
@@ -4088,10 +3957,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt26) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:1381:6: (lv_init_7_0= ruleInit )
+                            // InternalBacktrackingContentAssistTestLanguage.g:1296:6: (lv_init_7_0= ruleInit )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:1381:6: (lv_init_7_0= ruleInit )
-                            // InternalBacktrackingContentAssistTestLanguage.g:1382:7: lv_init_7_0= ruleInit
+                            // InternalBacktrackingContentAssistTestLanguage.g:1296:6: (lv_init_7_0= ruleInit )
+                            // InternalBacktrackingContentAssistTestLanguage.g:1297:7: lv_init_7_0= ruleInit
                             {
                             if ( state.backtracking==0 ) {
 
@@ -4140,11 +4009,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -4159,7 +4023,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePropertyRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1405:1: entryRulePropertyRef returns [EObject current=null] : iv_rulePropertyRef= rulePropertyRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1320:1: entryRulePropertyRef returns [EObject current=null] : iv_rulePropertyRef= rulePropertyRef EOF ;
     public final EObject entryRulePropertyRef() throws RecognitionException {
         EObject current = null;
 
@@ -4167,8 +4031,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1405:52: (iv_rulePropertyRef= rulePropertyRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1406:2: iv_rulePropertyRef= rulePropertyRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1320:52: (iv_rulePropertyRef= rulePropertyRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1321:2: iv_rulePropertyRef= rulePropertyRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPropertyRefRule()); 
@@ -4199,7 +4063,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePropertyRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1412:1: rulePropertyRef returns [EObject current=null] : (this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef | this_SimplePropertyRef_1= ruleSimplePropertyRef ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1327:1: rulePropertyRef returns [EObject current=null] : (this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef | this_SimplePropertyRef_1= ruleSimplePropertyRef ) ;
     public final EObject rulePropertyRef() throws RecognitionException {
         EObject current = null;
 
@@ -4208,14 +4072,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_SimplePropertyRef_1 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1418:2: ( (this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef | this_SimplePropertyRef_1= ruleSimplePropertyRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1419:2: (this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef | this_SimplePropertyRef_1= ruleSimplePropertyRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1328:1: ( (this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef | this_SimplePropertyRef_1= ruleSimplePropertyRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1329:2: (this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef | this_SimplePropertyRef_1= ruleSimplePropertyRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1419:2: (this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef | this_SimplePropertyRef_1= ruleSimplePropertyRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1329:2: (this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef | this_SimplePropertyRef_1= ruleSimplePropertyRef )
             int alt28=2;
             switch ( input.LA(1) ) {
             case RULE_ID:
@@ -4285,7 +4146,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt28) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1420:3: this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef
+                    // InternalBacktrackingContentAssistTestLanguage.g:1330:3: this_QualifiedPropertyRef_0= ruleQualifiedPropertyRef
                     {
                     if ( state.backtracking==0 ) {
 
@@ -4312,7 +4173,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1432:3: this_SimplePropertyRef_1= ruleSimplePropertyRef
+                    // InternalBacktrackingContentAssistTestLanguage.g:1342:3: this_SimplePropertyRef_1= ruleSimplePropertyRef
                     {
                     if ( state.backtracking==0 ) {
 
@@ -4344,11 +4205,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -4363,7 +4219,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleQualifiedClassifierRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1447:1: entryRuleQualifiedClassifierRef returns [EObject current=null] : iv_ruleQualifiedClassifierRef= ruleQualifiedClassifierRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1357:1: entryRuleQualifiedClassifierRef returns [EObject current=null] : iv_ruleQualifiedClassifierRef= ruleQualifiedClassifierRef EOF ;
     public final EObject entryRuleQualifiedClassifierRef() throws RecognitionException {
         EObject current = null;
 
@@ -4371,8 +4227,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1447:63: (iv_ruleQualifiedClassifierRef= ruleQualifiedClassifierRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1448:2: iv_ruleQualifiedClassifierRef= ruleQualifiedClassifierRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1357:63: (iv_ruleQualifiedClassifierRef= ruleQualifiedClassifierRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1358:2: iv_ruleQualifiedClassifierRef= ruleQualifiedClassifierRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getQualifiedClassifierRefRule()); 
@@ -4403,7 +4259,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleQualifiedClassifierRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1454:1: ruleQualifiedClassifierRef returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1364:1: ruleQualifiedClassifierRef returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) ) ) ;
     public final EObject ruleQualifiedClassifierRef() throws RecognitionException {
         EObject current = null;
 
@@ -4413,21 +4269,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_element_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1460:2: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1461:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1365:1: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1366:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1461:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1462:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1366:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1367:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleClassifierRef ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1462:3: ( (lv_namespace_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1463:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1367:3: ( (lv_namespace_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1368:4: (lv_namespace_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1463:4: (lv_namespace_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:1464:5: lv_namespace_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:1368:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1369:5: lv_namespace_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -4464,11 +4317,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getQualifiedClassifierRefAccess().getColonColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1485:3: ( (lv_element_2_0= ruleClassifierRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1486:4: (lv_element_2_0= ruleClassifierRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1390:3: ( (lv_element_2_0= ruleClassifierRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1391:4: (lv_element_2_0= ruleClassifierRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1486:4: (lv_element_2_0= ruleClassifierRef )
-            // InternalBacktrackingContentAssistTestLanguage.g:1487:5: lv_element_2_0= ruleClassifierRef
+            // InternalBacktrackingContentAssistTestLanguage.g:1391:4: (lv_element_2_0= ruleClassifierRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1392:5: lv_element_2_0= ruleClassifierRef
             {
             if ( state.backtracking==0 ) {
 
@@ -4505,11 +4358,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -4524,7 +4372,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleQualifiedOperationRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1508:1: entryRuleQualifiedOperationRef returns [EObject current=null] : iv_ruleQualifiedOperationRef= ruleQualifiedOperationRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1413:1: entryRuleQualifiedOperationRef returns [EObject current=null] : iv_ruleQualifiedOperationRef= ruleQualifiedOperationRef EOF ;
     public final EObject entryRuleQualifiedOperationRef() throws RecognitionException {
         EObject current = null;
 
@@ -4532,8 +4380,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1508:62: (iv_ruleQualifiedOperationRef= ruleQualifiedOperationRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1509:2: iv_ruleQualifiedOperationRef= ruleQualifiedOperationRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1413:62: (iv_ruleQualifiedOperationRef= ruleQualifiedOperationRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1414:2: iv_ruleQualifiedOperationRef= ruleQualifiedOperationRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getQualifiedOperationRefRule()); 
@@ -4564,7 +4412,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleQualifiedOperationRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1515:1: ruleQualifiedOperationRef returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1420:1: ruleQualifiedOperationRef returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) ) ) ;
     public final EObject ruleQualifiedOperationRef() throws RecognitionException {
         EObject current = null;
 
@@ -4574,21 +4422,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_element_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1521:2: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1522:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1421:1: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1422:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1522:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1523:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1422:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1423:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleOperationRef ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1523:3: ( (lv_namespace_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1524:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1423:3: ( (lv_namespace_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1424:4: (lv_namespace_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1524:4: (lv_namespace_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:1525:5: lv_namespace_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:1424:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1425:5: lv_namespace_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -4625,11 +4470,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getQualifiedOperationRefAccess().getColonColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1546:3: ( (lv_element_2_0= ruleOperationRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1547:4: (lv_element_2_0= ruleOperationRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1446:3: ( (lv_element_2_0= ruleOperationRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1447:4: (lv_element_2_0= ruleOperationRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1547:4: (lv_element_2_0= ruleOperationRef )
-            // InternalBacktrackingContentAssistTestLanguage.g:1548:5: lv_element_2_0= ruleOperationRef
+            // InternalBacktrackingContentAssistTestLanguage.g:1447:4: (lv_element_2_0= ruleOperationRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1448:5: lv_element_2_0= ruleOperationRef
             {
             if ( state.backtracking==0 ) {
 
@@ -4666,11 +4511,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -4685,7 +4525,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleQualifiedPropertyRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1569:1: entryRuleQualifiedPropertyRef returns [EObject current=null] : iv_ruleQualifiedPropertyRef= ruleQualifiedPropertyRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1469:1: entryRuleQualifiedPropertyRef returns [EObject current=null] : iv_ruleQualifiedPropertyRef= ruleQualifiedPropertyRef EOF ;
     public final EObject entryRuleQualifiedPropertyRef() throws RecognitionException {
         EObject current = null;
 
@@ -4693,8 +4533,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1569:61: (iv_ruleQualifiedPropertyRef= ruleQualifiedPropertyRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1570:2: iv_ruleQualifiedPropertyRef= ruleQualifiedPropertyRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1469:61: (iv_ruleQualifiedPropertyRef= ruleQualifiedPropertyRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1470:2: iv_ruleQualifiedPropertyRef= ruleQualifiedPropertyRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getQualifiedPropertyRefRule()); 
@@ -4725,7 +4565,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleQualifiedPropertyRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1576:1: ruleQualifiedPropertyRef returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1476:1: ruleQualifiedPropertyRef returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) ) ) ;
     public final EObject ruleQualifiedPropertyRef() throws RecognitionException {
         EObject current = null;
 
@@ -4735,21 +4575,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_element_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1582:2: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1583:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1477:1: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1478:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1583:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1584:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1478:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1479:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePropertyRef ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1584:3: ( (lv_namespace_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1585:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1479:3: ( (lv_namespace_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1480:4: (lv_namespace_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1585:4: (lv_namespace_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:1586:5: lv_namespace_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:1480:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1481:5: lv_namespace_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -4786,11 +4623,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getQualifiedPropertyRefAccess().getColonColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1607:3: ( (lv_element_2_0= rulePropertyRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1608:4: (lv_element_2_0= rulePropertyRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1502:3: ( (lv_element_2_0= rulePropertyRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1503:4: (lv_element_2_0= rulePropertyRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1608:4: (lv_element_2_0= rulePropertyRef )
-            // InternalBacktrackingContentAssistTestLanguage.g:1609:5: lv_element_2_0= rulePropertyRef
+            // InternalBacktrackingContentAssistTestLanguage.g:1503:4: (lv_element_2_0= rulePropertyRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1504:5: lv_element_2_0= rulePropertyRef
             {
             if ( state.backtracking==0 ) {
 
@@ -4827,11 +4664,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -4846,7 +4678,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleQualifiedPackageRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1630:1: entryRuleQualifiedPackageRef returns [EObject current=null] : iv_ruleQualifiedPackageRef= ruleQualifiedPackageRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1525:1: entryRuleQualifiedPackageRef returns [EObject current=null] : iv_ruleQualifiedPackageRef= ruleQualifiedPackageRef EOF ;
     public final EObject entryRuleQualifiedPackageRef() throws RecognitionException {
         EObject current = null;
 
@@ -4854,8 +4686,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1630:60: (iv_ruleQualifiedPackageRef= ruleQualifiedPackageRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1631:2: iv_ruleQualifiedPackageRef= ruleQualifiedPackageRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1525:60: (iv_ruleQualifiedPackageRef= ruleQualifiedPackageRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1526:2: iv_ruleQualifiedPackageRef= ruleQualifiedPackageRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getQualifiedPackageRefRule()); 
@@ -4886,7 +4718,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleQualifiedPackageRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1637:1: ruleQualifiedPackageRef returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1532:1: ruleQualifiedPackageRef returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) ) ) ;
     public final EObject ruleQualifiedPackageRef() throws RecognitionException {
         EObject current = null;
 
@@ -4896,21 +4728,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_element_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1643:2: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1644:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1533:1: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1534:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1644:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1645:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1534:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1535:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= rulePackageRef ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1645:3: ( (lv_namespace_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1646:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1535:3: ( (lv_namespace_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1536:4: (lv_namespace_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1646:4: (lv_namespace_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:1647:5: lv_namespace_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:1536:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1537:5: lv_namespace_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -4947,11 +4776,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getQualifiedPackageRefAccess().getColonColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1668:3: ( (lv_element_2_0= rulePackageRef ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1669:4: (lv_element_2_0= rulePackageRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1558:3: ( (lv_element_2_0= rulePackageRef ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1559:4: (lv_element_2_0= rulePackageRef )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1669:4: (lv_element_2_0= rulePackageRef )
-            // InternalBacktrackingContentAssistTestLanguage.g:1670:5: lv_element_2_0= rulePackageRef
+            // InternalBacktrackingContentAssistTestLanguage.g:1559:4: (lv_element_2_0= rulePackageRef )
+            // InternalBacktrackingContentAssistTestLanguage.g:1560:5: lv_element_2_0= rulePackageRef
             {
             if ( state.backtracking==0 ) {
 
@@ -4988,11 +4817,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -5007,7 +4831,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleSimpleClassifierRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1691:1: entryRuleSimpleClassifierRef returns [EObject current=null] : iv_ruleSimpleClassifierRef= ruleSimpleClassifierRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1581:1: entryRuleSimpleClassifierRef returns [EObject current=null] : iv_ruleSimpleClassifierRef= ruleSimpleClassifierRef EOF ;
     public final EObject entryRuleSimpleClassifierRef() throws RecognitionException {
         EObject current = null;
 
@@ -5015,8 +4839,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1691:60: (iv_ruleSimpleClassifierRef= ruleSimpleClassifierRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1692:2: iv_ruleSimpleClassifierRef= ruleSimpleClassifierRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1581:60: (iv_ruleSimpleClassifierRef= ruleSimpleClassifierRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1582:2: iv_ruleSimpleClassifierRef= ruleSimpleClassifierRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getSimpleClassifierRefRule()); 
@@ -5047,25 +4871,22 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleSimpleClassifierRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1698:1: ruleSimpleClassifierRef returns [EObject current=null] : ( (lv_classifier_0_0= ruleIdentifier ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1588:1: ruleSimpleClassifierRef returns [EObject current=null] : ( (lv_classifier_0_0= ruleIdentifier ) ) ;
     public final EObject ruleSimpleClassifierRef() throws RecognitionException {
         EObject current = null;
 
         AntlrDatatypeRuleToken lv_classifier_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1704:2: ( ( (lv_classifier_0_0= ruleIdentifier ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1705:2: ( (lv_classifier_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1589:1: ( ( (lv_classifier_0_0= ruleIdentifier ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1590:2: ( (lv_classifier_0_0= ruleIdentifier ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1705:2: ( (lv_classifier_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1706:3: (lv_classifier_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1590:2: ( (lv_classifier_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1591:3: (lv_classifier_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1706:3: (lv_classifier_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:1707:4: lv_classifier_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:1591:3: (lv_classifier_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1592:4: lv_classifier_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -5099,11 +4920,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -5118,7 +4934,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleSimpleOperationRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1727:1: entryRuleSimpleOperationRef returns [EObject current=null] : iv_ruleSimpleOperationRef= ruleSimpleOperationRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1612:1: entryRuleSimpleOperationRef returns [EObject current=null] : iv_ruleSimpleOperationRef= ruleSimpleOperationRef EOF ;
     public final EObject entryRuleSimpleOperationRef() throws RecognitionException {
         EObject current = null;
 
@@ -5126,8 +4942,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1727:59: (iv_ruleSimpleOperationRef= ruleSimpleOperationRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1728:2: iv_ruleSimpleOperationRef= ruleSimpleOperationRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1612:59: (iv_ruleSimpleOperationRef= ruleSimpleOperationRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1613:2: iv_ruleSimpleOperationRef= ruleSimpleOperationRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getSimpleOperationRefRule()); 
@@ -5158,25 +4974,22 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleSimpleOperationRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1734:1: ruleSimpleOperationRef returns [EObject current=null] : ( (lv_operation_0_0= ruleIdentifier ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1619:1: ruleSimpleOperationRef returns [EObject current=null] : ( (lv_operation_0_0= ruleIdentifier ) ) ;
     public final EObject ruleSimpleOperationRef() throws RecognitionException {
         EObject current = null;
 
         AntlrDatatypeRuleToken lv_operation_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1740:2: ( ( (lv_operation_0_0= ruleIdentifier ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1741:2: ( (lv_operation_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1620:1: ( ( (lv_operation_0_0= ruleIdentifier ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1621:2: ( (lv_operation_0_0= ruleIdentifier ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1741:2: ( (lv_operation_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1742:3: (lv_operation_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1621:2: ( (lv_operation_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1622:3: (lv_operation_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1742:3: (lv_operation_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:1743:4: lv_operation_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:1622:3: (lv_operation_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1623:4: lv_operation_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -5210,11 +5023,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -5229,7 +5037,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleSimplePackageRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1763:1: entryRuleSimplePackageRef returns [EObject current=null] : iv_ruleSimplePackageRef= ruleSimplePackageRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1643:1: entryRuleSimplePackageRef returns [EObject current=null] : iv_ruleSimplePackageRef= ruleSimplePackageRef EOF ;
     public final EObject entryRuleSimplePackageRef() throws RecognitionException {
         EObject current = null;
 
@@ -5237,8 +5045,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1763:57: (iv_ruleSimplePackageRef= ruleSimplePackageRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1764:2: iv_ruleSimplePackageRef= ruleSimplePackageRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1643:57: (iv_ruleSimplePackageRef= ruleSimplePackageRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1644:2: iv_ruleSimplePackageRef= ruleSimplePackageRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getSimplePackageRefRule()); 
@@ -5269,25 +5077,22 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleSimplePackageRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1770:1: ruleSimplePackageRef returns [EObject current=null] : ( (lv_package_0_0= ruleIdentifier ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1650:1: ruleSimplePackageRef returns [EObject current=null] : ( (lv_package_0_0= ruleIdentifier ) ) ;
     public final EObject ruleSimplePackageRef() throws RecognitionException {
         EObject current = null;
 
         AntlrDatatypeRuleToken lv_package_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1776:2: ( ( (lv_package_0_0= ruleIdentifier ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1777:2: ( (lv_package_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1651:1: ( ( (lv_package_0_0= ruleIdentifier ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1652:2: ( (lv_package_0_0= ruleIdentifier ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1777:2: ( (lv_package_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1778:3: (lv_package_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1652:2: ( (lv_package_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1653:3: (lv_package_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1778:3: (lv_package_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:1779:4: lv_package_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:1653:3: (lv_package_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1654:4: lv_package_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -5321,11 +5126,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -5340,7 +5140,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleSimplePropertyRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1799:1: entryRuleSimplePropertyRef returns [EObject current=null] : iv_ruleSimplePropertyRef= ruleSimplePropertyRef EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1674:1: entryRuleSimplePropertyRef returns [EObject current=null] : iv_ruleSimplePropertyRef= ruleSimplePropertyRef EOF ;
     public final EObject entryRuleSimplePropertyRef() throws RecognitionException {
         EObject current = null;
 
@@ -5348,8 +5148,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1799:58: (iv_ruleSimplePropertyRef= ruleSimplePropertyRef EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1800:2: iv_ruleSimplePropertyRef= ruleSimplePropertyRef EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1674:58: (iv_ruleSimplePropertyRef= ruleSimplePropertyRef EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1675:2: iv_ruleSimplePropertyRef= ruleSimplePropertyRef EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getSimplePropertyRefRule()); 
@@ -5380,25 +5180,22 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleSimplePropertyRef"
-    // InternalBacktrackingContentAssistTestLanguage.g:1806:1: ruleSimplePropertyRef returns [EObject current=null] : ( (lv_feature_0_0= ruleIdentifier ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1681:1: ruleSimplePropertyRef returns [EObject current=null] : ( (lv_feature_0_0= ruleIdentifier ) ) ;
     public final EObject ruleSimplePropertyRef() throws RecognitionException {
         EObject current = null;
 
         AntlrDatatypeRuleToken lv_feature_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1812:2: ( ( (lv_feature_0_0= ruleIdentifier ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1813:2: ( (lv_feature_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1682:1: ( ( (lv_feature_0_0= ruleIdentifier ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1683:2: ( (lv_feature_0_0= ruleIdentifier ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1813:2: ( (lv_feature_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1814:3: (lv_feature_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1683:2: ( (lv_feature_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1684:3: (lv_feature_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1814:3: (lv_feature_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:1815:4: lv_feature_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:1684:3: (lv_feature_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:1685:4: lv_feature_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -5432,11 +5229,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -5451,7 +5243,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleNavigationExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:1835:1: entryRuleNavigationExp returns [EObject current=null] : iv_ruleNavigationExp= ruleNavigationExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1705:1: entryRuleNavigationExp returns [EObject current=null] : iv_ruleNavigationExp= ruleNavigationExp EOF ;
     public final EObject entryRuleNavigationExp() throws RecognitionException {
         EObject current = null;
 
@@ -5459,8 +5251,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1835:54: (iv_ruleNavigationExp= ruleNavigationExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:1836:2: iv_ruleNavigationExp= ruleNavigationExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1705:54: (iv_ruleNavigationExp= ruleNavigationExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1706:2: iv_ruleNavigationExp= ruleNavigationExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getNavigationExpRule()); 
@@ -5491,7 +5283,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleNavigationExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:1842:1: ruleNavigationExp returns [EObject current=null] : (this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1712:1: ruleNavigationExp returns [EObject current=null] : (this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? ) ;
     public final EObject ruleNavigationExp() throws RecognitionException {
         EObject current = null;
 
@@ -5513,15 +5305,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_arguments_10_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:1848:2: ( (this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:1849:2: (this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:1713:1: ( (this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1714:2: (this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:1849:2: (this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? )
-            // InternalBacktrackingContentAssistTestLanguage.g:1850:3: this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:1714:2: (this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:1715:3: this_SubNavigationExp_0= ruleSubNavigationExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )?
             {
             if ( state.backtracking==0 ) {
 
@@ -5544,7 +5333,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:1861:3: ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:1726:3: ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )?
             int alt33=3;
             int LA33_0 = input.LA(1);
 
@@ -5556,13 +5345,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt33) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1862:4: ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1727:4: ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1862:4: ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1863:5: () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1727:4: ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1728:5: () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1863:5: ()
-                    // InternalBacktrackingContentAssistTestLanguage.g:1864:6: 
+                    // InternalBacktrackingContentAssistTestLanguage.g:1728:5: ()
+                    // InternalBacktrackingContentAssistTestLanguage.g:1729:6: 
                     {
                     if ( state.backtracking==0 ) {
 
@@ -5579,13 +5368,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:1873:5: ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1874:6: ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1738:5: ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1739:6: ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1874:6: ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1875:7: (lv_op_2_1= '.' | lv_op_2_2= '->' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1739:6: ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1740:7: (lv_op_2_1= '.' | lv_op_2_2= '->' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1875:7: (lv_op_2_1= '.' | lv_op_2_2= '->' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1740:7: (lv_op_2_1= '.' | lv_op_2_2= '->' )
                     int alt29=2;
                     int LA29_0 = input.LA(1);
 
@@ -5604,7 +5393,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt29) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:1876:8: lv_op_2_1= '.'
+                            // InternalBacktrackingContentAssistTestLanguage.g:1741:8: lv_op_2_1= '.'
                             {
                             lv_op_2_1=(Token)match(input,28,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -5624,7 +5413,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             }
                             break;
                         case 2 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:1887:8: lv_op_2_2= '->'
+                            // InternalBacktrackingContentAssistTestLanguage.g:1752:8: lv_op_2_2= '->'
                             {
                             lv_op_2_2=(Token)match(input,29,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -5652,11 +5441,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:1900:5: ( (lv_argument_3_0= ruleNavigatingExp ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1901:6: (lv_argument_3_0= ruleNavigatingExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1765:5: ( (lv_argument_3_0= ruleNavigatingExp ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1766:6: (lv_argument_3_0= ruleNavigatingExp )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1901:6: (lv_argument_3_0= ruleNavigatingExp )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1902:7: lv_argument_3_0= ruleNavigatingExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:1766:6: (lv_argument_3_0= ruleNavigatingExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1767:7: lv_argument_3_0= ruleNavigatingExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -5694,13 +5483,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:1921:4: ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1786:4: ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1921:4: ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1922:5: () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')'
+                    // InternalBacktrackingContentAssistTestLanguage.g:1786:4: ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1787:5: () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')'
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1922:5: ()
-                    // InternalBacktrackingContentAssistTestLanguage.g:1923:6: 
+                    // InternalBacktrackingContentAssistTestLanguage.g:1787:5: ()
+                    // InternalBacktrackingContentAssistTestLanguage.g:1788:6: 
                     {
                     if ( state.backtracking==0 ) {
 
@@ -5717,13 +5506,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:1932:5: ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1933:6: ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1797:5: ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1798:6: ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1933:6: ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1934:7: (lv_op_5_1= '^^' | lv_op_5_2= '^' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1798:6: ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1799:7: (lv_op_5_1= '^^' | lv_op_5_2= '^' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1934:7: (lv_op_5_1= '^^' | lv_op_5_2= '^' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1799:7: (lv_op_5_1= '^^' | lv_op_5_2= '^' )
                     int alt30=2;
                     int LA30_0 = input.LA(1);
 
@@ -5742,7 +5531,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt30) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:1935:8: lv_op_5_1= '^^'
+                            // InternalBacktrackingContentAssistTestLanguage.g:1800:8: lv_op_5_1= '^^'
                             {
                             lv_op_5_1=(Token)match(input,30,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -5762,7 +5551,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             }
                             break;
                         case 2 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:1946:8: lv_op_5_2= '^'
+                            // InternalBacktrackingContentAssistTestLanguage.g:1811:8: lv_op_5_2= '^'
                             {
                             lv_op_5_2=(Token)match(input,31,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -5790,11 +5579,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:1959:5: ( (lv_messageName_6_0= ruleIdentifier ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1960:6: (lv_messageName_6_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1824:5: ( (lv_messageName_6_0= ruleIdentifier ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1825:6: (lv_messageName_6_0= ruleIdentifier )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:1960:6: (lv_messageName_6_0= ruleIdentifier )
-                    // InternalBacktrackingContentAssistTestLanguage.g:1961:7: lv_messageName_6_0= ruleIdentifier
+                    // InternalBacktrackingContentAssistTestLanguage.g:1825:6: (lv_messageName_6_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1826:7: lv_messageName_6_0= ruleIdentifier
                     {
                     if ( state.backtracking==0 ) {
 
@@ -5831,7 +5620,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       					newLeafNode(otherlv_7, grammarAccess.getNavigationExpAccess().getLeftParenthesisKeyword_1_1_3());
                       				
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:1982:5: ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:1847:5: ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )?
                     int alt32=2;
                     int LA32_0 = input.LA(1);
 
@@ -5840,13 +5629,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt32) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:1983:6: ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )*
+                            // InternalBacktrackingContentAssistTestLanguage.g:1848:6: ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )*
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:1983:6: ( (lv_arguments_8_0= ruleOclMessageArg ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:1984:7: (lv_arguments_8_0= ruleOclMessageArg )
+                            // InternalBacktrackingContentAssistTestLanguage.g:1848:6: ( (lv_arguments_8_0= ruleOclMessageArg ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:1849:7: (lv_arguments_8_0= ruleOclMessageArg )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:1984:7: (lv_arguments_8_0= ruleOclMessageArg )
-                            // InternalBacktrackingContentAssistTestLanguage.g:1985:8: lv_arguments_8_0= ruleOclMessageArg
+                            // InternalBacktrackingContentAssistTestLanguage.g:1849:7: (lv_arguments_8_0= ruleOclMessageArg )
+                            // InternalBacktrackingContentAssistTestLanguage.g:1850:8: lv_arguments_8_0= ruleOclMessageArg
                             {
                             if ( state.backtracking==0 ) {
 
@@ -5877,7 +5666,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                             }
 
-                            // InternalBacktrackingContentAssistTestLanguage.g:2002:6: (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )*
+                            // InternalBacktrackingContentAssistTestLanguage.g:1867:6: (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )*
                             loop31:
                             do {
                                 int alt31=2;
@@ -5890,7 +5679,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                                 switch (alt31) {
                             	case 1 :
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2003:7: otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:1868:7: otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) )
                             	    {
                             	    otherlv_9=(Token)match(input,17,FollowSets000.FOLLOW_26); if (state.failed) return current;
                             	    if ( state.backtracking==0 ) {
@@ -5898,11 +5687,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             	      							newLeafNode(otherlv_9, grammarAccess.getNavigationExpAccess().getCommaKeyword_1_1_4_1_0());
                             	      						
                             	    }
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2007:7: ( (lv_arguments_10_0= ruleOclMessageArg ) )
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2008:8: (lv_arguments_10_0= ruleOclMessageArg )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:1872:7: ( (lv_arguments_10_0= ruleOclMessageArg ) )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:1873:8: (lv_arguments_10_0= ruleOclMessageArg )
                             	    {
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2008:8: (lv_arguments_10_0= ruleOclMessageArg )
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2009:9: lv_arguments_10_0= ruleOclMessageArg
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:1873:8: (lv_arguments_10_0= ruleOclMessageArg )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:1874:9: lv_arguments_10_0= ruleOclMessageArg
                             	    {
                             	    if ( state.backtracking==0 ) {
 
@@ -5969,11 +5758,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -5988,7 +5772,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleNavigatingExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:2038:1: entryRuleNavigatingExp returns [EObject current=null] : iv_ruleNavigatingExp= ruleNavigatingExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1903:1: entryRuleNavigatingExp returns [EObject current=null] : iv_ruleNavigatingExp= ruleNavigatingExp EOF ;
     public final EObject entryRuleNavigatingExp() throws RecognitionException {
         EObject current = null;
 
@@ -5996,8 +5780,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2038:54: (iv_ruleNavigatingExp= ruleNavigatingExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2039:2: iv_ruleNavigatingExp= ruleNavigatingExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:1903:54: (iv_ruleNavigatingExp= ruleNavigatingExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:1904:2: iv_ruleNavigatingExp= ruleNavigatingExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getNavigatingExpRule()); 
@@ -6028,7 +5812,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleNavigatingExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:2045:1: ruleNavigatingExp returns [EObject current=null] : (this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:1910:1: ruleNavigatingExp returns [EObject current=null] : (this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? ) ;
     public final EObject ruleNavigatingExp() throws RecognitionException {
         EObject current = null;
 
@@ -6050,15 +5834,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_arguments_10_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2051:2: ( (this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2052:2: (this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:1911:1: ( (this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:1912:2: (this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2052:2: (this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? )
-            // InternalBacktrackingContentAssistTestLanguage.g:2053:3: this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:1912:2: (this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:1913:3: this_SubNavigatingExp_0= ruleSubNavigatingExp ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )?
             {
             if ( state.backtracking==0 ) {
 
@@ -6081,7 +5862,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:2064:3: ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:1924:3: ( ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) ) | ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' ) )?
             int alt38=3;
             int LA38_0 = input.LA(1);
 
@@ -6093,13 +5874,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt38) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2065:4: ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1925:4: ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2065:4: ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2066:5: () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1925:4: ( () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1926:5: () ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) ) ( (lv_argument_3_0= ruleNavigatingExp ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2066:5: ()
-                    // InternalBacktrackingContentAssistTestLanguage.g:2067:6: 
+                    // InternalBacktrackingContentAssistTestLanguage.g:1926:5: ()
+                    // InternalBacktrackingContentAssistTestLanguage.g:1927:6: 
                     {
                     if ( state.backtracking==0 ) {
 
@@ -6116,13 +5897,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:2076:5: ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2077:6: ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1936:5: ( ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1937:6: ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2077:6: ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2078:7: (lv_op_2_1= '.' | lv_op_2_2= '->' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1937:6: ( (lv_op_2_1= '.' | lv_op_2_2= '->' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1938:7: (lv_op_2_1= '.' | lv_op_2_2= '->' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2078:7: (lv_op_2_1= '.' | lv_op_2_2= '->' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1938:7: (lv_op_2_1= '.' | lv_op_2_2= '->' )
                     int alt34=2;
                     int LA34_0 = input.LA(1);
 
@@ -6141,7 +5922,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt34) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2079:8: lv_op_2_1= '.'
+                            // InternalBacktrackingContentAssistTestLanguage.g:1939:8: lv_op_2_1= '.'
                             {
                             lv_op_2_1=(Token)match(input,28,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -6161,7 +5942,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             }
                             break;
                         case 2 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2090:8: lv_op_2_2= '->'
+                            // InternalBacktrackingContentAssistTestLanguage.g:1950:8: lv_op_2_2= '->'
                             {
                             lv_op_2_2=(Token)match(input,29,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -6189,11 +5970,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:2103:5: ( (lv_argument_3_0= ruleNavigatingExp ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2104:6: (lv_argument_3_0= ruleNavigatingExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1963:5: ( (lv_argument_3_0= ruleNavigatingExp ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1964:6: (lv_argument_3_0= ruleNavigatingExp )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2104:6: (lv_argument_3_0= ruleNavigatingExp )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2105:7: lv_argument_3_0= ruleNavigatingExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:1964:6: (lv_argument_3_0= ruleNavigatingExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1965:7: lv_argument_3_0= ruleNavigatingExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -6231,13 +6012,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2124:4: ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1984:4: ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2124:4: ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2125:5: () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')'
+                    // InternalBacktrackingContentAssistTestLanguage.g:1984:4: ( () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1985:5: () ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) ) ( (lv_messageName_6_0= ruleIdentifier ) ) otherlv_7= '(' ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )? otherlv_11= ')'
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2125:5: ()
-                    // InternalBacktrackingContentAssistTestLanguage.g:2126:6: 
+                    // InternalBacktrackingContentAssistTestLanguage.g:1985:5: ()
+                    // InternalBacktrackingContentAssistTestLanguage.g:1986:6: 
                     {
                     if ( state.backtracking==0 ) {
 
@@ -6254,13 +6035,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:2135:5: ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2136:6: ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1995:5: ( ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1996:6: ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2136:6: ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2137:7: (lv_op_5_1= '^^' | lv_op_5_2= '^' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1996:6: ( (lv_op_5_1= '^^' | lv_op_5_2= '^' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1997:7: (lv_op_5_1= '^^' | lv_op_5_2= '^' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2137:7: (lv_op_5_1= '^^' | lv_op_5_2= '^' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:1997:7: (lv_op_5_1= '^^' | lv_op_5_2= '^' )
                     int alt35=2;
                     int LA35_0 = input.LA(1);
 
@@ -6279,7 +6060,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt35) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2138:8: lv_op_5_1= '^^'
+                            // InternalBacktrackingContentAssistTestLanguage.g:1998:8: lv_op_5_1= '^^'
                             {
                             lv_op_5_1=(Token)match(input,30,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -6299,7 +6080,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             }
                             break;
                         case 2 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2149:8: lv_op_5_2= '^'
+                            // InternalBacktrackingContentAssistTestLanguage.g:2009:8: lv_op_5_2= '^'
                             {
                             lv_op_5_2=(Token)match(input,31,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -6327,11 +6108,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:2162:5: ( (lv_messageName_6_0= ruleIdentifier ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2163:6: (lv_messageName_6_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2022:5: ( (lv_messageName_6_0= ruleIdentifier ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2023:6: (lv_messageName_6_0= ruleIdentifier )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2163:6: (lv_messageName_6_0= ruleIdentifier )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2164:7: lv_messageName_6_0= ruleIdentifier
+                    // InternalBacktrackingContentAssistTestLanguage.g:2023:6: (lv_messageName_6_0= ruleIdentifier )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2024:7: lv_messageName_6_0= ruleIdentifier
                     {
                     if ( state.backtracking==0 ) {
 
@@ -6368,7 +6149,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       					newLeafNode(otherlv_7, grammarAccess.getNavigatingExpAccess().getLeftParenthesisKeyword_1_1_3());
                       				
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:2185:5: ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:2045:5: ( ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )* )?
                     int alt37=2;
                     int LA37_0 = input.LA(1);
 
@@ -6377,13 +6158,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt37) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2186:6: ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )*
+                            // InternalBacktrackingContentAssistTestLanguage.g:2046:6: ( (lv_arguments_8_0= ruleOclMessageArg ) ) (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )*
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:2186:6: ( (lv_arguments_8_0= ruleOclMessageArg ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:2187:7: (lv_arguments_8_0= ruleOclMessageArg )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2046:6: ( (lv_arguments_8_0= ruleOclMessageArg ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2047:7: (lv_arguments_8_0= ruleOclMessageArg )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:2187:7: (lv_arguments_8_0= ruleOclMessageArg )
-                            // InternalBacktrackingContentAssistTestLanguage.g:2188:8: lv_arguments_8_0= ruleOclMessageArg
+                            // InternalBacktrackingContentAssistTestLanguage.g:2047:7: (lv_arguments_8_0= ruleOclMessageArg )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2048:8: lv_arguments_8_0= ruleOclMessageArg
                             {
                             if ( state.backtracking==0 ) {
 
@@ -6414,7 +6195,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                             }
 
-                            // InternalBacktrackingContentAssistTestLanguage.g:2205:6: (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )*
+                            // InternalBacktrackingContentAssistTestLanguage.g:2065:6: (otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) ) )*
                             loop36:
                             do {
                                 int alt36=2;
@@ -6427,7 +6208,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                                 switch (alt36) {
                             	case 1 :
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2206:7: otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2066:7: otherlv_9= ',' ( (lv_arguments_10_0= ruleOclMessageArg ) )
                             	    {
                             	    otherlv_9=(Token)match(input,17,FollowSets000.FOLLOW_26); if (state.failed) return current;
                             	    if ( state.backtracking==0 ) {
@@ -6435,11 +6216,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             	      							newLeafNode(otherlv_9, grammarAccess.getNavigatingExpAccess().getCommaKeyword_1_1_4_1_0());
                             	      						
                             	    }
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2210:7: ( (lv_arguments_10_0= ruleOclMessageArg ) )
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2211:8: (lv_arguments_10_0= ruleOclMessageArg )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2070:7: ( (lv_arguments_10_0= ruleOclMessageArg ) )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2071:8: (lv_arguments_10_0= ruleOclMessageArg )
                             	    {
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2211:8: (lv_arguments_10_0= ruleOclMessageArg )
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2212:9: lv_arguments_10_0= ruleOclMessageArg
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2071:8: (lv_arguments_10_0= ruleOclMessageArg )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2072:9: lv_arguments_10_0= ruleOclMessageArg
                             	    {
                             	    if ( state.backtracking==0 ) {
 
@@ -6506,11 +6287,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -6525,7 +6301,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleOclMessageArg"
-    // InternalBacktrackingContentAssistTestLanguage.g:2241:1: entryRuleOclMessageArg returns [EObject current=null] : iv_ruleOclMessageArg= ruleOclMessageArg EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2101:1: entryRuleOclMessageArg returns [EObject current=null] : iv_ruleOclMessageArg= ruleOclMessageArg EOF ;
     public final EObject entryRuleOclMessageArg() throws RecognitionException {
         EObject current = null;
 
@@ -6533,8 +6309,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2241:54: (iv_ruleOclMessageArg= ruleOclMessageArg EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2242:2: iv_ruleOclMessageArg= ruleOclMessageArg EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2101:54: (iv_ruleOclMessageArg= ruleOclMessageArg EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2102:2: iv_ruleOclMessageArg= ruleOclMessageArg EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getOclMessageArgRule()); 
@@ -6565,7 +6341,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleOclMessageArg"
-    // InternalBacktrackingContentAssistTestLanguage.g:2248:1: ruleOclMessageArg returns [EObject current=null] : ( ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? ) | this_Expression_4= ruleExpression ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2108:1: ruleOclMessageArg returns [EObject current=null] : ( ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? ) | this_Expression_4= ruleExpression ) ;
     public final EObject ruleOclMessageArg() throws RecognitionException {
         EObject current = null;
 
@@ -6576,14 +6352,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_Expression_4 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2254:2: ( ( ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? ) | this_Expression_4= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2255:2: ( ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? ) | this_Expression_4= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:2109:1: ( ( ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? ) | this_Expression_4= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2110:2: ( ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? ) | this_Expression_4= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2255:2: ( ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? ) | this_Expression_4= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:2110:2: ( ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? ) | this_Expression_4= ruleExpression )
             int alt40=2;
             int LA40_0 = input.LA(1);
 
@@ -6602,13 +6375,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt40) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2256:3: ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2111:3: ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2256:3: ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2257:4: () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:2111:3: ( () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )? )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2112:4: () otherlv_1= '?' (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )?
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2257:4: ()
-                    // InternalBacktrackingContentAssistTestLanguage.g:2258:5: 
+                    // InternalBacktrackingContentAssistTestLanguage.g:2112:4: ()
+                    // InternalBacktrackingContentAssistTestLanguage.g:2113:5: 
                     {
                     if ( state.backtracking==0 ) {
 
@@ -6631,7 +6404,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_1, grammarAccess.getOclMessageArgAccess().getQuestionMarkKeyword_0_1());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:2271:4: (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:2126:4: (otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) ) )?
                     int alt39=2;
                     int LA39_0 = input.LA(1);
 
@@ -6640,7 +6413,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt39) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2272:5: otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2127:5: otherlv_2= ':' ( (lv_type_3_0= ruleTypeExp ) )
                             {
                             otherlv_2=(Token)match(input,12,FollowSets000.FOLLOW_13); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -6648,11 +6421,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                               					newLeafNode(otherlv_2, grammarAccess.getOclMessageArgAccess().getColonKeyword_0_2_0());
                               				
                             }
-                            // InternalBacktrackingContentAssistTestLanguage.g:2276:5: ( (lv_type_3_0= ruleTypeExp ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:2277:6: (lv_type_3_0= ruleTypeExp )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2131:5: ( (lv_type_3_0= ruleTypeExp ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2132:6: (lv_type_3_0= ruleTypeExp )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:2277:6: (lv_type_3_0= ruleTypeExp )
-                            // InternalBacktrackingContentAssistTestLanguage.g:2278:7: lv_type_3_0= ruleTypeExp
+                            // InternalBacktrackingContentAssistTestLanguage.g:2132:6: (lv_type_3_0= ruleTypeExp )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2133:7: lv_type_3_0= ruleTypeExp
                             {
                             if ( state.backtracking==0 ) {
 
@@ -6696,7 +6469,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2298:3: this_Expression_4= ruleExpression
+                    // InternalBacktrackingContentAssistTestLanguage.g:2153:3: this_Expression_4= ruleExpression
                     {
                     if ( state.backtracking==0 ) {
 
@@ -6728,11 +6501,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -6747,7 +6515,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleNUMBER_LITERAL"
-    // InternalBacktrackingContentAssistTestLanguage.g:2313:1: entryRuleNUMBER_LITERAL returns [String current=null] : iv_ruleNUMBER_LITERAL= ruleNUMBER_LITERAL EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2168:1: entryRuleNUMBER_LITERAL returns [String current=null] : iv_ruleNUMBER_LITERAL= ruleNUMBER_LITERAL EOF ;
     public final String entryRuleNUMBER_LITERAL() throws RecognitionException {
         String current = null;
 
@@ -6755,8 +6523,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2313:54: (iv_ruleNUMBER_LITERAL= ruleNUMBER_LITERAL EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2314:2: iv_ruleNUMBER_LITERAL= ruleNUMBER_LITERAL EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2168:54: (iv_ruleNUMBER_LITERAL= ruleNUMBER_LITERAL EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2169:2: iv_ruleNUMBER_LITERAL= ruleNUMBER_LITERAL EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getNUMBER_LITERALRule()); 
@@ -6787,7 +6555,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleNUMBER_LITERAL"
-    // InternalBacktrackingContentAssistTestLanguage.g:2320:1: ruleNUMBER_LITERAL returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )? ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2175:1: ruleNUMBER_LITERAL returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )? ) ;
     public final AntlrDatatypeRuleToken ruleNUMBER_LITERAL() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
@@ -6796,15 +6564,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         Token this_INT_2=null;
         Token this_INT_7=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2326:2: ( (this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )? ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2327:2: (this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2176:1: ( (this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2177:2: (this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )? )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2327:2: (this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )? )
-            // InternalBacktrackingContentAssistTestLanguage.g:2328:3: this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2177:2: (this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2178:3: this_INT_0= RULE_INT (kw= '.' this_INT_2= RULE_INT )? ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )?
             {
             this_INT_0=(Token)match(input,RULE_INT,FollowSets000.FOLLOW_28); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -6817,7 +6582,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(this_INT_0, grammarAccess.getNUMBER_LITERALAccess().getINTTerminalRuleCall_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:2335:3: (kw= '.' this_INT_2= RULE_INT )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2185:3: (kw= '.' this_INT_2= RULE_INT )?
             int alt41=2;
             int LA41_0 = input.LA(1);
 
@@ -6830,7 +6595,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt41) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2336:4: kw= '.' this_INT_2= RULE_INT
+                    // InternalBacktrackingContentAssistTestLanguage.g:2186:4: kw= '.' this_INT_2= RULE_INT
                     {
                     kw=(Token)match(input,28,FollowSets000.FOLLOW_29); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -6856,7 +6621,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:2349:3: ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2199:3: ( (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT )?
             int alt44=2;
             int LA44_0 = input.LA(1);
 
@@ -6865,9 +6630,9 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt44) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2350:4: (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT
+                    // InternalBacktrackingContentAssistTestLanguage.g:2200:4: (kw= 'e' | kw= 'E' ) (kw= '+' | kw= '-' )? this_INT_7= RULE_INT
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2350:4: (kw= 'e' | kw= 'E' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2200:4: (kw= 'e' | kw= 'E' )
                     int alt42=2;
                     int LA42_0 = input.LA(1);
 
@@ -6886,7 +6651,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt42) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2351:5: kw= 'e'
+                            // InternalBacktrackingContentAssistTestLanguage.g:2201:5: kw= 'e'
                             {
                             kw=(Token)match(input,33,FollowSets000.FOLLOW_31); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -6899,7 +6664,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             }
                             break;
                         case 2 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2357:5: kw= 'E'
+                            // InternalBacktrackingContentAssistTestLanguage.g:2207:5: kw= 'E'
                             {
                             kw=(Token)match(input,34,FollowSets000.FOLLOW_31); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -6914,7 +6679,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:2363:4: (kw= '+' | kw= '-' )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:2213:4: (kw= '+' | kw= '-' )?
                     int alt43=3;
                     int LA43_0 = input.LA(1);
 
@@ -6926,7 +6691,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt43) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2364:5: kw= '+'
+                            // InternalBacktrackingContentAssistTestLanguage.g:2214:5: kw= '+'
                             {
                             kw=(Token)match(input,35,FollowSets000.FOLLOW_29); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -6939,7 +6704,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             }
                             break;
                         case 2 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2370:5: kw= '-'
+                            // InternalBacktrackingContentAssistTestLanguage.g:2220:5: kw= '-'
                             {
                             kw=(Token)match(input,36,FollowSets000.FOLLOW_29); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -6977,11 +6742,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -6996,7 +6756,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleEssentialOCLRestrictedKeywords"
-    // InternalBacktrackingContentAssistTestLanguage.g:2388:1: entryRuleEssentialOCLRestrictedKeywords returns [String current=null] : iv_ruleEssentialOCLRestrictedKeywords= ruleEssentialOCLRestrictedKeywords EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2238:1: entryRuleEssentialOCLRestrictedKeywords returns [String current=null] : iv_ruleEssentialOCLRestrictedKeywords= ruleEssentialOCLRestrictedKeywords EOF ;
     public final String entryRuleEssentialOCLRestrictedKeywords() throws RecognitionException {
         String current = null;
 
@@ -7004,8 +6764,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2388:70: (iv_ruleEssentialOCLRestrictedKeywords= ruleEssentialOCLRestrictedKeywords EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2389:2: iv_ruleEssentialOCLRestrictedKeywords= ruleEssentialOCLRestrictedKeywords EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2238:70: (iv_ruleEssentialOCLRestrictedKeywords= ruleEssentialOCLRestrictedKeywords EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2239:2: iv_ruleEssentialOCLRestrictedKeywords= ruleEssentialOCLRestrictedKeywords EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getEssentialOCLRestrictedKeywordsRule()); 
@@ -7036,20 +6796,17 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleEssentialOCLRestrictedKeywords"
-    // InternalBacktrackingContentAssistTestLanguage.g:2395:1: ruleEssentialOCLRestrictedKeywords returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (kw= 'e' | kw= 'E' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2245:1: ruleEssentialOCLRestrictedKeywords returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (kw= 'e' | kw= 'E' ) ;
     public final AntlrDatatypeRuleToken ruleEssentialOCLRestrictedKeywords() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
         Token kw=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2401:2: ( (kw= 'e' | kw= 'E' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2402:2: (kw= 'e' | kw= 'E' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2246:1: ( (kw= 'e' | kw= 'E' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2247:2: (kw= 'e' | kw= 'E' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2402:2: (kw= 'e' | kw= 'E' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2247:2: (kw= 'e' | kw= 'E' )
             int alt45=2;
             int LA45_0 = input.LA(1);
 
@@ -7068,7 +6825,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt45) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2403:3: kw= 'e'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2248:3: kw= 'e'
                     {
                     kw=(Token)match(input,33,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7081,7 +6838,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2409:3: kw= 'E'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2254:3: kw= 'E'
                     {
                     kw=(Token)match(input,34,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7099,11 +6856,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -7118,7 +6870,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleRestrictedKeywords"
-    // InternalBacktrackingContentAssistTestLanguage.g:2418:1: entryRuleRestrictedKeywords returns [String current=null] : iv_ruleRestrictedKeywords= ruleRestrictedKeywords EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2263:1: entryRuleRestrictedKeywords returns [String current=null] : iv_ruleRestrictedKeywords= ruleRestrictedKeywords EOF ;
     public final String entryRuleRestrictedKeywords() throws RecognitionException {
         String current = null;
 
@@ -7126,8 +6878,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2418:58: (iv_ruleRestrictedKeywords= ruleRestrictedKeywords EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2419:2: iv_ruleRestrictedKeywords= ruleRestrictedKeywords EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2263:58: (iv_ruleRestrictedKeywords= ruleRestrictedKeywords EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2264:2: iv_ruleRestrictedKeywords= ruleRestrictedKeywords EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getRestrictedKeywordsRule()); 
@@ -7158,19 +6910,16 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleRestrictedKeywords"
-    // InternalBacktrackingContentAssistTestLanguage.g:2425:1: ruleRestrictedKeywords returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : this_EssentialOCLRestrictedKeywords_0= ruleEssentialOCLRestrictedKeywords ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2270:1: ruleRestrictedKeywords returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : this_EssentialOCLRestrictedKeywords_0= ruleEssentialOCLRestrictedKeywords ;
     public final AntlrDatatypeRuleToken ruleRestrictedKeywords() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
         AntlrDatatypeRuleToken this_EssentialOCLRestrictedKeywords_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2431:2: (this_EssentialOCLRestrictedKeywords_0= ruleEssentialOCLRestrictedKeywords )
-            // InternalBacktrackingContentAssistTestLanguage.g:2432:2: this_EssentialOCLRestrictedKeywords_0= ruleEssentialOCLRestrictedKeywords
+            // InternalBacktrackingContentAssistTestLanguage.g:2271:1: (this_EssentialOCLRestrictedKeywords_0= ruleEssentialOCLRestrictedKeywords )
+            // InternalBacktrackingContentAssistTestLanguage.g:2272:2: this_EssentialOCLRestrictedKeywords_0= ruleEssentialOCLRestrictedKeywords
             {
             if ( state.backtracking==0 ) {
 
@@ -7195,11 +6944,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -7214,7 +6958,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleIdentifier"
-    // InternalBacktrackingContentAssistTestLanguage.g:2445:1: entryRuleIdentifier returns [String current=null] : iv_ruleIdentifier= ruleIdentifier EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2285:1: entryRuleIdentifier returns [String current=null] : iv_ruleIdentifier= ruleIdentifier EOF ;
     public final String entryRuleIdentifier() throws RecognitionException {
         String current = null;
 
@@ -7222,8 +6966,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2445:50: (iv_ruleIdentifier= ruleIdentifier EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2446:2: iv_ruleIdentifier= ruleIdentifier EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2285:50: (iv_ruleIdentifier= ruleIdentifier EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2286:2: iv_ruleIdentifier= ruleIdentifier EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getIdentifierRule()); 
@@ -7254,7 +6998,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleIdentifier"
-    // InternalBacktrackingContentAssistTestLanguage.g:2452:1: ruleIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ID_0= RULE_ID | this_RestrictedKeywords_1= ruleRestrictedKeywords ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2292:1: ruleIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (this_ID_0= RULE_ID | this_RestrictedKeywords_1= ruleRestrictedKeywords ) ;
     public final AntlrDatatypeRuleToken ruleIdentifier() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
@@ -7262,14 +7006,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         AntlrDatatypeRuleToken this_RestrictedKeywords_1 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2458:2: ( (this_ID_0= RULE_ID | this_RestrictedKeywords_1= ruleRestrictedKeywords ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2459:2: (this_ID_0= RULE_ID | this_RestrictedKeywords_1= ruleRestrictedKeywords )
+            // InternalBacktrackingContentAssistTestLanguage.g:2293:1: ( (this_ID_0= RULE_ID | this_RestrictedKeywords_1= ruleRestrictedKeywords ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2294:2: (this_ID_0= RULE_ID | this_RestrictedKeywords_1= ruleRestrictedKeywords )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2459:2: (this_ID_0= RULE_ID | this_RestrictedKeywords_1= ruleRestrictedKeywords )
+            // InternalBacktrackingContentAssistTestLanguage.g:2294:2: (this_ID_0= RULE_ID | this_RestrictedKeywords_1= ruleRestrictedKeywords )
             int alt46=2;
             int LA46_0 = input.LA(1);
 
@@ -7288,7 +7029,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt46) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2460:3: this_ID_0= RULE_ID
+                    // InternalBacktrackingContentAssistTestLanguage.g:2295:3: this_ID_0= RULE_ID
                     {
                     this_ID_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7305,7 +7046,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2468:3: this_RestrictedKeywords_1= ruleRestrictedKeywords
+                    // InternalBacktrackingContentAssistTestLanguage.g:2303:3: this_RestrictedKeywords_1= ruleRestrictedKeywords
                     {
                     if ( state.backtracking==0 ) {
 
@@ -7336,11 +7077,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -7355,7 +7091,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleStringLiteral"
-    // InternalBacktrackingContentAssistTestLanguage.g:2482:1: entryRuleStringLiteral returns [String current=null] : iv_ruleStringLiteral= ruleStringLiteral EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2317:1: entryRuleStringLiteral returns [String current=null] : iv_ruleStringLiteral= ruleStringLiteral EOF ;
     public final String entryRuleStringLiteral() throws RecognitionException {
         String current = null;
 
@@ -7363,8 +7099,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2482:53: (iv_ruleStringLiteral= ruleStringLiteral EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2483:2: iv_ruleStringLiteral= ruleStringLiteral EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2317:53: (iv_ruleStringLiteral= ruleStringLiteral EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2318:2: iv_ruleStringLiteral= ruleStringLiteral EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getStringLiteralRule()); 
@@ -7395,18 +7131,15 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleStringLiteral"
-    // InternalBacktrackingContentAssistTestLanguage.g:2489:1: ruleStringLiteral returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : this_STRING_0= RULE_STRING ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2324:1: ruleStringLiteral returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : this_STRING_0= RULE_STRING ;
     public final AntlrDatatypeRuleToken ruleStringLiteral() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
         Token this_STRING_0=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2495:2: (this_STRING_0= RULE_STRING )
-            // InternalBacktrackingContentAssistTestLanguage.g:2496:2: this_STRING_0= RULE_STRING
+            // InternalBacktrackingContentAssistTestLanguage.g:2325:1: (this_STRING_0= RULE_STRING )
+            // InternalBacktrackingContentAssistTestLanguage.g:2326:2: this_STRING_0= RULE_STRING
             {
             this_STRING_0=(Token)match(input,RULE_STRING,FollowSets000.FOLLOW_2); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -7422,11 +7155,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -7441,7 +7169,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePrimitiveTypeIdentifier"
-    // InternalBacktrackingContentAssistTestLanguage.g:2506:1: entryRulePrimitiveTypeIdentifier returns [String current=null] : iv_rulePrimitiveTypeIdentifier= rulePrimitiveTypeIdentifier EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2336:1: entryRulePrimitiveTypeIdentifier returns [String current=null] : iv_rulePrimitiveTypeIdentifier= rulePrimitiveTypeIdentifier EOF ;
     public final String entryRulePrimitiveTypeIdentifier() throws RecognitionException {
         String current = null;
 
@@ -7449,8 +7177,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2506:63: (iv_rulePrimitiveTypeIdentifier= rulePrimitiveTypeIdentifier EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2507:2: iv_rulePrimitiveTypeIdentifier= rulePrimitiveTypeIdentifier EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2336:63: (iv_rulePrimitiveTypeIdentifier= rulePrimitiveTypeIdentifier EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2337:2: iv_rulePrimitiveTypeIdentifier= rulePrimitiveTypeIdentifier EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPrimitiveTypeIdentifierRule()); 
@@ -7481,20 +7209,17 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePrimitiveTypeIdentifier"
-    // InternalBacktrackingContentAssistTestLanguage.g:2513:1: rulePrimitiveTypeIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (kw= 'Boolean' | kw= 'Integer' | kw= 'Real' | kw= 'String' | kw= 'UnlimitedNatural' | kw= 'OclAny' | kw= 'OclInvalid' | kw= 'OclVoid' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2343:1: rulePrimitiveTypeIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (kw= 'Boolean' | kw= 'Integer' | kw= 'Real' | kw= 'String' | kw= 'UnlimitedNatural' | kw= 'OclAny' | kw= 'OclInvalid' | kw= 'OclVoid' ) ;
     public final AntlrDatatypeRuleToken rulePrimitiveTypeIdentifier() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
         Token kw=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2519:2: ( (kw= 'Boolean' | kw= 'Integer' | kw= 'Real' | kw= 'String' | kw= 'UnlimitedNatural' | kw= 'OclAny' | kw= 'OclInvalid' | kw= 'OclVoid' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2520:2: (kw= 'Boolean' | kw= 'Integer' | kw= 'Real' | kw= 'String' | kw= 'UnlimitedNatural' | kw= 'OclAny' | kw= 'OclInvalid' | kw= 'OclVoid' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2344:1: ( (kw= 'Boolean' | kw= 'Integer' | kw= 'Real' | kw= 'String' | kw= 'UnlimitedNatural' | kw= 'OclAny' | kw= 'OclInvalid' | kw= 'OclVoid' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2345:2: (kw= 'Boolean' | kw= 'Integer' | kw= 'Real' | kw= 'String' | kw= 'UnlimitedNatural' | kw= 'OclAny' | kw= 'OclInvalid' | kw= 'OclVoid' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2520:2: (kw= 'Boolean' | kw= 'Integer' | kw= 'Real' | kw= 'String' | kw= 'UnlimitedNatural' | kw= 'OclAny' | kw= 'OclInvalid' | kw= 'OclVoid' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2345:2: (kw= 'Boolean' | kw= 'Integer' | kw= 'Real' | kw= 'String' | kw= 'UnlimitedNatural' | kw= 'OclAny' | kw= 'OclInvalid' | kw= 'OclVoid' )
             int alt47=8;
             switch ( input.LA(1) ) {
             case 37:
@@ -7547,7 +7272,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt47) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2521:3: kw= 'Boolean'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2346:3: kw= 'Boolean'
                     {
                     kw=(Token)match(input,37,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7560,7 +7285,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2527:3: kw= 'Integer'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2352:3: kw= 'Integer'
                     {
                     kw=(Token)match(input,38,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7573,7 +7298,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 3 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2533:3: kw= 'Real'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2358:3: kw= 'Real'
                     {
                     kw=(Token)match(input,39,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7586,7 +7311,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 4 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2539:3: kw= 'String'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2364:3: kw= 'String'
                     {
                     kw=(Token)match(input,40,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7599,7 +7324,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 5 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2545:3: kw= 'UnlimitedNatural'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2370:3: kw= 'UnlimitedNatural'
                     {
                     kw=(Token)match(input,41,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7612,7 +7337,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 6 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2551:3: kw= 'OclAny'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2376:3: kw= 'OclAny'
                     {
                     kw=(Token)match(input,42,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7625,7 +7350,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 7 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2557:3: kw= 'OclInvalid'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2382:3: kw= 'OclInvalid'
                     {
                     kw=(Token)match(input,43,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7638,7 +7363,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 8 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2563:3: kw= 'OclVoid'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2388:3: kw= 'OclVoid'
                     {
                     kw=(Token)match(input,44,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7656,11 +7381,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -7675,7 +7395,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePrimitiveType"
-    // InternalBacktrackingContentAssistTestLanguage.g:2572:1: entryRulePrimitiveType returns [EObject current=null] : iv_rulePrimitiveType= rulePrimitiveType EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2397:1: entryRulePrimitiveType returns [EObject current=null] : iv_rulePrimitiveType= rulePrimitiveType EOF ;
     public final EObject entryRulePrimitiveType() throws RecognitionException {
         EObject current = null;
 
@@ -7683,8 +7403,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2572:54: (iv_rulePrimitiveType= rulePrimitiveType EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2573:2: iv_rulePrimitiveType= rulePrimitiveType EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2397:54: (iv_rulePrimitiveType= rulePrimitiveType EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2398:2: iv_rulePrimitiveType= rulePrimitiveType EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPrimitiveTypeRule()); 
@@ -7715,25 +7435,22 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePrimitiveType"
-    // InternalBacktrackingContentAssistTestLanguage.g:2579:1: rulePrimitiveType returns [EObject current=null] : ( (lv_name_0_0= rulePrimitiveTypeIdentifier ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2404:1: rulePrimitiveType returns [EObject current=null] : ( (lv_name_0_0= rulePrimitiveTypeIdentifier ) ) ;
     public final EObject rulePrimitiveType() throws RecognitionException {
         EObject current = null;
 
         AntlrDatatypeRuleToken lv_name_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2585:2: ( ( (lv_name_0_0= rulePrimitiveTypeIdentifier ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2586:2: ( (lv_name_0_0= rulePrimitiveTypeIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2405:1: ( ( (lv_name_0_0= rulePrimitiveTypeIdentifier ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2406:2: ( (lv_name_0_0= rulePrimitiveTypeIdentifier ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2586:2: ( (lv_name_0_0= rulePrimitiveTypeIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2587:3: (lv_name_0_0= rulePrimitiveTypeIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:2406:2: ( (lv_name_0_0= rulePrimitiveTypeIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2407:3: (lv_name_0_0= rulePrimitiveTypeIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2587:3: (lv_name_0_0= rulePrimitiveTypeIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:2588:4: lv_name_0_0= rulePrimitiveTypeIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:2407:3: (lv_name_0_0= rulePrimitiveTypeIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:2408:4: lv_name_0_0= rulePrimitiveTypeIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -7767,11 +7484,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -7786,7 +7498,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleCollectionTypeIdentifier"
-    // InternalBacktrackingContentAssistTestLanguage.g:2608:1: entryRuleCollectionTypeIdentifier returns [String current=null] : iv_ruleCollectionTypeIdentifier= ruleCollectionTypeIdentifier EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2428:1: entryRuleCollectionTypeIdentifier returns [String current=null] : iv_ruleCollectionTypeIdentifier= ruleCollectionTypeIdentifier EOF ;
     public final String entryRuleCollectionTypeIdentifier() throws RecognitionException {
         String current = null;
 
@@ -7794,8 +7506,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2608:64: (iv_ruleCollectionTypeIdentifier= ruleCollectionTypeIdentifier EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2609:2: iv_ruleCollectionTypeIdentifier= ruleCollectionTypeIdentifier EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2428:64: (iv_ruleCollectionTypeIdentifier= ruleCollectionTypeIdentifier EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2429:2: iv_ruleCollectionTypeIdentifier= ruleCollectionTypeIdentifier EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getCollectionTypeIdentifierRule()); 
@@ -7826,20 +7538,17 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleCollectionTypeIdentifier"
-    // InternalBacktrackingContentAssistTestLanguage.g:2615:1: ruleCollectionTypeIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (kw= 'Set' | kw= 'Bag' | kw= 'Sequence' | kw= 'Collection' | kw= 'OrderedSet' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2435:1: ruleCollectionTypeIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()] : (kw= 'Set' | kw= 'Bag' | kw= 'Sequence' | kw= 'Collection' | kw= 'OrderedSet' ) ;
     public final AntlrDatatypeRuleToken ruleCollectionTypeIdentifier() throws RecognitionException {
         AntlrDatatypeRuleToken current = new AntlrDatatypeRuleToken();
 
         Token kw=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2621:2: ( (kw= 'Set' | kw= 'Bag' | kw= 'Sequence' | kw= 'Collection' | kw= 'OrderedSet' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2622:2: (kw= 'Set' | kw= 'Bag' | kw= 'Sequence' | kw= 'Collection' | kw= 'OrderedSet' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2436:1: ( (kw= 'Set' | kw= 'Bag' | kw= 'Sequence' | kw= 'Collection' | kw= 'OrderedSet' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2437:2: (kw= 'Set' | kw= 'Bag' | kw= 'Sequence' | kw= 'Collection' | kw= 'OrderedSet' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2622:2: (kw= 'Set' | kw= 'Bag' | kw= 'Sequence' | kw= 'Collection' | kw= 'OrderedSet' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2437:2: (kw= 'Set' | kw= 'Bag' | kw= 'Sequence' | kw= 'Collection' | kw= 'OrderedSet' )
             int alt48=5;
             switch ( input.LA(1) ) {
             case 45:
@@ -7877,7 +7586,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt48) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2623:3: kw= 'Set'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2438:3: kw= 'Set'
                     {
                     kw=(Token)match(input,45,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7890,7 +7599,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2629:3: kw= 'Bag'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2444:3: kw= 'Bag'
                     {
                     kw=(Token)match(input,46,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7903,7 +7612,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 3 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2635:3: kw= 'Sequence'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2450:3: kw= 'Sequence'
                     {
                     kw=(Token)match(input,47,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7916,7 +7625,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 4 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2641:3: kw= 'Collection'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2456:3: kw= 'Collection'
                     {
                     kw=(Token)match(input,48,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7929,7 +7638,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 5 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2647:3: kw= 'OrderedSet'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2462:3: kw= 'OrderedSet'
                     {
                     kw=(Token)match(input,49,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -7947,11 +7656,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -7966,7 +7670,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleTypeExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:2656:1: entryRuleTypeExp returns [EObject current=null] : iv_ruleTypeExp= ruleTypeExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2471:1: entryRuleTypeExp returns [EObject current=null] : iv_ruleTypeExp= ruleTypeExp EOF ;
     public final EObject entryRuleTypeExp() throws RecognitionException {
         EObject current = null;
 
@@ -7974,8 +7678,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2656:48: (iv_ruleTypeExp= ruleTypeExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2657:2: iv_ruleTypeExp= ruleTypeExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2471:48: (iv_ruleTypeExp= ruleTypeExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2472:2: iv_ruleTypeExp= ruleTypeExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getTypeExpRule()); 
@@ -8006,7 +7710,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleTypeExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:2663:1: ruleTypeExp returns [EObject current=null] : (this_PrimitiveType_0= rulePrimitiveType | this_NameExp_1= ruleNameExp | this_CollectionType_2= ruleCollectionType | this_TupleType_3= ruleTupleType ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2478:1: ruleTypeExp returns [EObject current=null] : (this_PrimitiveType_0= rulePrimitiveType | this_NameExp_1= ruleNameExp | this_CollectionType_2= ruleCollectionType | this_TupleType_3= ruleTupleType ) ;
     public final EObject ruleTypeExp() throws RecognitionException {
         EObject current = null;
 
@@ -8019,14 +7723,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_TupleType_3 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2669:2: ( (this_PrimitiveType_0= rulePrimitiveType | this_NameExp_1= ruleNameExp | this_CollectionType_2= ruleCollectionType | this_TupleType_3= ruleTupleType ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2670:2: (this_PrimitiveType_0= rulePrimitiveType | this_NameExp_1= ruleNameExp | this_CollectionType_2= ruleCollectionType | this_TupleType_3= ruleTupleType )
+            // InternalBacktrackingContentAssistTestLanguage.g:2479:1: ( (this_PrimitiveType_0= rulePrimitiveType | this_NameExp_1= ruleNameExp | this_CollectionType_2= ruleCollectionType | this_TupleType_3= ruleTupleType ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2480:2: (this_PrimitiveType_0= rulePrimitiveType | this_NameExp_1= ruleNameExp | this_CollectionType_2= ruleCollectionType | this_TupleType_3= ruleTupleType )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2670:2: (this_PrimitiveType_0= rulePrimitiveType | this_NameExp_1= ruleNameExp | this_CollectionType_2= ruleCollectionType | this_TupleType_3= ruleTupleType )
+            // InternalBacktrackingContentAssistTestLanguage.g:2480:2: (this_PrimitiveType_0= rulePrimitiveType | this_NameExp_1= ruleNameExp | this_CollectionType_2= ruleCollectionType | this_TupleType_3= ruleTupleType )
             int alt49=4;
             switch ( input.LA(1) ) {
             case 37:
@@ -8072,7 +7773,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt49) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2671:3: this_PrimitiveType_0= rulePrimitiveType
+                    // InternalBacktrackingContentAssistTestLanguage.g:2481:3: this_PrimitiveType_0= rulePrimitiveType
                     {
                     if ( state.backtracking==0 ) {
 
@@ -8099,7 +7800,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2683:3: this_NameExp_1= ruleNameExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:2493:3: this_NameExp_1= ruleNameExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -8126,7 +7827,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 3 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2695:3: this_CollectionType_2= ruleCollectionType
+                    // InternalBacktrackingContentAssistTestLanguage.g:2505:3: this_CollectionType_2= ruleCollectionType
                     {
                     if ( state.backtracking==0 ) {
 
@@ -8153,7 +7854,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 4 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2707:3: this_TupleType_3= ruleTupleType
+                    // InternalBacktrackingContentAssistTestLanguage.g:2517:3: this_TupleType_3= ruleTupleType
                     {
                     if ( state.backtracking==0 ) {
 
@@ -8185,11 +7886,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -8204,7 +7900,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleCollectionType"
-    // InternalBacktrackingContentAssistTestLanguage.g:2722:1: entryRuleCollectionType returns [EObject current=null] : iv_ruleCollectionType= ruleCollectionType EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2532:1: entryRuleCollectionType returns [EObject current=null] : iv_ruleCollectionType= ruleCollectionType EOF ;
     public final EObject entryRuleCollectionType() throws RecognitionException {
         EObject current = null;
 
@@ -8212,8 +7908,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2722:55: (iv_ruleCollectionType= ruleCollectionType EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2723:2: iv_ruleCollectionType= ruleCollectionType EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2532:55: (iv_ruleCollectionType= ruleCollectionType EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2533:2: iv_ruleCollectionType= ruleCollectionType EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getCollectionTypeRule()); 
@@ -8244,7 +7940,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleCollectionType"
-    // InternalBacktrackingContentAssistTestLanguage.g:2729:1: ruleCollectionType returns [EObject current=null] : ( ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )? ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2539:1: ruleCollectionType returns [EObject current=null] : ( ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )? ) ;
     public final EObject ruleCollectionType() throws RecognitionException {
         EObject current = null;
 
@@ -8255,21 +7951,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_type_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2735:2: ( ( ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )? ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2736:2: ( ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2540:1: ( ( ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2541:2: ( ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )? )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2736:2: ( ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )? )
-            // InternalBacktrackingContentAssistTestLanguage.g:2737:3: ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2541:2: ( ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2542:3: ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) ) (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )?
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2737:3: ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2738:4: (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:2542:3: ( (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2543:4: (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2738:4: (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:2739:5: lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:2543:4: (lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:2544:5: lv_typeIdentifier_0_0= ruleCollectionTypeIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -8300,7 +7993,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:2756:3: (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2561:3: (otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')' )?
             int alt50=2;
             int LA50_0 = input.LA(1);
 
@@ -8309,7 +8002,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt50) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2757:4: otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2562:4: otherlv_1= '(' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= ')'
                     {
                     otherlv_1=(Token)match(input,16,FollowSets000.FOLLOW_13); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -8317,11 +8010,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_1, grammarAccess.getCollectionTypeAccess().getLeftParenthesisKeyword_1_0());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:2761:4: ( (lv_type_2_0= ruleTypeExp ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2762:5: (lv_type_2_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2566:4: ( (lv_type_2_0= ruleTypeExp ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2567:5: (lv_type_2_0= ruleTypeExp )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2762:5: (lv_type_2_0= ruleTypeExp )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2763:6: lv_type_2_0= ruleTypeExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:2567:5: (lv_type_2_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2568:6: lv_type_2_0= ruleTypeExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -8370,11 +8063,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -8389,7 +8077,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleTupleType"
-    // InternalBacktrackingContentAssistTestLanguage.g:2789:1: entryRuleTupleType returns [EObject current=null] : iv_ruleTupleType= ruleTupleType EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2594:1: entryRuleTupleType returns [EObject current=null] : iv_ruleTupleType= ruleTupleType EOF ;
     public final EObject entryRuleTupleType() throws RecognitionException {
         EObject current = null;
 
@@ -8397,8 +8085,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2789:50: (iv_ruleTupleType= ruleTupleType EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2790:2: iv_ruleTupleType= ruleTupleType EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2594:50: (iv_ruleTupleType= ruleTupleType EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2595:2: iv_ruleTupleType= ruleTupleType EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getTupleTypeRule()); 
@@ -8429,7 +8117,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleTupleType"
-    // InternalBacktrackingContentAssistTestLanguage.g:2796:1: ruleTupleType returns [EObject current=null] : ( ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2601:1: ruleTupleType returns [EObject current=null] : ( ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')' ) ;
     public final EObject ruleTupleType() throws RecognitionException {
         EObject current = null;
 
@@ -8442,21 +8130,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_part_4_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2802:2: ( ( ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2803:2: ( ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2602:1: ( ( ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2603:2: ( ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2803:2: ( ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')' )
-            // InternalBacktrackingContentAssistTestLanguage.g:2804:3: ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')'
+            // InternalBacktrackingContentAssistTestLanguage.g:2603:2: ( ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2604:3: ( (lv_name_0_0= 'Tuple' ) ) otherlv_1= '(' ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )? otherlv_5= ')'
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2804:3: ( (lv_name_0_0= 'Tuple' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2805:4: (lv_name_0_0= 'Tuple' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2604:3: ( (lv_name_0_0= 'Tuple' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2605:4: (lv_name_0_0= 'Tuple' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2805:4: (lv_name_0_0= 'Tuple' )
-            // InternalBacktrackingContentAssistTestLanguage.g:2806:5: lv_name_0_0= 'Tuple'
+            // InternalBacktrackingContentAssistTestLanguage.g:2605:4: (lv_name_0_0= 'Tuple' )
+            // InternalBacktrackingContentAssistTestLanguage.g:2606:5: lv_name_0_0= 'Tuple'
             {
             lv_name_0_0=(Token)match(input,50,FollowSets000.FOLLOW_16); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -8484,7 +8169,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getTupleTypeAccess().getLeftParenthesisKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:2822:3: ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2622:3: ( ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )* )?
             int alt52=2;
             int LA52_0 = input.LA(1);
 
@@ -8493,13 +8178,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt52) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2823:4: ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )*
+                    // InternalBacktrackingContentAssistTestLanguage.g:2623:4: ( (lv_part_2_0= ruletuplePart ) ) (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )*
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2823:4: ( (lv_part_2_0= ruletuplePart ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2824:5: (lv_part_2_0= ruletuplePart )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2623:4: ( (lv_part_2_0= ruletuplePart ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2624:5: (lv_part_2_0= ruletuplePart )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2824:5: (lv_part_2_0= ruletuplePart )
-                    // InternalBacktrackingContentAssistTestLanguage.g:2825:6: lv_part_2_0= ruletuplePart
+                    // InternalBacktrackingContentAssistTestLanguage.g:2624:5: (lv_part_2_0= ruletuplePart )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2625:6: lv_part_2_0= ruletuplePart
                     {
                     if ( state.backtracking==0 ) {
 
@@ -8530,7 +8215,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:2842:4: (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )*
+                    // InternalBacktrackingContentAssistTestLanguage.g:2642:4: (otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) ) )*
                     loop51:
                     do {
                         int alt51=2;
@@ -8543,7 +8228,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                         switch (alt51) {
                     	case 1 :
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:2843:5: otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:2643:5: otherlv_3= ',' ( (lv_part_4_0= ruletuplePart ) )
                     	    {
                     	    otherlv_3=(Token)match(input,17,FollowSets000.FOLLOW_7); if (state.failed) return current;
                     	    if ( state.backtracking==0 ) {
@@ -8551,11 +8236,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     	      					newLeafNode(otherlv_3, grammarAccess.getTupleTypeAccess().getCommaKeyword_2_1_0());
                     	      				
                     	    }
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:2847:5: ( (lv_part_4_0= ruletuplePart ) )
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:2848:6: (lv_part_4_0= ruletuplePart )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:2647:5: ( (lv_part_4_0= ruletuplePart ) )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:2648:6: (lv_part_4_0= ruletuplePart )
                     	    {
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:2848:6: (lv_part_4_0= ruletuplePart )
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:2849:7: lv_part_4_0= ruletuplePart
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:2648:6: (lv_part_4_0= ruletuplePart )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:2649:7: lv_part_4_0= ruletuplePart
                     	    {
                     	    if ( state.backtracking==0 ) {
 
@@ -8613,11 +8298,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -8632,7 +8312,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuletuplePart"
-    // InternalBacktrackingContentAssistTestLanguage.g:2876:1: entryRuletuplePart returns [EObject current=null] : iv_ruletuplePart= ruletuplePart EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2676:1: entryRuletuplePart returns [EObject current=null] : iv_ruletuplePart= ruletuplePart EOF ;
     public final EObject entryRuletuplePart() throws RecognitionException {
         EObject current = null;
 
@@ -8640,8 +8320,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2876:50: (iv_ruletuplePart= ruletuplePart EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2877:2: iv_ruletuplePart= ruletuplePart EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2676:50: (iv_ruletuplePart= ruletuplePart EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2677:2: iv_ruletuplePart= ruletuplePart EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getTuplePartRule()); 
@@ -8672,7 +8352,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruletuplePart"
-    // InternalBacktrackingContentAssistTestLanguage.g:2883:1: ruletuplePart returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2683:1: ruletuplePart returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) ) ;
     public final EObject ruletuplePart() throws RecognitionException {
         EObject current = null;
 
@@ -8682,21 +8362,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_type_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2889:2: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2890:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2684:1: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2685:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2890:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2891:3: ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2685:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2686:3: ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2891:3: ( (lv_name_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2892:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:2686:3: ( (lv_name_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2687:4: (lv_name_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2892:4: (lv_name_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:2893:5: lv_name_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:2687:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:2688:5: lv_name_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -8733,11 +8410,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getTuplePartAccess().getColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:2914:3: ( (lv_type_2_0= ruleTypeExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2915:4: (lv_type_2_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:2709:3: ( (lv_type_2_0= ruleTypeExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2710:4: (lv_type_2_0= ruleTypeExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2915:4: (lv_type_2_0= ruleTypeExp )
-            // InternalBacktrackingContentAssistTestLanguage.g:2916:5: lv_type_2_0= ruleTypeExp
+            // InternalBacktrackingContentAssistTestLanguage.g:2710:4: (lv_type_2_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:2711:5: lv_type_2_0= ruleTypeExp
             {
             if ( state.backtracking==0 ) {
 
@@ -8774,11 +8451,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -8793,7 +8465,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleCollectionLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:2937:1: entryRuleCollectionLiteralExp returns [EObject current=null] : iv_ruleCollectionLiteralExp= ruleCollectionLiteralExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2732:1: entryRuleCollectionLiteralExp returns [EObject current=null] : iv_ruleCollectionLiteralExp= ruleCollectionLiteralExp EOF ;
     public final EObject entryRuleCollectionLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -8801,8 +8473,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2937:61: (iv_ruleCollectionLiteralExp= ruleCollectionLiteralExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:2938:2: iv_ruleCollectionLiteralExp= ruleCollectionLiteralExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2732:61: (iv_ruleCollectionLiteralExp= ruleCollectionLiteralExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2733:2: iv_ruleCollectionLiteralExp= ruleCollectionLiteralExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getCollectionLiteralExpRule()); 
@@ -8833,7 +8505,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleCollectionLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:2944:1: ruleCollectionLiteralExp returns [EObject current=null] : (this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )? ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2739:1: ruleCollectionLiteralExp returns [EObject current=null] : (this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )? ) ;
     public final EObject ruleCollectionLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -8847,15 +8519,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_collectionLiteralParts_5_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:2950:2: ( (this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )? ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:2951:2: (this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2740:1: ( (this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2741:2: (this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )? )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:2951:2: (this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )? )
-            // InternalBacktrackingContentAssistTestLanguage.g:2952:3: this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2741:2: (this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2742:3: this_CollectionType_0= ruleCollectionType ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )?
             {
             if ( state.backtracking==0 ) {
 
@@ -8878,7 +8547,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:2963:3: ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2753:3: ( () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}' )?
             int alt55=2;
             int LA55_0 = input.LA(1);
 
@@ -8887,10 +8556,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt55) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:2964:4: () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2754:4: () otherlv_2= '{' ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )? otherlv_6= '}'
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:2964:4: ()
-                    // InternalBacktrackingContentAssistTestLanguage.g:2965:5: 
+                    // InternalBacktrackingContentAssistTestLanguage.g:2754:4: ()
+                    // InternalBacktrackingContentAssistTestLanguage.g:2755:5: 
                     {
                     if ( state.backtracking==0 ) {
 
@@ -8913,7 +8582,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_2, grammarAccess.getCollectionLiteralExpAccess().getLeftCurlyBracketKeyword_1_1());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:2978:4: ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:2768:4: ( ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )* )?
                     int alt54=2;
                     int LA54_0 = input.LA(1);
 
@@ -8922,13 +8591,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt54) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:2979:5: ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )*
+                            // InternalBacktrackingContentAssistTestLanguage.g:2769:5: ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) ) (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )*
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:2979:5: ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:2980:6: (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2769:5: ( (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2770:6: (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:2980:6: (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart )
-                            // InternalBacktrackingContentAssistTestLanguage.g:2981:7: lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart
+                            // InternalBacktrackingContentAssistTestLanguage.g:2770:6: (lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart )
+                            // InternalBacktrackingContentAssistTestLanguage.g:2771:7: lv_collectionLiteralParts_3_0= ruleCollectionLiteralPart
                             {
                             if ( state.backtracking==0 ) {
 
@@ -8959,7 +8628,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                             }
 
-                            // InternalBacktrackingContentAssistTestLanguage.g:2998:5: (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )*
+                            // InternalBacktrackingContentAssistTestLanguage.g:2788:5: (otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) ) )*
                             loop53:
                             do {
                                 int alt53=2;
@@ -8972,7 +8641,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                                 switch (alt53) {
                             	case 1 :
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:2999:6: otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2789:6: otherlv_4= ',' ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) )
                             	    {
                             	    otherlv_4=(Token)match(input,17,FollowSets000.FOLLOW_6); if (state.failed) return current;
                             	    if ( state.backtracking==0 ) {
@@ -8980,11 +8649,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             	      						newLeafNode(otherlv_4, grammarAccess.getCollectionLiteralExpAccess().getCommaKeyword_1_2_1_0());
                             	      					
                             	    }
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:3003:6: ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) )
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:3004:7: (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2793:6: ( (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart ) )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2794:7: (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart )
                             	    {
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:3004:7: (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart )
-                            	    // InternalBacktrackingContentAssistTestLanguage.g:3005:8: lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2794:7: (lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart )
+                            	    // InternalBacktrackingContentAssistTestLanguage.g:2795:8: lv_collectionLiteralParts_5_0= ruleCollectionLiteralPart
                             	    {
                             	    if ( state.backtracking==0 ) {
 
@@ -9048,11 +8717,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -9067,7 +8731,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleCollectionLiteralPart"
-    // InternalBacktrackingContentAssistTestLanguage.g:3033:1: entryRuleCollectionLiteralPart returns [EObject current=null] : iv_ruleCollectionLiteralPart= ruleCollectionLiteralPart EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2823:1: entryRuleCollectionLiteralPart returns [EObject current=null] : iv_ruleCollectionLiteralPart= ruleCollectionLiteralPart EOF ;
     public final EObject entryRuleCollectionLiteralPart() throws RecognitionException {
         EObject current = null;
 
@@ -9075,8 +8739,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3033:62: (iv_ruleCollectionLiteralPart= ruleCollectionLiteralPart EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3034:2: iv_ruleCollectionLiteralPart= ruleCollectionLiteralPart EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2823:62: (iv_ruleCollectionLiteralPart= ruleCollectionLiteralPart EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2824:2: iv_ruleCollectionLiteralPart= ruleCollectionLiteralPart EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getCollectionLiteralPartRule()); 
@@ -9107,7 +8771,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleCollectionLiteralPart"
-    // InternalBacktrackingContentAssistTestLanguage.g:3040:1: ruleCollectionLiteralPart returns [EObject current=null] : ( ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )? ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2830:1: ruleCollectionLiteralPart returns [EObject current=null] : ( ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )? ) ;
     public final EObject ruleCollectionLiteralPart() throws RecognitionException {
         EObject current = null;
 
@@ -9117,21 +8781,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_lastExpression_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3046:2: ( ( ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )? ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3047:2: ( ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2831:1: ( ( ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2832:2: ( ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )? )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3047:2: ( ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )? )
-            // InternalBacktrackingContentAssistTestLanguage.g:3048:3: ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2832:2: ( ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2833:3: ( (lv_expression_0_0= ruleExpression ) ) (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )?
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3048:3: ( (lv_expression_0_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3049:4: (lv_expression_0_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:2833:3: ( (lv_expression_0_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2834:4: (lv_expression_0_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3049:4: (lv_expression_0_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:3050:5: lv_expression_0_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:2834:4: (lv_expression_0_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:2835:5: lv_expression_0_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -9162,7 +8823,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:3067:3: (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2852:3: (otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) ) )?
             int alt56=2;
             int LA56_0 = input.LA(1);
 
@@ -9171,7 +8832,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt56) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3068:4: otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2853:4: otherlv_1= '..' ( (lv_lastExpression_2_0= ruleExpression ) )
                     {
                     otherlv_1=(Token)match(input,53,FollowSets000.FOLLOW_6); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -9179,11 +8840,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_1, grammarAccess.getCollectionLiteralPartAccess().getFullStopFullStopKeyword_1_0());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:3072:4: ( (lv_lastExpression_2_0= ruleExpression ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:3073:5: (lv_lastExpression_2_0= ruleExpression )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2857:4: ( (lv_lastExpression_2_0= ruleExpression ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2858:5: (lv_lastExpression_2_0= ruleExpression )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:3073:5: (lv_lastExpression_2_0= ruleExpression )
-                    // InternalBacktrackingContentAssistTestLanguage.g:3074:6: lv_lastExpression_2_0= ruleExpression
+                    // InternalBacktrackingContentAssistTestLanguage.g:2858:5: (lv_lastExpression_2_0= ruleExpression )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2859:6: lv_lastExpression_2_0= ruleExpression
                     {
                     if ( state.backtracking==0 ) {
 
@@ -9226,11 +8887,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -9245,7 +8901,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePrimitiveLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3096:1: entryRulePrimitiveLiteralExp returns [EObject current=null] : iv_rulePrimitiveLiteralExp= rulePrimitiveLiteralExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2881:1: entryRulePrimitiveLiteralExp returns [EObject current=null] : iv_rulePrimitiveLiteralExp= rulePrimitiveLiteralExp EOF ;
     public final EObject entryRulePrimitiveLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -9253,8 +8909,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3096:60: (iv_rulePrimitiveLiteralExp= rulePrimitiveLiteralExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3097:2: iv_rulePrimitiveLiteralExp= rulePrimitiveLiteralExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2881:60: (iv_rulePrimitiveLiteralExp= rulePrimitiveLiteralExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2882:2: iv_rulePrimitiveLiteralExp= rulePrimitiveLiteralExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPrimitiveLiteralExpRule()); 
@@ -9285,7 +8941,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePrimitiveLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3103:1: rulePrimitiveLiteralExp returns [EObject current=null] : (this_NumberLiteralExp_0= ruleNumberLiteralExp | this_StringLiteralExp_1= ruleStringLiteralExp | this_BooleanLiteralExp_2= ruleBooleanLiteralExp | this_InvalidLiteralExp_3= ruleInvalidLiteralExp | this_NullLiteralExp_4= ruleNullLiteralExp ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2888:1: rulePrimitiveLiteralExp returns [EObject current=null] : (this_NumberLiteralExp_0= ruleNumberLiteralExp | this_StringLiteralExp_1= ruleStringLiteralExp | this_BooleanLiteralExp_2= ruleBooleanLiteralExp | this_InvalidLiteralExp_3= ruleInvalidLiteralExp | this_NullLiteralExp_4= ruleNullLiteralExp ) ;
     public final EObject rulePrimitiveLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -9300,14 +8956,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_NullLiteralExp_4 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3109:2: ( (this_NumberLiteralExp_0= ruleNumberLiteralExp | this_StringLiteralExp_1= ruleStringLiteralExp | this_BooleanLiteralExp_2= ruleBooleanLiteralExp | this_InvalidLiteralExp_3= ruleInvalidLiteralExp | this_NullLiteralExp_4= ruleNullLiteralExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3110:2: (this_NumberLiteralExp_0= ruleNumberLiteralExp | this_StringLiteralExp_1= ruleStringLiteralExp | this_BooleanLiteralExp_2= ruleBooleanLiteralExp | this_InvalidLiteralExp_3= ruleInvalidLiteralExp | this_NullLiteralExp_4= ruleNullLiteralExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:2889:1: ( (this_NumberLiteralExp_0= ruleNumberLiteralExp | this_StringLiteralExp_1= ruleStringLiteralExp | this_BooleanLiteralExp_2= ruleBooleanLiteralExp | this_InvalidLiteralExp_3= ruleInvalidLiteralExp | this_NullLiteralExp_4= ruleNullLiteralExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2890:2: (this_NumberLiteralExp_0= ruleNumberLiteralExp | this_StringLiteralExp_1= ruleStringLiteralExp | this_BooleanLiteralExp_2= ruleBooleanLiteralExp | this_InvalidLiteralExp_3= ruleInvalidLiteralExp | this_NullLiteralExp_4= ruleNullLiteralExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3110:2: (this_NumberLiteralExp_0= ruleNumberLiteralExp | this_StringLiteralExp_1= ruleStringLiteralExp | this_BooleanLiteralExp_2= ruleBooleanLiteralExp | this_InvalidLiteralExp_3= ruleInvalidLiteralExp | this_NullLiteralExp_4= ruleNullLiteralExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:2890:2: (this_NumberLiteralExp_0= ruleNumberLiteralExp | this_StringLiteralExp_1= ruleStringLiteralExp | this_BooleanLiteralExp_2= ruleBooleanLiteralExp | this_InvalidLiteralExp_3= ruleInvalidLiteralExp | this_NullLiteralExp_4= ruleNullLiteralExp )
             int alt57=5;
             switch ( input.LA(1) ) {
             case RULE_INT:
@@ -9346,7 +8999,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt57) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3111:3: this_NumberLiteralExp_0= ruleNumberLiteralExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:2891:3: this_NumberLiteralExp_0= ruleNumberLiteralExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -9373,7 +9026,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3123:3: this_StringLiteralExp_1= ruleStringLiteralExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:2903:3: this_StringLiteralExp_1= ruleStringLiteralExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -9400,7 +9053,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 3 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3135:3: this_BooleanLiteralExp_2= ruleBooleanLiteralExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:2915:3: this_BooleanLiteralExp_2= ruleBooleanLiteralExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -9427,7 +9080,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 4 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3147:3: this_InvalidLiteralExp_3= ruleInvalidLiteralExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:2927:3: this_InvalidLiteralExp_3= ruleInvalidLiteralExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -9454,7 +9107,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 5 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3159:3: this_NullLiteralExp_4= ruleNullLiteralExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:2939:3: this_NullLiteralExp_4= ruleNullLiteralExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -9486,11 +9139,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -9505,7 +9153,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleTupleLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3174:1: entryRuleTupleLiteralExp returns [EObject current=null] : iv_ruleTupleLiteralExp= ruleTupleLiteralExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2954:1: entryRuleTupleLiteralExp returns [EObject current=null] : iv_ruleTupleLiteralExp= ruleTupleLiteralExp EOF ;
     public final EObject entryRuleTupleLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -9513,8 +9161,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3174:56: (iv_ruleTupleLiteralExp= ruleTupleLiteralExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3175:2: iv_ruleTupleLiteralExp= ruleTupleLiteralExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:2954:56: (iv_ruleTupleLiteralExp= ruleTupleLiteralExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:2955:2: iv_ruleTupleLiteralExp= ruleTupleLiteralExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getTupleLiteralExpRule()); 
@@ -9545,7 +9193,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleTupleLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3181:1: ruleTupleLiteralExp returns [EObject current=null] : ( () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )? ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:2961:1: ruleTupleLiteralExp returns [EObject current=null] : ( () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )? ) ;
     public final EObject ruleTupleLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -9558,18 +9206,15 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_part_5_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3187:2: ( ( () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )? ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3188:2: ( () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2962:1: ( ( () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:2963:2: ( () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )? )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3188:2: ( () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )? )
-            // InternalBacktrackingContentAssistTestLanguage.g:3189:3: () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2963:2: ( () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:2964:3: () otherlv_1= 'Tuple' (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )?
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3189:3: ()
-            // InternalBacktrackingContentAssistTestLanguage.g:3190:4: 
+            // InternalBacktrackingContentAssistTestLanguage.g:2964:3: ()
+            // InternalBacktrackingContentAssistTestLanguage.g:2965:4: 
             {
             if ( state.backtracking==0 ) {
 
@@ -9592,7 +9237,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getTupleLiteralExpAccess().getTupleKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:3203:3: (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:2978:3: (otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}' )?
             int alt59=2;
             int LA59_0 = input.LA(1);
 
@@ -9601,7 +9246,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt59) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3204:4: otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}'
+                    // InternalBacktrackingContentAssistTestLanguage.g:2979:4: otherlv_2= '{' ( (lv_part_3_0= ruleTupleLiteralPart ) ) (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )* otherlv_6= '}'
                     {
                     otherlv_2=(Token)match(input,51,FollowSets000.FOLLOW_7); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -9609,11 +9254,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_2, grammarAccess.getTupleLiteralExpAccess().getLeftCurlyBracketKeyword_2_0());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:3208:4: ( (lv_part_3_0= ruleTupleLiteralPart ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:3209:5: (lv_part_3_0= ruleTupleLiteralPart )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2983:4: ( (lv_part_3_0= ruleTupleLiteralPart ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2984:5: (lv_part_3_0= ruleTupleLiteralPart )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:3209:5: (lv_part_3_0= ruleTupleLiteralPart )
-                    // InternalBacktrackingContentAssistTestLanguage.g:3210:6: lv_part_3_0= ruleTupleLiteralPart
+                    // InternalBacktrackingContentAssistTestLanguage.g:2984:5: (lv_part_3_0= ruleTupleLiteralPart )
+                    // InternalBacktrackingContentAssistTestLanguage.g:2985:6: lv_part_3_0= ruleTupleLiteralPart
                     {
                     if ( state.backtracking==0 ) {
 
@@ -9644,7 +9289,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:3227:4: (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )*
+                    // InternalBacktrackingContentAssistTestLanguage.g:3002:4: (otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) ) )*
                     loop58:
                     do {
                         int alt58=2;
@@ -9657,7 +9302,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                         switch (alt58) {
                     	case 1 :
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:3228:5: otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:3003:5: otherlv_4= ',' ( (lv_part_5_0= ruleTupleLiteralPart ) )
                     	    {
                     	    otherlv_4=(Token)match(input,17,FollowSets000.FOLLOW_7); if (state.failed) return current;
                     	    if ( state.backtracking==0 ) {
@@ -9665,11 +9310,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     	      					newLeafNode(otherlv_4, grammarAccess.getTupleLiteralExpAccess().getCommaKeyword_2_2_0());
                     	      				
                     	    }
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:3232:5: ( (lv_part_5_0= ruleTupleLiteralPart ) )
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:3233:6: (lv_part_5_0= ruleTupleLiteralPart )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:3007:5: ( (lv_part_5_0= ruleTupleLiteralPart ) )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:3008:6: (lv_part_5_0= ruleTupleLiteralPart )
                     	    {
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:3233:6: (lv_part_5_0= ruleTupleLiteralPart )
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:3234:7: lv_part_5_0= ruleTupleLiteralPart
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:3008:6: (lv_part_5_0= ruleTupleLiteralPart )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:3009:7: lv_part_5_0= ruleTupleLiteralPart
                     	    {
                     	    if ( state.backtracking==0 ) {
 
@@ -9727,11 +9372,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -9746,7 +9386,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleTupleLiteralPart"
-    // InternalBacktrackingContentAssistTestLanguage.g:3261:1: entryRuleTupleLiteralPart returns [EObject current=null] : iv_ruleTupleLiteralPart= ruleTupleLiteralPart EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3036:1: entryRuleTupleLiteralPart returns [EObject current=null] : iv_ruleTupleLiteralPart= ruleTupleLiteralPart EOF ;
     public final EObject entryRuleTupleLiteralPart() throws RecognitionException {
         EObject current = null;
 
@@ -9754,8 +9394,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3261:57: (iv_ruleTupleLiteralPart= ruleTupleLiteralPart EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3262:2: iv_ruleTupleLiteralPart= ruleTupleLiteralPart EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3036:57: (iv_ruleTupleLiteralPart= ruleTupleLiteralPart EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3037:2: iv_ruleTupleLiteralPart= ruleTupleLiteralPart EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getTupleLiteralPartRule()); 
@@ -9786,7 +9426,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleTupleLiteralPart"
-    // InternalBacktrackingContentAssistTestLanguage.g:3268:1: ruleTupleLiteralPart returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3043:1: ruleTupleLiteralPart returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) ;
     public final EObject ruleTupleLiteralPart() throws RecognitionException {
         EObject current = null;
 
@@ -9799,21 +9439,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_initExpression_4_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3274:2: ( ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3275:2: ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3044:1: ( ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3045:2: ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3275:2: ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3276:3: ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3045:2: ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3046:3: ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3276:3: ( (lv_name_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3277:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:3046:3: ( (lv_name_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3047:4: (lv_name_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3277:4: (lv_name_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:3278:5: lv_name_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:3047:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:3048:5: lv_name_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -9844,7 +9481,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:3295:3: (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:3065:3: (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )?
             int alt60=2;
             int LA60_0 = input.LA(1);
 
@@ -9853,7 +9490,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt60) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3296:4: otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:3066:4: otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) )
                     {
                     otherlv_1=(Token)match(input,12,FollowSets000.FOLLOW_13); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -9861,11 +9498,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_1, grammarAccess.getTupleLiteralPartAccess().getColonKeyword_1_0());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:3300:4: ( (lv_type_2_0= ruleTypeExp ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:3301:5: (lv_type_2_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:3070:4: ( (lv_type_2_0= ruleTypeExp ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:3071:5: (lv_type_2_0= ruleTypeExp )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:3301:5: (lv_type_2_0= ruleTypeExp )
-                    // InternalBacktrackingContentAssistTestLanguage.g:3302:6: lv_type_2_0= ruleTypeExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:3071:5: (lv_type_2_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:3072:6: lv_type_2_0= ruleTypeExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -9908,11 +9545,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_3, grammarAccess.getTupleLiteralPartAccess().getEqualsSignKeyword_2());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:3324:3: ( (lv_initExpression_4_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3325:4: (lv_initExpression_4_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:3094:3: ( (lv_initExpression_4_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3095:4: (lv_initExpression_4_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3325:4: (lv_initExpression_4_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:3326:5: lv_initExpression_4_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:3095:4: (lv_initExpression_4_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:3096:5: lv_initExpression_4_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -9949,11 +9586,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -9968,7 +9600,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleNumberLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3347:1: entryRuleNumberLiteralExp returns [EObject current=null] : iv_ruleNumberLiteralExp= ruleNumberLiteralExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3117:1: entryRuleNumberLiteralExp returns [EObject current=null] : iv_ruleNumberLiteralExp= ruleNumberLiteralExp EOF ;
     public final EObject entryRuleNumberLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -9976,8 +9608,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3347:57: (iv_ruleNumberLiteralExp= ruleNumberLiteralExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3348:2: iv_ruleNumberLiteralExp= ruleNumberLiteralExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3117:57: (iv_ruleNumberLiteralExp= ruleNumberLiteralExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3118:2: iv_ruleNumberLiteralExp= ruleNumberLiteralExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getNumberLiteralExpRule()); 
@@ -10008,25 +9640,22 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleNumberLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3354:1: ruleNumberLiteralExp returns [EObject current=null] : ( (lv_name_0_0= ruleNUMBER_LITERAL ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3124:1: ruleNumberLiteralExp returns [EObject current=null] : ( (lv_name_0_0= ruleNUMBER_LITERAL ) ) ;
     public final EObject ruleNumberLiteralExp() throws RecognitionException {
         EObject current = null;
 
         AntlrDatatypeRuleToken lv_name_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3360:2: ( ( (lv_name_0_0= ruleNUMBER_LITERAL ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3361:2: ( (lv_name_0_0= ruleNUMBER_LITERAL ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3125:1: ( ( (lv_name_0_0= ruleNUMBER_LITERAL ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3126:2: ( (lv_name_0_0= ruleNUMBER_LITERAL ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3361:2: ( (lv_name_0_0= ruleNUMBER_LITERAL ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3362:3: (lv_name_0_0= ruleNUMBER_LITERAL )
+            // InternalBacktrackingContentAssistTestLanguage.g:3126:2: ( (lv_name_0_0= ruleNUMBER_LITERAL ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3127:3: (lv_name_0_0= ruleNUMBER_LITERAL )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3362:3: (lv_name_0_0= ruleNUMBER_LITERAL )
-            // InternalBacktrackingContentAssistTestLanguage.g:3363:4: lv_name_0_0= ruleNUMBER_LITERAL
+            // InternalBacktrackingContentAssistTestLanguage.g:3127:3: (lv_name_0_0= ruleNUMBER_LITERAL )
+            // InternalBacktrackingContentAssistTestLanguage.g:3128:4: lv_name_0_0= ruleNUMBER_LITERAL
             {
             if ( state.backtracking==0 ) {
 
@@ -10060,11 +9689,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -10079,7 +9703,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleStringLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3383:1: entryRuleStringLiteralExp returns [EObject current=null] : iv_ruleStringLiteralExp= ruleStringLiteralExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3148:1: entryRuleStringLiteralExp returns [EObject current=null] : iv_ruleStringLiteralExp= ruleStringLiteralExp EOF ;
     public final EObject entryRuleStringLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -10087,8 +9711,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3383:57: (iv_ruleStringLiteralExp= ruleStringLiteralExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3384:2: iv_ruleStringLiteralExp= ruleStringLiteralExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3148:57: (iv_ruleStringLiteralExp= ruleStringLiteralExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3149:2: iv_ruleStringLiteralExp= ruleStringLiteralExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getStringLiteralExpRule()); 
@@ -10119,21 +9743,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleStringLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3390:1: ruleStringLiteralExp returns [EObject current=null] : ( (lv_values_0_0= ruleStringLiteral ) )+ ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3155:1: ruleStringLiteralExp returns [EObject current=null] : ( (lv_values_0_0= ruleStringLiteral ) )+ ;
     public final EObject ruleStringLiteralExp() throws RecognitionException {
         EObject current = null;
 
         AntlrDatatypeRuleToken lv_values_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3396:2: ( ( (lv_values_0_0= ruleStringLiteral ) )+ )
-            // InternalBacktrackingContentAssistTestLanguage.g:3397:2: ( (lv_values_0_0= ruleStringLiteral ) )+
+            // InternalBacktrackingContentAssistTestLanguage.g:3156:1: ( ( (lv_values_0_0= ruleStringLiteral ) )+ )
+            // InternalBacktrackingContentAssistTestLanguage.g:3157:2: ( (lv_values_0_0= ruleStringLiteral ) )+
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3397:2: ( (lv_values_0_0= ruleStringLiteral ) )+
+            // InternalBacktrackingContentAssistTestLanguage.g:3157:2: ( (lv_values_0_0= ruleStringLiteral ) )+
             int cnt61=0;
             loop61:
             do {
@@ -10147,10 +9768,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt61) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3398:3: (lv_values_0_0= ruleStringLiteral )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3158:3: (lv_values_0_0= ruleStringLiteral )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3398:3: (lv_values_0_0= ruleStringLiteral )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3399:4: lv_values_0_0= ruleStringLiteral
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3158:3: (lv_values_0_0= ruleStringLiteral )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3159:4: lv_values_0_0= ruleStringLiteral
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -10195,11 +9816,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -10214,7 +9830,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleBooleanLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3419:1: entryRuleBooleanLiteralExp returns [EObject current=null] : iv_ruleBooleanLiteralExp= ruleBooleanLiteralExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3179:1: entryRuleBooleanLiteralExp returns [EObject current=null] : iv_ruleBooleanLiteralExp= ruleBooleanLiteralExp EOF ;
     public final EObject entryRuleBooleanLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -10222,8 +9838,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3419:58: (iv_ruleBooleanLiteralExp= ruleBooleanLiteralExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3420:2: iv_ruleBooleanLiteralExp= ruleBooleanLiteralExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3179:58: (iv_ruleBooleanLiteralExp= ruleBooleanLiteralExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3180:2: iv_ruleBooleanLiteralExp= ruleBooleanLiteralExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getBooleanLiteralExpRule()); 
@@ -10254,25 +9870,22 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleBooleanLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3426:1: ruleBooleanLiteralExp returns [EObject current=null] : ( () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3186:1: ruleBooleanLiteralExp returns [EObject current=null] : ( () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' ) ) ;
     public final EObject ruleBooleanLiteralExp() throws RecognitionException {
         EObject current = null;
 
         Token lv_isTrue_1_0=null;
         Token otherlv_2=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3432:2: ( ( () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3433:2: ( () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3187:1: ( ( () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3188:2: ( () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3433:2: ( () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3434:3: () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' )
+            // InternalBacktrackingContentAssistTestLanguage.g:3188:2: ( () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3189:3: () ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3434:3: ()
-            // InternalBacktrackingContentAssistTestLanguage.g:3435:4: 
+            // InternalBacktrackingContentAssistTestLanguage.g:3189:3: ()
+            // InternalBacktrackingContentAssistTestLanguage.g:3190:4: 
             {
             if ( state.backtracking==0 ) {
 
@@ -10289,7 +9902,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:3444:3: ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' )
+            // InternalBacktrackingContentAssistTestLanguage.g:3199:3: ( ( (lv_isTrue_1_0= 'true' ) ) | otherlv_2= 'false' )
             int alt62=2;
             int LA62_0 = input.LA(1);
 
@@ -10308,13 +9921,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt62) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3445:4: ( (lv_isTrue_1_0= 'true' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:3200:4: ( (lv_isTrue_1_0= 'true' ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:3445:4: ( (lv_isTrue_1_0= 'true' ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:3446:5: (lv_isTrue_1_0= 'true' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:3200:4: ( (lv_isTrue_1_0= 'true' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:3201:5: (lv_isTrue_1_0= 'true' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:3446:5: (lv_isTrue_1_0= 'true' )
-                    // InternalBacktrackingContentAssistTestLanguage.g:3447:6: lv_isTrue_1_0= 'true'
+                    // InternalBacktrackingContentAssistTestLanguage.g:3201:5: (lv_isTrue_1_0= 'true' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:3202:6: lv_isTrue_1_0= 'true'
                     {
                     lv_isTrue_1_0=(Token)match(input,54,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -10340,7 +9953,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3460:4: otherlv_2= 'false'
+                    // InternalBacktrackingContentAssistTestLanguage.g:3215:4: otherlv_2= 'false'
                     {
                     otherlv_2=(Token)match(input,55,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -10360,11 +9973,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -10379,7 +9987,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleInvalidLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3469:1: entryRuleInvalidLiteralExp returns [EObject current=null] : iv_ruleInvalidLiteralExp= ruleInvalidLiteralExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3224:1: entryRuleInvalidLiteralExp returns [EObject current=null] : iv_ruleInvalidLiteralExp= ruleInvalidLiteralExp EOF ;
     public final EObject entryRuleInvalidLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -10387,8 +9995,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3469:58: (iv_ruleInvalidLiteralExp= ruleInvalidLiteralExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3470:2: iv_ruleInvalidLiteralExp= ruleInvalidLiteralExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3224:58: (iv_ruleInvalidLiteralExp= ruleInvalidLiteralExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3225:2: iv_ruleInvalidLiteralExp= ruleInvalidLiteralExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getInvalidLiteralExpRule()); 
@@ -10419,24 +10027,21 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleInvalidLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3476:1: ruleInvalidLiteralExp returns [EObject current=null] : ( () otherlv_1= 'invalid' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3231:1: ruleInvalidLiteralExp returns [EObject current=null] : ( () otherlv_1= 'invalid' ) ;
     public final EObject ruleInvalidLiteralExp() throws RecognitionException {
         EObject current = null;
 
         Token otherlv_1=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3482:2: ( ( () otherlv_1= 'invalid' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3483:2: ( () otherlv_1= 'invalid' )
+            // InternalBacktrackingContentAssistTestLanguage.g:3232:1: ( ( () otherlv_1= 'invalid' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3233:2: ( () otherlv_1= 'invalid' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3483:2: ( () otherlv_1= 'invalid' )
-            // InternalBacktrackingContentAssistTestLanguage.g:3484:3: () otherlv_1= 'invalid'
+            // InternalBacktrackingContentAssistTestLanguage.g:3233:2: ( () otherlv_1= 'invalid' )
+            // InternalBacktrackingContentAssistTestLanguage.g:3234:3: () otherlv_1= 'invalid'
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3484:3: ()
-            // InternalBacktrackingContentAssistTestLanguage.g:3485:4: 
+            // InternalBacktrackingContentAssistTestLanguage.g:3234:3: ()
+            // InternalBacktrackingContentAssistTestLanguage.g:3235:4: 
             {
             if ( state.backtracking==0 ) {
 
@@ -10465,11 +10070,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -10484,7 +10084,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleNullLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3502:1: entryRuleNullLiteralExp returns [EObject current=null] : iv_ruleNullLiteralExp= ruleNullLiteralExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3252:1: entryRuleNullLiteralExp returns [EObject current=null] : iv_ruleNullLiteralExp= ruleNullLiteralExp EOF ;
     public final EObject entryRuleNullLiteralExp() throws RecognitionException {
         EObject current = null;
 
@@ -10492,8 +10092,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3502:55: (iv_ruleNullLiteralExp= ruleNullLiteralExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3503:2: iv_ruleNullLiteralExp= ruleNullLiteralExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3252:55: (iv_ruleNullLiteralExp= ruleNullLiteralExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3253:2: iv_ruleNullLiteralExp= ruleNullLiteralExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getNullLiteralExpRule()); 
@@ -10524,24 +10124,21 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleNullLiteralExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:3509:1: ruleNullLiteralExp returns [EObject current=null] : ( () otherlv_1= 'null' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3259:1: ruleNullLiteralExp returns [EObject current=null] : ( () otherlv_1= 'null' ) ;
     public final EObject ruleNullLiteralExp() throws RecognitionException {
         EObject current = null;
 
         Token otherlv_1=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3515:2: ( ( () otherlv_1= 'null' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3516:2: ( () otherlv_1= 'null' )
+            // InternalBacktrackingContentAssistTestLanguage.g:3260:1: ( ( () otherlv_1= 'null' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3261:2: ( () otherlv_1= 'null' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3516:2: ( () otherlv_1= 'null' )
-            // InternalBacktrackingContentAssistTestLanguage.g:3517:3: () otherlv_1= 'null'
+            // InternalBacktrackingContentAssistTestLanguage.g:3261:2: ( () otherlv_1= 'null' )
+            // InternalBacktrackingContentAssistTestLanguage.g:3262:3: () otherlv_1= 'null'
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3517:3: ()
-            // InternalBacktrackingContentAssistTestLanguage.g:3518:4: 
+            // InternalBacktrackingContentAssistTestLanguage.g:3262:3: ()
+            // InternalBacktrackingContentAssistTestLanguage.g:3263:4: 
             {
             if ( state.backtracking==0 ) {
 
@@ -10570,11 +10167,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -10589,7 +10181,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleExpression"
-    // InternalBacktrackingContentAssistTestLanguage.g:3535:1: entryRuleExpression returns [EObject current=null] : iv_ruleExpression= ruleExpression EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3280:1: entryRuleExpression returns [EObject current=null] : iv_ruleExpression= ruleExpression EOF ;
     public final EObject entryRuleExpression() throws RecognitionException {
         EObject current = null;
 
@@ -10597,8 +10189,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3535:51: (iv_ruleExpression= ruleExpression EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3536:2: iv_ruleExpression= ruleExpression EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3280:51: (iv_ruleExpression= ruleExpression EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3281:2: iv_ruleExpression= ruleExpression EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getExpressionRule()); 
@@ -10629,7 +10221,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleExpression"
-    // InternalBacktrackingContentAssistTestLanguage.g:3542:1: ruleExpression returns [EObject current=null] : (this_implies_0= ruleimplies | this_LetExp_1= ruleLetExp ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3287:1: ruleExpression returns [EObject current=null] : (this_implies_0= ruleimplies | this_LetExp_1= ruleLetExp ) ;
     public final EObject ruleExpression() throws RecognitionException {
         EObject current = null;
 
@@ -10638,14 +10230,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_LetExp_1 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3548:2: ( (this_implies_0= ruleimplies | this_LetExp_1= ruleLetExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3549:2: (this_implies_0= ruleimplies | this_LetExp_1= ruleLetExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:3288:1: ( (this_implies_0= ruleimplies | this_LetExp_1= ruleLetExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3289:2: (this_implies_0= ruleimplies | this_LetExp_1= ruleLetExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3549:2: (this_implies_0= ruleimplies | this_LetExp_1= ruleLetExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:3289:2: (this_implies_0= ruleimplies | this_LetExp_1= ruleLetExp )
             int alt63=2;
             int LA63_0 = input.LA(1);
 
@@ -10664,7 +10253,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt63) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3550:3: this_implies_0= ruleimplies
+                    // InternalBacktrackingContentAssistTestLanguage.g:3290:3: this_implies_0= ruleimplies
                     {
                     if ( state.backtracking==0 ) {
 
@@ -10691,7 +10280,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:3562:3: this_LetExp_1= ruleLetExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:3302:3: this_LetExp_1= ruleLetExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -10723,11 +10312,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -10742,7 +10326,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleimplies"
-    // InternalBacktrackingContentAssistTestLanguage.g:3577:1: entryRuleimplies returns [EObject current=null] : iv_ruleimplies= ruleimplies EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3317:1: entryRuleimplies returns [EObject current=null] : iv_ruleimplies= ruleimplies EOF ;
     public final EObject entryRuleimplies() throws RecognitionException {
         EObject current = null;
 
@@ -10750,8 +10334,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3577:48: (iv_ruleimplies= ruleimplies EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3578:2: iv_ruleimplies= ruleimplies EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3317:48: (iv_ruleimplies= ruleimplies EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3318:2: iv_ruleimplies= ruleimplies EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getImpliesRule()); 
@@ -10782,7 +10366,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleimplies"
-    // InternalBacktrackingContentAssistTestLanguage.g:3584:1: ruleimplies returns [EObject current=null] : (this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3324:1: ruleimplies returns [EObject current=null] : (this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
     public final EObject ruleimplies() throws RecognitionException {
         EObject current = null;
 
@@ -10794,15 +10378,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3590:2: ( (this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3591:2: (this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3325:1: ( (this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3326:2: (this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3591:2: (this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:3592:3: this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3326:2: (this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3327:3: this_xor_0= rulexor ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )*
             {
             if ( state.backtracking==0 ) {
 
@@ -10825,7 +10406,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:3603:3: ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3338:3: ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )*
             loop65:
             do {
                 int alt65=2;
@@ -10844,10 +10425,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt65) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3604:4: () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3339:4: () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3604:4: ()
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3605:5: 
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3339:4: ()
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3340:5: 
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -10864,11 +10445,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3614:4: ( (lv_op_2_0= 'implies' ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3615:5: (lv_op_2_0= 'implies' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3349:4: ( (lv_op_2_0= 'implies' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3350:5: (lv_op_2_0= 'implies' )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3615:5: (lv_op_2_0= 'implies' )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3616:6: lv_op_2_0= 'implies'
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3350:5: (lv_op_2_0= 'implies' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3351:6: lv_op_2_0= 'implies'
             	    {
             	    lv_op_2_0=(Token)match(input,58,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	    if ( state.backtracking==0 ) {
@@ -10890,13 +10471,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3628:4: ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3629:5: ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3363:4: ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3364:5: ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3629:5: ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3630:6: (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3364:5: ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3365:6: (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3630:6: (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3365:6: (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp )
             	    int alt64=2;
             	    int LA64_0 = input.LA(1);
 
@@ -10915,7 +10496,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt64) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:3631:7: lv_argument_3_1= rulexor
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3366:7: lv_argument_3_1= rulexor
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -10944,7 +10525,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:3647:7: lv_argument_3_2= ruleLetExp
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3382:7: lv_argument_3_2= ruleLetExp
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -10996,11 +10577,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -11015,7 +10591,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulexor"
-    // InternalBacktrackingContentAssistTestLanguage.g:3670:1: entryRulexor returns [EObject current=null] : iv_rulexor= rulexor EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3405:1: entryRulexor returns [EObject current=null] : iv_rulexor= rulexor EOF ;
     public final EObject entryRulexor() throws RecognitionException {
         EObject current = null;
 
@@ -11023,8 +10599,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3670:44: (iv_rulexor= rulexor EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3671:2: iv_rulexor= rulexor EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3405:44: (iv_rulexor= rulexor EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3406:2: iv_rulexor= rulexor EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getXorRule()); 
@@ -11055,7 +10631,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulexor"
-    // InternalBacktrackingContentAssistTestLanguage.g:3677:1: rulexor returns [EObject current=null] : (this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3412:1: rulexor returns [EObject current=null] : (this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
     public final EObject rulexor() throws RecognitionException {
         EObject current = null;
 
@@ -11067,15 +10643,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3683:2: ( (this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3684:2: (this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3413:1: ( (this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3414:2: (this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3684:2: (this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:3685:3: this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3414:2: (this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3415:3: this_or_0= ruleor ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )*
             {
             if ( state.backtracking==0 ) {
 
@@ -11098,7 +10671,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:3696:3: ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3426:3: ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )*
             loop67:
             do {
                 int alt67=2;
@@ -11117,10 +10690,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt67) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3697:4: () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3427:4: () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3697:4: ()
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3698:5: 
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3427:4: ()
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3428:5: 
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -11137,11 +10710,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3707:4: ( (lv_op_2_0= 'xor' ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3708:5: (lv_op_2_0= 'xor' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3437:4: ( (lv_op_2_0= 'xor' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3438:5: (lv_op_2_0= 'xor' )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3708:5: (lv_op_2_0= 'xor' )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3709:6: lv_op_2_0= 'xor'
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3438:5: (lv_op_2_0= 'xor' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3439:6: lv_op_2_0= 'xor'
             	    {
             	    lv_op_2_0=(Token)match(input,59,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	    if ( state.backtracking==0 ) {
@@ -11163,13 +10736,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3721:4: ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3722:5: ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3451:4: ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3452:5: ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3722:5: ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3723:6: (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3452:5: ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3453:6: (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3723:6: (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3453:6: (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp )
             	    int alt66=2;
             	    int LA66_0 = input.LA(1);
 
@@ -11188,7 +10761,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt66) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:3724:7: lv_argument_3_1= ruleor
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3454:7: lv_argument_3_1= ruleor
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -11217,7 +10790,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:3740:7: lv_argument_3_2= ruleLetExp
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3470:7: lv_argument_3_2= ruleLetExp
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -11269,11 +10842,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -11288,7 +10856,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleor"
-    // InternalBacktrackingContentAssistTestLanguage.g:3763:1: entryRuleor returns [EObject current=null] : iv_ruleor= ruleor EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3493:1: entryRuleor returns [EObject current=null] : iv_ruleor= ruleor EOF ;
     public final EObject entryRuleor() throws RecognitionException {
         EObject current = null;
 
@@ -11296,8 +10864,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3763:43: (iv_ruleor= ruleor EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3764:2: iv_ruleor= ruleor EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3493:43: (iv_ruleor= ruleor EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3494:2: iv_ruleor= ruleor EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getOrRule()); 
@@ -11328,7 +10896,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleor"
-    // InternalBacktrackingContentAssistTestLanguage.g:3770:1: ruleor returns [EObject current=null] : (this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3500:1: ruleor returns [EObject current=null] : (this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
     public final EObject ruleor() throws RecognitionException {
         EObject current = null;
 
@@ -11340,15 +10908,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3776:2: ( (this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3777:2: (this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3501:1: ( (this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3502:2: (this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3777:2: (this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:3778:3: this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3502:2: (this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3503:3: this_and_0= ruleand ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )*
             {
             if ( state.backtracking==0 ) {
 
@@ -11371,7 +10936,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:3789:3: ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3514:3: ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )*
             loop69:
             do {
                 int alt69=2;
@@ -11390,10 +10955,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt69) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3790:4: () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3515:4: () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3790:4: ()
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3791:5: 
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3515:4: ()
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3516:5: 
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -11410,11 +10975,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3800:4: ( (lv_op_2_0= 'or' ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3801:5: (lv_op_2_0= 'or' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3525:4: ( (lv_op_2_0= 'or' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3526:5: (lv_op_2_0= 'or' )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3801:5: (lv_op_2_0= 'or' )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3802:6: lv_op_2_0= 'or'
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3526:5: (lv_op_2_0= 'or' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3527:6: lv_op_2_0= 'or'
             	    {
             	    lv_op_2_0=(Token)match(input,60,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	    if ( state.backtracking==0 ) {
@@ -11436,13 +11001,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3814:4: ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3815:5: ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3539:4: ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3540:5: ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3815:5: ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3816:6: (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3540:5: ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3541:6: (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3816:6: (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3541:6: (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp )
             	    int alt68=2;
             	    int LA68_0 = input.LA(1);
 
@@ -11461,7 +11026,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt68) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:3817:7: lv_argument_3_1= ruleand
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3542:7: lv_argument_3_1= ruleand
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -11490,7 +11055,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:3833:7: lv_argument_3_2= ruleLetExp
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3558:7: lv_argument_3_2= ruleLetExp
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -11542,11 +11107,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -11561,7 +11121,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleand"
-    // InternalBacktrackingContentAssistTestLanguage.g:3856:1: entryRuleand returns [EObject current=null] : iv_ruleand= ruleand EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3581:1: entryRuleand returns [EObject current=null] : iv_ruleand= ruleand EOF ;
     public final EObject entryRuleand() throws RecognitionException {
         EObject current = null;
 
@@ -11569,8 +11129,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3856:44: (iv_ruleand= ruleand EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3857:2: iv_ruleand= ruleand EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3581:44: (iv_ruleand= ruleand EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3582:2: iv_ruleand= ruleand EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getAndRule()); 
@@ -11601,7 +11161,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleand"
-    // InternalBacktrackingContentAssistTestLanguage.g:3863:1: ruleand returns [EObject current=null] : (this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3588:1: ruleand returns [EObject current=null] : (this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
     public final EObject ruleand() throws RecognitionException {
         EObject current = null;
 
@@ -11613,15 +11173,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3869:2: ( (this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3870:2: (this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3589:1: ( (this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3590:2: (this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3870:2: (this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:3871:3: this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3590:2: (this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3591:3: this_equality_0= ruleequality ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )*
             {
             if ( state.backtracking==0 ) {
 
@@ -11644,7 +11201,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:3882:3: ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3602:3: ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )*
             loop71:
             do {
                 int alt71=2;
@@ -11663,10 +11220,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt71) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3883:4: () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3603:4: () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3883:4: ()
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3884:5: 
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3603:4: ()
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3604:5: 
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -11683,11 +11240,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3893:4: ( (lv_op_2_0= 'and' ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3894:5: (lv_op_2_0= 'and' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3613:4: ( (lv_op_2_0= 'and' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3614:5: (lv_op_2_0= 'and' )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3894:5: (lv_op_2_0= 'and' )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3895:6: lv_op_2_0= 'and'
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3614:5: (lv_op_2_0= 'and' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3615:6: lv_op_2_0= 'and'
             	    {
             	    lv_op_2_0=(Token)match(input,61,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	    if ( state.backtracking==0 ) {
@@ -11709,13 +11266,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3907:4: ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3908:5: ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3627:4: ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3628:5: ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3908:5: ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3909:6: (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3628:5: ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3629:6: (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3909:6: (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3629:6: (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp )
             	    int alt70=2;
             	    int LA70_0 = input.LA(1);
 
@@ -11734,7 +11291,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt70) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:3910:7: lv_argument_3_1= ruleequality
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3630:7: lv_argument_3_1= ruleequality
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -11763,7 +11320,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:3926:7: lv_argument_3_2= ruleLetExp
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3646:7: lv_argument_3_2= ruleLetExp
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -11815,11 +11372,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -11834,7 +11386,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleequality"
-    // InternalBacktrackingContentAssistTestLanguage.g:3949:1: entryRuleequality returns [EObject current=null] : iv_ruleequality= ruleequality EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3669:1: entryRuleequality returns [EObject current=null] : iv_ruleequality= ruleequality EOF ;
     public final EObject entryRuleequality() throws RecognitionException {
         EObject current = null;
 
@@ -11842,8 +11394,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3949:49: (iv_ruleequality= ruleequality EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:3950:2: iv_ruleequality= ruleequality EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3669:49: (iv_ruleequality= ruleequality EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3670:2: iv_ruleequality= ruleequality EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getEqualityRule()); 
@@ -11874,7 +11426,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleequality"
-    // InternalBacktrackingContentAssistTestLanguage.g:3956:1: ruleequality returns [EObject current=null] : (this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3676:1: ruleequality returns [EObject current=null] : (this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
     public final EObject ruleequality() throws RecognitionException {
         EObject current = null;
 
@@ -11887,15 +11439,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:3962:2: ( (this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:3963:2: (this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3677:1: ( (this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3678:2: (this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:3963:2: (this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:3964:3: this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3678:2: (this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3679:3: this_relational_0= rulerelational ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )*
             {
             if ( state.backtracking==0 ) {
 
@@ -11918,7 +11467,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:3975:3: ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3690:3: ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )*
             loop74:
             do {
                 int alt74=2;
@@ -11946,10 +11495,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt74) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3976:4: () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3691:4: () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3976:4: ()
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3977:5: 
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3691:4: ()
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3692:5: 
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -11966,13 +11515,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3986:4: ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3987:5: ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3701:4: ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3702:5: ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3987:5: ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3988:6: (lv_op_2_1= '=' | lv_op_2_2= '<>' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3702:5: ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3703:6: (lv_op_2_1= '=' | lv_op_2_2= '<>' )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:3988:6: (lv_op_2_1= '=' | lv_op_2_2= '<>' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3703:6: (lv_op_2_1= '=' | lv_op_2_2= '<>' )
             	    int alt72=2;
             	    int LA72_0 = input.LA(1);
 
@@ -11991,7 +11540,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt72) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:3989:7: lv_op_2_1= '='
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3704:7: lv_op_2_1= '='
             	            {
             	            lv_op_2_1=(Token)match(input,19,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -12011,7 +11560,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4000:7: lv_op_2_2= '<>'
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3715:7: lv_op_2_2= '<>'
             	            {
             	            lv_op_2_2=(Token)match(input,62,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -12039,13 +11588,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4013:4: ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4014:5: ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3728:4: ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3729:5: ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4014:5: ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4015:6: (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3729:5: ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3730:6: (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4015:6: (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3730:6: (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp )
             	    int alt73=2;
             	    int LA73_0 = input.LA(1);
 
@@ -12064,7 +11613,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt73) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4016:7: lv_argument_3_1= rulerelational
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3731:7: lv_argument_3_1= rulerelational
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -12093,7 +11642,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4032:7: lv_argument_3_2= ruleLetExp
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3747:7: lv_argument_3_2= ruleLetExp
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -12145,11 +11694,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -12164,7 +11708,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulerelational"
-    // InternalBacktrackingContentAssistTestLanguage.g:4055:1: entryRulerelational returns [EObject current=null] : iv_rulerelational= rulerelational EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3770:1: entryRulerelational returns [EObject current=null] : iv_rulerelational= rulerelational EOF ;
     public final EObject entryRulerelational() throws RecognitionException {
         EObject current = null;
 
@@ -12172,8 +11716,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4055:51: (iv_rulerelational= rulerelational EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:4056:2: iv_rulerelational= rulerelational EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3770:51: (iv_rulerelational= rulerelational EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3771:2: iv_rulerelational= rulerelational EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getRelationalRule()); 
@@ -12204,7 +11748,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulerelational"
-    // InternalBacktrackingContentAssistTestLanguage.g:4062:1: rulerelational returns [EObject current=null] : (this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3777:1: rulerelational returns [EObject current=null] : (this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
     public final EObject rulerelational() throws RecognitionException {
         EObject current = null;
 
@@ -12219,15 +11763,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4068:2: ( (this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4069:2: (this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3778:1: ( (this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3779:2: (this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4069:2: (this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:4070:3: this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3779:2: (this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3780:3: this_additive_0= ruleadditive ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )*
             {
             if ( state.backtracking==0 ) {
 
@@ -12250,7 +11791,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:4081:3: ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3791:3: ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )*
             loop77:
             do {
                 int alt77=2;
@@ -12304,10 +11845,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt77) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4082:4: () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3792:4: () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4082:4: ()
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4083:5: 
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3792:4: ()
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3793:5: 
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -12324,13 +11865,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4092:4: ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4093:5: ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3802:4: ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3803:5: ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4093:5: ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4094:6: (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3803:5: ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3804:6: (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4094:6: (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3804:6: (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' )
             	    int alt75=4;
             	    switch ( input.LA(1) ) {
             	    case 63:
@@ -12363,7 +11904,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    switch (alt75) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4095:7: lv_op_2_1= '>'
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3805:7: lv_op_2_1= '>'
             	            {
             	            lv_op_2_1=(Token)match(input,63,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -12383,7 +11924,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4106:7: lv_op_2_2= '<'
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3816:7: lv_op_2_2= '<'
             	            {
             	            lv_op_2_2=(Token)match(input,64,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -12403,7 +11944,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 3 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4117:7: lv_op_2_3= '>='
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3827:7: lv_op_2_3= '>='
             	            {
             	            lv_op_2_3=(Token)match(input,65,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -12423,7 +11964,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 4 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4128:7: lv_op_2_4= '<='
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3838:7: lv_op_2_4= '<='
             	            {
             	            lv_op_2_4=(Token)match(input,66,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -12451,13 +11992,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4141:4: ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4142:5: ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3851:4: ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3852:5: ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4142:5: ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4143:6: (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3852:5: ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3853:6: (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4143:6: (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3853:6: (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp )
             	    int alt76=2;
             	    int LA76_0 = input.LA(1);
 
@@ -12476,7 +12017,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt76) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4144:7: lv_argument_3_1= ruleadditive
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3854:7: lv_argument_3_1= ruleadditive
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -12505,7 +12046,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4160:7: lv_argument_3_2= ruleLetExp
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3870:7: lv_argument_3_2= ruleLetExp
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -12557,11 +12098,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -12576,7 +12112,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleadditive"
-    // InternalBacktrackingContentAssistTestLanguage.g:4183:1: entryRuleadditive returns [EObject current=null] : iv_ruleadditive= ruleadditive EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3893:1: entryRuleadditive returns [EObject current=null] : iv_ruleadditive= ruleadditive EOF ;
     public final EObject entryRuleadditive() throws RecognitionException {
         EObject current = null;
 
@@ -12584,8 +12120,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4183:49: (iv_ruleadditive= ruleadditive EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:4184:2: iv_ruleadditive= ruleadditive EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3893:49: (iv_ruleadditive= ruleadditive EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3894:2: iv_ruleadditive= ruleadditive EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getAdditiveRule()); 
@@ -12616,7 +12152,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleadditive"
-    // InternalBacktrackingContentAssistTestLanguage.g:4190:1: ruleadditive returns [EObject current=null] : (this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3900:1: ruleadditive returns [EObject current=null] : (this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
     public final EObject ruleadditive() throws RecognitionException {
         EObject current = null;
 
@@ -12629,15 +12165,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4196:2: ( (this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4197:2: (this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3901:1: ( (this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:3902:2: (this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4197:2: (this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:4198:3: this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3902:2: (this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:3903:3: this_multiplicative_0= rulemultiplicative ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )*
             {
             if ( state.backtracking==0 ) {
 
@@ -12660,7 +12193,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:4209:3: ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:3914:3: ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )*
             loop80:
             do {
                 int alt80=2;
@@ -12688,10 +12221,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt80) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4210:4: () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3915:4: () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4210:4: ()
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4211:5: 
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3915:4: ()
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3916:5: 
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -12708,13 +12241,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4220:4: ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4221:5: ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3925:4: ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3926:5: ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4221:5: ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4222:6: (lv_op_2_1= '+' | lv_op_2_2= '-' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3926:5: ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3927:6: (lv_op_2_1= '+' | lv_op_2_2= '-' )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4222:6: (lv_op_2_1= '+' | lv_op_2_2= '-' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3927:6: (lv_op_2_1= '+' | lv_op_2_2= '-' )
             	    int alt78=2;
             	    int LA78_0 = input.LA(1);
 
@@ -12733,7 +12266,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt78) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4223:7: lv_op_2_1= '+'
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3928:7: lv_op_2_1= '+'
             	            {
             	            lv_op_2_1=(Token)match(input,35,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -12753,7 +12286,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4234:7: lv_op_2_2= '-'
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3939:7: lv_op_2_2= '-'
             	            {
             	            lv_op_2_2=(Token)match(input,36,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -12781,13 +12314,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4247:4: ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4248:5: ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3952:4: ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3953:5: ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4248:5: ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4249:6: (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3953:5: ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3954:6: (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4249:6: (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:3954:6: (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp )
             	    int alt79=2;
             	    int LA79_0 = input.LA(1);
 
@@ -12806,7 +12339,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt79) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4250:7: lv_argument_3_1= rulemultiplicative
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3955:7: lv_argument_3_1= rulemultiplicative
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -12835,7 +12368,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4266:7: lv_argument_3_2= ruleLetExp
+            	            // InternalBacktrackingContentAssistTestLanguage.g:3971:7: lv_argument_3_2= ruleLetExp
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -12887,11 +12420,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -12906,7 +12434,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulemultiplicative"
-    // InternalBacktrackingContentAssistTestLanguage.g:4289:1: entryRulemultiplicative returns [EObject current=null] : iv_rulemultiplicative= rulemultiplicative EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:3994:1: entryRulemultiplicative returns [EObject current=null] : iv_rulemultiplicative= rulemultiplicative EOF ;
     public final EObject entryRulemultiplicative() throws RecognitionException {
         EObject current = null;
 
@@ -12914,8 +12442,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4289:55: (iv_rulemultiplicative= rulemultiplicative EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:4290:2: iv_rulemultiplicative= rulemultiplicative EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:3994:55: (iv_rulemultiplicative= rulemultiplicative EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:3995:2: iv_rulemultiplicative= rulemultiplicative EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getMultiplicativeRule()); 
@@ -12946,7 +12474,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulemultiplicative"
-    // InternalBacktrackingContentAssistTestLanguage.g:4296:1: rulemultiplicative returns [EObject current=null] : (this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4001:1: rulemultiplicative returns [EObject current=null] : (this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )* ) ;
     public final EObject rulemultiplicative() throws RecognitionException {
         EObject current = null;
 
@@ -12959,15 +12487,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4302:2: ( (this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4303:2: (this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:4002:1: ( (this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )* ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4003:2: (this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )* )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4303:2: (this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )* )
-            // InternalBacktrackingContentAssistTestLanguage.g:4304:3: this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:4003:2: (this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )* )
+            // InternalBacktrackingContentAssistTestLanguage.g:4004:3: this_unary_0= ruleunary ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )*
             {
             if ( state.backtracking==0 ) {
 
@@ -12990,7 +12515,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			afterParserOrEnumRuleCall();
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:4315:3: ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:4015:3: ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )*
             loop83:
             do {
                 int alt83=2;
@@ -13018,10 +12543,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt83) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4316:4: () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4016:4: () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4316:4: ()
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4317:5: 
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4016:4: ()
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4017:5: 
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -13038,13 +12563,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4326:4: ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4327:5: ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4026:4: ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4027:5: ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4327:5: ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4328:6: (lv_op_2_1= '*' | lv_op_2_2= '/' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4027:5: ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4028:6: (lv_op_2_1= '*' | lv_op_2_2= '/' )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4328:6: (lv_op_2_1= '*' | lv_op_2_2= '/' )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4028:6: (lv_op_2_1= '*' | lv_op_2_2= '/' )
             	    int alt81=2;
             	    int LA81_0 = input.LA(1);
 
@@ -13063,7 +12588,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt81) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4329:7: lv_op_2_1= '*'
+            	            // InternalBacktrackingContentAssistTestLanguage.g:4029:7: lv_op_2_1= '*'
             	            {
             	            lv_op_2_1=(Token)match(input,67,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -13083,7 +12608,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4340:7: lv_op_2_2= '/'
+            	            // InternalBacktrackingContentAssistTestLanguage.g:4040:7: lv_op_2_2= '/'
             	            {
             	            lv_op_2_2=(Token)match(input,68,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	            if ( state.backtracking==0 ) {
@@ -13111,13 +12636,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             	    }
 
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4353:4: ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4354:5: ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4053:4: ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4054:5: ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4354:5: ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4355:6: (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4054:5: ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4055:6: (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:4355:6: (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4055:6: (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp )
             	    int alt82=2;
             	    int LA82_0 = input.LA(1);
 
@@ -13136,7 +12661,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	    }
             	    switch (alt82) {
             	        case 1 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4356:7: lv_argument_3_1= ruleunary
+            	            // InternalBacktrackingContentAssistTestLanguage.g:4056:7: lv_argument_3_1= ruleunary
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -13165,7 +12690,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	            }
             	            break;
             	        case 2 :
-            	            // InternalBacktrackingContentAssistTestLanguage.g:4372:7: lv_argument_3_2= ruleLetExp
+            	            // InternalBacktrackingContentAssistTestLanguage.g:4072:7: lv_argument_3_2= ruleLetExp
             	            {
             	            if ( state.backtracking==0 ) {
 
@@ -13217,11 +12742,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -13236,7 +12756,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleunary"
-    // InternalBacktrackingContentAssistTestLanguage.g:4395:1: entryRuleunary returns [EObject current=null] : iv_ruleunary= ruleunary EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4095:1: entryRuleunary returns [EObject current=null] : iv_ruleunary= ruleunary EOF ;
     public final EObject entryRuleunary() throws RecognitionException {
         EObject current = null;
 
@@ -13244,8 +12764,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4395:46: (iv_ruleunary= ruleunary EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:4396:2: iv_ruleunary= ruleunary EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4095:46: (iv_ruleunary= ruleunary EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4096:2: iv_ruleunary= ruleunary EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getUnaryRule()); 
@@ -13276,7 +12796,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleunary"
-    // InternalBacktrackingContentAssistTestLanguage.g:4402:1: ruleunary returns [EObject current=null] : (this_NavigationExp_0= ruleNavigationExp | ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4102:1: ruleunary returns [EObject current=null] : (this_NavigationExp_0= ruleNavigationExp | ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) ) ) ;
     public final EObject ruleunary() throws RecognitionException {
         EObject current = null;
 
@@ -13287,14 +12807,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_source_3_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4408:2: ( (this_NavigationExp_0= ruleNavigationExp | ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4409:2: (this_NavigationExp_0= ruleNavigationExp | ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4103:1: ( (this_NavigationExp_0= ruleNavigationExp | ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4104:2: (this_NavigationExp_0= ruleNavigationExp | ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4409:2: (this_NavigationExp_0= ruleNavigationExp | ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4104:2: (this_NavigationExp_0= ruleNavigationExp | ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) ) )
             int alt85=2;
             int LA85_0 = input.LA(1);
 
@@ -13313,7 +12830,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt85) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4410:3: this_NavigationExp_0= ruleNavigationExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4105:3: this_NavigationExp_0= ruleNavigationExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13340,13 +12857,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4422:3: ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4117:3: ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4422:3: ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4423:4: () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4117:3: ( () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4118:4: () ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) ) ( (lv_source_3_0= ruleunary ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4423:4: ()
-                    // InternalBacktrackingContentAssistTestLanguage.g:4424:5: 
+                    // InternalBacktrackingContentAssistTestLanguage.g:4118:4: ()
+                    // InternalBacktrackingContentAssistTestLanguage.g:4119:5: 
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13363,13 +12880,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:4433:4: ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4434:5: ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4128:4: ( ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4129:5: ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4434:5: ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4435:6: (lv_op_2_1= '-' | lv_op_2_2= 'not' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4129:5: ( (lv_op_2_1= '-' | lv_op_2_2= 'not' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4130:6: (lv_op_2_1= '-' | lv_op_2_2= 'not' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4435:6: (lv_op_2_1= '-' | lv_op_2_2= 'not' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4130:6: (lv_op_2_1= '-' | lv_op_2_2= 'not' )
                     int alt84=2;
                     int LA84_0 = input.LA(1);
 
@@ -13388,7 +12905,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt84) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:4436:7: lv_op_2_1= '-'
+                            // InternalBacktrackingContentAssistTestLanguage.g:4131:7: lv_op_2_1= '-'
                             {
                             lv_op_2_1=(Token)match(input,36,FollowSets000.FOLLOW_49); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -13408,7 +12925,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             }
                             break;
                         case 2 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:4447:7: lv_op_2_2= 'not'
+                            // InternalBacktrackingContentAssistTestLanguage.g:4142:7: lv_op_2_2= 'not'
                             {
                             lv_op_2_2=(Token)match(input,69,FollowSets000.FOLLOW_49); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -13436,11 +12953,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:4460:4: ( (lv_source_3_0= ruleunary ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4461:5: (lv_source_3_0= ruleunary )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4155:4: ( (lv_source_3_0= ruleunary ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4156:5: (lv_source_3_0= ruleunary )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4461:5: (lv_source_3_0= ruleunary )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4462:6: lv_source_3_0= ruleunary
+                    // InternalBacktrackingContentAssistTestLanguage.g:4156:5: (lv_source_3_0= ruleunary )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4157:6: lv_source_3_0= ruleunary
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13483,11 +13000,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -13502,7 +13014,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleSubNavigationExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:4484:1: entryRuleSubNavigationExp returns [EObject current=null] : iv_ruleSubNavigationExp= ruleSubNavigationExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4179:1: entryRuleSubNavigationExp returns [EObject current=null] : iv_ruleSubNavigationExp= ruleSubNavigationExp EOF ;
     public final EObject entryRuleSubNavigationExp() throws RecognitionException {
         EObject current = null;
 
@@ -13510,8 +13022,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4484:57: (iv_ruleSubNavigationExp= ruleSubNavigationExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:4485:2: iv_ruleSubNavigationExp= ruleSubNavigationExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4179:57: (iv_ruleSubNavigationExp= ruleSubNavigationExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4180:2: iv_ruleSubNavigationExp= ruleSubNavigationExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getSubNavigationExpRule()); 
@@ -13542,7 +13054,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleSubNavigationExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:4491:1: ruleSubNavigationExp returns [EObject current=null] : (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4186:1: ruleSubNavigationExp returns [EObject current=null] : (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) ) ;
     public final EObject ruleSubNavigationExp() throws RecognitionException {
         EObject current = null;
 
@@ -13569,19 +13081,16 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_source_11_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4497:2: ( (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4498:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4187:1: ( (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4188:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4498:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4188:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) )
             int alt86=10;
             alt86 = dfa86.predict(input);
             switch (alt86) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4499:3: this_RoundBracketExp_0= ruleRoundBracketExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4189:3: this_RoundBracketExp_0= ruleRoundBracketExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13608,7 +13117,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4511:3: this_SquareBracketExp_1= ruleSquareBracketExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4201:3: this_SquareBracketExp_1= ruleSquareBracketExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13635,7 +13144,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 3 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4523:3: this_SelfExp_2= ruleSelfExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4213:3: this_SelfExp_2= ruleSelfExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13662,7 +13171,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 4 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4535:3: this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4225:3: this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13689,7 +13198,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 5 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4547:3: this_TupleLiteralExp_4= ruleTupleLiteralExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4237:3: this_TupleLiteralExp_4= ruleTupleLiteralExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13716,7 +13225,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 6 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4559:3: this_CollectionLiteralExp_5= ruleCollectionLiteralExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4249:3: this_CollectionLiteralExp_5= ruleCollectionLiteralExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13743,7 +13252,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 7 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4571:3: this_PreExp_6= rulePreExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4261:3: this_PreExp_6= rulePreExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13770,7 +13279,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 8 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4583:3: this_TypeExp_7= ruleTypeExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4273:3: this_TypeExp_7= ruleTypeExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13797,7 +13306,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 9 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4595:3: this_IfExp_8= ruleIfExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4285:3: this_IfExp_8= ruleIfExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13824,10 +13333,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 10 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4607:3: (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4297:3: (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4607:3: (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4608:4: otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')'
+                    // InternalBacktrackingContentAssistTestLanguage.g:4297:3: (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4298:4: otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')'
                     {
                     otherlv_9=(Token)match(input,16,FollowSets000.FOLLOW_6); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -13835,8 +13344,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_9, grammarAccess.getSubNavigationExpAccess().getLeftParenthesisKeyword_9_0());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:4612:4: ()
-                    // InternalBacktrackingContentAssistTestLanguage.g:4613:5: 
+                    // InternalBacktrackingContentAssistTestLanguage.g:4302:4: ()
+                    // InternalBacktrackingContentAssistTestLanguage.g:4303:5: 
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13853,11 +13362,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:4622:4: ( (lv_source_11_0= ruleExpression ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4623:5: (lv_source_11_0= ruleExpression )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4312:4: ( (lv_source_11_0= ruleExpression ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4313:5: (lv_source_11_0= ruleExpression )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4623:5: (lv_source_11_0= ruleExpression )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4624:6: lv_source_11_0= ruleExpression
+                    // InternalBacktrackingContentAssistTestLanguage.g:4313:5: (lv_source_11_0= ruleExpression )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4314:6: lv_source_11_0= ruleExpression
                     {
                     if ( state.backtracking==0 ) {
 
@@ -13906,11 +13415,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -13925,7 +13429,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleSubNavigatingExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:4650:1: entryRuleSubNavigatingExp returns [EObject current=null] : iv_ruleSubNavigatingExp= ruleSubNavigatingExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4340:1: entryRuleSubNavigatingExp returns [EObject current=null] : iv_ruleSubNavigatingExp= ruleSubNavigatingExp EOF ;
     public final EObject entryRuleSubNavigatingExp() throws RecognitionException {
         EObject current = null;
 
@@ -13933,8 +13437,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4650:57: (iv_ruleSubNavigatingExp= ruleSubNavigatingExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:4651:2: iv_ruleSubNavigatingExp= ruleSubNavigatingExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4340:57: (iv_ruleSubNavigatingExp= ruleSubNavigatingExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4341:2: iv_ruleSubNavigatingExp= ruleSubNavigatingExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getSubNavigatingExpRule()); 
@@ -13965,7 +13469,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleSubNavigatingExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:4657:1: ruleSubNavigatingExp returns [EObject current=null] : (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_PreExp_2= rulePreExp | this_NameExp_3= ruleNameExp ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4347:1: ruleSubNavigatingExp returns [EObject current=null] : (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_PreExp_2= rulePreExp | this_NameExp_3= ruleNameExp ) ;
     public final EObject ruleSubNavigatingExp() throws RecognitionException {
         EObject current = null;
 
@@ -13978,14 +13482,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_NameExp_3 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4663:2: ( (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_PreExp_2= rulePreExp | this_NameExp_3= ruleNameExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4664:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_PreExp_2= rulePreExp | this_NameExp_3= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4348:1: ( (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_PreExp_2= rulePreExp | this_NameExp_3= ruleNameExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4349:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_PreExp_2= rulePreExp | this_NameExp_3= ruleNameExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4664:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_PreExp_2= rulePreExp | this_NameExp_3= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4349:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_PreExp_2= rulePreExp | this_NameExp_3= ruleNameExp )
             int alt87=4;
             switch ( input.LA(1) ) {
             case RULE_ID:
@@ -14073,7 +13574,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt87) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4665:3: this_RoundBracketExp_0= ruleRoundBracketExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4350:3: this_RoundBracketExp_0= ruleRoundBracketExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -14100,7 +13601,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4677:3: this_SquareBracketExp_1= ruleSquareBracketExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4362:3: this_SquareBracketExp_1= ruleSquareBracketExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -14127,7 +13628,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 3 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4689:3: this_PreExp_2= rulePreExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4374:3: this_PreExp_2= rulePreExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -14154,7 +13655,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 4 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4701:3: this_NameExp_3= ruleNameExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4386:3: this_NameExp_3= ruleNameExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -14186,11 +13687,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -14205,7 +13701,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleiteratorVariable"
-    // InternalBacktrackingContentAssistTestLanguage.g:4716:1: entryRuleiteratorVariable returns [EObject current=null] : iv_ruleiteratorVariable= ruleiteratorVariable EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4401:1: entryRuleiteratorVariable returns [EObject current=null] : iv_ruleiteratorVariable= ruleiteratorVariable EOF ;
     public final EObject entryRuleiteratorVariable() throws RecognitionException {
         EObject current = null;
 
@@ -14213,8 +13709,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4716:57: (iv_ruleiteratorVariable= ruleiteratorVariable EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:4717:2: iv_ruleiteratorVariable= ruleiteratorVariable EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4401:57: (iv_ruleiteratorVariable= ruleiteratorVariable EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4402:2: iv_ruleiteratorVariable= ruleiteratorVariable EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getIteratorVariableRule()); 
@@ -14245,7 +13741,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleiteratorVariable"
-    // InternalBacktrackingContentAssistTestLanguage.g:4723:1: ruleiteratorVariable returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4408:1: ruleiteratorVariable returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? ) ;
     public final EObject ruleiteratorVariable() throws RecognitionException {
         EObject current = null;
 
@@ -14255,21 +13751,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_type_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4729:2: ( ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4730:2: ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:4409:1: ( ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4410:2: ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4730:2: ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? )
-            // InternalBacktrackingContentAssistTestLanguage.g:4731:3: ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:4410:2: ( ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:4411:3: ( (lv_name_0_0= ruleIdentifier ) ) (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )?
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4731:3: ( (lv_name_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4732:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:4411:3: ( (lv_name_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4412:4: (lv_name_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4732:4: (lv_name_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:4733:5: lv_name_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:4412:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:4413:5: lv_name_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -14300,7 +13793,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:4750:3: (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:4430:3: (otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) )?
             int alt88=2;
             int LA88_0 = input.LA(1);
 
@@ -14309,7 +13802,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt88) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4751:4: otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4431:4: otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) )
                     {
                     otherlv_1=(Token)match(input,12,FollowSets000.FOLLOW_13); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -14317,11 +13810,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_1, grammarAccess.getIteratorVariableAccess().getColonKeyword_1_0());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:4755:4: ( (lv_type_2_0= ruleTypeExp ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4756:5: (lv_type_2_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4435:4: ( (lv_type_2_0= ruleTypeExp ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4436:5: (lv_type_2_0= ruleTypeExp )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4756:5: (lv_type_2_0= ruleTypeExp )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4757:6: lv_type_2_0= ruleTypeExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4436:5: (lv_type_2_0= ruleTypeExp )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4437:6: lv_type_2_0= ruleTypeExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -14364,11 +13857,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -14383,7 +13871,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleiteratorAccumulator"
-    // InternalBacktrackingContentAssistTestLanguage.g:4779:1: entryRuleiteratorAccumulator returns [EObject current=null] : iv_ruleiteratorAccumulator= ruleiteratorAccumulator EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4459:1: entryRuleiteratorAccumulator returns [EObject current=null] : iv_ruleiteratorAccumulator= ruleiteratorAccumulator EOF ;
     public final EObject entryRuleiteratorAccumulator() throws RecognitionException {
         EObject current = null;
 
@@ -14391,8 +13879,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4779:60: (iv_ruleiteratorAccumulator= ruleiteratorAccumulator EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:4780:2: iv_ruleiteratorAccumulator= ruleiteratorAccumulator EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4459:60: (iv_ruleiteratorAccumulator= ruleiteratorAccumulator EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4460:2: iv_ruleiteratorAccumulator= ruleiteratorAccumulator EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getIteratorAccumulatorRule()); 
@@ -14423,7 +13911,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleiteratorAccumulator"
-    // InternalBacktrackingContentAssistTestLanguage.g:4786:1: ruleiteratorAccumulator returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4466:1: ruleiteratorAccumulator returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) ;
     public final EObject ruleiteratorAccumulator() throws RecognitionException {
         EObject current = null;
 
@@ -14436,21 +13924,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_initExpression_4_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4792:2: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4793:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4467:1: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4468:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4793:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4794:3: ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4468:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4469:3: ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4794:3: ( (lv_name_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4795:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:4469:3: ( (lv_name_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4470:4: (lv_name_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4795:4: (lv_name_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:4796:5: lv_name_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:4470:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:4471:5: lv_name_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -14487,11 +13972,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getIteratorAccumulatorAccess().getColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:4817:3: ( (lv_type_2_0= ruleTypeExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4818:4: (lv_type_2_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4492:3: ( (lv_type_2_0= ruleTypeExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4493:4: (lv_type_2_0= ruleTypeExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4818:4: (lv_type_2_0= ruleTypeExp )
-            // InternalBacktrackingContentAssistTestLanguage.g:4819:5: lv_type_2_0= ruleTypeExp
+            // InternalBacktrackingContentAssistTestLanguage.g:4493:4: (lv_type_2_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4494:5: lv_type_2_0= ruleTypeExp
             {
             if ( state.backtracking==0 ) {
 
@@ -14528,11 +14013,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_3, grammarAccess.getIteratorAccumulatorAccess().getEqualsSignKeyword_3());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:4840:3: ( (lv_initExpression_4_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4841:4: (lv_initExpression_4_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:4515:3: ( (lv_initExpression_4_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4516:4: (lv_initExpression_4_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4841:4: (lv_initExpression_4_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:4842:5: lv_initExpression_4_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:4516:4: (lv_initExpression_4_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:4517:5: lv_initExpression_4_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -14569,11 +14054,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -14588,7 +14068,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleRoundBracketExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:4863:1: entryRuleRoundBracketExp returns [EObject current=null] : iv_ruleRoundBracketExp= ruleRoundBracketExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4538:1: entryRuleRoundBracketExp returns [EObject current=null] : iv_ruleRoundBracketExp= ruleRoundBracketExp EOF ;
     public final EObject entryRuleRoundBracketExp() throws RecognitionException {
         EObject current = null;
 
@@ -14596,8 +14076,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4863:56: (iv_ruleRoundBracketExp= ruleRoundBracketExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:4864:2: iv_ruleRoundBracketExp= ruleRoundBracketExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4538:56: (iv_ruleRoundBracketExp= ruleRoundBracketExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4539:2: iv_ruleRoundBracketExp= ruleRoundBracketExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getRoundBracketExpRule()); 
@@ -14628,7 +14108,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleRoundBracketExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:4870:1: ruleRoundBracketExp returns [EObject current=null] : ( ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4545:1: ruleRoundBracketExp returns [EObject current=null] : ( ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')' ) ;
     public final EObject ruleRoundBracketExp() throws RecognitionException {
         EObject current = null;
 
@@ -14653,21 +14133,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_arguments_12_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:4876:2: ( ( ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4877:2: ( ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')' )
+            // InternalBacktrackingContentAssistTestLanguage.g:4546:1: ( ( ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4547:2: ( ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4877:2: ( ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')' )
-            // InternalBacktrackingContentAssistTestLanguage.g:4878:3: ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')'
+            // InternalBacktrackingContentAssistTestLanguage.g:4547:2: ( ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')' )
+            // InternalBacktrackingContentAssistTestLanguage.g:4548:3: ( (lv_name_0_0= ruleNameExp ) ) (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )? otherlv_3= '(' ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )? ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )? otherlv_13= ')'
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4878:3: ( (lv_name_0_0= ruleNameExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:4879:4: (lv_name_0_0= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4548:3: ( (lv_name_0_0= ruleNameExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4549:4: (lv_name_0_0= ruleNameExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:4879:4: (lv_name_0_0= ruleNameExp )
-            // InternalBacktrackingContentAssistTestLanguage.g:4880:5: lv_name_0_0= ruleNameExp
+            // InternalBacktrackingContentAssistTestLanguage.g:4549:4: (lv_name_0_0= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4550:5: lv_name_0_0= ruleNameExp
             {
             if ( state.backtracking==0 ) {
 
@@ -14698,7 +14175,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:4897:3: (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:4567:3: (otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) ) )?
             int alt89=2;
             int LA89_0 = input.LA(1);
 
@@ -14707,7 +14184,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt89) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4898:4: otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4568:4: otherlv_1= '@' ( (lv_pre_2_0= 'pre' ) )
                     {
                     otherlv_1=(Token)match(input,70,FollowSets000.FOLLOW_51); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -14715,11 +14192,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_1, grammarAccess.getRoundBracketExpAccess().getCommercialAtKeyword_1_0());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:4902:4: ( (lv_pre_2_0= 'pre' ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4903:5: (lv_pre_2_0= 'pre' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4572:4: ( (lv_pre_2_0= 'pre' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4573:5: (lv_pre_2_0= 'pre' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4903:5: (lv_pre_2_0= 'pre' )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4904:6: lv_pre_2_0= 'pre'
+                    // InternalBacktrackingContentAssistTestLanguage.g:4573:5: (lv_pre_2_0= 'pre' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4574:6: lv_pre_2_0= 'pre'
                     {
                     lv_pre_2_0=(Token)match(input,26,FollowSets000.FOLLOW_16); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -14753,18 +14230,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_3, grammarAccess.getRoundBracketExpAccess().getLeftParenthesisKeyword_2());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:4921:3: ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )?
+            // InternalBacktrackingContentAssistTestLanguage.g:4591:3: ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )?
             int alt91=2;
             alt91 = dfa91.predict(input);
             switch (alt91) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:4922:4: ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|'
+                    // InternalBacktrackingContentAssistTestLanguage.g:4592:4: ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|'
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4922:4: ( (lv_variable1_4_0= ruleiteratorVariable ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4923:5: (lv_variable1_4_0= ruleiteratorVariable )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4592:4: ( (lv_variable1_4_0= ruleiteratorVariable ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4593:5: (lv_variable1_4_0= ruleiteratorVariable )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:4923:5: (lv_variable1_4_0= ruleiteratorVariable )
-                    // InternalBacktrackingContentAssistTestLanguage.g:4924:6: lv_variable1_4_0= ruleiteratorVariable
+                    // InternalBacktrackingContentAssistTestLanguage.g:4593:5: (lv_variable1_4_0= ruleiteratorVariable )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4594:6: lv_variable1_4_0= ruleiteratorVariable
                     {
                     if ( state.backtracking==0 ) {
 
@@ -14795,7 +14272,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:4941:4: ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )?
+                    // InternalBacktrackingContentAssistTestLanguage.g:4611:4: ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )?
                     int alt90=3;
                     int LA90_0 = input.LA(1);
 
@@ -14807,10 +14284,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     switch (alt90) {
                         case 1 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:4942:5: (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4612:5: (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:4942:5: (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:4943:6: otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4612:5: (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4613:6: otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) )
                             {
                             otherlv_5=(Token)match(input,17,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -14818,11 +14295,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                               						newLeafNode(otherlv_5, grammarAccess.getRoundBracketExpAccess().getCommaKeyword_3_1_0_0());
                               					
                             }
-                            // InternalBacktrackingContentAssistTestLanguage.g:4947:6: ( (lv_variable2_6_0= ruleiteratorVariable ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:4948:7: (lv_variable2_6_0= ruleiteratorVariable )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4617:6: ( (lv_variable2_6_0= ruleiteratorVariable ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4618:7: (lv_variable2_6_0= ruleiteratorVariable )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:4948:7: (lv_variable2_6_0= ruleiteratorVariable )
-                            // InternalBacktrackingContentAssistTestLanguage.g:4949:8: lv_variable2_6_0= ruleiteratorVariable
+                            // InternalBacktrackingContentAssistTestLanguage.g:4618:7: (lv_variable2_6_0= ruleiteratorVariable )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4619:8: lv_variable2_6_0= ruleiteratorVariable
                             {
                             if ( state.backtracking==0 ) {
 
@@ -14860,10 +14337,10 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                             }
                             break;
                         case 2 :
-                            // InternalBacktrackingContentAssistTestLanguage.g:4968:5: (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4638:5: (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:4968:5: (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:4969:6: otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4638:5: (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4639:6: otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) )
                             {
                             otherlv_7=(Token)match(input,71,FollowSets000.FOLLOW_7); if (state.failed) return current;
                             if ( state.backtracking==0 ) {
@@ -14871,11 +14348,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                               						newLeafNode(otherlv_7, grammarAccess.getRoundBracketExpAccess().getSemicolonKeyword_3_1_1_0());
                               					
                             }
-                            // InternalBacktrackingContentAssistTestLanguage.g:4973:6: ( (lv_variable2_8_0= ruleiteratorAccumulator ) )
-                            // InternalBacktrackingContentAssistTestLanguage.g:4974:7: (lv_variable2_8_0= ruleiteratorAccumulator )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4643:6: ( (lv_variable2_8_0= ruleiteratorAccumulator ) )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4644:7: (lv_variable2_8_0= ruleiteratorAccumulator )
                             {
-                            // InternalBacktrackingContentAssistTestLanguage.g:4974:7: (lv_variable2_8_0= ruleiteratorAccumulator )
-                            // InternalBacktrackingContentAssistTestLanguage.g:4975:8: lv_variable2_8_0= ruleiteratorAccumulator
+                            // InternalBacktrackingContentAssistTestLanguage.g:4644:7: (lv_variable2_8_0= ruleiteratorAccumulator )
+                            // InternalBacktrackingContentAssistTestLanguage.g:4645:8: lv_variable2_8_0= ruleiteratorAccumulator
                             {
                             if ( state.backtracking==0 ) {
 
@@ -14927,7 +14404,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:4999:3: ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )?
+            // InternalBacktrackingContentAssistTestLanguage.g:4669:3: ( ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )* )?
             int alt93=2;
             int LA93_0 = input.LA(1);
 
@@ -14936,13 +14413,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt93) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:5000:4: ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )*
+                    // InternalBacktrackingContentAssistTestLanguage.g:4670:4: ( (lv_arguments_10_0= ruleExpression ) ) (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )*
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:5000:4: ( (lv_arguments_10_0= ruleExpression ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:5001:5: (lv_arguments_10_0= ruleExpression )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4670:4: ( (lv_arguments_10_0= ruleExpression ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4671:5: (lv_arguments_10_0= ruleExpression )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:5001:5: (lv_arguments_10_0= ruleExpression )
-                    // InternalBacktrackingContentAssistTestLanguage.g:5002:6: lv_arguments_10_0= ruleExpression
+                    // InternalBacktrackingContentAssistTestLanguage.g:4671:5: (lv_arguments_10_0= ruleExpression )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4672:6: lv_arguments_10_0= ruleExpression
                     {
                     if ( state.backtracking==0 ) {
 
@@ -14973,7 +14450,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                     }
 
-                    // InternalBacktrackingContentAssistTestLanguage.g:5019:4: (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )*
+                    // InternalBacktrackingContentAssistTestLanguage.g:4689:4: (otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) ) )*
                     loop92:
                     do {
                         int alt92=2;
@@ -14986,7 +14463,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                         switch (alt92) {
                     	case 1 :
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:5020:5: otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:4690:5: otherlv_11= ',' ( (lv_arguments_12_0= ruleExpression ) )
                     	    {
                     	    otherlv_11=(Token)match(input,17,FollowSets000.FOLLOW_6); if (state.failed) return current;
                     	    if ( state.backtracking==0 ) {
@@ -14994,11 +14471,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     	      					newLeafNode(otherlv_11, grammarAccess.getRoundBracketExpAccess().getCommaKeyword_4_1_0());
                     	      				
                     	    }
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:5024:5: ( (lv_arguments_12_0= ruleExpression ) )
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:5025:6: (lv_arguments_12_0= ruleExpression )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:4694:5: ( (lv_arguments_12_0= ruleExpression ) )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:4695:6: (lv_arguments_12_0= ruleExpression )
                     	    {
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:5025:6: (lv_arguments_12_0= ruleExpression )
-                    	    // InternalBacktrackingContentAssistTestLanguage.g:5026:7: lv_arguments_12_0= ruleExpression
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:4695:6: (lv_arguments_12_0= ruleExpression )
+                    	    // InternalBacktrackingContentAssistTestLanguage.g:4696:7: lv_arguments_12_0= ruleExpression
                     	    {
                     	    if ( state.backtracking==0 ) {
 
@@ -15056,11 +14533,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -15075,7 +14547,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleSquareBracketExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5053:1: entryRuleSquareBracketExp returns [EObject current=null] : iv_ruleSquareBracketExp= ruleSquareBracketExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4723:1: entryRuleSquareBracketExp returns [EObject current=null] : iv_ruleSquareBracketExp= ruleSquareBracketExp EOF ;
     public final EObject entryRuleSquareBracketExp() throws RecognitionException {
         EObject current = null;
 
@@ -15083,8 +14555,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5053:57: (iv_ruleSquareBracketExp= ruleSquareBracketExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:5054:2: iv_ruleSquareBracketExp= ruleSquareBracketExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4723:57: (iv_ruleSquareBracketExp= ruleSquareBracketExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4724:2: iv_ruleSquareBracketExp= ruleSquareBracketExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getSquareBracketExpRule()); 
@@ -15115,7 +14587,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleSquareBracketExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5060:1: ruleSquareBracketExp returns [EObject current=null] : ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )? ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4730:1: ruleSquareBracketExp returns [EObject current=null] : ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )? ) ;
     public final EObject ruleSquareBracketExp() throws RecognitionException {
         EObject current = null;
 
@@ -15131,21 +14603,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_arguments_4_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5066:2: ( ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )? ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5067:2: ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:4731:1: ( ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )? ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4732:2: ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )? )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5067:2: ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )? )
-            // InternalBacktrackingContentAssistTestLanguage.g:5068:3: ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:4732:2: ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )? )
+            // InternalBacktrackingContentAssistTestLanguage.g:4733:3: ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '[' ( (lv_arguments_2_0= ruleExpression ) ) (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )* otherlv_5= ']' (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )?
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5068:3: ( (lv_name_0_0= ruleNameExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5069:4: (lv_name_0_0= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4733:3: ( (lv_name_0_0= ruleNameExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4734:4: (lv_name_0_0= ruleNameExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5069:4: (lv_name_0_0= ruleNameExp )
-            // InternalBacktrackingContentAssistTestLanguage.g:5070:5: lv_name_0_0= ruleNameExp
+            // InternalBacktrackingContentAssistTestLanguage.g:4734:4: (lv_name_0_0= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4735:5: lv_name_0_0= ruleNameExp
             {
             if ( state.backtracking==0 ) {
 
@@ -15182,11 +14651,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getSquareBracketExpAccess().getLeftSquareBracketKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5091:3: ( (lv_arguments_2_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5092:4: (lv_arguments_2_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:4756:3: ( (lv_arguments_2_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4757:4: (lv_arguments_2_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5092:4: (lv_arguments_2_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:5093:5: lv_arguments_2_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:4757:4: (lv_arguments_2_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:4758:5: lv_arguments_2_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -15217,7 +14686,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:5110:3: (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:4775:3: (otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) ) )*
             loop94:
             do {
                 int alt94=2;
@@ -15230,7 +14699,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt94) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5111:4: otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4776:4: otherlv_3= ',' ( (lv_arguments_4_0= ruleExpression ) )
             	    {
             	    otherlv_3=(Token)match(input,17,FollowSets000.FOLLOW_6); if (state.failed) return current;
             	    if ( state.backtracking==0 ) {
@@ -15238,11 +14707,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	      				newLeafNode(otherlv_3, grammarAccess.getSquareBracketExpAccess().getCommaKeyword_3_0());
             	      			
             	    }
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5115:4: ( (lv_arguments_4_0= ruleExpression ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5116:5: (lv_arguments_4_0= ruleExpression )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4780:4: ( (lv_arguments_4_0= ruleExpression ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4781:5: (lv_arguments_4_0= ruleExpression )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5116:5: (lv_arguments_4_0= ruleExpression )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5117:6: lv_arguments_4_0= ruleExpression
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4781:5: (lv_arguments_4_0= ruleExpression )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:4782:6: lv_arguments_4_0= ruleExpression
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -15288,7 +14757,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_5, grammarAccess.getSquareBracketExpAccess().getRightSquareBracketKeyword_4());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5139:3: (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )?
+            // InternalBacktrackingContentAssistTestLanguage.g:4804:3: (otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) ) )?
             int alt95=2;
             int LA95_0 = input.LA(1);
 
@@ -15297,7 +14766,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             }
             switch (alt95) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:5140:4: otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4805:4: otherlv_6= '@' ( (lv_pre_7_0= 'pre' ) )
                     {
                     otherlv_6=(Token)match(input,70,FollowSets000.FOLLOW_51); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -15305,11 +14774,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                       				newLeafNode(otherlv_6, grammarAccess.getSquareBracketExpAccess().getCommercialAtKeyword_5_0());
                       			
                     }
-                    // InternalBacktrackingContentAssistTestLanguage.g:5144:4: ( (lv_pre_7_0= 'pre' ) )
-                    // InternalBacktrackingContentAssistTestLanguage.g:5145:5: (lv_pre_7_0= 'pre' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4809:4: ( (lv_pre_7_0= 'pre' ) )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4810:5: (lv_pre_7_0= 'pre' )
                     {
-                    // InternalBacktrackingContentAssistTestLanguage.g:5145:5: (lv_pre_7_0= 'pre' )
-                    // InternalBacktrackingContentAssistTestLanguage.g:5146:6: lv_pre_7_0= 'pre'
+                    // InternalBacktrackingContentAssistTestLanguage.g:4810:5: (lv_pre_7_0= 'pre' )
+                    // InternalBacktrackingContentAssistTestLanguage.g:4811:6: lv_pre_7_0= 'pre'
                     {
                     lv_pre_7_0=(Token)match(input,26,FollowSets000.FOLLOW_2); if (state.failed) return current;
                     if ( state.backtracking==0 ) {
@@ -15343,11 +14812,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -15362,7 +14826,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePreExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5163:1: entryRulePreExp returns [EObject current=null] : iv_rulePreExp= rulePreExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4828:1: entryRulePreExp returns [EObject current=null] : iv_rulePreExp= rulePreExp EOF ;
     public final EObject entryRulePreExp() throws RecognitionException {
         EObject current = null;
 
@@ -15370,8 +14834,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5163:47: (iv_rulePreExp= rulePreExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:5164:2: iv_rulePreExp= rulePreExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4828:47: (iv_rulePreExp= rulePreExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4829:2: iv_rulePreExp= rulePreExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPreExpRule()); 
@@ -15402,7 +14866,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePreExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5170:1: rulePreExp returns [EObject current=null] : ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4835:1: rulePreExp returns [EObject current=null] : ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre' ) ;
     public final EObject rulePreExp() throws RecognitionException {
         EObject current = null;
 
@@ -15411,21 +14875,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_name_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5176:2: ( ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5177:2: ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre' )
+            // InternalBacktrackingContentAssistTestLanguage.g:4836:1: ( ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4837:2: ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5177:2: ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre' )
-            // InternalBacktrackingContentAssistTestLanguage.g:5178:3: ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre'
+            // InternalBacktrackingContentAssistTestLanguage.g:4837:2: ( ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre' )
+            // InternalBacktrackingContentAssistTestLanguage.g:4838:3: ( (lv_name_0_0= ruleNameExp ) ) otherlv_1= '@' otherlv_2= 'pre'
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5178:3: ( (lv_name_0_0= ruleNameExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5179:4: (lv_name_0_0= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4838:3: ( (lv_name_0_0= ruleNameExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4839:4: (lv_name_0_0= ruleNameExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5179:4: (lv_name_0_0= ruleNameExp )
-            // InternalBacktrackingContentAssistTestLanguage.g:5180:5: lv_name_0_0= ruleNameExp
+            // InternalBacktrackingContentAssistTestLanguage.g:4839:4: (lv_name_0_0= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4840:5: lv_name_0_0= ruleNameExp
             {
             if ( state.backtracking==0 ) {
 
@@ -15474,11 +14935,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -15493,7 +14949,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleSelfExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5209:1: entryRuleSelfExp returns [EObject current=null] : iv_ruleSelfExp= ruleSelfExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4869:1: entryRuleSelfExp returns [EObject current=null] : iv_ruleSelfExp= ruleSelfExp EOF ;
     public final EObject entryRuleSelfExp() throws RecognitionException {
         EObject current = null;
 
@@ -15501,8 +14957,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5209:48: (iv_ruleSelfExp= ruleSelfExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:5210:2: iv_ruleSelfExp= ruleSelfExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4869:48: (iv_ruleSelfExp= ruleSelfExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4870:2: iv_ruleSelfExp= ruleSelfExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getSelfExpRule()); 
@@ -15533,24 +14989,21 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleSelfExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5216:1: ruleSelfExp returns [EObject current=null] : ( () otherlv_1= 'self' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4876:1: ruleSelfExp returns [EObject current=null] : ( () otherlv_1= 'self' ) ;
     public final EObject ruleSelfExp() throws RecognitionException {
         EObject current = null;
 
         Token otherlv_1=null;
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5222:2: ( ( () otherlv_1= 'self' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5223:2: ( () otherlv_1= 'self' )
+            // InternalBacktrackingContentAssistTestLanguage.g:4877:1: ( ( () otherlv_1= 'self' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4878:2: ( () otherlv_1= 'self' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5223:2: ( () otherlv_1= 'self' )
-            // InternalBacktrackingContentAssistTestLanguage.g:5224:3: () otherlv_1= 'self'
+            // InternalBacktrackingContentAssistTestLanguage.g:4878:2: ( () otherlv_1= 'self' )
+            // InternalBacktrackingContentAssistTestLanguage.g:4879:3: () otherlv_1= 'self'
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5224:3: ()
-            // InternalBacktrackingContentAssistTestLanguage.g:5225:4: 
+            // InternalBacktrackingContentAssistTestLanguage.g:4879:3: ()
+            // InternalBacktrackingContentAssistTestLanguage.g:4880:4: 
             {
             if ( state.backtracking==0 ) {
 
@@ -15579,11 +15032,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -15598,7 +15046,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleNameExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5242:1: entryRuleNameExp returns [EObject current=null] : iv_ruleNameExp= ruleNameExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4897:1: entryRuleNameExp returns [EObject current=null] : iv_ruleNameExp= ruleNameExp EOF ;
     public final EObject entryRuleNameExp() throws RecognitionException {
         EObject current = null;
 
@@ -15606,8 +15054,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5242:48: (iv_ruleNameExp= ruleNameExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:5243:2: iv_ruleNameExp= ruleNameExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4897:48: (iv_ruleNameExp= ruleNameExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4898:2: iv_ruleNameExp= ruleNameExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getNameExpRule()); 
@@ -15638,7 +15086,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleNameExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5249:1: ruleNameExp returns [EObject current=null] : (this_PathNameExp_0= rulePathNameExp | this_SimpleNameExp_1= ruleSimpleNameExp ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4904:1: ruleNameExp returns [EObject current=null] : (this_PathNameExp_0= rulePathNameExp | this_SimpleNameExp_1= ruleSimpleNameExp ) ;
     public final EObject ruleNameExp() throws RecognitionException {
         EObject current = null;
 
@@ -15647,14 +15095,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_SimpleNameExp_1 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5255:2: ( (this_PathNameExp_0= rulePathNameExp | this_SimpleNameExp_1= ruleSimpleNameExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5256:2: (this_PathNameExp_0= rulePathNameExp | this_SimpleNameExp_1= ruleSimpleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4905:1: ( (this_PathNameExp_0= rulePathNameExp | this_SimpleNameExp_1= ruleSimpleNameExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4906:2: (this_PathNameExp_0= rulePathNameExp | this_SimpleNameExp_1= ruleSimpleNameExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5256:2: (this_PathNameExp_0= rulePathNameExp | this_SimpleNameExp_1= ruleSimpleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4906:2: (this_PathNameExp_0= rulePathNameExp | this_SimpleNameExp_1= ruleSimpleNameExp )
             int alt96=2;
             switch ( input.LA(1) ) {
             case RULE_ID:
@@ -15724,7 +15169,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             switch (alt96) {
                 case 1 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:5257:3: this_PathNameExp_0= rulePathNameExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4907:3: this_PathNameExp_0= rulePathNameExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -15751,7 +15196,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                     }
                     break;
                 case 2 :
-                    // InternalBacktrackingContentAssistTestLanguage.g:5269:3: this_SimpleNameExp_1= ruleSimpleNameExp
+                    // InternalBacktrackingContentAssistTestLanguage.g:4919:3: this_SimpleNameExp_1= ruleSimpleNameExp
                     {
                     if ( state.backtracking==0 ) {
 
@@ -15783,11 +15228,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -15802,7 +15242,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRulePathNameExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5284:1: entryRulePathNameExp returns [EObject current=null] : iv_rulePathNameExp= rulePathNameExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4934:1: entryRulePathNameExp returns [EObject current=null] : iv_rulePathNameExp= rulePathNameExp EOF ;
     public final EObject entryRulePathNameExp() throws RecognitionException {
         EObject current = null;
 
@@ -15810,8 +15250,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5284:52: (iv_rulePathNameExp= rulePathNameExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:5285:2: iv_rulePathNameExp= rulePathNameExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4934:52: (iv_rulePathNameExp= rulePathNameExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4935:2: iv_rulePathNameExp= rulePathNameExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getPathNameExpRule()); 
@@ -15842,7 +15282,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "rulePathNameExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5291:1: rulePathNameExp returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4941:1: rulePathNameExp returns [EObject current=null] : ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) ) ) ;
     public final EObject rulePathNameExp() throws RecognitionException {
         EObject current = null;
 
@@ -15852,21 +15292,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_element_2_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5297:2: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5298:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4942:1: ( ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4943:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5298:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5299:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4943:2: ( ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4944:3: ( (lv_namespace_0_0= ruleIdentifier ) ) otherlv_1= '::' ( (lv_element_2_0= ruleNameExp ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5299:3: ( (lv_namespace_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5300:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:4944:3: ( (lv_namespace_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4945:4: (lv_namespace_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5300:4: (lv_namespace_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:5301:5: lv_namespace_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:4945:4: (lv_namespace_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:4946:5: lv_namespace_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -15903,11 +15340,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getPathNameExpAccess().getColonColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5322:3: ( (lv_element_2_0= ruleNameExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5323:4: (lv_element_2_0= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4967:3: ( (lv_element_2_0= ruleNameExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4968:4: (lv_element_2_0= ruleNameExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5323:4: (lv_element_2_0= ruleNameExp )
-            // InternalBacktrackingContentAssistTestLanguage.g:5324:5: lv_element_2_0= ruleNameExp
+            // InternalBacktrackingContentAssistTestLanguage.g:4968:4: (lv_element_2_0= ruleNameExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:4969:5: lv_element_2_0= ruleNameExp
             {
             if ( state.backtracking==0 ) {
 
@@ -15944,11 +15381,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -15963,7 +15395,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleSimpleNameExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5345:1: entryRuleSimpleNameExp returns [EObject current=null] : iv_ruleSimpleNameExp= ruleSimpleNameExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4990:1: entryRuleSimpleNameExp returns [EObject current=null] : iv_ruleSimpleNameExp= ruleSimpleNameExp EOF ;
     public final EObject entryRuleSimpleNameExp() throws RecognitionException {
         EObject current = null;
 
@@ -15971,8 +15403,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5345:54: (iv_ruleSimpleNameExp= ruleSimpleNameExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:5346:2: iv_ruleSimpleNameExp= ruleSimpleNameExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:4990:54: (iv_ruleSimpleNameExp= ruleSimpleNameExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:4991:2: iv_ruleSimpleNameExp= ruleSimpleNameExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getSimpleNameExpRule()); 
@@ -16003,25 +15435,22 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleSimpleNameExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5352:1: ruleSimpleNameExp returns [EObject current=null] : ( (lv_element_0_0= ruleIdentifier ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:4997:1: ruleSimpleNameExp returns [EObject current=null] : ( (lv_element_0_0= ruleIdentifier ) ) ;
     public final EObject ruleSimpleNameExp() throws RecognitionException {
         EObject current = null;
 
         AntlrDatatypeRuleToken lv_element_0_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5358:2: ( ( (lv_element_0_0= ruleIdentifier ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5359:2: ( (lv_element_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4998:1: ( ( (lv_element_0_0= ruleIdentifier ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:4999:2: ( (lv_element_0_0= ruleIdentifier ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5359:2: ( (lv_element_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5360:3: (lv_element_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:4999:2: ( (lv_element_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5000:3: (lv_element_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5360:3: (lv_element_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:5361:4: lv_element_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:5000:3: (lv_element_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:5001:4: lv_element_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -16055,11 +15484,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -16074,7 +15498,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleIfExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5381:1: entryRuleIfExp returns [EObject current=null] : iv_ruleIfExp= ruleIfExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:5021:1: entryRuleIfExp returns [EObject current=null] : iv_ruleIfExp= ruleIfExp EOF ;
     public final EObject entryRuleIfExp() throws RecognitionException {
         EObject current = null;
 
@@ -16082,8 +15506,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5381:46: (iv_ruleIfExp= ruleIfExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:5382:2: iv_ruleIfExp= ruleIfExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:5021:46: (iv_ruleIfExp= ruleIfExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:5022:2: iv_ruleIfExp= ruleIfExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getIfExpRule()); 
@@ -16114,7 +15538,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleIfExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5388:1: ruleIfExp returns [EObject current=null] : (otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif' ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:5028:1: ruleIfExp returns [EObject current=null] : (otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif' ) ;
     public final EObject ruleIfExp() throws RecognitionException {
         EObject current = null;
 
@@ -16129,15 +15553,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_elseExpression_5_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5394:2: ( (otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif' ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5395:2: (otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif' )
+            // InternalBacktrackingContentAssistTestLanguage.g:5029:1: ( (otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif' ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5030:2: (otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif' )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5395:2: (otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif' )
-            // InternalBacktrackingContentAssistTestLanguage.g:5396:3: otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif'
+            // InternalBacktrackingContentAssistTestLanguage.g:5030:2: (otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif' )
+            // InternalBacktrackingContentAssistTestLanguage.g:5031:3: otherlv_0= 'if' ( (lv_condition_1_0= ruleExpression ) ) otherlv_2= 'then' ( (lv_thenExpression_3_0= ruleExpression ) ) otherlv_4= 'else' ( (lv_elseExpression_5_0= ruleExpression ) ) otherlv_6= 'endif'
             {
             otherlv_0=(Token)match(input,76,FollowSets000.FOLLOW_6); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -16145,11 +15566,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getIfExpAccess().getIfKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5400:3: ( (lv_condition_1_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5401:4: (lv_condition_1_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5035:3: ( (lv_condition_1_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5036:4: (lv_condition_1_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5401:4: (lv_condition_1_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:5402:5: lv_condition_1_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:5036:4: (lv_condition_1_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5037:5: lv_condition_1_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -16186,11 +15607,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_2, grammarAccess.getIfExpAccess().getThenKeyword_2());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5423:3: ( (lv_thenExpression_3_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5424:4: (lv_thenExpression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5058:3: ( (lv_thenExpression_3_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5059:4: (lv_thenExpression_3_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5424:4: (lv_thenExpression_3_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:5425:5: lv_thenExpression_3_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:5059:4: (lv_thenExpression_3_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5060:5: lv_thenExpression_3_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -16227,11 +15648,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_4, grammarAccess.getIfExpAccess().getElseKeyword_4());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5446:3: ( (lv_elseExpression_5_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5447:4: (lv_elseExpression_5_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5081:3: ( (lv_elseExpression_5_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5082:4: (lv_elseExpression_5_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5447:4: (lv_elseExpression_5_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:5448:5: lv_elseExpression_5_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:5082:4: (lv_elseExpression_5_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5083:5: lv_elseExpression_5_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -16274,11 +15695,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -16293,7 +15709,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleLetExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5473:1: entryRuleLetExp returns [EObject current=null] : iv_ruleLetExp= ruleLetExp EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:5108:1: entryRuleLetExp returns [EObject current=null] : iv_ruleLetExp= ruleLetExp EOF ;
     public final EObject entryRuleLetExp() throws RecognitionException {
         EObject current = null;
 
@@ -16301,8 +15717,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5473:47: (iv_ruleLetExp= ruleLetExp EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:5474:2: iv_ruleLetExp= ruleLetExp EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:5108:47: (iv_ruleLetExp= ruleLetExp EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:5109:2: iv_ruleLetExp= ruleLetExp EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getLetExpRule()); 
@@ -16333,7 +15749,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleLetExp"
-    // InternalBacktrackingContentAssistTestLanguage.g:5480:1: ruleLetExp returns [EObject current=null] : (otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:5115:1: ruleLetExp returns [EObject current=null] : (otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) ) ) ;
     public final EObject ruleLetExp() throws RecognitionException {
         EObject current = null;
 
@@ -16347,15 +15763,12 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_in_5_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5486:2: ( (otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5487:2: (otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5116:1: ( (otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5117:2: (otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5487:2: (otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5488:3: otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5117:2: (otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5118:3: otherlv_0= 'let' ( (lv_variable_1_0= ruleLetVariable ) ) (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )* otherlv_4= 'in' ( (lv_in_5_0= ruleExpression ) )
             {
             otherlv_0=(Token)match(input,80,FollowSets000.FOLLOW_7); if (state.failed) return current;
             if ( state.backtracking==0 ) {
@@ -16363,11 +15776,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_0, grammarAccess.getLetExpAccess().getLetKeyword_0());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5492:3: ( (lv_variable_1_0= ruleLetVariable ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5493:4: (lv_variable_1_0= ruleLetVariable )
+            // InternalBacktrackingContentAssistTestLanguage.g:5122:3: ( (lv_variable_1_0= ruleLetVariable ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5123:4: (lv_variable_1_0= ruleLetVariable )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5493:4: (lv_variable_1_0= ruleLetVariable )
-            // InternalBacktrackingContentAssistTestLanguage.g:5494:5: lv_variable_1_0= ruleLetVariable
+            // InternalBacktrackingContentAssistTestLanguage.g:5123:4: (lv_variable_1_0= ruleLetVariable )
+            // InternalBacktrackingContentAssistTestLanguage.g:5124:5: lv_variable_1_0= ruleLetVariable
             {
             if ( state.backtracking==0 ) {
 
@@ -16398,7 +15811,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            // InternalBacktrackingContentAssistTestLanguage.g:5511:3: (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )*
+            // InternalBacktrackingContentAssistTestLanguage.g:5141:3: (otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) ) )*
             loop97:
             do {
                 int alt97=2;
@@ -16411,7 +15824,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
                 switch (alt97) {
             	case 1 :
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5512:4: otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:5142:4: otherlv_2= ',' ( (lv_variable_3_0= ruleLetVariable ) )
             	    {
             	    otherlv_2=(Token)match(input,17,FollowSets000.FOLLOW_7); if (state.failed) return current;
             	    if ( state.backtracking==0 ) {
@@ -16419,11 +15832,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             	      				newLeafNode(otherlv_2, grammarAccess.getLetExpAccess().getCommaKeyword_2_0());
             	      			
             	    }
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5516:4: ( (lv_variable_3_0= ruleLetVariable ) )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5517:5: (lv_variable_3_0= ruleLetVariable )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:5146:4: ( (lv_variable_3_0= ruleLetVariable ) )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:5147:5: (lv_variable_3_0= ruleLetVariable )
             	    {
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5517:5: (lv_variable_3_0= ruleLetVariable )
-            	    // InternalBacktrackingContentAssistTestLanguage.g:5518:6: lv_variable_3_0= ruleLetVariable
+            	    // InternalBacktrackingContentAssistTestLanguage.g:5147:5: (lv_variable_3_0= ruleLetVariable )
+            	    // InternalBacktrackingContentAssistTestLanguage.g:5148:6: lv_variable_3_0= ruleLetVariable
             	    {
             	    if ( state.backtracking==0 ) {
 
@@ -16469,11 +15882,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_4, grammarAccess.getLetExpAccess().getInKeyword_3());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5540:3: ( (lv_in_5_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5541:4: (lv_in_5_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5170:3: ( (lv_in_5_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5171:4: (lv_in_5_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5541:4: (lv_in_5_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:5542:5: lv_in_5_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:5171:4: (lv_in_5_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5172:5: lv_in_5_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -16510,11 +15923,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -16529,7 +15937,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "entryRuleLetVariable"
-    // InternalBacktrackingContentAssistTestLanguage.g:5563:1: entryRuleLetVariable returns [EObject current=null] : iv_ruleLetVariable= ruleLetVariable EOF ;
+    // InternalBacktrackingContentAssistTestLanguage.g:5193:1: entryRuleLetVariable returns [EObject current=null] : iv_ruleLetVariable= ruleLetVariable EOF ;
     public final EObject entryRuleLetVariable() throws RecognitionException {
         EObject current = null;
 
@@ -16537,8 +15945,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5563:52: (iv_ruleLetVariable= ruleLetVariable EOF )
-            // InternalBacktrackingContentAssistTestLanguage.g:5564:2: iv_ruleLetVariable= ruleLetVariable EOF
+            // InternalBacktrackingContentAssistTestLanguage.g:5193:52: (iv_ruleLetVariable= ruleLetVariable EOF )
+            // InternalBacktrackingContentAssistTestLanguage.g:5194:2: iv_ruleLetVariable= ruleLetVariable EOF
             {
             if ( state.backtracking==0 ) {
                newCompositeNode(grammarAccess.getLetVariableRule()); 
@@ -16569,7 +15977,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
 
     // $ANTLR start "ruleLetVariable"
-    // InternalBacktrackingContentAssistTestLanguage.g:5570:1: ruleLetVariable returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) ;
+    // InternalBacktrackingContentAssistTestLanguage.g:5200:1: ruleLetVariable returns [EObject current=null] : ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) ;
     public final EObject ruleLetVariable() throws RecognitionException {
         EObject current = null;
 
@@ -16582,21 +15990,18 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_initExpression_4_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalBacktrackingContentAssistTestLanguage.g:5576:2: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5577:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5201:1: ( ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5202:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5577:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5578:3: ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5202:2: ( ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5203:3: ( (lv_name_0_0= ruleIdentifier ) ) otherlv_1= ':' ( (lv_type_2_0= ruleTypeExp ) ) otherlv_3= '=' ( (lv_initExpression_4_0= ruleExpression ) )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5578:3: ( (lv_name_0_0= ruleIdentifier ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5579:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:5203:3: ( (lv_name_0_0= ruleIdentifier ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5204:4: (lv_name_0_0= ruleIdentifier )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5579:4: (lv_name_0_0= ruleIdentifier )
-            // InternalBacktrackingContentAssistTestLanguage.g:5580:5: lv_name_0_0= ruleIdentifier
+            // InternalBacktrackingContentAssistTestLanguage.g:5204:4: (lv_name_0_0= ruleIdentifier )
+            // InternalBacktrackingContentAssistTestLanguage.g:5205:5: lv_name_0_0= ruleIdentifier
             {
             if ( state.backtracking==0 ) {
 
@@ -16633,11 +16038,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_1, grammarAccess.getLetVariableAccess().getColonKeyword_1());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5601:3: ( (lv_type_2_0= ruleTypeExp ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5602:4: (lv_type_2_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:5226:3: ( (lv_type_2_0= ruleTypeExp ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5227:4: (lv_type_2_0= ruleTypeExp )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5602:4: (lv_type_2_0= ruleTypeExp )
-            // InternalBacktrackingContentAssistTestLanguage.g:5603:5: lv_type_2_0= ruleTypeExp
+            // InternalBacktrackingContentAssistTestLanguage.g:5227:4: (lv_type_2_0= ruleTypeExp )
+            // InternalBacktrackingContentAssistTestLanguage.g:5228:5: lv_type_2_0= ruleTypeExp
             {
             if ( state.backtracking==0 ) {
 
@@ -16674,11 +16079,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
               			newLeafNode(otherlv_3, grammarAccess.getLetVariableAccess().getEqualsSignKeyword_3());
               		
             }
-            // InternalBacktrackingContentAssistTestLanguage.g:5624:3: ( (lv_initExpression_4_0= ruleExpression ) )
-            // InternalBacktrackingContentAssistTestLanguage.g:5625:4: (lv_initExpression_4_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5249:3: ( (lv_initExpression_4_0= ruleExpression ) )
+            // InternalBacktrackingContentAssistTestLanguage.g:5250:4: (lv_initExpression_4_0= ruleExpression )
             {
-            // InternalBacktrackingContentAssistTestLanguage.g:5625:4: (lv_initExpression_4_0= ruleExpression )
-            // InternalBacktrackingContentAssistTestLanguage.g:5626:5: lv_initExpression_4_0= ruleExpression
+            // InternalBacktrackingContentAssistTestLanguage.g:5250:4: (lv_initExpression_4_0= ruleExpression )
+            // InternalBacktrackingContentAssistTestLanguage.g:5251:5: lv_initExpression_4_0= ruleExpression
             {
             if ( state.backtracking==0 ) {
 
@@ -16715,11 +16120,6 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
             }
 
-            if ( state.backtracking==0 ) {
-
-              	leaveRule();
-
-            }
         }
 
             catch (RecognitionException re) {
@@ -16737,8 +16137,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_PropertyContextDecl_0 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:358:3: (this_PropertyContextDecl_0= rulePropertyContextDecl )
-        // InternalBacktrackingContentAssistTestLanguage.g:358:3: this_PropertyContextDecl_0= rulePropertyContextDecl
+        // InternalBacktrackingContentAssistTestLanguage.g:333:3: (this_PropertyContextDecl_0= rulePropertyContextDecl )
+        // InternalBacktrackingContentAssistTestLanguage.g:333:3: this_PropertyContextDecl_0= rulePropertyContextDecl
         {
         if ( state.backtracking==0 ) {
 
@@ -16760,8 +16160,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_ClassifierContextDecl_1 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:370:3: (this_ClassifierContextDecl_1= ruleClassifierContextDecl )
-        // InternalBacktrackingContentAssistTestLanguage.g:370:3: this_ClassifierContextDecl_1= ruleClassifierContextDecl
+        // InternalBacktrackingContentAssistTestLanguage.g:345:3: (this_ClassifierContextDecl_1= ruleClassifierContextDecl )
+        // InternalBacktrackingContentAssistTestLanguage.g:345:3: this_ClassifierContextDecl_1= ruleClassifierContextDecl
         {
         if ( state.backtracking==0 ) {
 
@@ -16786,11 +16186,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3604:4: ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3604:4: () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3339:4: ( () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3339:4: () ( (lv_op_2_0= 'implies' ) ) ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3604:4: ()
-        // InternalBacktrackingContentAssistTestLanguage.g:3605:5: 
+        // InternalBacktrackingContentAssistTestLanguage.g:3339:4: ()
+        // InternalBacktrackingContentAssistTestLanguage.g:3340:5: 
         {
         if ( state.backtracking==0 ) {
 
@@ -16800,11 +16200,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3614:4: ( (lv_op_2_0= 'implies' ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3615:5: (lv_op_2_0= 'implies' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3349:4: ( (lv_op_2_0= 'implies' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3350:5: (lv_op_2_0= 'implies' )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3615:5: (lv_op_2_0= 'implies' )
-        // InternalBacktrackingContentAssistTestLanguage.g:3616:6: lv_op_2_0= 'implies'
+        // InternalBacktrackingContentAssistTestLanguage.g:3350:5: (lv_op_2_0= 'implies' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3351:6: lv_op_2_0= 'implies'
         {
         lv_op_2_0=(Token)match(input,58,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
@@ -16813,13 +16213,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3628:4: ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3629:5: ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3363:4: ( ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3364:5: ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3629:5: ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3630:6: (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3364:5: ( (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3365:6: (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3630:6: (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3365:6: (lv_argument_3_1= rulexor | lv_argument_3_2= ruleLetExp )
         int alt123=2;
         int LA123_0 = input.LA(1);
 
@@ -16838,7 +16238,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt123) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:3631:7: lv_argument_3_1= rulexor
+                // InternalBacktrackingContentAssistTestLanguage.g:3366:7: lv_argument_3_1= rulexor
                 {
                 pushFollow(FollowSets000.FOLLOW_2);
                 lv_argument_3_1=rulexor();
@@ -16849,7 +16249,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:3647:7: lv_argument_3_2= ruleLetExp
+                // InternalBacktrackingContentAssistTestLanguage.g:3382:7: lv_argument_3_2= ruleLetExp
                 {
                 if ( state.backtracking==0 ) {
 
@@ -16886,11 +16286,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3697:4: ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3697:4: () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3427:4: ( () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3427:4: () ( (lv_op_2_0= 'xor' ) ) ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3697:4: ()
-        // InternalBacktrackingContentAssistTestLanguage.g:3698:5: 
+        // InternalBacktrackingContentAssistTestLanguage.g:3427:4: ()
+        // InternalBacktrackingContentAssistTestLanguage.g:3428:5: 
         {
         if ( state.backtracking==0 ) {
 
@@ -16900,11 +16300,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3707:4: ( (lv_op_2_0= 'xor' ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3708:5: (lv_op_2_0= 'xor' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3437:4: ( (lv_op_2_0= 'xor' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3438:5: (lv_op_2_0= 'xor' )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3708:5: (lv_op_2_0= 'xor' )
-        // InternalBacktrackingContentAssistTestLanguage.g:3709:6: lv_op_2_0= 'xor'
+        // InternalBacktrackingContentAssistTestLanguage.g:3438:5: (lv_op_2_0= 'xor' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3439:6: lv_op_2_0= 'xor'
         {
         lv_op_2_0=(Token)match(input,59,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
@@ -16913,13 +16313,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3721:4: ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3722:5: ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3451:4: ( ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3452:5: ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3722:5: ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3723:6: (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3452:5: ( (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3453:6: (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3723:6: (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3453:6: (lv_argument_3_1= ruleor | lv_argument_3_2= ruleLetExp )
         int alt124=2;
         int LA124_0 = input.LA(1);
 
@@ -16938,7 +16338,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt124) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:3724:7: lv_argument_3_1= ruleor
+                // InternalBacktrackingContentAssistTestLanguage.g:3454:7: lv_argument_3_1= ruleor
                 {
                 pushFollow(FollowSets000.FOLLOW_2);
                 lv_argument_3_1=ruleor();
@@ -16949,7 +16349,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:3740:7: lv_argument_3_2= ruleLetExp
+                // InternalBacktrackingContentAssistTestLanguage.g:3470:7: lv_argument_3_2= ruleLetExp
                 {
                 if ( state.backtracking==0 ) {
 
@@ -16986,11 +16386,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3790:4: ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3790:4: () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3515:4: ( () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3515:4: () ( (lv_op_2_0= 'or' ) ) ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3790:4: ()
-        // InternalBacktrackingContentAssistTestLanguage.g:3791:5: 
+        // InternalBacktrackingContentAssistTestLanguage.g:3515:4: ()
+        // InternalBacktrackingContentAssistTestLanguage.g:3516:5: 
         {
         if ( state.backtracking==0 ) {
 
@@ -17000,11 +16400,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3800:4: ( (lv_op_2_0= 'or' ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3801:5: (lv_op_2_0= 'or' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3525:4: ( (lv_op_2_0= 'or' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3526:5: (lv_op_2_0= 'or' )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3801:5: (lv_op_2_0= 'or' )
-        // InternalBacktrackingContentAssistTestLanguage.g:3802:6: lv_op_2_0= 'or'
+        // InternalBacktrackingContentAssistTestLanguage.g:3526:5: (lv_op_2_0= 'or' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3527:6: lv_op_2_0= 'or'
         {
         lv_op_2_0=(Token)match(input,60,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
@@ -17013,13 +16413,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3814:4: ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3815:5: ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3539:4: ( ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3540:5: ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3815:5: ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3816:6: (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3540:5: ( (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3541:6: (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3816:6: (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3541:6: (lv_argument_3_1= ruleand | lv_argument_3_2= ruleLetExp )
         int alt125=2;
         int LA125_0 = input.LA(1);
 
@@ -17038,7 +16438,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt125) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:3817:7: lv_argument_3_1= ruleand
+                // InternalBacktrackingContentAssistTestLanguage.g:3542:7: lv_argument_3_1= ruleand
                 {
                 pushFollow(FollowSets000.FOLLOW_2);
                 lv_argument_3_1=ruleand();
@@ -17049,7 +16449,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:3833:7: lv_argument_3_2= ruleLetExp
+                // InternalBacktrackingContentAssistTestLanguage.g:3558:7: lv_argument_3_2= ruleLetExp
                 {
                 if ( state.backtracking==0 ) {
 
@@ -17086,11 +16486,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3883:4: ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3883:4: () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3603:4: ( () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3603:4: () ( (lv_op_2_0= 'and' ) ) ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3883:4: ()
-        // InternalBacktrackingContentAssistTestLanguage.g:3884:5: 
+        // InternalBacktrackingContentAssistTestLanguage.g:3603:4: ()
+        // InternalBacktrackingContentAssistTestLanguage.g:3604:5: 
         {
         if ( state.backtracking==0 ) {
 
@@ -17100,11 +16500,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3893:4: ( (lv_op_2_0= 'and' ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3894:5: (lv_op_2_0= 'and' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3613:4: ( (lv_op_2_0= 'and' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3614:5: (lv_op_2_0= 'and' )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3894:5: (lv_op_2_0= 'and' )
-        // InternalBacktrackingContentAssistTestLanguage.g:3895:6: lv_op_2_0= 'and'
+        // InternalBacktrackingContentAssistTestLanguage.g:3614:5: (lv_op_2_0= 'and' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3615:6: lv_op_2_0= 'and'
         {
         lv_op_2_0=(Token)match(input,61,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
@@ -17113,13 +16513,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3907:4: ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3908:5: ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3627:4: ( ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3628:5: ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3908:5: ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3909:6: (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3628:5: ( (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3629:6: (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3909:6: (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3629:6: (lv_argument_3_1= ruleequality | lv_argument_3_2= ruleLetExp )
         int alt126=2;
         int LA126_0 = input.LA(1);
 
@@ -17138,7 +16538,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt126) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:3910:7: lv_argument_3_1= ruleequality
+                // InternalBacktrackingContentAssistTestLanguage.g:3630:7: lv_argument_3_1= ruleequality
                 {
                 pushFollow(FollowSets000.FOLLOW_2);
                 lv_argument_3_1=ruleequality();
@@ -17149,7 +16549,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:3926:7: lv_argument_3_2= ruleLetExp
+                // InternalBacktrackingContentAssistTestLanguage.g:3646:7: lv_argument_3_2= ruleLetExp
                 {
                 if ( state.backtracking==0 ) {
 
@@ -17187,11 +16587,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3976:4: ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3976:4: () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3691:4: ( () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3691:4: () ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) ) ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3976:4: ()
-        // InternalBacktrackingContentAssistTestLanguage.g:3977:5: 
+        // InternalBacktrackingContentAssistTestLanguage.g:3691:4: ()
+        // InternalBacktrackingContentAssistTestLanguage.g:3692:5: 
         {
         if ( state.backtracking==0 ) {
 
@@ -17201,13 +16601,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:3986:4: ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3987:5: ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3701:4: ( ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3702:5: ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3987:5: ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:3988:6: (lv_op_2_1= '=' | lv_op_2_2= '<>' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3702:5: ( (lv_op_2_1= '=' | lv_op_2_2= '<>' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3703:6: (lv_op_2_1= '=' | lv_op_2_2= '<>' )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:3988:6: (lv_op_2_1= '=' | lv_op_2_2= '<>' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3703:6: (lv_op_2_1= '=' | lv_op_2_2= '<>' )
         int alt127=2;
         int LA127_0 = input.LA(1);
 
@@ -17226,14 +16626,14 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt127) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:3989:7: lv_op_2_1= '='
+                // InternalBacktrackingContentAssistTestLanguage.g:3704:7: lv_op_2_1= '='
                 {
                 lv_op_2_1=(Token)match(input,19,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4000:7: lv_op_2_2= '<>'
+                // InternalBacktrackingContentAssistTestLanguage.g:3715:7: lv_op_2_2= '<>'
                 {
                 lv_op_2_2=(Token)match(input,62,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
@@ -17248,13 +16648,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4013:4: ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4014:5: ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3728:4: ( ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3729:5: ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4014:5: ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4015:6: (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3729:5: ( (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3730:6: (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4015:6: (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3730:6: (lv_argument_3_1= rulerelational | lv_argument_3_2= ruleLetExp )
         int alt128=2;
         int LA128_0 = input.LA(1);
 
@@ -17273,7 +16673,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt128) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4016:7: lv_argument_3_1= rulerelational
+                // InternalBacktrackingContentAssistTestLanguage.g:3731:7: lv_argument_3_1= rulerelational
                 {
                 pushFollow(FollowSets000.FOLLOW_2);
                 lv_argument_3_1=rulerelational();
@@ -17284,7 +16684,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4032:7: lv_argument_3_2= ruleLetExp
+                // InternalBacktrackingContentAssistTestLanguage.g:3747:7: lv_argument_3_2= ruleLetExp
                 {
                 if ( state.backtracking==0 ) {
 
@@ -17324,11 +16724,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4082:4: ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4082:4: () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3792:4: ( () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3792:4: () ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) ) ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4082:4: ()
-        // InternalBacktrackingContentAssistTestLanguage.g:4083:5: 
+        // InternalBacktrackingContentAssistTestLanguage.g:3792:4: ()
+        // InternalBacktrackingContentAssistTestLanguage.g:3793:5: 
         {
         if ( state.backtracking==0 ) {
 
@@ -17338,13 +16738,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4092:4: ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4093:5: ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3802:4: ( ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3803:5: ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4093:5: ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4094:6: (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3803:5: ( (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3804:6: (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4094:6: (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3804:6: (lv_op_2_1= '>' | lv_op_2_2= '<' | lv_op_2_3= '>=' | lv_op_2_4= '<=' )
         int alt129=4;
         switch ( input.LA(1) ) {
         case 63:
@@ -17377,28 +16777,28 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         switch (alt129) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4095:7: lv_op_2_1= '>'
+                // InternalBacktrackingContentAssistTestLanguage.g:3805:7: lv_op_2_1= '>'
                 {
                 lv_op_2_1=(Token)match(input,63,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4106:7: lv_op_2_2= '<'
+                // InternalBacktrackingContentAssistTestLanguage.g:3816:7: lv_op_2_2= '<'
                 {
                 lv_op_2_2=(Token)match(input,64,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
                 }
                 break;
             case 3 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4117:7: lv_op_2_3= '>='
+                // InternalBacktrackingContentAssistTestLanguage.g:3827:7: lv_op_2_3= '>='
                 {
                 lv_op_2_3=(Token)match(input,65,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
                 }
                 break;
             case 4 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4128:7: lv_op_2_4= '<='
+                // InternalBacktrackingContentAssistTestLanguage.g:3838:7: lv_op_2_4= '<='
                 {
                 lv_op_2_4=(Token)match(input,66,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
@@ -17413,13 +16813,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4141:4: ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4142:5: ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3851:4: ( ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3852:5: ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4142:5: ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4143:6: (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3852:5: ( (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3853:6: (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4143:6: (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3853:6: (lv_argument_3_1= ruleadditive | lv_argument_3_2= ruleLetExp )
         int alt130=2;
         int LA130_0 = input.LA(1);
 
@@ -17438,7 +16838,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt130) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4144:7: lv_argument_3_1= ruleadditive
+                // InternalBacktrackingContentAssistTestLanguage.g:3854:7: lv_argument_3_1= ruleadditive
                 {
                 pushFollow(FollowSets000.FOLLOW_2);
                 lv_argument_3_1=ruleadditive();
@@ -17449,7 +16849,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4160:7: lv_argument_3_2= ruleLetExp
+                // InternalBacktrackingContentAssistTestLanguage.g:3870:7: lv_argument_3_2= ruleLetExp
                 {
                 if ( state.backtracking==0 ) {
 
@@ -17487,11 +16887,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4210:4: ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4210:4: () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3915:4: ( () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3915:4: () ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) ) ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4210:4: ()
-        // InternalBacktrackingContentAssistTestLanguage.g:4211:5: 
+        // InternalBacktrackingContentAssistTestLanguage.g:3915:4: ()
+        // InternalBacktrackingContentAssistTestLanguage.g:3916:5: 
         {
         if ( state.backtracking==0 ) {
 
@@ -17501,13 +16901,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4220:4: ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4221:5: ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3925:4: ( ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3926:5: ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4221:5: ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4222:6: (lv_op_2_1= '+' | lv_op_2_2= '-' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3926:5: ( (lv_op_2_1= '+' | lv_op_2_2= '-' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3927:6: (lv_op_2_1= '+' | lv_op_2_2= '-' )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4222:6: (lv_op_2_1= '+' | lv_op_2_2= '-' )
+        // InternalBacktrackingContentAssistTestLanguage.g:3927:6: (lv_op_2_1= '+' | lv_op_2_2= '-' )
         int alt131=2;
         int LA131_0 = input.LA(1);
 
@@ -17526,14 +16926,14 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt131) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4223:7: lv_op_2_1= '+'
+                // InternalBacktrackingContentAssistTestLanguage.g:3928:7: lv_op_2_1= '+'
                 {
                 lv_op_2_1=(Token)match(input,35,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4234:7: lv_op_2_2= '-'
+                // InternalBacktrackingContentAssistTestLanguage.g:3939:7: lv_op_2_2= '-'
                 {
                 lv_op_2_2=(Token)match(input,36,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
@@ -17548,13 +16948,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4247:4: ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4248:5: ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3952:4: ( ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3953:5: ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4248:5: ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4249:6: (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3953:5: ( (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:3954:6: (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4249:6: (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:3954:6: (lv_argument_3_1= rulemultiplicative | lv_argument_3_2= ruleLetExp )
         int alt132=2;
         int LA132_0 = input.LA(1);
 
@@ -17573,7 +16973,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt132) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4250:7: lv_argument_3_1= rulemultiplicative
+                // InternalBacktrackingContentAssistTestLanguage.g:3955:7: lv_argument_3_1= rulemultiplicative
                 {
                 pushFollow(FollowSets000.FOLLOW_2);
                 lv_argument_3_1=rulemultiplicative();
@@ -17584,7 +16984,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4266:7: lv_argument_3_2= ruleLetExp
+                // InternalBacktrackingContentAssistTestLanguage.g:3971:7: lv_argument_3_2= ruleLetExp
                 {
                 if ( state.backtracking==0 ) {
 
@@ -17622,11 +17022,11 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject lv_argument_3_2 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4316:4: ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4316:4: () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:4016:4: ( () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:4016:4: () ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) ) ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4316:4: ()
-        // InternalBacktrackingContentAssistTestLanguage.g:4317:5: 
+        // InternalBacktrackingContentAssistTestLanguage.g:4016:4: ()
+        // InternalBacktrackingContentAssistTestLanguage.g:4017:5: 
         {
         if ( state.backtracking==0 ) {
 
@@ -17636,13 +17036,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4326:4: ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4327:5: ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:4026:4: ( ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:4027:5: ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4327:5: ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4328:6: (lv_op_2_1= '*' | lv_op_2_2= '/' )
+        // InternalBacktrackingContentAssistTestLanguage.g:4027:5: ( (lv_op_2_1= '*' | lv_op_2_2= '/' ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:4028:6: (lv_op_2_1= '*' | lv_op_2_2= '/' )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4328:6: (lv_op_2_1= '*' | lv_op_2_2= '/' )
+        // InternalBacktrackingContentAssistTestLanguage.g:4028:6: (lv_op_2_1= '*' | lv_op_2_2= '/' )
         int alt133=2;
         int LA133_0 = input.LA(1);
 
@@ -17661,14 +17061,14 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt133) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4329:7: lv_op_2_1= '*'
+                // InternalBacktrackingContentAssistTestLanguage.g:4029:7: lv_op_2_1= '*'
                 {
                 lv_op_2_1=(Token)match(input,67,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4340:7: lv_op_2_2= '/'
+                // InternalBacktrackingContentAssistTestLanguage.g:4040:7: lv_op_2_2= '/'
                 {
                 lv_op_2_2=(Token)match(input,68,FollowSets000.FOLLOW_6); if (state.failed) return ;
 
@@ -17683,13 +17083,13 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
 
         }
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4353:4: ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4354:5: ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:4053:4: ( ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:4054:5: ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4354:5: ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) )
-        // InternalBacktrackingContentAssistTestLanguage.g:4355:6: (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4054:5: ( (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp ) )
+        // InternalBacktrackingContentAssistTestLanguage.g:4055:6: (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp )
         {
-        // InternalBacktrackingContentAssistTestLanguage.g:4355:6: (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4055:6: (lv_argument_3_1= ruleunary | lv_argument_3_2= ruleLetExp )
         int alt134=2;
         int LA134_0 = input.LA(1);
 
@@ -17708,7 +17108,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         }
         switch (alt134) {
             case 1 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4356:7: lv_argument_3_1= ruleunary
+                // InternalBacktrackingContentAssistTestLanguage.g:4056:7: lv_argument_3_1= ruleunary
                 {
                 pushFollow(FollowSets000.FOLLOW_2);
                 lv_argument_3_1=ruleunary();
@@ -17719,7 +17119,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
                 }
                 break;
             case 2 :
-                // InternalBacktrackingContentAssistTestLanguage.g:4372:7: lv_argument_3_2= ruleLetExp
+                // InternalBacktrackingContentAssistTestLanguage.g:4072:7: lv_argument_3_2= ruleLetExp
                 {
                 if ( state.backtracking==0 ) {
 
@@ -17753,8 +17153,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_RoundBracketExp_0 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4499:3: (this_RoundBracketExp_0= ruleRoundBracketExp )
-        // InternalBacktrackingContentAssistTestLanguage.g:4499:3: this_RoundBracketExp_0= ruleRoundBracketExp
+        // InternalBacktrackingContentAssistTestLanguage.g:4189:3: (this_RoundBracketExp_0= ruleRoundBracketExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4189:3: this_RoundBracketExp_0= ruleRoundBracketExp
         {
         if ( state.backtracking==0 ) {
 
@@ -17776,8 +17176,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_SquareBracketExp_1 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4511:3: (this_SquareBracketExp_1= ruleSquareBracketExp )
-        // InternalBacktrackingContentAssistTestLanguage.g:4511:3: this_SquareBracketExp_1= ruleSquareBracketExp
+        // InternalBacktrackingContentAssistTestLanguage.g:4201:3: (this_SquareBracketExp_1= ruleSquareBracketExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4201:3: this_SquareBracketExp_1= ruleSquareBracketExp
         {
         if ( state.backtracking==0 ) {
 
@@ -17799,8 +17199,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_TupleLiteralExp_4 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4547:3: (this_TupleLiteralExp_4= ruleTupleLiteralExp )
-        // InternalBacktrackingContentAssistTestLanguage.g:4547:3: this_TupleLiteralExp_4= ruleTupleLiteralExp
+        // InternalBacktrackingContentAssistTestLanguage.g:4237:3: (this_TupleLiteralExp_4= ruleTupleLiteralExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4237:3: this_TupleLiteralExp_4= ruleTupleLiteralExp
         {
         if ( state.backtracking==0 ) {
 
@@ -17822,8 +17222,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_CollectionLiteralExp_5 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4559:3: (this_CollectionLiteralExp_5= ruleCollectionLiteralExp )
-        // InternalBacktrackingContentAssistTestLanguage.g:4559:3: this_CollectionLiteralExp_5= ruleCollectionLiteralExp
+        // InternalBacktrackingContentAssistTestLanguage.g:4249:3: (this_CollectionLiteralExp_5= ruleCollectionLiteralExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4249:3: this_CollectionLiteralExp_5= ruleCollectionLiteralExp
         {
         if ( state.backtracking==0 ) {
 
@@ -17845,8 +17245,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_PreExp_6 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4571:3: (this_PreExp_6= rulePreExp )
-        // InternalBacktrackingContentAssistTestLanguage.g:4571:3: this_PreExp_6= rulePreExp
+        // InternalBacktrackingContentAssistTestLanguage.g:4261:3: (this_PreExp_6= rulePreExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4261:3: this_PreExp_6= rulePreExp
         {
         if ( state.backtracking==0 ) {
 
@@ -17868,8 +17268,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_TypeExp_7 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4583:3: (this_TypeExp_7= ruleTypeExp )
-        // InternalBacktrackingContentAssistTestLanguage.g:4583:3: this_TypeExp_7= ruleTypeExp
+        // InternalBacktrackingContentAssistTestLanguage.g:4273:3: (this_TypeExp_7= ruleTypeExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4273:3: this_TypeExp_7= ruleTypeExp
         {
         if ( state.backtracking==0 ) {
 
@@ -17891,8 +17291,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_RoundBracketExp_0 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4665:3: (this_RoundBracketExp_0= ruleRoundBracketExp )
-        // InternalBacktrackingContentAssistTestLanguage.g:4665:3: this_RoundBracketExp_0= ruleRoundBracketExp
+        // InternalBacktrackingContentAssistTestLanguage.g:4350:3: (this_RoundBracketExp_0= ruleRoundBracketExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4350:3: this_RoundBracketExp_0= ruleRoundBracketExp
         {
         if ( state.backtracking==0 ) {
 
@@ -17914,8 +17314,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_SquareBracketExp_1 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4677:3: (this_SquareBracketExp_1= ruleSquareBracketExp )
-        // InternalBacktrackingContentAssistTestLanguage.g:4677:3: this_SquareBracketExp_1= ruleSquareBracketExp
+        // InternalBacktrackingContentAssistTestLanguage.g:4362:3: (this_SquareBracketExp_1= ruleSquareBracketExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4362:3: this_SquareBracketExp_1= ruleSquareBracketExp
         {
         if ( state.backtracking==0 ) {
 
@@ -17937,8 +17337,8 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
         EObject this_PreExp_2 = null;
 
 
-        // InternalBacktrackingContentAssistTestLanguage.g:4689:3: (this_PreExp_2= rulePreExp )
-        // InternalBacktrackingContentAssistTestLanguage.g:4689:3: this_PreExp_2= rulePreExp
+        // InternalBacktrackingContentAssistTestLanguage.g:4374:3: (this_PreExp_2= rulePreExp )
+        // InternalBacktrackingContentAssistTestLanguage.g:4374:3: this_PreExp_2= rulePreExp
         {
         if ( state.backtracking==0 ) {
 
@@ -18288,7 +17688,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             this.transition = dfa_6;
         }
         public String getDescription() {
-            return "4498:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) )";
+            return "4188:2: (this_RoundBracketExp_0= ruleRoundBracketExp | this_SquareBracketExp_1= ruleSquareBracketExp | this_SelfExp_2= ruleSelfExp | this_PrimitiveLiteralExp_3= rulePrimitiveLiteralExp | this_TupleLiteralExp_4= ruleTupleLiteralExp | this_CollectionLiteralExp_5= ruleCollectionLiteralExp | this_PreExp_6= rulePreExp | this_TypeExp_7= ruleTypeExp | this_IfExp_8= ruleIfExp | (otherlv_9= '(' () ( (lv_source_11_0= ruleExpression ) ) otherlv_12= ')' ) )";
         }
         public int specialStateTransition(int s, IntStream _input) throws NoViableAltException {
             TokenStream input = (TokenStream)_input;
@@ -18488,7 +17888,7 @@ public class InternalBacktrackingContentAssistTestLanguageParser extends Abstrac
             this.transition = dfa_12;
         }
         public String getDescription() {
-            return "4921:3: ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )?";
+            return "4591:3: ( ( (lv_variable1_4_0= ruleiteratorVariable ) ) ( (otherlv_5= ',' ( (lv_variable2_6_0= ruleiteratorVariable ) ) ) | (otherlv_7= ';' ( (lv_variable2_8_0= ruleiteratorAccumulator ) ) ) )? otherlv_9= '|' )?";
         }
     }
  

@@ -62,12 +62,7 @@ entryRuleXmlDocument returns [EObject current=null]:
 
 // Rule XmlDocument
 ruleXmlDocument returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -107,12 +102,7 @@ entryRuleContent returns [EObject current=null]:
 
 // Rule Content
 ruleContent returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -170,12 +160,9 @@ finally {
 // Rule Tag
 ruleTag returns [EObject current=null]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens("RULE_WS");
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_TAG_START_OPEN_0=RULE_TAG_START_OPEN
 		{
@@ -291,12 +278,7 @@ entryRuleAttribute returns [EObject current=null]:
 
 // Rule Attribute
 ruleAttribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(

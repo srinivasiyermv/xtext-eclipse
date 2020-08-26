@@ -70,12 +70,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -106,12 +101,7 @@ entryRuleTypeDescription returns [EObject current=null]:
 
 // Rule TypeDescription
 ruleTypeDescription returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -157,12 +147,7 @@ entryRuleParameter returns [EObject current=null]:
 
 // Rule Parameter
 ruleParameter returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -213,12 +198,7 @@ entryRuleObjectReference returns [EObject current=null]:
 
 // Rule ObjectReference
 ruleObjectReference returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -264,12 +244,7 @@ entryRuleNestedObjectReference returns [EObject current=null]:
 
 // Rule NestedObjectReference
 ruleNestedObjectReference returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='.'
 		{
@@ -319,12 +294,7 @@ entryRuleImageExpression returns [EObject current=null]:
 
 // Rule ImageExpression
 ruleImageExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	{
 		newCompositeNode(grammarAccess.getImageExpressionAccess().getScalarExpressionParserRuleCall());
 	}
@@ -344,12 +314,7 @@ entryRuleScalarExpression returns [EObject current=null]:
 
 // Rule ScalarExpression
 ruleScalarExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getScalarExpressionAccess().getStringLiteralParserRuleCall_0());
@@ -389,12 +354,7 @@ entryRuleCollectionExpression returns [EObject current=null]:
 
 // Rule CollectionExpression
 ruleCollectionExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getCollectionExpressionAccess().getCollectionLiteralParserRuleCall_0());
@@ -434,12 +394,7 @@ entryRuleStringLiteral returns [EObject current=null]:
 
 // Rule StringLiteral
 ruleStringLiteral returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			lv_value_0_0=RULE_STRING
@@ -469,12 +424,7 @@ entryRuleStringFunction returns [EObject current=null]:
 
 // Rule StringFunction
 ruleStringFunction returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -644,12 +594,7 @@ entryRuleCollectionLiteral returns [EObject current=null]:
 
 // Rule CollectionLiteral
 ruleCollectionLiteral returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='['
 		{
@@ -715,12 +660,7 @@ entryRuleCollectionFunction returns [EObject current=null]:
 
 // Rule CollectionFunction
 ruleCollectionFunction returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -791,12 +731,7 @@ entryRuleTableView returns [EObject current=null]:
 
 // Rule TableView
 ruleTableView returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='tableview'
 		{
@@ -1004,12 +939,7 @@ entryRuleSection returns [EObject current=null]:
 
 // Rule Section
 ruleSection returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='section'
 		{
@@ -1098,12 +1028,7 @@ entryRuleCell returns [EObject current=null]:
 
 // Rule Cell
 ruleCell returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='cell'
 		{
@@ -1351,12 +1276,7 @@ entryRuleCollectionIterator returns [EObject current=null]:
 
 // Rule CollectionIterator
 ruleCollectionIterator returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='for'
 		{
@@ -1415,12 +1335,7 @@ entryRuleViewAction returns [EObject current=null]:
 
 // Rule ViewAction
 ruleViewAction returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getViewActionAccess().getExternalOpenParserRuleCall_0());
@@ -1451,12 +1366,7 @@ entryRuleSelectorName returns [String current=null]:
 
 // Rule SelectorName
 ruleSelectorName returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_ID_0=RULE_ID
 		{
@@ -1498,12 +1408,7 @@ entryRuleSelector returns [EObject current=null]:
 
 // Rule Selector
 ruleSelector returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='@selector'
 		{
@@ -1548,12 +1453,7 @@ entryRuleExternalOpen returns [EObject current=null]:
 
 // Rule ExternalOpen
 ruleExternalOpen returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1577,12 +1477,7 @@ ruleExternalOpen returns [EObject current=null]
 
 // Rule TableViewStyle
 ruleTableViewStyle returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='Plain'
@@ -1604,12 +1499,7 @@ ruleTableViewStyle returns [Enumerator current=null]
 
 // Rule CellType
 ruleCellType returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='Default'
@@ -1647,12 +1537,7 @@ ruleCellType returns [Enumerator current=null]
 
 // Rule CellAccessory
 ruleCellAccessory returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='None'

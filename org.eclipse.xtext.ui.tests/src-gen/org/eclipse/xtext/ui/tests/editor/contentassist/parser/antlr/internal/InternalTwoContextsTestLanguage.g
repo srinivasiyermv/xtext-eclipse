@@ -69,12 +69,7 @@ entryRuleMainModel returns [EObject current=null]:
 
 // Rule MainModel
 ruleMainModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -105,12 +100,7 @@ entryRuleAnElement returns [EObject current=null]:
 
 // Rule AnElement
 ruleAnElement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(

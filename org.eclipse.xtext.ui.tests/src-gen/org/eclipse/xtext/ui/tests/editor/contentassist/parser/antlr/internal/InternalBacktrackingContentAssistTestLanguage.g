@@ -75,12 +75,7 @@ entryRuleDocument returns [EObject current=null]:
 
 // Rule Document
 ruleDocument returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -133,12 +128,7 @@ entryRuleBody returns [EObject current=null]:
 
 // Rule Body
 ruleBody returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='body'
 		{
@@ -198,12 +188,7 @@ entryRuleClassifierContextDecl returns [EObject current=null]:
 
 // Rule ClassifierContextDecl
 ruleClassifierContextDecl returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='context'
 		{
@@ -306,12 +291,7 @@ entryRuleClassifierRef returns [EObject current=null]:
 
 // Rule ClassifierRef
 ruleClassifierRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -348,12 +328,7 @@ entryRuleContextDecl returns [EObject current=null]:
 
 // Rule ContextDecl
 ruleContextDecl returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -402,12 +377,7 @@ entryRuleDefinition returns [EObject current=null]:
 
 // Rule Definition
 ruleDefinition returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -583,12 +553,7 @@ entryRuleDer returns [EObject current=null]:
 
 // Rule Der
 ruleDer returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='derive'
 		{
@@ -629,12 +594,7 @@ entryRuleInit returns [EObject current=null]:
 
 // Rule Init
 ruleInit returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='init'
 		{
@@ -675,12 +635,7 @@ entryRuleInvariant returns [EObject current=null]:
 
 // Rule Invariant
 ruleInvariant returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='inv'
 		{
@@ -740,12 +695,7 @@ entryRuleOperationContextDecl returns [EObject current=null]:
 
 // Rule OperationContextDecl
 ruleOperationContextDecl returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='context'
 		{
@@ -920,12 +870,7 @@ entryRuleOperationRef returns [EObject current=null]:
 
 // Rule OperationRef
 ruleOperationRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -962,12 +907,7 @@ entryRulePackageDeclaration returns [EObject current=null]:
 
 // Rule PackageDeclaration
 rulePackageDeclaration returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='package'
 		{
@@ -1027,12 +967,7 @@ entryRulePackageRef returns [EObject current=null]:
 
 // Rule PackageRef
 rulePackageRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -1069,12 +1004,7 @@ entryRuleParameter returns [EObject current=null]:
 
 // Rule Parameter
 ruleParameter returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1132,12 +1062,7 @@ entryRulePost returns [EObject current=null]:
 
 // Rule Post
 rulePost returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='post'
 		{
@@ -1197,12 +1122,7 @@ entryRulePre returns [EObject current=null]:
 
 // Rule Pre
 rulePre returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='pre'
 		{
@@ -1262,12 +1182,7 @@ entryRulePropertyContextDecl returns [EObject current=null]:
 
 // Rule PropertyContextDecl
 rulePropertyContextDecl returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='context'
 		{
@@ -1410,12 +1325,7 @@ entryRulePropertyRef returns [EObject current=null]:
 
 // Rule PropertyRef
 rulePropertyRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -1452,12 +1362,7 @@ entryRuleQualifiedClassifierRef returns [EObject current=null]:
 
 // Rule QualifiedClassifierRef
 ruleQualifiedClassifierRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1513,12 +1418,7 @@ entryRuleQualifiedOperationRef returns [EObject current=null]:
 
 // Rule QualifiedOperationRef
 ruleQualifiedOperationRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1574,12 +1474,7 @@ entryRuleQualifiedPropertyRef returns [EObject current=null]:
 
 // Rule QualifiedPropertyRef
 ruleQualifiedPropertyRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1635,12 +1530,7 @@ entryRuleQualifiedPackageRef returns [EObject current=null]:
 
 // Rule QualifiedPackageRef
 ruleQualifiedPackageRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1696,12 +1586,7 @@ entryRuleSimpleClassifierRef returns [EObject current=null]:
 
 // Rule SimpleClassifierRef
 ruleSimpleClassifierRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1732,12 +1617,7 @@ entryRuleSimpleOperationRef returns [EObject current=null]:
 
 // Rule SimpleOperationRef
 ruleSimpleOperationRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1768,12 +1648,7 @@ entryRuleSimplePackageRef returns [EObject current=null]:
 
 // Rule SimplePackageRef
 ruleSimplePackageRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1804,12 +1679,7 @@ entryRuleSimplePropertyRef returns [EObject current=null]:
 
 // Rule SimplePropertyRef
 ruleSimplePropertyRef returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -1840,12 +1710,7 @@ entryRuleNavigationExp returns [EObject current=null]:
 
 // Rule NavigationExp
 ruleNavigationExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -2043,12 +1908,7 @@ entryRuleNavigatingExp returns [EObject current=null]:
 
 // Rule NavigatingExp
 ruleNavigatingExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -2246,12 +2106,7 @@ entryRuleOclMessageArg returns [EObject current=null]:
 
 // Rule OclMessageArg
 ruleOclMessageArg returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -2318,12 +2173,7 @@ entryRuleNUMBER_LITERAL returns [String current=null]:
 
 // Rule NUMBER_LITERAL
 ruleNUMBER_LITERAL returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_INT_0=RULE_INT
 		{
@@ -2393,12 +2243,7 @@ entryRuleEssentialOCLRestrictedKeywords returns [String current=null]:
 
 // Rule EssentialOCLRestrictedKeywords
 ruleEssentialOCLRestrictedKeywords returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		kw='e'
 		{
@@ -2423,12 +2268,7 @@ entryRuleRestrictedKeywords returns [String current=null]:
 
 // Rule RestrictedKeywords
 ruleRestrictedKeywords returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	{
 		newCompositeNode(grammarAccess.getRestrictedKeywordsAccess().getEssentialOCLRestrictedKeywordsParserRuleCall());
 	}
@@ -2450,12 +2290,7 @@ entryRuleIdentifier returns [String current=null]:
 
 // Rule Identifier
 ruleIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_ID_0=RULE_ID
 		{
@@ -2487,12 +2322,7 @@ entryRuleStringLiteral returns [String current=null]:
 
 // Rule StringLiteral
 ruleStringLiteral returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	this_STRING_0=RULE_STRING
 	{
 		$current.merge(this_STRING_0);
@@ -2511,12 +2341,7 @@ entryRulePrimitiveTypeIdentifier returns [String current=null]:
 
 // Rule PrimitiveTypeIdentifier
 rulePrimitiveTypeIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		kw='Boolean'
 		{
@@ -2577,12 +2402,7 @@ entryRulePrimitiveType returns [EObject current=null]:
 
 // Rule PrimitiveType
 rulePrimitiveType returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -2613,12 +2433,7 @@ entryRuleCollectionTypeIdentifier returns [String current=null]:
 
 // Rule CollectionTypeIdentifier
 ruleCollectionTypeIdentifier returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		kw='Set'
 		{
@@ -2661,12 +2476,7 @@ entryRuleTypeExp returns [EObject current=null]:
 
 // Rule TypeExp
 ruleTypeExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -2727,12 +2537,7 @@ entryRuleCollectionType returns [EObject current=null]:
 
 // Rule CollectionType
 ruleCollectionType returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -2794,12 +2599,7 @@ entryRuleTupleType returns [EObject current=null]:
 
 // Rule TupleType
 ruleTupleType returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -2881,12 +2681,7 @@ entryRuletuplePart returns [EObject current=null]:
 
 // Rule tuplePart
 ruletuplePart returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -2942,12 +2737,7 @@ entryRuleCollectionLiteralExp returns [EObject current=null]:
 
 // Rule CollectionLiteralExp
 ruleCollectionLiteralExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -3038,12 +2828,7 @@ entryRuleCollectionLiteralPart returns [EObject current=null]:
 
 // Rule CollectionLiteralPart
 ruleCollectionLiteralPart returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -3101,12 +2886,7 @@ entryRulePrimitiveLiteralExp returns [EObject current=null]:
 
 // Rule PrimitiveLiteralExp
 rulePrimitiveLiteralExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -3179,12 +2959,7 @@ entryRuleTupleLiteralExp returns [EObject current=null]:
 
 // Rule TupleLiteralExp
 ruleTupleLiteralExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -3266,12 +3041,7 @@ entryRuleTupleLiteralPart returns [EObject current=null]:
 
 // Rule TupleLiteralPart
 ruleTupleLiteralPart returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -3352,12 +3122,7 @@ entryRuleNumberLiteralExp returns [EObject current=null]:
 
 // Rule NumberLiteralExp
 ruleNumberLiteralExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -3388,12 +3153,7 @@ entryRuleStringLiteralExp returns [EObject current=null]:
 
 // Rule StringLiteralExp
 ruleStringLiteralExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -3424,12 +3184,7 @@ entryRuleBooleanLiteralExp returns [EObject current=null]:
 
 // Rule BooleanLiteralExp
 ruleBooleanLiteralExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -3474,12 +3229,7 @@ entryRuleInvalidLiteralExp returns [EObject current=null]:
 
 // Rule InvalidLiteralExp
 ruleInvalidLiteralExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -3507,12 +3257,7 @@ entryRuleNullLiteralExp returns [EObject current=null]:
 
 // Rule NullLiteralExp
 ruleNullLiteralExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -3540,12 +3285,7 @@ entryRuleExpression returns [EObject current=null]:
 
 // Rule Expression
 ruleExpression returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -3582,12 +3322,7 @@ entryRuleimplies returns [EObject current=null]:
 
 // Rule implies
 ruleimplies returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -3675,12 +3410,7 @@ entryRulexor returns [EObject current=null]:
 
 // Rule xor
 rulexor returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -3768,12 +3498,7 @@ entryRuleor returns [EObject current=null]:
 
 // Rule or
 ruleor returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -3861,12 +3586,7 @@ entryRuleand returns [EObject current=null]:
 
 // Rule and
 ruleand returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -3954,12 +3674,7 @@ entryRuleequality returns [EObject current=null]:
 
 // Rule equality
 ruleequality returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -4060,12 +3775,7 @@ entryRulerelational returns [EObject current=null]:
 
 // Rule relational
 rulerelational returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -4188,12 +3898,7 @@ entryRuleadditive returns [EObject current=null]:
 
 // Rule additive
 ruleadditive returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -4294,12 +3999,7 @@ entryRulemultiplicative returns [EObject current=null]:
 
 // Rule multiplicative
 rulemultiplicative returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -4400,12 +4100,7 @@ entryRuleunary returns [EObject current=null]:
 
 // Rule unary
 ruleunary returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -4489,12 +4184,7 @@ entryRuleSubNavigationExp returns [EObject current=null]:
 
 // Rule SubNavigationExp
 ruleSubNavigationExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -4655,12 +4345,7 @@ entryRuleSubNavigatingExp returns [EObject current=null]:
 
 // Rule SubNavigatingExp
 ruleSubNavigatingExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -4721,12 +4406,7 @@ entryRuleiteratorVariable returns [EObject current=null]:
 
 // Rule iteratorVariable
 ruleiteratorVariable returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -4784,12 +4464,7 @@ entryRuleiteratorAccumulator returns [EObject current=null]:
 
 // Rule iteratorAccumulator
 ruleiteratorAccumulator returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -4868,12 +4543,7 @@ entryRuleRoundBracketExp returns [EObject current=null]:
 
 // Rule RoundBracketExp
 ruleRoundBracketExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -5058,12 +4728,7 @@ entryRuleSquareBracketExp returns [EObject current=null]:
 
 // Rule SquareBracketExp
 ruleSquareBracketExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -5168,12 +4833,7 @@ entryRulePreExp returns [EObject current=null]:
 
 // Rule PreExp
 rulePreExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -5214,12 +4874,7 @@ entryRuleSelfExp returns [EObject current=null]:
 
 // Rule SelfExp
 ruleSelfExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -5247,12 +4902,7 @@ entryRuleNameExp returns [EObject current=null]:
 
 // Rule NameExp
 ruleNameExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -5289,12 +4939,7 @@ entryRulePathNameExp returns [EObject current=null]:
 
 // Rule PathNameExp
 rulePathNameExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -5350,12 +4995,7 @@ entryRuleSimpleNameExp returns [EObject current=null]:
 
 // Rule SimpleNameExp
 ruleSimpleNameExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -5386,12 +5026,7 @@ entryRuleIfExp returns [EObject current=null]:
 
 // Rule IfExp
 ruleIfExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='if'
 		{
@@ -5478,12 +5113,7 @@ entryRuleLetExp returns [EObject current=null]:
 
 // Rule LetExp
 ruleLetExp returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='let'
 		{
@@ -5568,12 +5198,7 @@ entryRuleLetVariable returns [EObject current=null]:
 
 // Rule LetVariable
 ruleLetVariable returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(

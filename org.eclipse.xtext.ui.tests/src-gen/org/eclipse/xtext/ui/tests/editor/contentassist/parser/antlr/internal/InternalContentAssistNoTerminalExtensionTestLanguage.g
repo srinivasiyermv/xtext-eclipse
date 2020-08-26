@@ -70,12 +70,7 @@ entryRulePolygonBasedShape returns [EObject current=null]:
 
 // Rule PolygonBasedShape
 rulePolygonBasedShape returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -99,12 +94,7 @@ rulePolygonBasedShape returns [EObject current=null]
 
 // Rule PolygonBasedNodeShape
 rulePolygonBasedNodeShape returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='octagon'

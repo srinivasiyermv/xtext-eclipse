@@ -70,12 +70,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -127,12 +122,7 @@ entryRuleImport returns [EObject current=null]:
 
 // Rule Import
 ruleImport returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='import'
 		{
@@ -168,12 +158,7 @@ entryRuleMQLquery returns [EObject current=null]:
 
 // Rule MQLquery
 ruleMQLquery returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='select'
 		{
@@ -308,12 +293,7 @@ entryRuleSelectEntry returns [EObject current=null]:
 
 // Rule SelectEntry
 ruleSelectEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -359,12 +339,7 @@ entryRuleFromEntry returns [EObject current=null]:
 
 // Rule FromEntry
 ruleFromEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -446,12 +421,7 @@ entryRuleScopeClause returns [EObject current=null]:
 
 // Rule ScopeClause
 ruleScopeClause returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -502,12 +472,7 @@ entryRuleScope returns [EObject current=null]:
 
 // Rule Scope
 ruleScope returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getScopeAccess().getResourceScopeParserRuleCall_0());
@@ -538,12 +503,7 @@ entryRuleResourceScope returns [EObject current=null]:
 
 // Rule ResourceScope
 ruleResourceScope returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='resources'
 		{
@@ -611,12 +571,7 @@ entryRuleElementScope returns [EObject current=null]:
 
 // Rule ElementScope
 ruleElementScope returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='elements'
 		{
@@ -684,12 +639,7 @@ entryRuleWhereEntry returns [EObject current=null]:
 
 // Rule WhereEntry
 ruleWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getWhereEntryAccess().getAndWhereEntryParserRuleCall_0());
@@ -745,12 +695,7 @@ entryRuleAndWhereEntry returns [EObject current=null]:
 
 // Rule AndWhereEntry
 ruleAndWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAndWhereEntryAccess().getConcreteWhereEntryParserRuleCall_0());
@@ -806,12 +751,7 @@ entryRuleConcreteWhereEntry returns [EObject current=null]:
 
 // Rule ConcreteWhereEntry
 ruleConcreteWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getConcreteWhereEntryAccess().getParWhereEntryParserRuleCall_0());
@@ -878,12 +818,7 @@ entryRuleParWhereEntry returns [EObject current=null]:
 
 // Rule ParWhereEntry
 ruleParWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='('
 		{
@@ -913,12 +848,7 @@ entryRuleAttributeWhereEntry returns [EObject current=null]:
 
 // Rule AttributeWhereEntry
 ruleAttributeWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getAttributeWhereEntryAccess().getNumericAttributeWhereEntryParserRuleCall_0());
@@ -967,12 +897,7 @@ entryRuleNumericAttributeWhereEntry returns [EObject current=null]:
 
 // Rule NumericAttributeWhereEntry
 ruleNumericAttributeWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getNumericAttributeWhereEntryAccess().getDoubleWhereEntryParserRuleCall_0());
@@ -1003,12 +928,7 @@ entryRuleDoubleWhereEntry returns [EObject current=null]:
 
 // Rule DoubleWhereEntry
 ruleDoubleWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1089,12 +1009,7 @@ entryRuleLongWhereEntry returns [EObject current=null]:
 
 // Rule LongWhereEntry
 ruleLongWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1175,12 +1090,7 @@ entryRuleVariableWhereEntry returns [EObject current=null]:
 
 // Rule VariableWhereEntry
 ruleVariableWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1273,12 +1183,7 @@ entryRuleStringAttributeWhereEntry returns [EObject current=null]:
 
 // Rule StringAttributeWhereEntry
 ruleStringAttributeWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1359,12 +1264,7 @@ entryRuleBooleanAttributeWhereEntry returns [EObject current=null]:
 
 // Rule BooleanAttributeWhereEntry
 ruleBooleanAttributeWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1448,12 +1348,7 @@ entryRuleNullWhereEntry returns [EObject current=null]:
 
 // Rule NullWhereEntry
 ruleNullWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1520,12 +1415,7 @@ entryRuleReferenceAliasWhereEntry returns [EObject current=null]:
 
 // Rule ReferenceAliasWhereEntry
 ruleReferenceAliasWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1586,12 +1476,7 @@ entryRuleSubselectWhereEntry returns [EObject current=null]:
 
 // Rule SubselectWhereEntry
 ruleSubselectWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1680,12 +1565,7 @@ entryRuleAliasWhereEntry returns [EObject current=null]:
 
 // Rule AliasWhereEntry
 ruleAliasWhereEntry returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1722,12 +1602,7 @@ ruleAliasWhereEntry returns [EObject current=null]
 
 // Rule NumericOperator
 ruleNumericOperator returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='<'
@@ -1781,12 +1656,7 @@ ruleNumericOperator returns [Enumerator current=null]
 
 // Rule StringOperator
 ruleStringOperator returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='='
@@ -1824,12 +1694,7 @@ ruleStringOperator returns [Enumerator current=null]
 
 // Rule BooleanOperator
 ruleBooleanOperator returns [Enumerator current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			enumLiteral_0='='

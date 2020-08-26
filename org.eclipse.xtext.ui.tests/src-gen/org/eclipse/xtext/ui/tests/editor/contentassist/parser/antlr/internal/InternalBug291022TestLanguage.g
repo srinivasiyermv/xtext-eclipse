@@ -69,12 +69,7 @@ entryRuleRootModel returns [EObject current=null]:
 
 // Rule RootModel
 ruleRootModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -155,12 +150,7 @@ entryRuleModelElement returns [EObject current=null]:
 
 // Rule ModelElement
 ruleModelElement returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -260,12 +250,7 @@ entryRuleModelAttribute returns [EObject current=null]:
 
 // Rule ModelAttribute
 ruleModelAttribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getModelAttributeAccess().getModelElementParserRuleCall_0());
@@ -296,12 +281,7 @@ entryRuleAttribute returns [EObject current=null]:
 
 // Rule Attribute
 ruleAttribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(

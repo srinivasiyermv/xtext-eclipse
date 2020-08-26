@@ -62,12 +62,7 @@ entryRuleCodetemplates returns [EObject current=null]:
 
 // Rule Codetemplates
 ruleCodetemplates returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0=Templates
 		{
@@ -128,12 +123,7 @@ entryRuleCodetemplate returns [EObject current=null]:
 
 // Rule Codetemplate
 ruleCodetemplate returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -280,12 +270,9 @@ finally {
 // Rule TemplateBodyWithQuotes
 ruleTemplateBodyWithQuotes returns [EObject current=null]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			this_WS_0=RULE_WS
@@ -330,12 +317,9 @@ finally {
 // Rule TemplateBody
 ruleTemplateBody returns [EObject current=null]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -424,12 +408,9 @@ finally {
 // Rule VariableOrDollar
 ruleVariableOrDollar returns [EObject current=null]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getVariableOrDollarAccess().getVariableParserRuleCall_0());
@@ -469,12 +450,9 @@ finally {
 // Rule Variable
 ruleVariable returns [EObject current=null]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0=DollarSignLeftCurlyBracket
 		{
@@ -727,12 +705,9 @@ finally {
 // Rule ValidID
 ruleValidID returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_ID_0=RULE_ID
 		{
@@ -774,12 +749,9 @@ finally {
 // Rule FQN
 ruleFQN returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			newCompositeNode(grammarAccess.getFQNAccess().getValidIDParserRuleCall_0());
@@ -829,12 +801,9 @@ finally {
 // Rule Literal
 ruleLiteral returns [EObject current=null]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -874,12 +843,9 @@ finally {
 // Rule LiteralValue
 ruleLiteralValue returns [AntlrDatatypeRuleToken current=new AntlrDatatypeRuleToken()]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		this_WS_0=RULE_WS
 		{
@@ -931,12 +897,9 @@ finally {
 // Rule Dollar
 ruleDollar returns [EObject current=null]
 @init {
-	enterRule();
 	HiddenTokens myHiddenTokenState = ((XtextTokenStream)input).setHiddenTokens();
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{

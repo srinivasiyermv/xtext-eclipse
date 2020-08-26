@@ -69,12 +69,7 @@ entryRuleFile returns [EObject current=null]:
 
 // Rule File
 ruleFile returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -105,12 +100,7 @@ entryRuleStuff returns [EObject current=null]:
 
 // Rule Stuff
 ruleStuff returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='stuff'
 		{

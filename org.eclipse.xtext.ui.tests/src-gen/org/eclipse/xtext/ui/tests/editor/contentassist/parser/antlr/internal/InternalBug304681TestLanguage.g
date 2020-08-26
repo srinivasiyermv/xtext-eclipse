@@ -76,12 +76,7 @@ entryRuleModel returns [EObject current=null]:
 
 // Rule Model
 ruleModel returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			otherlv_0='1'
@@ -146,12 +141,7 @@ entryRulePackageDefinition returns [EObject current=null]:
 
 // Rule PackageDefinition
 rulePackageDefinition returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -228,14 +218,11 @@ finally {
 // Rule Object
 ruleObject returns [EObject current=null]
 @init {
-	enterRule();
 	UnorderedGroupState myUnorderedGroupState = getUnorderedGroupHelper().snapShot(
 	grammarAccess.getObjectAccess().getUnorderedGroup_5()
 	);
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -623,12 +610,7 @@ entryRuleFeature returns [EObject current=null]:
 
 // Rule Feature
 ruleFeature returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -665,12 +647,7 @@ entryRuleAttribute returns [EObject current=null]:
 
 // Rule Attribute
 ruleAttribute returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='Attribute'
 		{
@@ -736,14 +713,11 @@ finally {
 // Rule Reference
 ruleReference returns [EObject current=null]
 @init {
-	enterRule();
 	UnorderedGroupState myUnorderedGroupState = getUnorderedGroupHelper().snapShot(
 	grammarAccess.getReferenceAccess().getUnorderedGroup_4_0_1()
 	);
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='Reference'
 		{
@@ -917,12 +891,7 @@ entryRulePackageDefinition2 returns [EObject current=null]:
 
 // Rule PackageDefinition2
 rulePackageDefinition2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			{
@@ -999,14 +968,11 @@ finally {
 // Rule Object2
 ruleObject2 returns [EObject current=null]
 @init {
-	enterRule();
 	UnorderedGroupState myUnorderedGroupState = getUnorderedGroupHelper().snapShot(
 	grammarAccess.getObject2Access().getUnorderedGroup_5()
 	);
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		(
 			(
@@ -1288,12 +1254,7 @@ entryRuleFeature2 returns [EObject current=null]:
 
 // Rule Feature2
 ruleFeature2 returns [EObject current=null]
-@init {
-	enterRule();
-}
-@after {
-	leaveRule();
-}:
+:
 	(
 		{
 			/* */
@@ -1338,14 +1299,11 @@ finally {
 // Rule Attribute2
 ruleAttribute2 returns [EObject current=null]
 @init {
-	enterRule();
 	UnorderedGroupState myUnorderedGroupState = getUnorderedGroupHelper().snapShot(
 	grammarAccess.getAttribute2Access().getUnorderedGroup_3_0_1()
 	);
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='Attribute'
 		{
@@ -1601,14 +1559,11 @@ finally {
 // Rule Reference2
 ruleReference2 returns [EObject current=null]
 @init {
-	enterRule();
 	UnorderedGroupState myUnorderedGroupState = getUnorderedGroupHelper().snapShot(
 	grammarAccess.getReference2Access().getUnorderedGroup_4_0_1()
 	);
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='Reference'
 		{
@@ -1790,14 +1745,11 @@ finally {
 // Rule ConstraintDefinition
 ruleConstraintDefinition returns [EObject current=null]
 @init {
-	enterRule();
 	UnorderedGroupState myUnorderedGroupState = getUnorderedGroupHelper().snapShot(
 	grammarAccess.getConstraintDefinitionAccess().getUnorderedGroup_3()
 	);
 }
-@after {
-	leaveRule();
-}:
+:
 	(
 		otherlv_0='constraint'
 		{

@@ -146,18 +146,15 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
         EObject lv_attribute_15_0 = null;
 
 
-
-        	enterRule();
-
         try {
-            // InternalLookAheadContentAssistTestLanguage.g:77:2: ( ( () ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) ) ) )
-            // InternalLookAheadContentAssistTestLanguage.g:78:2: ( () ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) ) )
+            // InternalLookAheadContentAssistTestLanguage.g:72:1: ( ( () ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) ) ) )
+            // InternalLookAheadContentAssistTestLanguage.g:73:2: ( () ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) ) )
             {
-            // InternalLookAheadContentAssistTestLanguage.g:78:2: ( () ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) ) )
-            // InternalLookAheadContentAssistTestLanguage.g:79:3: () ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) )
+            // InternalLookAheadContentAssistTestLanguage.g:73:2: ( () ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) ) )
+            // InternalLookAheadContentAssistTestLanguage.g:74:3: () ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) )
             {
-            // InternalLookAheadContentAssistTestLanguage.g:79:3: ()
-            // InternalLookAheadContentAssistTestLanguage.g:80:4: 
+            // InternalLookAheadContentAssistTestLanguage.g:74:3: ()
+            // InternalLookAheadContentAssistTestLanguage.g:75:4: 
             {
 
             				current = forceCreateModelElement(
@@ -167,7 +164,7 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
             }
 
-            // InternalLookAheadContentAssistTestLanguage.g:86:3: ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) )
+            // InternalLookAheadContentAssistTestLanguage.g:81:3: ( (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' ) | (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' ) | (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' ) | (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' ) )
             int alt9=4;
             switch ( input.LA(1) ) {
             case 11:
@@ -199,16 +196,16 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
             switch (alt9) {
                 case 1 :
-                    // InternalLookAheadContentAssistTestLanguage.g:87:4: (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' )
+                    // InternalLookAheadContentAssistTestLanguage.g:82:4: (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' )
                     {
-                    // InternalLookAheadContentAssistTestLanguage.g:87:4: (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' )
-                    // InternalLookAheadContentAssistTestLanguage.g:88:5: otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')'
+                    // InternalLookAheadContentAssistTestLanguage.g:82:4: (otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')' )
+                    // InternalLookAheadContentAssistTestLanguage.g:83:5: otherlv_1= '(' ( (lv_attribute_2_0= ruleAttribute ) )* ( (lv_attribute_3_0= rulePair ) )* otherlv_4= ')'
                     {
                     otherlv_1=(Token)match(input,11,FollowSets000.FOLLOW_3); 
 
                     					newLeafNode(otherlv_1, grammarAccess.getModelAccess().getLeftParenthesisKeyword_1_0_0());
                     				
-                    // InternalLookAheadContentAssistTestLanguage.g:92:5: ( (lv_attribute_2_0= ruleAttribute ) )*
+                    // InternalLookAheadContentAssistTestLanguage.g:87:5: ( (lv_attribute_2_0= ruleAttribute ) )*
                     loop1:
                     do {
                         int alt1=2;
@@ -227,10 +224,10 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
                         switch (alt1) {
                     	case 1 :
-                    	    // InternalLookAheadContentAssistTestLanguage.g:93:6: (lv_attribute_2_0= ruleAttribute )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:88:6: (lv_attribute_2_0= ruleAttribute )
                     	    {
-                    	    // InternalLookAheadContentAssistTestLanguage.g:93:6: (lv_attribute_2_0= ruleAttribute )
-                    	    // InternalLookAheadContentAssistTestLanguage.g:94:7: lv_attribute_2_0= ruleAttribute
+                    	    // InternalLookAheadContentAssistTestLanguage.g:88:6: (lv_attribute_2_0= ruleAttribute )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:89:7: lv_attribute_2_0= ruleAttribute
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getModelAccess().getAttributeAttributeParserRuleCall_1_0_1_0());
@@ -263,7 +260,7 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
                         }
                     } while (true);
 
-                    // InternalLookAheadContentAssistTestLanguage.g:111:5: ( (lv_attribute_3_0= rulePair ) )*
+                    // InternalLookAheadContentAssistTestLanguage.g:106:5: ( (lv_attribute_3_0= rulePair ) )*
                     loop2:
                     do {
                         int alt2=2;
@@ -276,10 +273,10 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
                         switch (alt2) {
                     	case 1 :
-                    	    // InternalLookAheadContentAssistTestLanguage.g:112:6: (lv_attribute_3_0= rulePair )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:107:6: (lv_attribute_3_0= rulePair )
                     	    {
-                    	    // InternalLookAheadContentAssistTestLanguage.g:112:6: (lv_attribute_3_0= rulePair )
-                    	    // InternalLookAheadContentAssistTestLanguage.g:113:7: lv_attribute_3_0= rulePair
+                    	    // InternalLookAheadContentAssistTestLanguage.g:107:6: (lv_attribute_3_0= rulePair )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:108:7: lv_attribute_3_0= rulePair
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getModelAccess().getAttributePairParserRuleCall_1_0_2_0());
@@ -323,16 +320,16 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
                     }
                     break;
                 case 2 :
-                    // InternalLookAheadContentAssistTestLanguage.g:136:4: (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' )
+                    // InternalLookAheadContentAssistTestLanguage.g:131:4: (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' )
                     {
-                    // InternalLookAheadContentAssistTestLanguage.g:136:4: (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' )
-                    // InternalLookAheadContentAssistTestLanguage.g:137:5: otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']'
+                    // InternalLookAheadContentAssistTestLanguage.g:131:4: (otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']' )
+                    // InternalLookAheadContentAssistTestLanguage.g:132:5: otherlv_5= '[' ( (lv_attribute_6_0= ruleAttribute ) )+ ( (lv_attribute_7_0= rulePair ) )* otherlv_8= ']'
                     {
                     otherlv_5=(Token)match(input,13,FollowSets000.FOLLOW_4); 
 
                     					newLeafNode(otherlv_5, grammarAccess.getModelAccess().getLeftSquareBracketKeyword_1_1_0());
                     				
-                    // InternalLookAheadContentAssistTestLanguage.g:141:5: ( (lv_attribute_6_0= ruleAttribute ) )+
+                    // InternalLookAheadContentAssistTestLanguage.g:136:5: ( (lv_attribute_6_0= ruleAttribute ) )+
                     int cnt3=0;
                     loop3:
                     do {
@@ -352,10 +349,10 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
                         switch (alt3) {
                     	case 1 :
-                    	    // InternalLookAheadContentAssistTestLanguage.g:142:6: (lv_attribute_6_0= ruleAttribute )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:137:6: (lv_attribute_6_0= ruleAttribute )
                     	    {
-                    	    // InternalLookAheadContentAssistTestLanguage.g:142:6: (lv_attribute_6_0= ruleAttribute )
-                    	    // InternalLookAheadContentAssistTestLanguage.g:143:7: lv_attribute_6_0= ruleAttribute
+                    	    // InternalLookAheadContentAssistTestLanguage.g:137:6: (lv_attribute_6_0= ruleAttribute )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:138:7: lv_attribute_6_0= ruleAttribute
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getModelAccess().getAttributeAttributeParserRuleCall_1_1_1_0());
@@ -392,7 +389,7 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
                         cnt3++;
                     } while (true);
 
-                    // InternalLookAheadContentAssistTestLanguage.g:160:5: ( (lv_attribute_7_0= rulePair ) )*
+                    // InternalLookAheadContentAssistTestLanguage.g:155:5: ( (lv_attribute_7_0= rulePair ) )*
                     loop4:
                     do {
                         int alt4=2;
@@ -405,10 +402,10 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
                         switch (alt4) {
                     	case 1 :
-                    	    // InternalLookAheadContentAssistTestLanguage.g:161:6: (lv_attribute_7_0= rulePair )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:156:6: (lv_attribute_7_0= rulePair )
                     	    {
-                    	    // InternalLookAheadContentAssistTestLanguage.g:161:6: (lv_attribute_7_0= rulePair )
-                    	    // InternalLookAheadContentAssistTestLanguage.g:162:7: lv_attribute_7_0= rulePair
+                    	    // InternalLookAheadContentAssistTestLanguage.g:156:6: (lv_attribute_7_0= rulePair )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:157:7: lv_attribute_7_0= rulePair
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getModelAccess().getAttributePairParserRuleCall_1_1_2_0());
@@ -452,16 +449,16 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
                     }
                     break;
                 case 3 :
-                    // InternalLookAheadContentAssistTestLanguage.g:185:4: (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' )
+                    // InternalLookAheadContentAssistTestLanguage.g:180:4: (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' )
                     {
-                    // InternalLookAheadContentAssistTestLanguage.g:185:4: (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' )
-                    // InternalLookAheadContentAssistTestLanguage.g:186:5: otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>'
+                    // InternalLookAheadContentAssistTestLanguage.g:180:4: (otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>' )
+                    // InternalLookAheadContentAssistTestLanguage.g:181:5: otherlv_9= '<' ( (lv_attribute_10_0= ruleAttribute ) )* ( (lv_attribute_11_0= rulePair ) )+ otherlv_12= '>'
                     {
                     otherlv_9=(Token)match(input,15,FollowSets000.FOLLOW_4); 
 
                     					newLeafNode(otherlv_9, grammarAccess.getModelAccess().getLessThanSignKeyword_1_2_0());
                     				
-                    // InternalLookAheadContentAssistTestLanguage.g:190:5: ( (lv_attribute_10_0= ruleAttribute ) )*
+                    // InternalLookAheadContentAssistTestLanguage.g:185:5: ( (lv_attribute_10_0= ruleAttribute ) )*
                     loop5:
                     do {
                         int alt5=2;
@@ -480,10 +477,10 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
                         switch (alt5) {
                     	case 1 :
-                    	    // InternalLookAheadContentAssistTestLanguage.g:191:6: (lv_attribute_10_0= ruleAttribute )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:186:6: (lv_attribute_10_0= ruleAttribute )
                     	    {
-                    	    // InternalLookAheadContentAssistTestLanguage.g:191:6: (lv_attribute_10_0= ruleAttribute )
-                    	    // InternalLookAheadContentAssistTestLanguage.g:192:7: lv_attribute_10_0= ruleAttribute
+                    	    // InternalLookAheadContentAssistTestLanguage.g:186:6: (lv_attribute_10_0= ruleAttribute )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:187:7: lv_attribute_10_0= ruleAttribute
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getModelAccess().getAttributeAttributeParserRuleCall_1_2_1_0());
@@ -516,7 +513,7 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
                         }
                     } while (true);
 
-                    // InternalLookAheadContentAssistTestLanguage.g:209:5: ( (lv_attribute_11_0= rulePair ) )+
+                    // InternalLookAheadContentAssistTestLanguage.g:204:5: ( (lv_attribute_11_0= rulePair ) )+
                     int cnt6=0;
                     loop6:
                     do {
@@ -530,10 +527,10 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
                         switch (alt6) {
                     	case 1 :
-                    	    // InternalLookAheadContentAssistTestLanguage.g:210:6: (lv_attribute_11_0= rulePair )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:205:6: (lv_attribute_11_0= rulePair )
                     	    {
-                    	    // InternalLookAheadContentAssistTestLanguage.g:210:6: (lv_attribute_11_0= rulePair )
-                    	    // InternalLookAheadContentAssistTestLanguage.g:211:7: lv_attribute_11_0= rulePair
+                    	    // InternalLookAheadContentAssistTestLanguage.g:205:6: (lv_attribute_11_0= rulePair )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:206:7: lv_attribute_11_0= rulePair
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getModelAccess().getAttributePairParserRuleCall_1_2_2_0());
@@ -581,16 +578,16 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
                     }
                     break;
                 case 4 :
-                    // InternalLookAheadContentAssistTestLanguage.g:234:4: (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' )
+                    // InternalLookAheadContentAssistTestLanguage.g:229:4: (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' )
                     {
-                    // InternalLookAheadContentAssistTestLanguage.g:234:4: (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' )
-                    // InternalLookAheadContentAssistTestLanguage.g:235:5: otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}'
+                    // InternalLookAheadContentAssistTestLanguage.g:229:4: (otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}' )
+                    // InternalLookAheadContentAssistTestLanguage.g:230:5: otherlv_13= '{' ( (lv_attribute_14_0= ruleAttribute ) )+ ( (lv_attribute_15_0= rulePair ) )+ otherlv_16= '}'
                     {
                     otherlv_13=(Token)match(input,17,FollowSets000.FOLLOW_4); 
 
                     					newLeafNode(otherlv_13, grammarAccess.getModelAccess().getLeftCurlyBracketKeyword_1_3_0());
                     				
-                    // InternalLookAheadContentAssistTestLanguage.g:239:5: ( (lv_attribute_14_0= ruleAttribute ) )+
+                    // InternalLookAheadContentAssistTestLanguage.g:234:5: ( (lv_attribute_14_0= ruleAttribute ) )+
                     int cnt7=0;
                     loop7:
                     do {
@@ -610,10 +607,10 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
                         switch (alt7) {
                     	case 1 :
-                    	    // InternalLookAheadContentAssistTestLanguage.g:240:6: (lv_attribute_14_0= ruleAttribute )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:235:6: (lv_attribute_14_0= ruleAttribute )
                     	    {
-                    	    // InternalLookAheadContentAssistTestLanguage.g:240:6: (lv_attribute_14_0= ruleAttribute )
-                    	    // InternalLookAheadContentAssistTestLanguage.g:241:7: lv_attribute_14_0= ruleAttribute
+                    	    // InternalLookAheadContentAssistTestLanguage.g:235:6: (lv_attribute_14_0= ruleAttribute )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:236:7: lv_attribute_14_0= ruleAttribute
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getModelAccess().getAttributeAttributeParserRuleCall_1_3_1_0());
@@ -650,7 +647,7 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
                         cnt7++;
                     } while (true);
 
-                    // InternalLookAheadContentAssistTestLanguage.g:258:5: ( (lv_attribute_15_0= rulePair ) )+
+                    // InternalLookAheadContentAssistTestLanguage.g:253:5: ( (lv_attribute_15_0= rulePair ) )+
                     int cnt8=0;
                     loop8:
                     do {
@@ -664,10 +661,10 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
                         switch (alt8) {
                     	case 1 :
-                    	    // InternalLookAheadContentAssistTestLanguage.g:259:6: (lv_attribute_15_0= rulePair )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:254:6: (lv_attribute_15_0= rulePair )
                     	    {
-                    	    // InternalLookAheadContentAssistTestLanguage.g:259:6: (lv_attribute_15_0= rulePair )
-                    	    // InternalLookAheadContentAssistTestLanguage.g:260:7: lv_attribute_15_0= rulePair
+                    	    // InternalLookAheadContentAssistTestLanguage.g:254:6: (lv_attribute_15_0= rulePair )
+                    	    // InternalLookAheadContentAssistTestLanguage.g:255:7: lv_attribute_15_0= rulePair
                     	    {
 
                     	    							newCompositeNode(grammarAccess.getModelAccess().getAttributePairParserRuleCall_1_3_2_0());
@@ -723,9 +720,6 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -740,7 +734,7 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
 
     // $ANTLR start "entryRuleAttribute"
-    // InternalLookAheadContentAssistTestLanguage.g:287:1: entryRuleAttribute returns [EObject current=null] : iv_ruleAttribute= ruleAttribute EOF ;
+    // InternalLookAheadContentAssistTestLanguage.g:282:1: entryRuleAttribute returns [EObject current=null] : iv_ruleAttribute= ruleAttribute EOF ;
     public final EObject entryRuleAttribute() throws RecognitionException {
         EObject current = null;
 
@@ -748,8 +742,8 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
 
         try {
-            // InternalLookAheadContentAssistTestLanguage.g:287:50: (iv_ruleAttribute= ruleAttribute EOF )
-            // InternalLookAheadContentAssistTestLanguage.g:288:2: iv_ruleAttribute= ruleAttribute EOF
+            // InternalLookAheadContentAssistTestLanguage.g:282:50: (iv_ruleAttribute= ruleAttribute EOF )
+            // InternalLookAheadContentAssistTestLanguage.g:283:2: iv_ruleAttribute= ruleAttribute EOF
             {
              newCompositeNode(grammarAccess.getAttributeRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -776,24 +770,21 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
 
     // $ANTLR start "ruleAttribute"
-    // InternalLookAheadContentAssistTestLanguage.g:294:1: ruleAttribute returns [EObject current=null] : ( (lv_value_0_0= RULE_ID ) ) ;
+    // InternalLookAheadContentAssistTestLanguage.g:289:1: ruleAttribute returns [EObject current=null] : ( (lv_value_0_0= RULE_ID ) ) ;
     public final EObject ruleAttribute() throws RecognitionException {
         EObject current = null;
 
         Token lv_value_0_0=null;
 
-
-        	enterRule();
-
         try {
-            // InternalLookAheadContentAssistTestLanguage.g:300:2: ( ( (lv_value_0_0= RULE_ID ) ) )
-            // InternalLookAheadContentAssistTestLanguage.g:301:2: ( (lv_value_0_0= RULE_ID ) )
+            // InternalLookAheadContentAssistTestLanguage.g:290:1: ( ( (lv_value_0_0= RULE_ID ) ) )
+            // InternalLookAheadContentAssistTestLanguage.g:291:2: ( (lv_value_0_0= RULE_ID ) )
             {
-            // InternalLookAheadContentAssistTestLanguage.g:301:2: ( (lv_value_0_0= RULE_ID ) )
-            // InternalLookAheadContentAssistTestLanguage.g:302:3: (lv_value_0_0= RULE_ID )
+            // InternalLookAheadContentAssistTestLanguage.g:291:2: ( (lv_value_0_0= RULE_ID ) )
+            // InternalLookAheadContentAssistTestLanguage.g:292:3: (lv_value_0_0= RULE_ID )
             {
-            // InternalLookAheadContentAssistTestLanguage.g:302:3: (lv_value_0_0= RULE_ID )
-            // InternalLookAheadContentAssistTestLanguage.g:303:4: lv_value_0_0= RULE_ID
+            // InternalLookAheadContentAssistTestLanguage.g:292:3: (lv_value_0_0= RULE_ID )
+            // InternalLookAheadContentAssistTestLanguage.g:293:4: lv_value_0_0= RULE_ID
             {
             lv_value_0_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_2); 
 
@@ -818,9 +809,6 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
             }
 
-
-            	leaveRule();
-
         }
 
             catch (RecognitionException re) {
@@ -835,7 +823,7 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
 
     // $ANTLR start "entryRulePair"
-    // InternalLookAheadContentAssistTestLanguage.g:322:1: entryRulePair returns [EObject current=null] : iv_rulePair= rulePair EOF ;
+    // InternalLookAheadContentAssistTestLanguage.g:312:1: entryRulePair returns [EObject current=null] : iv_rulePair= rulePair EOF ;
     public final EObject entryRulePair() throws RecognitionException {
         EObject current = null;
 
@@ -843,8 +831,8 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
 
         try {
-            // InternalLookAheadContentAssistTestLanguage.g:322:45: (iv_rulePair= rulePair EOF )
-            // InternalLookAheadContentAssistTestLanguage.g:323:2: iv_rulePair= rulePair EOF
+            // InternalLookAheadContentAssistTestLanguage.g:312:45: (iv_rulePair= rulePair EOF )
+            // InternalLookAheadContentAssistTestLanguage.g:313:2: iv_rulePair= rulePair EOF
             {
              newCompositeNode(grammarAccess.getPairRule()); 
             pushFollow(FollowSets000.FOLLOW_1);
@@ -871,7 +859,7 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
 
     // $ANTLR start "rulePair"
-    // InternalLookAheadContentAssistTestLanguage.g:329:1: rulePair returns [EObject current=null] : ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) ) ) ;
+    // InternalLookAheadContentAssistTestLanguage.g:319:1: rulePair returns [EObject current=null] : ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) ) ) ;
     public final EObject rulePair() throws RecognitionException {
         EObject current = null;
 
@@ -879,21 +867,18 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
         Token otherlv_1=null;
         Token lv_value_2_0=null;
 
-
-        	enterRule();
-
         try {
-            // InternalLookAheadContentAssistTestLanguage.g:335:2: ( ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) ) ) )
-            // InternalLookAheadContentAssistTestLanguage.g:336:2: ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) ) )
+            // InternalLookAheadContentAssistTestLanguage.g:320:1: ( ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) ) ) )
+            // InternalLookAheadContentAssistTestLanguage.g:321:2: ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) ) )
             {
-            // InternalLookAheadContentAssistTestLanguage.g:336:2: ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) ) )
-            // InternalLookAheadContentAssistTestLanguage.g:337:3: ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) )
+            // InternalLookAheadContentAssistTestLanguage.g:321:2: ( ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) ) )
+            // InternalLookAheadContentAssistTestLanguage.g:322:3: ( (lv_name_0_0= RULE_ID ) ) otherlv_1= '=' ( (lv_value_2_0= RULE_ID ) )
             {
-            // InternalLookAheadContentAssistTestLanguage.g:337:3: ( (lv_name_0_0= RULE_ID ) )
-            // InternalLookAheadContentAssistTestLanguage.g:338:4: (lv_name_0_0= RULE_ID )
+            // InternalLookAheadContentAssistTestLanguage.g:322:3: ( (lv_name_0_0= RULE_ID ) )
+            // InternalLookAheadContentAssistTestLanguage.g:323:4: (lv_name_0_0= RULE_ID )
             {
-            // InternalLookAheadContentAssistTestLanguage.g:338:4: (lv_name_0_0= RULE_ID )
-            // InternalLookAheadContentAssistTestLanguage.g:339:5: lv_name_0_0= RULE_ID
+            // InternalLookAheadContentAssistTestLanguage.g:323:4: (lv_name_0_0= RULE_ID )
+            // InternalLookAheadContentAssistTestLanguage.g:324:5: lv_name_0_0= RULE_ID
             {
             lv_name_0_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_8); 
 
@@ -919,11 +904,11 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
             			newLeafNode(otherlv_1, grammarAccess.getPairAccess().getEqualsSignKeyword_1());
             		
-            // InternalLookAheadContentAssistTestLanguage.g:359:3: ( (lv_value_2_0= RULE_ID ) )
-            // InternalLookAheadContentAssistTestLanguage.g:360:4: (lv_value_2_0= RULE_ID )
+            // InternalLookAheadContentAssistTestLanguage.g:344:3: ( (lv_value_2_0= RULE_ID ) )
+            // InternalLookAheadContentAssistTestLanguage.g:345:4: (lv_value_2_0= RULE_ID )
             {
-            // InternalLookAheadContentAssistTestLanguage.g:360:4: (lv_value_2_0= RULE_ID )
-            // InternalLookAheadContentAssistTestLanguage.g:361:5: lv_value_2_0= RULE_ID
+            // InternalLookAheadContentAssistTestLanguage.g:345:4: (lv_value_2_0= RULE_ID )
+            // InternalLookAheadContentAssistTestLanguage.g:346:5: lv_value_2_0= RULE_ID
             {
             lv_value_2_0=(Token)match(input,RULE_ID,FollowSets000.FOLLOW_2); 
 
@@ -950,9 +935,6 @@ public class InternalLookAheadContentAssistTestLanguageParser extends AbstractIn
 
 
             }
-
-
-            	leaveRule();
 
         }
 
